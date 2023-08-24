@@ -1,0 +1,830 @@
+[
+  {
+    "mal_id": 3079,
+    "url": "https://myanimelist.net/anime/3079/Aoki_Ryuusei_SPT_Layzner",
+    "images": {
+      "jpg": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/1106/91083.jpg",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/1106/91083t.jpg",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/1106/91083l.jpg"
+      },
+      "webp": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/1106/91083.webp",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/1106/91083t.webp",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/1106/91083l.webp"
+      }
+    },
+    "trailer": {
+      "youtube_id": "ufM8QaPomzs",
+      "url": "https://www.youtube.com/watch?v=ufM8QaPomzs",
+      "embed_url": "https://www.youtube.com/embed/ufM8QaPomzs?enablejsapi=1&wmode=opaque&autoplay=1",
+      "images": {
+        "image_url": "https://img.youtube.com/vi/ufM8QaPomzs/default.jpg",
+        "small_image_url": "https://img.youtube.com/vi/ufM8QaPomzs/sddefault.jpg",
+        "medium_image_url": "https://img.youtube.com/vi/ufM8QaPomzs/mqdefault.jpg",
+        "large_image_url": "https://img.youtube.com/vi/ufM8QaPomzs/hqdefault.jpg",
+        "maximum_image_url": "https://img.youtube.com/vi/ufM8QaPomzs/maxresdefault.jpg"
+      }
+    },
+    "approved": true,
+    "titles": [
+      {
+        "type": "Default",
+        "title": "Aoki Ryuusei SPT Layzner"
+      },
+      {
+        "type": "Synonym",
+        "title": "Blue Meteor SPT Layzner"
+      },
+      {
+        "type": "Synonym",
+        "title": "Layzner"
+      },
+      {
+        "type": "Synonym",
+        "title": "SPT Layzner"
+      },
+      {
+        "type": "Synonym",
+        "title": "Aoki Ryusei SPT Layzner"
+      },
+      {
+        "type": "Synonym",
+        "title": "Layzner Super Powered Tracer"
+      },
+      {
+        "type": "Japanese",
+        "title": "\u84bc\u304d\u6d41\u661fSPT\u30ec\u30a4\u30ba\u30ca\u30fc"
+      },
+      {
+        "type": "English",
+        "title": "Blue Comet SPT Layzner"
+      }
+    ],
+    "title": "Aoki Ryuusei SPT Layzner",
+    "title_english": "Blue Comet SPT Layzner",
+    "title_japanese": "\u84bc\u304d\u6d41\u661fSPT\u30ec\u30a4\u30ba\u30ca\u30fc",
+    "title_synonyms": [
+      "Blue Meteor SPT Layzner",
+      "Layzner",
+      "SPT Layzner",
+      "Aoki Ryusei SPT Layzner",
+      "Layzner Super Powered Tracer"
+    ],
+    "type": "TV",
+    "source": "Original",
+    "episodes": 38,
+    "status": "Finished Airing",
+    "airing": false,
+    "aired": {
+      "from": "1985-10-03T00:00:00+00:00",
+      "to": "1986-06-26T00:00:00+00:00",
+      "prop": {
+        "from": {
+          "day": 3,
+          "month": 10,
+          "year": 1985
+        },
+        "to": {
+          "day": 26,
+          "month": 6,
+          "year": 1986
+        }
+      },
+      "string": "Oct 3, 1985 to Jun 26, 1986"
+    },
+    "duration": "24 min per ep",
+    "rating": "PG-13 - Teens 13 or older",
+    "score": 6.95,
+    "scored_by": 1576,
+    "rank": 4174,
+    "popularity": 7190,
+    "members": 6425,
+    "favorites": 31,
+    "synopsis": "The story takes place in an alternate reality based in the year 1996, where humanity is advanced enough to develop long-range space travel, as well as bases on both the Moon and Mars. However, the Cold War tensions between the United States and the Soviet Union have not ended; rather, they've escalated as both sides build military facilities in space, and the shadow of nuclear conflict looms over humanity, both on and off Earth.\n\nMeanwhile, on the Red Planet, an exchange program created by the United Nations to promote peace and understanding is about to begin; the \"Cosmic Culture Club,\" consisting of 16 boys and girls, as well as their instructor Elizabeth, arrives at the UN Mars base. Among the passengers is Anna a 14-year-old girl who serves as the narrator for the story.\n\nSuddenly, four unidentified humanoid robots classified as Super Powered Tracers are detected, engaged in fierce combat with each other. The UN base is caught in the crossfire and quickly destroyed, killing all but six members of the \"Cosmic Culture Club\"\u2014Elizabeth, Arthur, Roan, David, Simone and Anna, and leaving them stranded on an inhospitable planet that has suddenly become a battlefield. As the battle ends, the lone SPT standing lands next to the terrified group and opens up revealing a pilot, who simply announces to them, \"Earth is at stake.\"",
+    "background": null,
+    "season": "fall",
+    "year": 1985,
+    "broadcast": {
+      "day": "Thursdays",
+      "time": "17:30",
+      "timezone": "Asia/Tokyo",
+      "string": "Thursdays at 17:30 (JST)"
+    },
+    "producers": [],
+    "licensors": [],
+    "studios": [
+      {
+        "mal_id": 14,
+        "type": "anime",
+        "name": "Sunrise",
+        "url": "https://myanimelist.net/anime/producer/14/Sunrise"
+      }
+    ],
+    "genres": [
+      {
+        "mal_id": 24,
+        "type": "anime",
+        "name": "Sci-Fi",
+        "url": "https://myanimelist.net/anime/genre/24/Sci-Fi"
+      }
+    ],
+    "explicit_genres": [],
+    "themes": [
+      {
+        "mal_id": 18,
+        "type": "anime",
+        "name": "Mecha",
+        "url": "https://myanimelist.net/anime/genre/18/Mecha"
+      },
+      {
+        "mal_id": 38,
+        "type": "anime",
+        "name": "Military",
+        "url": "https://myanimelist.net/anime/genre/38/Military"
+      },
+      {
+        "mal_id": 29,
+        "type": "anime",
+        "name": "Space",
+        "url": "https://myanimelist.net/anime/genre/29/Space"
+      }
+    ],
+    "demographics": []
+  },
+  {
+    "mal_id": 3059,
+    "url": "https://myanimelist.net/anime/3059/Ninja_Senshi_Tobikage",
+    "images": {
+      "jpg": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/7/20897.jpg",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/7/20897t.jpg",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/7/20897l.jpg"
+      },
+      "webp": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/7/20897.webp",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/7/20897t.webp",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/7/20897l.webp"
+      }
+    },
+    "trailer": {
+      "youtube_id": "qd0BpcpahZI",
+      "url": "https://www.youtube.com/watch?v=qd0BpcpahZI",
+      "embed_url": "https://www.youtube.com/embed/qd0BpcpahZI?enablejsapi=1&wmode=opaque&autoplay=1",
+      "images": {
+        "image_url": "https://img.youtube.com/vi/qd0BpcpahZI/default.jpg",
+        "small_image_url": "https://img.youtube.com/vi/qd0BpcpahZI/sddefault.jpg",
+        "medium_image_url": "https://img.youtube.com/vi/qd0BpcpahZI/mqdefault.jpg",
+        "large_image_url": "https://img.youtube.com/vi/qd0BpcpahZI/hqdefault.jpg",
+        "maximum_image_url": "https://img.youtube.com/vi/qd0BpcpahZI/maxresdefault.jpg"
+      }
+    },
+    "approved": true,
+    "titles": [
+      {
+        "type": "Default",
+        "title": "Ninja Senshi Tobikage"
+      },
+      {
+        "type": "Japanese",
+        "title": "\u5fcd\u8005\u6226\u58eb\u98db\u5f71"
+      },
+      {
+        "type": "English",
+        "title": "Ninja Robots"
+      }
+    ],
+    "title": "Ninja Senshi Tobikage",
+    "title_english": "Ninja Robots",
+    "title_japanese": "\u5fcd\u8005\u6226\u58eb\u98db\u5f71",
+    "title_synonyms": [],
+    "type": "TV",
+    "source": "Original",
+    "episodes": 43,
+    "status": "Finished Airing",
+    "airing": false,
+    "aired": {
+      "from": "1985-10-06T00:00:00+00:00",
+      "to": "1986-07-27T00:00:00+00:00",
+      "prop": {
+        "from": {
+          "day": 6,
+          "month": 10,
+          "year": 1985
+        },
+        "to": {
+          "day": 27,
+          "month": 7,
+          "year": 1986
+        }
+      },
+      "string": "Oct 6, 1985 to Jul 27, 1986"
+    },
+    "duration": "24 min per ep",
+    "rating": "PG-13 - Teens 13 or older",
+    "score": 7.04,
+    "scored_by": 1502,
+    "rank": 3796,
+    "popularity": 8199,
+    "members": 4671,
+    "favorites": 19,
+    "synopsis": "Ninja Senshi Tobikage tells the story of a boy named Joe Maya. One day, Joe, who lives on Mars, witnesses a battle between aliens. Those from Planet Zaboom are attacking the princess of Planet Radorio, she has escaped from the emperor of Zaboom who is scheming to conquer the universe and has crash landed on mars. \n\nJoe stumbles aboard the princesses ship, this starts a chain reaction of events that will alter their lives. Joe and his friends wield three powerful mecha beasts against the emperor of Zaboom and his forces, but the odds are stacked heavily against them. When all hope seems to be lost a mysterious ninja robot named Tobikage appears as if from nowhere to provide assitance, able to combine with the 3 mechanical beasts provides Tobikage with unmatched power, with his aide Joe fights the forces of Zaboom... \n\n(Source: ANN)",
+    "background": null,
+    "season": "fall",
+    "year": 1985,
+    "broadcast": {
+      "day": null,
+      "time": null,
+      "timezone": null,
+      "string": "Unknown"
+    },
+    "producers": [],
+    "licensors": [
+      {
+        "mal_id": 467,
+        "type": "anime",
+        "name": "Discotek Media",
+        "url": "https://myanimelist.net/anime/producer/467/Discotek_Media"
+      }
+    ],
+    "studios": [
+      {
+        "mal_id": 1,
+        "type": "anime",
+        "name": "Pierrot",
+        "url": "https://myanimelist.net/anime/producer/1/Pierrot"
+      }
+    ],
+    "genres": [
+      {
+        "mal_id": 2,
+        "type": "anime",
+        "name": "Adventure",
+        "url": "https://myanimelist.net/anime/genre/2/Adventure"
+      },
+      {
+        "mal_id": 24,
+        "type": "anime",
+        "name": "Sci-Fi",
+        "url": "https://myanimelist.net/anime/genre/24/Sci-Fi"
+      }
+    ],
+    "explicit_genres": [],
+    "themes": [
+      {
+        "mal_id": 18,
+        "type": "anime",
+        "name": "Mecha",
+        "url": "https://myanimelist.net/anime/genre/18/Mecha"
+      },
+      {
+        "mal_id": 29,
+        "type": "anime",
+        "name": "Space",
+        "url": "https://myanimelist.net/anime/genre/29/Space"
+      }
+    ],
+    "demographics": [
+      {
+        "mal_id": 27,
+        "type": "anime",
+        "name": "Shounen",
+        "url": "https://myanimelist.net/anime/genre/27/Shounen"
+      }
+    ]
+  },
+  {
+    "mal_id": 714,
+    "url": "https://myanimelist.net/anime/714/High_School_Kimengumi",
+    "images": {
+      "jpg": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/1146/106160.jpg",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/1146/106160t.jpg",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/1146/106160l.jpg"
+      },
+      "webp": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/1146/106160.webp",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/1146/106160t.webp",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/1146/106160l.webp"
+      }
+    },
+    "trailer": {
+      "youtube_id": null,
+      "url": null,
+      "embed_url": null,
+      "images": {
+        "image_url": null,
+        "small_image_url": null,
+        "medium_image_url": null,
+        "large_image_url": null,
+        "maximum_image_url": null
+      }
+    },
+    "approved": true,
+    "titles": [
+      {
+        "type": "Default",
+        "title": "High School! Kimengumi"
+      },
+      {
+        "type": "Synonym",
+        "title": "High School Funny-face Club"
+      },
+      {
+        "type": "Japanese",
+        "title": "\u30cf\u30a4\u30b9\u30af\u30fc\u30eb\uff01\u5947\u9762\u7d44"
+      },
+      {
+        "type": "English",
+        "title": "Funny Faces in High School"
+      },
+      {
+        "type": "French",
+        "title": "Le Coll\u00e8ge Fou Fou Fou"
+      }
+    ],
+    "title": "High School! Kimengumi",
+    "title_english": "Funny Faces in High School",
+    "title_japanese": "\u30cf\u30a4\u30b9\u30af\u30fc\u30eb\uff01\u5947\u9762\u7d44",
+    "title_synonyms": [
+      "High School Funny-face Club"
+    ],
+    "type": "TV",
+    "source": "Manga",
+    "episodes": 86,
+    "status": "Finished Airing",
+    "airing": false,
+    "aired": {
+      "from": "1985-10-20T00:00:00+00:00",
+      "to": "1987-10-03T00:00:00+00:00",
+      "prop": {
+        "from": {
+          "day": 20,
+          "month": 10,
+          "year": 1985
+        },
+        "to": {
+          "day": 3,
+          "month": 10,
+          "year": 1987
+        }
+      },
+      "string": "Oct 20, 1985 to Oct 3, 1987"
+    },
+    "duration": "25 min per ep",
+    "rating": "PG-13 - Teens 13 or older",
+    "score": 7.29,
+    "scored_by": 1139,
+    "rank": 2556,
+    "popularity": 8723,
+    "members": 3848,
+    "favorites": 19,
+    "synopsis": "A group of 5 male high school students that call themselves the funny-face group cause trouble at school with their crazy antics. \n\n(Source: AniDB)",
+    "background": null,
+    "season": "fall",
+    "year": 1985,
+    "broadcast": {
+      "day": null,
+      "time": null,
+      "timezone": null,
+      "string": "Unknown"
+    },
+    "producers": [
+      {
+        "mal_id": 390,
+        "type": "anime",
+        "name": "Tsuchida Productions",
+        "url": "https://myanimelist.net/anime/producer/390/Tsuchida_Productions"
+      }
+    ],
+    "licensors": [],
+    "studios": [
+      {
+        "mal_id": 36,
+        "type": "anime",
+        "name": "Gallop",
+        "url": "https://myanimelist.net/anime/producer/36/Gallop"
+      },
+      {
+        "mal_id": 126,
+        "type": "anime",
+        "name": "Studio Comet",
+        "url": "https://myanimelist.net/anime/producer/126/Studio_Comet"
+      }
+    ],
+    "genres": [
+      {
+        "mal_id": 4,
+        "type": "anime",
+        "name": "Comedy",
+        "url": "https://myanimelist.net/anime/genre/4/Comedy"
+      },
+      {
+        "mal_id": 22,
+        "type": "anime",
+        "name": "Romance",
+        "url": "https://myanimelist.net/anime/genre/22/Romance"
+      }
+    ],
+    "explicit_genres": [],
+    "themes": [
+      {
+        "mal_id": 57,
+        "type": "anime",
+        "name": "Gag Humor",
+        "url": "https://myanimelist.net/anime/genre/57/Gag_Humor"
+      },
+      {
+        "mal_id": 20,
+        "type": "anime",
+        "name": "Parody",
+        "url": "https://myanimelist.net/anime/genre/20/Parody"
+      },
+      {
+        "mal_id": 23,
+        "type": "anime",
+        "name": "School",
+        "url": "https://myanimelist.net/anime/genre/23/School"
+      }
+    ],
+    "demographics": [
+      {
+        "mal_id": 27,
+        "type": "anime",
+        "name": "Shounen",
+        "url": "https://myanimelist.net/anime/genre/27/Shounen"
+      }
+    ]
+  },
+  {
+    "mal_id": 7307,
+    "url": "https://myanimelist.net/anime/7307/Gegege_no_Kitarou_1985",
+    "images": {
+      "jpg": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/11/27400.jpg",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/11/27400t.jpg",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/11/27400l.jpg"
+      },
+      "webp": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/11/27400.webp",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/11/27400t.webp",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/11/27400l.webp"
+      }
+    },
+    "trailer": {
+      "youtube_id": null,
+      "url": null,
+      "embed_url": null,
+      "images": {
+        "image_url": null,
+        "small_image_url": null,
+        "medium_image_url": null,
+        "large_image_url": null,
+        "maximum_image_url": null
+      }
+    },
+    "approved": true,
+    "titles": [
+      {
+        "type": "Default",
+        "title": "Gegege no Kitarou (1985)"
+      },
+      {
+        "type": "Synonym",
+        "title": "Spooky Kitaro"
+      },
+      {
+        "type": "Japanese",
+        "title": "\u30b2\u30b2\u30b2\u306e\u9b3c\u592a\u90ce"
+      }
+    ],
+    "title": "Gegege no Kitarou (1985)",
+    "title_english": null,
+    "title_japanese": "\u30b2\u30b2\u30b2\u306e\u9b3c\u592a\u90ce",
+    "title_synonyms": [
+      "Spooky Kitaro"
+    ],
+    "type": "TV",
+    "source": "Manga",
+    "episodes": 108,
+    "status": "Finished Airing",
+    "airing": false,
+    "aired": {
+      "from": "1985-10-12T00:00:00+00:00",
+      "to": "1988-02-06T00:00:00+00:00",
+      "prop": {
+        "from": {
+          "day": 12,
+          "month": 10,
+          "year": 1985
+        },
+        "to": {
+          "day": 6,
+          "month": 2,
+          "year": 1988
+        }
+      },
+      "string": "Oct 12, 1985 to Feb 6, 1988"
+    },
+    "duration": "25 min per ep",
+    "rating": "G - All Ages",
+    "score": 6.47,
+    "scored_by": 599,
+    "rank": 6529,
+    "popularity": 10007,
+    "members": 2440,
+    "favorites": 2,
+    "synopsis": "As civilization advances, people are beginning to lose the consideration and kindliness for Nature. This has incurred the wrath of the ghosts who are becoming increasingly unhappy with the selfishness of the human kind. However, there is a conflict of interests within the ghosts in which one extreme opposes the humans completely while another extreme desires the co-existence of humans and ghosts. Kitaro and his family belongs to the latter category and yearns to seek mutual understanding between the humans and ghosts. Kitaro's fight for love and hope continues.\n\n(Source: ANN)",
+    "background": null,
+    "season": "fall",
+    "year": 1985,
+    "broadcast": {
+      "day": null,
+      "time": null,
+      "timezone": null,
+      "string": "Unknown"
+    },
+    "producers": [],
+    "licensors": [],
+    "studios": [
+      {
+        "mal_id": 18,
+        "type": "anime",
+        "name": "Toei Animation",
+        "url": "https://myanimelist.net/anime/producer/18/Toei_Animation"
+      }
+    ],
+    "genres": [
+      {
+        "mal_id": 4,
+        "type": "anime",
+        "name": "Comedy",
+        "url": "https://myanimelist.net/anime/genre/4/Comedy"
+      },
+      {
+        "mal_id": 37,
+        "type": "anime",
+        "name": "Supernatural",
+        "url": "https://myanimelist.net/anime/genre/37/Supernatural"
+      }
+    ],
+    "explicit_genres": [],
+    "themes": [],
+    "demographics": []
+  },
+  {
+    "mal_id": 17211,
+    "url": "https://myanimelist.net/anime/17211/Shouwa_Ahozoushi_Akanuke_Ichiban",
+    "images": {
+      "jpg": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/4/45967.jpg",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/4/45967t.jpg",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/4/45967l.jpg"
+      },
+      "webp": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/4/45967.webp",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/4/45967t.webp",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/4/45967l.webp"
+      }
+    },
+    "trailer": {
+      "youtube_id": null,
+      "url": null,
+      "embed_url": null,
+      "images": {
+        "image_url": null,
+        "small_image_url": null,
+        "medium_image_url": null,
+        "large_image_url": null,
+        "maximum_image_url": null
+      }
+    },
+    "approved": true,
+    "titles": [
+      {
+        "type": "Default",
+        "title": "Shouwa Ahozoushi Akanuke Ichiban!"
+      },
+      {
+        "type": "Japanese",
+        "title": "\u662d\u548c\u30a2\u30db\u8349\u7d19\u3042\u304b\u306c\u3051\u4e00\u756a\uff01"
+      }
+    ],
+    "title": "Shouwa Ahozoushi Akanuke Ichiban!",
+    "title_english": null,
+    "title_japanese": "\u662d\u548c\u30a2\u30db\u8349\u7d19\u3042\u304b\u306c\u3051\u4e00\u756a\uff01",
+    "title_synonyms": [],
+    "type": "TV",
+    "source": "Manga",
+    "episodes": 22,
+    "status": "Finished Airing",
+    "airing": false,
+    "aired": {
+      "from": "1985-10-07T00:00:00+00:00",
+      "to": "1986-03-24T00:00:00+00:00",
+      "prop": {
+        "from": {
+          "day": 7,
+          "month": 10,
+          "year": 1985
+        },
+        "to": {
+          "day": 24,
+          "month": 3,
+          "year": 1986
+        }
+      },
+      "string": "Oct 7, 1985 to Mar 24, 1986"
+    },
+    "duration": "25 min per ep",
+    "rating": "PG-13 - Teens 13 or older",
+    "score": 6.3,
+    "scored_by": 220,
+    "rank": 7419,
+    "popularity": 11834,
+    "members": 1284,
+    "favorites": 3,
+    "synopsis": "Koujirou moves to Tokyo from Japan's northernmost island of Hokkaido and insists on bringing his favorite horse, Hikarikin, with him. The alien king Rel arrives from planet Wedelun and gives him a belt that will allow him to transform into a Miracle Hero and to protect the world from alien menaces. He is more interested, however, in impressing the pretty Yuka, though his rival, Michinari, wants her for himself.\n\n(Source: The Anime Encyclopedia)",
+    "background": null,
+    "season": "fall",
+    "year": 1985,
+    "broadcast": {
+      "day": null,
+      "time": null,
+      "timezone": null,
+      "string": "Unknown"
+    },
+    "producers": [
+      {
+        "mal_id": 55,
+        "type": "anime",
+        "name": "TV Asahi",
+        "url": "https://myanimelist.net/anime/producer/55/TV_Asahi"
+      }
+    ],
+    "licensors": [],
+    "studios": [
+      {
+        "mal_id": 103,
+        "type": "anime",
+        "name": "Tatsunoko Production",
+        "url": "https://myanimelist.net/anime/producer/103/Tatsunoko_Production"
+      }
+    ],
+    "genres": [
+      {
+        "mal_id": 4,
+        "type": "anime",
+        "name": "Comedy",
+        "url": "https://myanimelist.net/anime/genre/4/Comedy"
+      }
+    ],
+    "explicit_genres": [],
+    "themes": [],
+    "demographics": [
+      {
+        "mal_id": 25,
+        "type": "anime",
+        "name": "Shoujo",
+        "url": "https://myanimelist.net/anime/genre/25/Shoujo"
+      }
+    ]
+  },
+  {
+    "mal_id": 3812,
+    "url": "https://myanimelist.net/anime/3812/Yume_no_Hoshi_no_Button_Nose",
+    "images": {
+      "jpg": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/13/74470.jpg",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/13/74470t.jpg",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/13/74470l.jpg"
+      },
+      "webp": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/13/74470.webp",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/13/74470t.webp",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/13/74470l.webp"
+      }
+    },
+    "trailer": {
+      "youtube_id": null,
+      "url": null,
+      "embed_url": null,
+      "images": {
+        "image_url": null,
+        "small_image_url": null,
+        "medium_image_url": null,
+        "large_image_url": null,
+        "maximum_image_url": null
+      }
+    },
+    "approved": true,
+    "titles": [
+      {
+        "type": "Default",
+        "title": "Yume no Hoshi no Button Nose"
+      },
+      {
+        "type": "Synonym",
+        "title": "Bouton d'Or"
+      },
+      {
+        "type": "Synonym",
+        "title": "Prinzessin Erdbeer"
+      },
+      {
+        "type": "Synonym",
+        "title": "Button Nose"
+      },
+      {
+        "type": "Japanese",
+        "title": "\u5922\u306e\u661f\u306e\u30dc\u30bf\u30f3\u30ce\u30fc\u30ba"
+      },
+      {
+        "type": "English",
+        "title": "Dream Star Button Nose"
+      }
+    ],
+    "title": "Yume no Hoshi no Button Nose",
+    "title_english": "Dream Star Button Nose",
+    "title_japanese": "\u5922\u306e\u661f\u306e\u30dc\u30bf\u30f3\u30ce\u30fc\u30ba",
+    "title_synonyms": [
+      "Bouton d'Or",
+      "Prinzessin Erdbeer",
+      "Button Nose"
+    ],
+    "type": "TV",
+    "source": "Original",
+    "episodes": 26,
+    "status": "Finished Airing",
+    "airing": false,
+    "aired": {
+      "from": "1985-10-19T00:00:00+00:00",
+      "to": "1986-04-26T00:00:00+00:00",
+      "prop": {
+        "from": {
+          "day": 19,
+          "month": 10,
+          "year": 1985
+        },
+        "to": {
+          "day": 26,
+          "month": 4,
+          "year": 1986
+        }
+      },
+      "string": "Oct 19, 1985 to Apr 26, 1986"
+    },
+    "duration": "25 min per ep",
+    "rating": "PG - Children",
+    "score": 6.21,
+    "scored_by": 343,
+    "rank": 7819,
+    "popularity": 12942,
+    "members": 894,
+    "favorites": 1,
+    "synopsis": "Although Trish is her real name, everyone calls her Button Nose because of her button nose. Always happy and nice, she is always shown with strawberries because she's famous for her homemade strawberry jam.",
+    "background": null,
+    "season": "fall",
+    "year": 1985,
+    "broadcast": {
+      "day": "Saturdays",
+      "time": "19:00",
+      "timezone": "Asia/Tokyo",
+      "string": "Saturdays at 19:00 (JST)"
+    },
+    "producers": [
+      {
+        "mal_id": 55,
+        "type": "anime",
+        "name": "TV Asahi",
+        "url": "https://myanimelist.net/anime/producer/55/TV_Asahi"
+      },
+      {
+        "mal_id": 150,
+        "type": "anime",
+        "name": "Sanrio",
+        "url": "https://myanimelist.net/anime/producer/150/Sanrio"
+      }
+    ],
+    "licensors": [],
+    "studios": [],
+    "genres": [
+      {
+        "mal_id": 2,
+        "type": "anime",
+        "name": "Adventure",
+        "url": "https://myanimelist.net/anime/genre/2/Adventure"
+      }
+    ],
+    "explicit_genres": [],
+    "themes": [],
+    "demographics": [
+      {
+        "mal_id": 15,
+        "type": "anime",
+        "name": "Kids",
+        "url": "https://myanimelist.net/anime/genre/15/Kids"
+      }
+    ]
+  }
+]

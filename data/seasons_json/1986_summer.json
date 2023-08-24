@@ -1,0 +1,154 @@
+[
+  {
+    "mal_id": 3676,
+    "url": "https://myanimelist.net/anime/3676/Machine_Robo__Cronos_no_Dai_Gyakushuu",
+    "images": {
+      "jpg": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/4/6399.jpg",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/4/6399t.jpg",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/4/6399l.jpg"
+      },
+      "webp": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/4/6399.webp",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/4/6399t.webp",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/4/6399l.webp"
+      }
+    },
+    "trailer": {
+      "youtube_id": null,
+      "url": null,
+      "embed_url": null,
+      "images": {
+        "image_url": null,
+        "small_image_url": null,
+        "medium_image_url": null,
+        "large_image_url": null,
+        "maximum_image_url": null
+      }
+    },
+    "approved": true,
+    "titles": [
+      {
+        "type": "Default",
+        "title": "Machine Robo: Cronos no Dai Gyakushuu"
+      },
+      {
+        "type": "Synonym",
+        "title": "Machine Robo: Revenge of Chronos"
+      },
+      {
+        "type": "Japanese",
+        "title": "\u30de\u30b7\u30f3\u30ed\u30dc \u30af\u30ed\u30ce\u30b9\u306e\u5927\u9006\u8972"
+      },
+      {
+        "type": "English",
+        "title": "Machine Robo: Revenge of Cronos"
+      }
+    ],
+    "title": "Machine Robo: Cronos no Dai Gyakushuu",
+    "title_english": "Machine Robo: Revenge of Cronos",
+    "title_japanese": "\u30de\u30b7\u30f3\u30ed\u30dc \u30af\u30ed\u30ce\u30b9\u306e\u5927\u9006\u8972",
+    "title_synonyms": [
+      "Machine Robo: Revenge of Chronos"
+    ],
+    "type": "TV",
+    "source": "Original",
+    "episodes": 47,
+    "status": "Finished Airing",
+    "airing": false,
+    "aired": {
+      "from": "1986-07-03T00:00:00+00:00",
+      "to": "1987-05-28T00:00:00+00:00",
+      "prop": {
+        "from": {
+          "day": 3,
+          "month": 7,
+          "year": 1986
+        },
+        "to": {
+          "day": 28,
+          "month": 5,
+          "year": 1987
+        }
+      },
+      "string": "Jul 3, 1986 to May 28, 1987"
+    },
+    "duration": "24 min per ep",
+    "rating": "PG-13 - Teens 13 or older",
+    "score": 6.32,
+    "scored_by": 393,
+    "rank": 7244,
+    "popularity": 10602,
+    "members": 2019,
+    "favorites": 2,
+    "synopsis": "The journey of a robot prince begins! The planet Cronos is a world of super-robotic lifeforms, ruled by the wise Master Kirai. But their peaceful existence is shattered by the conquering armies of the Gandora robots. Now, machine combats machine in an epic battle for the planet. Master Kurai's son, Rom, must lead a company of transformable mecha warriors into the fray!\n\n(Source: centralparkmedia)",
+    "background": null,
+    "season": "summer",
+    "year": 1986,
+    "broadcast": {
+      "day": null,
+      "time": null,
+      "timezone": null,
+      "string": "Unknown"
+    },
+    "producers": [],
+    "licensors": [
+      {
+        "mal_id": 284,
+        "type": "anime",
+        "name": "Central Park Media",
+        "url": "https://myanimelist.net/anime/producer/284/Central_Park_Media"
+      },
+      {
+        "mal_id": 467,
+        "type": "anime",
+        "name": "Discotek Media",
+        "url": "https://myanimelist.net/anime/producer/467/Discotek_Media"
+      }
+    ],
+    "studios": [
+      {
+        "mal_id": 242,
+        "type": "anime",
+        "name": "Ashi Productions",
+        "url": "https://myanimelist.net/anime/producer/242/Ashi_Productions"
+      }
+    ],
+    "genres": [
+      {
+        "mal_id": 1,
+        "type": "anime",
+        "name": "Action",
+        "url": "https://myanimelist.net/anime/genre/1/Action"
+      },
+      {
+        "mal_id": 24,
+        "type": "anime",
+        "name": "Sci-Fi",
+        "url": "https://myanimelist.net/anime/genre/24/Sci-Fi"
+      }
+    ],
+    "explicit_genres": [],
+    "themes": [
+      {
+        "mal_id": 17,
+        "type": "anime",
+        "name": "Martial Arts",
+        "url": "https://myanimelist.net/anime/genre/17/Martial_Arts"
+      },
+      {
+        "mal_id": 18,
+        "type": "anime",
+        "name": "Mecha",
+        "url": "https://myanimelist.net/anime/genre/18/Mecha"
+      },
+      {
+        "mal_id": 29,
+        "type": "anime",
+        "name": "Space",
+        "url": "https://myanimelist.net/anime/genre/29/Space"
+      }
+    ],
+    "demographics": []
+  }
+]

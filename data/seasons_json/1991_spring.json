@@ -1,0 +1,1992 @@
+[
+  {
+    "mal_id": 1473,
+    "url": "https://myanimelist.net/anime/1473/City_Hunter_91",
+    "images": {
+      "jpg": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/7/50531.jpg",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/7/50531t.jpg",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/7/50531l.jpg"
+      },
+      "webp": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/7/50531.webp",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/7/50531t.webp",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/7/50531l.webp"
+      }
+    },
+    "trailer": {
+      "youtube_id": null,
+      "url": null,
+      "embed_url": null,
+      "images": {
+        "image_url": null,
+        "small_image_url": null,
+        "medium_image_url": null,
+        "large_image_url": null,
+        "maximum_image_url": null
+      }
+    },
+    "approved": true,
+    "titles": [
+      {
+        "type": "Default",
+        "title": "City Hunter '91"
+      },
+      {
+        "type": "Synonym",
+        "title": "City Hunter 4"
+      },
+      {
+        "type": "Japanese",
+        "title": "\u30b7\u30c6\u30a3\u30fc\u30cf\u30f3\u30bf\u30fc'91"
+      },
+      {
+        "type": "Spanish",
+        "title": "City Hunter \u00b491"
+      },
+      {
+        "type": "French",
+        "title": "Nicky Larson Saison 4"
+      }
+    ],
+    "title": "City Hunter '91",
+    "title_english": null,
+    "title_japanese": "\u30b7\u30c6\u30a3\u30fc\u30cf\u30f3\u30bf\u30fc'91",
+    "title_synonyms": [
+      "City Hunter 4"
+    ],
+    "type": "TV",
+    "source": "Manga",
+    "episodes": 13,
+    "status": "Finished Airing",
+    "airing": false,
+    "aired": {
+      "from": "1991-04-28T00:00:00+00:00",
+      "to": "1991-10-10T00:00:00+00:00",
+      "prop": {
+        "from": {
+          "day": 28,
+          "month": 4,
+          "year": 1991
+        },
+        "to": {
+          "day": 10,
+          "month": 10,
+          "year": 1991
+        }
+      },
+      "string": "Apr 28, 1991 to Oct 10, 1991"
+    },
+    "duration": "23 min per ep",
+    "rating": "PG-13 - Teens 13 or older",
+    "score": 7.74,
+    "scored_by": 8307,
+    "rank": 1031,
+    "popularity": 4340,
+    "members": 22312,
+    "favorites": 61,
+    "synopsis": "Ryo Saeba is back as the City Hunter, a \"sweeper\" (private detective) working on the streets of Tokyo. He and sidekick Kaori Makimura are hired to solve the problems of desperate people. When Ryo is not using his sharp shooting skills against bad guys, he's aiming his sites on pretty ladies. Kaori uses a giant anti-ecchi hammer to make sure he behaves. \n\n(Source: ANN)",
+    "background": null,
+    "season": "spring",
+    "year": 1991,
+    "broadcast": {
+      "day": null,
+      "time": null,
+      "timezone": null,
+      "string": "Unknown"
+    },
+    "producers": [],
+    "licensors": [
+      {
+        "mal_id": 467,
+        "type": "anime",
+        "name": "Discotek Media",
+        "url": "https://myanimelist.net/anime/producer/467/Discotek_Media"
+      }
+    ],
+    "studios": [
+      {
+        "mal_id": 14,
+        "type": "anime",
+        "name": "Sunrise",
+        "url": "https://myanimelist.net/anime/producer/14/Sunrise"
+      }
+    ],
+    "genres": [
+      {
+        "mal_id": 1,
+        "type": "anime",
+        "name": "Action",
+        "url": "https://myanimelist.net/anime/genre/1/Action"
+      },
+      {
+        "mal_id": 4,
+        "type": "anime",
+        "name": "Comedy",
+        "url": "https://myanimelist.net/anime/genre/4/Comedy"
+      },
+      {
+        "mal_id": 7,
+        "type": "anime",
+        "name": "Mystery",
+        "url": "https://myanimelist.net/anime/genre/7/Mystery"
+      }
+    ],
+    "explicit_genres": [],
+    "themes": [],
+    "demographics": [
+      {
+        "mal_id": 27,
+        "type": "anime",
+        "name": "Shounen",
+        "url": "https://myanimelist.net/anime/genre/27/Shounen"
+      }
+    ]
+  },
+  {
+    "mal_id": 1391,
+    "url": "https://myanimelist.net/anime/1391/Future_GPX_Cyber_Formula",
+    "images": {
+      "jpg": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/1369/94603.jpg",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/1369/94603t.jpg",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/1369/94603l.jpg"
+      },
+      "webp": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/1369/94603.webp",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/1369/94603t.webp",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/1369/94603l.webp"
+      }
+    },
+    "trailer": {
+      "youtube_id": "ioz9nOThPy4",
+      "url": "https://www.youtube.com/watch?v=ioz9nOThPy4",
+      "embed_url": "https://www.youtube.com/embed/ioz9nOThPy4?enablejsapi=1&wmode=opaque&autoplay=1",
+      "images": {
+        "image_url": "https://img.youtube.com/vi/ioz9nOThPy4/default.jpg",
+        "small_image_url": "https://img.youtube.com/vi/ioz9nOThPy4/sddefault.jpg",
+        "medium_image_url": "https://img.youtube.com/vi/ioz9nOThPy4/mqdefault.jpg",
+        "large_image_url": "https://img.youtube.com/vi/ioz9nOThPy4/hqdefault.jpg",
+        "maximum_image_url": "https://img.youtube.com/vi/ioz9nOThPy4/maxresdefault.jpg"
+      }
+    },
+    "approved": true,
+    "titles": [
+      {
+        "type": "Default",
+        "title": "Future GPX Cyber Formula"
+      },
+      {
+        "type": "Synonym",
+        "title": "Cyber Formula: Shinseki-GPX"
+      },
+      {
+        "type": "Synonym",
+        "title": "Shin Seiki GPX Cyber Formula"
+      },
+      {
+        "type": "Japanese",
+        "title": "\u65b0\u4e16\u7d00\uff27\uff30\uff38\u30b5\u30a4\u30d0\u30fc\u30d5\u30a9\u30fc\u30df\u30e5\u30e9"
+      }
+    ],
+    "title": "Future GPX Cyber Formula",
+    "title_english": null,
+    "title_japanese": "\u65b0\u4e16\u7d00\uff27\uff30\uff38\u30b5\u30a4\u30d0\u30fc\u30d5\u30a9\u30fc\u30df\u30e5\u30e9",
+    "title_synonyms": [
+      "Cyber Formula: Shinseki-GPX",
+      "Shin Seiki GPX Cyber Formula"
+    ],
+    "type": "TV",
+    "source": "Original",
+    "episodes": 37,
+    "status": "Finished Airing",
+    "airing": false,
+    "aired": {
+      "from": "1991-03-15T00:00:00+00:00",
+      "to": "1991-12-20T00:00:00+00:00",
+      "prop": {
+        "from": {
+          "day": 15,
+          "month": 3,
+          "year": 1991
+        },
+        "to": {
+          "day": 20,
+          "month": 12,
+          "year": 1991
+        }
+      },
+      "string": "Mar 15, 1991 to Dec 20, 1991"
+    },
+    "duration": "24 min per ep",
+    "rating": "PG-13 - Teens 13 or older",
+    "score": 7.43,
+    "scored_by": 2185,
+    "rank": 1959,
+    "popularity": 6615,
+    "members": 7954,
+    "favorites": 60,
+    "synopsis": "14-year-old Kazami Hayato is the youngest driver of Cyber Formula, a Grand Prix in which each vehicle is equipped with computers to aid in racing. With the help of Asurada, the most advanced cybernavigation system, and team Sugo, Hayato races to become the winner of the 10th Cyber Formula Grand Prix. Along the way, Hayato will have to learn what it truly means to be a racer and that victory cannot be achieved simply by driving the best machine. In addition, Kazami will have to gain the respect of the veteran racers, thwart those who attempt to steal Asurada, and participate in races outside of Cyber Formula.\n\n(Source: ANN)",
+    "background": "The series won the 1991 Animage's Anime Grand Prix Award.",
+    "season": "spring",
+    "year": 1991,
+    "broadcast": {
+      "day": null,
+      "time": null,
+      "timezone": null,
+      "string": "Unknown"
+    },
+    "producers": [],
+    "licensors": [
+      {
+        "mal_id": 233,
+        "type": "anime",
+        "name": "Bandai Entertainment",
+        "url": "https://myanimelist.net/anime/producer/233/Bandai_Entertainment"
+      }
+    ],
+    "studios": [
+      {
+        "mal_id": 14,
+        "type": "anime",
+        "name": "Sunrise",
+        "url": "https://myanimelist.net/anime/producer/14/Sunrise"
+      }
+    ],
+    "genres": [
+      {
+        "mal_id": 2,
+        "type": "anime",
+        "name": "Adventure",
+        "url": "https://myanimelist.net/anime/genre/2/Adventure"
+      },
+      {
+        "mal_id": 24,
+        "type": "anime",
+        "name": "Sci-Fi",
+        "url": "https://myanimelist.net/anime/genre/24/Sci-Fi"
+      }
+    ],
+    "explicit_genres": [],
+    "themes": [
+      {
+        "mal_id": 3,
+        "type": "anime",
+        "name": "Racing",
+        "url": "https://myanimelist.net/anime/genre/3/Racing"
+      }
+    ],
+    "demographics": []
+  },
+  {
+    "mal_id": 2810,
+    "url": "https://myanimelist.net/anime/2810/Anime_Himitsu_no_Hanazono",
+    "images": {
+      "jpg": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/8/69919.jpg",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/8/69919t.jpg",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/8/69919l.jpg"
+      },
+      "webp": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/8/69919.webp",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/8/69919t.webp",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/8/69919l.webp"
+      }
+    },
+    "trailer": {
+      "youtube_id": null,
+      "url": null,
+      "embed_url": null,
+      "images": {
+        "image_url": null,
+        "small_image_url": null,
+        "medium_image_url": null,
+        "large_image_url": null,
+        "maximum_image_url": null
+      }
+    },
+    "approved": true,
+    "titles": [
+      {
+        "type": "Default",
+        "title": "Anime Himitsu no Hanazono"
+      },
+      {
+        "type": "Synonym",
+        "title": "The Animated Secret Garden"
+      },
+      {
+        "type": "Synonym",
+        "title": "Secret Flower Garden"
+      },
+      {
+        "type": "Synonym",
+        "title": "The Secret Garden"
+      },
+      {
+        "type": "Synonym",
+        "title": "Himitsu no Hanazono"
+      },
+      {
+        "type": "Japanese",
+        "title": "\u30a2\u30cb\u30e1 \u3072\u307f\u3064\u306e\u82b1\u5712"
+      },
+      {
+        "type": "English",
+        "title": "The Secret Garden"
+      }
+    ],
+    "title": "Anime Himitsu no Hanazono",
+    "title_english": "The Secret Garden",
+    "title_japanese": "\u30a2\u30cb\u30e1 \u3072\u307f\u3064\u306e\u82b1\u5712",
+    "title_synonyms": [
+      "The Animated Secret Garden",
+      "Secret Flower Garden",
+      "The Secret Garden",
+      "Himitsu no Hanazono"
+    ],
+    "type": "TV",
+    "source": "Book",
+    "episodes": 39,
+    "status": "Finished Airing",
+    "airing": false,
+    "aired": {
+      "from": "1991-04-19T00:00:00+00:00",
+      "to": "1992-03-27T00:00:00+00:00",
+      "prop": {
+        "from": {
+          "day": 19,
+          "month": 4,
+          "year": 1991
+        },
+        "to": {
+          "day": 27,
+          "month": 3,
+          "year": 1992
+        }
+      },
+      "string": "Apr 19, 1991 to Mar 27, 1992"
+    },
+    "duration": "25 min per ep",
+    "rating": "G - All Ages",
+    "score": 7.08,
+    "scored_by": 2515,
+    "rank": 3609,
+    "popularity": 7537,
+    "members": 5699,
+    "favorites": 23,
+    "synopsis": "Every child deserves to have a fun and carefree childhood. Unfortunately, life is not always fair, as is the case with Mary Lennox. At a very young age, Mary loses her parents to a disease, leaving her traumatized and orphaned. From India, she is brought to England with her uncle who has taken on the role of her new guardian.\n\nAlthough she is sad to have lost her parents, Mary is happy and grateful to have someone to take care of her. She gets to eat everyday and live in a big mansion, things that she understands should not be taken for granted. However, her uncle is a very quiet person, hardly ever speaking to anyone. This solitude causes Mary to oftentimes get bored to tears, forcing her to relive horrible memories of her past.\n\nAs she enjoys a stroll outside one day, she discovers a secret garden near her home. Along with her new friends, Dicon and Martha, as well as her disabled cousin, Collin, Mary embarks on a journey that is sure to brighten her dull life to the uttermost extreme!",
+    "background": "Anime Himitsu no Hanazano is a direct adaptation of The Secret Garden by Frances Hodgson Burnett, sharing the same characters and plot.",
+    "season": "spring",
+    "year": 1991,
+    "broadcast": {
+      "day": null,
+      "time": null,
+      "timezone": null,
+      "string": "Unknown"
+    },
+    "producers": [
+      {
+        "mal_id": 111,
+        "type": "anime",
+        "name": "NHK",
+        "url": "https://myanimelist.net/anime/producer/111/NHK"
+      },
+      {
+        "mal_id": 1009,
+        "type": "anime",
+        "name": "Aubec",
+        "url": "https://myanimelist.net/anime/producer/1009/Aubec"
+      }
+    ],
+    "licensors": [],
+    "studios": [
+      {
+        "mal_id": 198,
+        "type": "anime",
+        "name": "Gakken",
+        "url": "https://myanimelist.net/anime/producer/198/Gakken"
+      }
+    ],
+    "genres": [
+      {
+        "mal_id": 8,
+        "type": "anime",
+        "name": "Drama",
+        "url": "https://myanimelist.net/anime/genre/8/Drama"
+      }
+    ],
+    "explicit_genres": [],
+    "themes": [
+      {
+        "mal_id": 13,
+        "type": "anime",
+        "name": "Historical",
+        "url": "https://myanimelist.net/anime/genre/13/Historical"
+      }
+    ],
+    "demographics": [
+      {
+        "mal_id": 15,
+        "type": "anime",
+        "name": "Kids",
+        "url": "https://myanimelist.net/anime/genre/15/Kids"
+      },
+      {
+        "mal_id": 25,
+        "type": "anime",
+        "name": "Shoujo",
+        "url": "https://myanimelist.net/anime/genre/25/Shoujo"
+      }
+    ]
+  },
+  {
+    "mal_id": 1897,
+    "url": "https://myanimelist.net/anime/1897/Zettai_Muteki_Raijin-Oh",
+    "images": {
+      "jpg": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/1152/91073.jpg",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/1152/91073t.jpg",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/1152/91073l.jpg"
+      },
+      "webp": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/1152/91073.webp",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/1152/91073t.webp",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/1152/91073l.webp"
+      }
+    },
+    "trailer": {
+      "youtube_id": null,
+      "url": null,
+      "embed_url": null,
+      "images": {
+        "image_url": null,
+        "small_image_url": null,
+        "medium_image_url": null,
+        "large_image_url": null,
+        "maximum_image_url": null
+      }
+    },
+    "approved": true,
+    "titles": [
+      {
+        "type": "Default",
+        "title": "Zettai Muteki Raijin-Oh"
+      },
+      {
+        "type": "Synonym",
+        "title": "Eldran series #1"
+      },
+      {
+        "type": "Japanese",
+        "title": "\u7d76\u5bfe\u7121\u6575\u30e9\u30a4\u30b8\u30f3\u30aa\u30fc"
+      },
+      {
+        "type": "English",
+        "title": "Matchless Raijin-Oh"
+      }
+    ],
+    "title": "Zettai Muteki Raijin-Oh",
+    "title_english": "Matchless Raijin-Oh",
+    "title_japanese": "\u7d76\u5bfe\u7121\u6575\u30e9\u30a4\u30b8\u30f3\u30aa\u30fc",
+    "title_synonyms": [
+      "Eldran series #1"
+    ],
+    "type": "TV",
+    "source": "Original",
+    "episodes": 51,
+    "status": "Finished Airing",
+    "airing": false,
+    "aired": {
+      "from": "1991-04-03T00:00:00+00:00",
+      "to": "1992-03-25T00:00:00+00:00",
+      "prop": {
+        "from": {
+          "day": 3,
+          "month": 4,
+          "year": 1991
+        },
+        "to": {
+          "day": 25,
+          "month": 3,
+          "year": 1992
+        }
+      },
+      "string": "Apr 3, 1991 to Mar 25, 1992"
+    },
+    "duration": "24 min per ep",
+    "rating": "G - All Ages",
+    "score": 7.05,
+    "scored_by": 623,
+    "rank": 3766,
+    "popularity": 10553,
+    "members": 2044,
+    "favorites": 6,
+    "synopsis": "Suddenly, an evil empire, Jaaku, raids the Earth. But the light appears from the Earth, and fights against Jaaku. It is Raijin Oh operated by Eldran. Eldran has protected the earth since the ancient ages. But he was injured during the fight, and Raijin-Oh falls to the ground. On the other hand, Jaaku scatters their weapons, Aku-Darmer, all over the world.\nMeanwhile, in Youshou elementary school, they have extra lessons in the 3rd class of the 5th grade. Eldran leaves Raijin Medal to them and asks them to save the Earth for him, and then he disappeared. In this way, the Earth Defense Agency consisted of elementary students is founded.\n\n(Source: AnimeNfo)",
+    "background": null,
+    "season": "spring",
+    "year": 1991,
+    "broadcast": {
+      "day": "Wednesdays",
+      "time": "18:00",
+      "timezone": "Asia/Tokyo",
+      "string": "Wednesdays at 18:00 (JST)"
+    },
+    "producers": [
+      {
+        "mal_id": 224,
+        "type": "anime",
+        "name": "Toshiba EMI",
+        "url": "https://myanimelist.net/anime/producer/224/Toshiba_EMI"
+      }
+    ],
+    "licensors": [
+      {
+        "mal_id": 277,
+        "type": "anime",
+        "name": "Anime Midstream",
+        "url": "https://myanimelist.net/anime/producer/277/Anime_Midstream"
+      }
+    ],
+    "studios": [
+      {
+        "mal_id": 14,
+        "type": "anime",
+        "name": "Sunrise",
+        "url": "https://myanimelist.net/anime/producer/14/Sunrise"
+      }
+    ],
+    "genres": [
+      {
+        "mal_id": 2,
+        "type": "anime",
+        "name": "Adventure",
+        "url": "https://myanimelist.net/anime/genre/2/Adventure"
+      },
+      {
+        "mal_id": 24,
+        "type": "anime",
+        "name": "Sci-Fi",
+        "url": "https://myanimelist.net/anime/genre/24/Sci-Fi"
+      }
+    ],
+    "explicit_genres": [],
+    "themes": [
+      {
+        "mal_id": 18,
+        "type": "anime",
+        "name": "Mecha",
+        "url": "https://myanimelist.net/anime/genre/18/Mecha"
+      },
+      {
+        "mal_id": 23,
+        "type": "anime",
+        "name": "School",
+        "url": "https://myanimelist.net/anime/genre/23/School"
+      }
+    ],
+    "demographics": []
+  },
+  {
+    "mal_id": 310,
+    "url": "https://myanimelist.net/anime/310/Chiisana_Obake__Acchi_Kocchi_Socchi",
+    "images": {
+      "jpg": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/1893/100728.jpg",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/1893/100728t.jpg",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/1893/100728l.jpg"
+      },
+      "webp": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/1893/100728.webp",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/1893/100728t.webp",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/1893/100728l.webp"
+      }
+    },
+    "trailer": {
+      "youtube_id": null,
+      "url": null,
+      "embed_url": null,
+      "images": {
+        "image_url": null,
+        "small_image_url": null,
+        "medium_image_url": null,
+        "large_image_url": null,
+        "maximum_image_url": null
+      }
+    },
+    "approved": true,
+    "titles": [
+      {
+        "type": "Default",
+        "title": "Chiisana Obake: Acchi, Kocchi, Socchi"
+      },
+      {
+        "type": "Synonym",
+        "title": "Little Ghosts"
+      },
+      {
+        "type": "Synonym",
+        "title": "There"
+      },
+      {
+        "type": "Synonym",
+        "title": "Here"
+      },
+      {
+        "type": "Synonym",
+        "title": "and Where"
+      },
+      {
+        "type": "Synonym",
+        "title": "Acchi"
+      },
+      {
+        "type": "Synonym",
+        "title": "Kocchi"
+      },
+      {
+        "type": "Synonym",
+        "title": "Socchi"
+      },
+      {
+        "type": "Japanese",
+        "title": "\u5c0f\u3055\u306a\u304a\u3070\u3051 \u30a2\u30c3\u30c1\u30fb\u30bd\u30c3\u30c1\u30fb\u30b3\u30c3\u30c1"
+      },
+      {
+        "type": "English",
+        "title": "Three Little Ghosts"
+      },
+      {
+        "type": "French",
+        "title": "Acchi Kocchi Socchi"
+      }
+    ],
+    "title": "Chiisana Obake: Acchi, Kocchi, Socchi",
+    "title_english": "Three Little Ghosts",
+    "title_japanese": "\u5c0f\u3055\u306a\u304a\u3070\u3051 \u30a2\u30c3\u30c1\u30fb\u30bd\u30c3\u30c1\u30fb\u30b3\u30c3\u30c1",
+    "title_synonyms": [
+      "Little Ghosts",
+      "There",
+      "Here",
+      "and Where",
+      "Acchi",
+      "Kocchi",
+      "Socchi"
+    ],
+    "type": "TV",
+    "source": "Picture book",
+    "episodes": 50,
+    "status": "Finished Airing",
+    "airing": false,
+    "aired": {
+      "from": "1991-04-09T00:00:00+00:00",
+      "to": "1992-04-07T00:00:00+00:00",
+      "prop": {
+        "from": {
+          "day": 9,
+          "month": 4,
+          "year": 1991
+        },
+        "to": {
+          "day": 7,
+          "month": 4,
+          "year": 1992
+        }
+      },
+      "string": "Apr 9, 1991 to Apr 7, 1992"
+    },
+    "duration": "25 min per ep",
+    "rating": "G - All Ages",
+    "score": 5.99,
+    "scored_by": 618,
+    "rank": 8865,
+    "popularity": 10884,
+    "members": 1830,
+    "favorites": 1,
+    "synopsis": "This is a heart-warming story with three little ghost called There, Here and Where. They are not scary like usual ghosts but pretty and mischievous like human children. Of course they sometimes surprise people by disappearing or flying, but they are loved as children's friends. \n\nEach episode consists of two stories.",
+    "background": null,
+    "season": "spring",
+    "year": 1991,
+    "broadcast": {
+      "day": null,
+      "time": null,
+      "timezone": null,
+      "string": "Unknown"
+    },
+    "producers": [],
+    "licensors": [],
+    "studios": [
+      {
+        "mal_id": 1,
+        "type": "anime",
+        "name": "Pierrot",
+        "url": "https://myanimelist.net/anime/producer/1/Pierrot"
+      }
+    ],
+    "genres": [
+      {
+        "mal_id": 4,
+        "type": "anime",
+        "name": "Comedy",
+        "url": "https://myanimelist.net/anime/genre/4/Comedy"
+      },
+      {
+        "mal_id": 37,
+        "type": "anime",
+        "name": "Supernatural",
+        "url": "https://myanimelist.net/anime/genre/37/Supernatural"
+      }
+    ],
+    "explicit_genres": [],
+    "themes": [],
+    "demographics": []
+  },
+  {
+    "mal_id": 9882,
+    "url": "https://myanimelist.net/anime/9882/High_School_Mystery__Gakuen_Nanafushigi",
+    "images": {
+      "jpg": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/5/27334.jpg",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/5/27334t.jpg",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/5/27334l.jpg"
+      },
+      "webp": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/5/27334.webp",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/5/27334t.webp",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/5/27334l.webp"
+      }
+    },
+    "trailer": {
+      "youtube_id": null,
+      "url": null,
+      "embed_url": null,
+      "images": {
+        "image_url": null,
+        "small_image_url": null,
+        "medium_image_url": null,
+        "large_image_url": null,
+        "maximum_image_url": null
+      }
+    },
+    "approved": true,
+    "titles": [
+      {
+        "type": "Default",
+        "title": "High School Mystery: Gakuen Nanafushigi"
+      },
+      {
+        "type": "Synonym",
+        "title": "High School Mystery: School of Seven Mysteries"
+      },
+      {
+        "type": "Synonym",
+        "title": "High School Mystery: School of Seven Wonders"
+      },
+      {
+        "type": "Japanese",
+        "title": "\u30cf\u30a4\u30b9\u30af\u30fc\u30eb\u30df\u30b9\u30c6\u30ea\u30fc \u5b66\u5712\u4e03\u4e0d\u601d\u8b70"
+      }
+    ],
+    "title": "High School Mystery: Gakuen Nanafushigi",
+    "title_english": null,
+    "title_japanese": "\u30cf\u30a4\u30b9\u30af\u30fc\u30eb\u30df\u30b9\u30c6\u30ea\u30fc \u5b66\u5712\u4e03\u4e0d\u601d\u8b70",
+    "title_synonyms": [
+      "High School Mystery: School of Seven Mysteries",
+      "High School Mystery: School of Seven Wonders"
+    ],
+    "type": "TV",
+    "source": "Unknown",
+    "episodes": 41,
+    "status": "Finished Airing",
+    "airing": false,
+    "aired": {
+      "from": "1991-04-12T00:00:00+00:00",
+      "to": "1992-03-13T00:00:00+00:00",
+      "prop": {
+        "from": {
+          "day": 12,
+          "month": 4,
+          "year": 1991
+        },
+        "to": {
+          "day": 13,
+          "month": 3,
+          "year": 1992
+        }
+      },
+      "string": "Apr 12, 1991 to Mar 13, 1992"
+    },
+    "duration": "25 min per ep",
+    "rating": "R - 17+ (violence & profanity)",
+    "score": 6.66,
+    "scored_by": 197,
+    "rank": 5521,
+    "popularity": 11611,
+    "members": 1393,
+    "favorites": 4,
+    "synopsis": "Mizuki Ichijo is a junior student at Kosen high school. Her grandmother was a medium and she experiences various psychic and mysterious phenomena which occur at the school: accidents, suicides, bullying, resentment, romance and more. She is befriended by the third year student Meiko Tsukikage, and together they attempt to solve the mysteries.\n\n(Source: Wikipedia)",
+    "background": null,
+    "season": "spring",
+    "year": 1991,
+    "broadcast": {
+      "day": null,
+      "time": null,
+      "timezone": null,
+      "string": "Unknown"
+    },
+    "producers": [
+      {
+        "mal_id": 126,
+        "type": "anime",
+        "name": "Studio Comet",
+        "url": "https://myanimelist.net/anime/producer/126/Studio_Comet"
+      }
+    ],
+    "licensors": [],
+    "studios": [],
+    "genres": [
+      {
+        "mal_id": 14,
+        "type": "anime",
+        "name": "Horror",
+        "url": "https://myanimelist.net/anime/genre/14/Horror"
+      },
+      {
+        "mal_id": 7,
+        "type": "anime",
+        "name": "Mystery",
+        "url": "https://myanimelist.net/anime/genre/7/Mystery"
+      }
+    ],
+    "explicit_genres": [],
+    "themes": [],
+    "demographics": []
+  },
+  {
+    "mal_id": 3315,
+    "url": "https://myanimelist.net/anime/3315/Kikou_Keisatsu_Metal_Jack",
+    "images": {
+      "jpg": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/2/77278.jpg",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/2/77278t.jpg",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/2/77278l.jpg"
+      },
+      "webp": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/2/77278.webp",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/2/77278t.webp",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/2/77278l.webp"
+      }
+    },
+    "trailer": {
+      "youtube_id": null,
+      "url": null,
+      "embed_url": null,
+      "images": {
+        "image_url": null,
+        "small_image_url": null,
+        "medium_image_url": null,
+        "large_image_url": null,
+        "maximum_image_url": null
+      }
+    },
+    "approved": true,
+    "titles": [
+      {
+        "type": "Default",
+        "title": "Kikou Keisatsu Metal Jack"
+      },
+      {
+        "type": "Synonym",
+        "title": "Armored Police Metal Jack"
+      },
+      {
+        "type": "Japanese",
+        "title": "\u6a5f\u7532\u8b66\u5bdf \u30e1\u30bf\u30eb\u30b8\u30e3\u30c3\u30af"
+      },
+      {
+        "type": "German",
+        "title": "Armored Police Metal Jack"
+      }
+    ],
+    "title": "Kikou Keisatsu Metal Jack",
+    "title_english": null,
+    "title_japanese": "\u6a5f\u7532\u8b66\u5bdf \u30e1\u30bf\u30eb\u30b8\u30e3\u30c3\u30af",
+    "title_synonyms": [
+      "Armored Police Metal Jack"
+    ],
+    "type": "TV",
+    "source": "Original",
+    "episodes": 37,
+    "status": "Finished Airing",
+    "airing": false,
+    "aired": {
+      "from": "1991-04-08T00:00:00+00:00",
+      "to": "1991-12-23T00:00:00+00:00",
+      "prop": {
+        "from": {
+          "day": 8,
+          "month": 4,
+          "year": 1991
+        },
+        "to": {
+          "day": 23,
+          "month": 12,
+          "year": 1991
+        }
+      },
+      "string": "Apr 8, 1991 to Dec 23, 1991"
+    },
+    "duration": "22 min per ep",
+    "rating": "PG-13 - Teens 13 or older",
+    "score": 6.37,
+    "scored_by": 242,
+    "rank": 7005,
+    "popularity": 11731,
+    "members": 1337,
+    "favorites": 1,
+    "synopsis": "Twenty years into the future, a city now called \"Tokyo\" has developed into one of the few world-class high-tech centers, \"Tokyo City.\" The main character, Ken Kanzaki, is a young investigator assigned to the criminal investigation section of the Metropolital Police. He is one of the finest sharp shooters in the Police.One day, Ken is ordered to provide security for a party held by for \"Zaizen Konzern,\" a world-class plutocracy.\n\nAll of a sudden, spector robots appear and distrupt the party. Zaizen, a commander-in-chief, is killed and both Ken and Jun. Zaizen's son,are fatally injured by the robots. Two of the party's guests, an auto-racer, Ryo Aguri,and a wresler, Go Goda, also receive serious injuries. Three severely injured young men are operated upon by scientists from the Metropolitan Police. Several days later, a robot corp led by a mysterious organization called \"Ido\" appears in the floating-town of the Tokyo Bay. But the Police and the Army have no effective strategies to contain them.\n\nAt that moment, three young men attired in mechanical suits enter. They are the very three young men, Ken, Ryo and Go, who have been turned into the cyborg investigators through the operation. They call themselves \"Armored Police Metal Jacks\". \"Metal Jacks,\" dazzlingly switching from \"Jack Suits\" to \"Jack Armors,\" completely demolish the robot corp and achieve victory, thus signals the beginning of the battle between the high-tech criminals and \"Metal Jacks\" with a futuristic \"Tokyo City\" in the background.",
+    "background": null,
+    "season": "spring",
+    "year": 1991,
+    "broadcast": {
+      "day": null,
+      "time": null,
+      "timezone": null,
+      "string": "Unknown"
+    },
+    "producers": [
+      {
+        "mal_id": 16,
+        "type": "anime",
+        "name": "TV Tokyo",
+        "url": "https://myanimelist.net/anime/producer/16/TV_Tokyo"
+      }
+    ],
+    "licensors": [],
+    "studios": [
+      {
+        "mal_id": 14,
+        "type": "anime",
+        "name": "Sunrise",
+        "url": "https://myanimelist.net/anime/producer/14/Sunrise"
+      }
+    ],
+    "genres": [
+      {
+        "mal_id": 1,
+        "type": "anime",
+        "name": "Action",
+        "url": "https://myanimelist.net/anime/genre/1/Action"
+      },
+      {
+        "mal_id": 24,
+        "type": "anime",
+        "name": "Sci-Fi",
+        "url": "https://myanimelist.net/anime/genre/24/Sci-Fi"
+      }
+    ],
+    "explicit_genres": [],
+    "themes": [
+      {
+        "mal_id": 39,
+        "type": "anime",
+        "name": "Detective",
+        "url": "https://myanimelist.net/anime/genre/39/Detective"
+      },
+      {
+        "mal_id": 18,
+        "type": "anime",
+        "name": "Mecha",
+        "url": "https://myanimelist.net/anime/genre/18/Mecha"
+      }
+    ],
+    "demographics": []
+  },
+  {
+    "mal_id": 5628,
+    "url": "https://myanimelist.net/anime/5628/21_Emon",
+    "images": {
+      "jpg": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/11/69883.jpg",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/11/69883t.jpg",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/11/69883l.jpg"
+      },
+      "webp": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/11/69883.webp",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/11/69883t.webp",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/11/69883l.webp"
+      }
+    },
+    "trailer": {
+      "youtube_id": null,
+      "url": null,
+      "embed_url": null,
+      "images": {
+        "image_url": null,
+        "small_image_url": null,
+        "medium_image_url": null,
+        "large_image_url": null,
+        "maximum_image_url": null
+      }
+    },
+    "approved": true,
+    "titles": [
+      {
+        "type": "Default",
+        "title": "21 Emon"
+      },
+      {
+        "type": "Synonym",
+        "title": "21-emon"
+      },
+      {
+        "type": "Synonym",
+        "title": "21emon"
+      },
+      {
+        "type": "Japanese",
+        "title": "21\u30a8\u30e2\u30f3"
+      }
+    ],
+    "title": "21 Emon",
+    "title_english": null,
+    "title_japanese": "21\u30a8\u30e2\u30f3",
+    "title_synonyms": [
+      "21-emon",
+      "21emon"
+    ],
+    "type": "TV",
+    "source": "Unknown",
+    "episodes": 39,
+    "status": "Finished Airing",
+    "airing": false,
+    "aired": {
+      "from": "1991-05-02T00:00:00+00:00",
+      "to": "1992-03-26T00:00:00+00:00",
+      "prop": {
+        "from": {
+          "day": 2,
+          "month": 5,
+          "year": 1991
+        },
+        "to": {
+          "day": 26,
+          "month": 3,
+          "year": 1992
+        }
+      },
+      "string": "May 2, 1991 to Mar 26, 1992"
+    },
+    "duration": "25 min per ep",
+    "rating": "G - All Ages",
+    "score": 6.37,
+    "scored_by": 311,
+    "rank": 7025,
+    "popularity": 12554,
+    "members": 1008,
+    "favorites": 1,
+    "synopsis": "In 2018 a young boy named 21 Emon dreams of becoming a space pilot and exploring space in general. He is the heir to a long line of hotel owners, which dates back to the founder of during the Tokugawa shogunate. Since the Earth has become a planet visited by tourists from all over the space, 21 Emon has to help out his family's business or they'll go bankrupt.",
+    "background": null,
+    "season": "spring",
+    "year": 1991,
+    "broadcast": {
+      "day": null,
+      "time": null,
+      "timezone": null,
+      "string": "Unknown"
+    },
+    "producers": [],
+    "licensors": [],
+    "studios": [
+      {
+        "mal_id": 247,
+        "type": "anime",
+        "name": "Shin-Ei Animation",
+        "url": "https://myanimelist.net/anime/producer/247/Shin-Ei_Animation"
+      }
+    ],
+    "genres": [
+      {
+        "mal_id": 4,
+        "type": "anime",
+        "name": "Comedy",
+        "url": "https://myanimelist.net/anime/genre/4/Comedy"
+      },
+      {
+        "mal_id": 24,
+        "type": "anime",
+        "name": "Sci-Fi",
+        "url": "https://myanimelist.net/anime/genre/24/Sci-Fi"
+      }
+    ],
+    "explicit_genres": [],
+    "themes": [
+      {
+        "mal_id": 29,
+        "type": "anime",
+        "name": "Space",
+        "url": "https://myanimelist.net/anime/genre/29/Space"
+      }
+    ],
+    "demographics": []
+  },
+  {
+    "mal_id": 7405,
+    "url": "https://myanimelist.net/anime/7405/Jankenman",
+    "images": {
+      "jpg": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/2/17801.jpg",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/2/17801t.jpg",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/2/17801l.jpg"
+      },
+      "webp": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/2/17801.webp",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/2/17801t.webp",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/2/17801l.webp"
+      }
+    },
+    "trailer": {
+      "youtube_id": null,
+      "url": null,
+      "embed_url": null,
+      "images": {
+        "image_url": null,
+        "small_image_url": null,
+        "medium_image_url": null,
+        "large_image_url": null,
+        "maximum_image_url": null
+      }
+    },
+    "approved": true,
+    "titles": [
+      {
+        "type": "Default",
+        "title": "Jankenman"
+      },
+      {
+        "type": "Japanese",
+        "title": "\u30b8\u30e3\u30f3\u30b1\u30f3\u30de\u30f3"
+      }
+    ],
+    "title": "Jankenman",
+    "title_english": null,
+    "title_japanese": "\u30b8\u30e3\u30f3\u30b1\u30f3\u30de\u30f3",
+    "title_synonyms": [],
+    "type": "TV",
+    "source": "Unknown",
+    "episodes": 51,
+    "status": "Finished Airing",
+    "airing": false,
+    "aired": {
+      "from": "1991-04-04T00:00:00+00:00",
+      "to": "1992-03-26T00:00:00+00:00",
+      "prop": {
+        "from": {
+          "day": 4,
+          "month": 4,
+          "year": 1991
+        },
+        "to": {
+          "day": 26,
+          "month": 3,
+          "year": 1992
+        }
+      },
+      "string": "Apr 4, 1991 to Mar 26, 1992"
+    },
+    "duration": "25 min per ep",
+    "rating": "PG - Children",
+    "score": 6.22,
+    "scored_by": 289,
+    "rank": 7786,
+    "popularity": 13336,
+    "members": 795,
+    "favorites": 1,
+    "synopsis": "There is a small village called Janken Town. The hero Jankenman protects the village and defeats his adversaries by playing games of rock-paper-scissors with them. Meanwhile, the villain Osodashi Mask always tries to deceive others.\n\n(Source: AniDB)",
+    "background": null,
+    "season": "spring",
+    "year": 1991,
+    "broadcast": {
+      "day": null,
+      "time": null,
+      "timezone": null,
+      "string": "Unknown"
+    },
+    "producers": [
+      {
+        "mal_id": 16,
+        "type": "anime",
+        "name": "TV Tokyo",
+        "url": "https://myanimelist.net/anime/producer/16/TV_Tokyo"
+      },
+      {
+        "mal_id": 242,
+        "type": "anime",
+        "name": "Ashi Productions",
+        "url": "https://myanimelist.net/anime/producer/242/Ashi_Productions"
+      },
+      {
+        "mal_id": 351,
+        "type": "anime",
+        "name": "Big West",
+        "url": "https://myanimelist.net/anime/producer/351/Big_West"
+      }
+    ],
+    "licensors": [],
+    "studios": [],
+    "genres": [
+      {
+        "mal_id": 2,
+        "type": "anime",
+        "name": "Adventure",
+        "url": "https://myanimelist.net/anime/genre/2/Adventure"
+      }
+    ],
+    "explicit_genres": [],
+    "themes": [
+      {
+        "mal_id": 31,
+        "type": "anime",
+        "name": "Super Power",
+        "url": "https://myanimelist.net/anime/genre/31/Super_Power"
+      }
+    ],
+    "demographics": []
+  },
+  {
+    "mal_id": 8829,
+    "url": "https://myanimelist.net/anime/8829/Shounen_Ashibe_TV",
+    "images": {
+      "jpg": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/9/24404.jpg",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/9/24404t.jpg",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/9/24404l.jpg"
+      },
+      "webp": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/9/24404.webp",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/9/24404t.webp",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/9/24404l.webp"
+      }
+    },
+    "trailer": {
+      "youtube_id": null,
+      "url": null,
+      "embed_url": null,
+      "images": {
+        "image_url": null,
+        "small_image_url": null,
+        "medium_image_url": null,
+        "large_image_url": null,
+        "maximum_image_url": null
+      }
+    },
+    "approved": true,
+    "titles": [
+      {
+        "type": "Default",
+        "title": "Shounen Ashibe (TV)"
+      },
+      {
+        "type": "Synonym",
+        "title": "Shonen Ashibe"
+      },
+      {
+        "type": "Synonym",
+        "title": "Young Ashibe"
+      },
+      {
+        "type": "Japanese",
+        "title": "\u5c11\u5e74\u30a2\u30b7\u30d9"
+      }
+    ],
+    "title": "Shounen Ashibe (TV)",
+    "title_english": null,
+    "title_japanese": "\u5c11\u5e74\u30a2\u30b7\u30d9",
+    "title_synonyms": [
+      "Shonen Ashibe",
+      "Young Ashibe"
+    ],
+    "type": "TV",
+    "source": "4-koma manga",
+    "episodes": 37,
+    "status": "Finished Airing",
+    "airing": false,
+    "aired": {
+      "from": "1991-04-11T00:00:00+00:00",
+      "to": "1991-12-28T00:00:00+00:00",
+      "prop": {
+        "from": {
+          "day": 11,
+          "month": 4,
+          "year": 1991
+        },
+        "to": {
+          "day": 28,
+          "month": 12,
+          "year": 1991
+        }
+      },
+      "string": "Apr 11, 1991 to Dec 28, 1991"
+    },
+    "duration": "25 min per ep",
+    "rating": "G - All Ages",
+    "score": 5.8,
+    "scored_by": 136,
+    "rank": 9664,
+    "popularity": 13988,
+    "members": 642,
+    "favorites": 1,
+    "synopsis": "The anime is based on the 4-panel comic strip drawn by Morishita Hiromi and published in Young Jump. The story describes the daily life of Ashibe (an elementary school boy) and his family and friends, including a pet white sea lion.",
+    "background": null,
+    "season": "spring",
+    "year": 1991,
+    "broadcast": {
+      "day": "Thursdays",
+      "time": "19:00",
+      "timezone": "Asia/Tokyo",
+      "string": "Thursdays at 19:00 (JST)"
+    },
+    "producers": [
+      {
+        "mal_id": 145,
+        "type": "anime",
+        "name": "TBS",
+        "url": "https://myanimelist.net/anime/producer/145/TBS"
+      }
+    ],
+    "licensors": [],
+    "studios": [
+      {
+        "mal_id": 312,
+        "type": "anime",
+        "name": "Life Work",
+        "url": "https://myanimelist.net/anime/producer/312/Life_Work"
+      }
+    ],
+    "genres": [
+      {
+        "mal_id": 4,
+        "type": "anime",
+        "name": "Comedy",
+        "url": "https://myanimelist.net/anime/genre/4/Comedy"
+      },
+      {
+        "mal_id": 36,
+        "type": "anime",
+        "name": "Slice of Life",
+        "url": "https://myanimelist.net/anime/genre/36/Slice_of_Life"
+      }
+    ],
+    "explicit_genres": [],
+    "themes": [],
+    "demographics": []
+  },
+  {
+    "mal_id": 24663,
+    "url": "https://myanimelist.net/anime/24663/Dororonpa",
+    "images": {
+      "jpg": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/9/63501.jpg",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/9/63501t.jpg",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/9/63501l.jpg"
+      },
+      "webp": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/9/63501.webp",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/9/63501t.webp",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/9/63501l.webp"
+      }
+    },
+    "trailer": {
+      "youtube_id": null,
+      "url": null,
+      "embed_url": null,
+      "images": {
+        "image_url": null,
+        "small_image_url": null,
+        "medium_image_url": null,
+        "large_image_url": null,
+        "maximum_image_url": null
+      }
+    },
+    "approved": true,
+    "titles": [
+      {
+        "type": "Default",
+        "title": "Dororonpa!"
+      },
+      {
+        "type": "Japanese",
+        "title": "\u3069\u308d\u308d\u3093\u3071\u3063\uff01"
+      }
+    ],
+    "title": "Dororonpa!",
+    "title_english": null,
+    "title_japanese": "\u3069\u308d\u308d\u3093\u3071\u3063\uff01",
+    "title_synonyms": [],
+    "type": "TV",
+    "source": "Unknown",
+    "episodes": 115,
+    "status": "Finished Airing",
+    "airing": false,
+    "aired": {
+      "from": "1991-04-08T00:00:00+00:00",
+      "to": "1991-09-27T00:00:00+00:00",
+      "prop": {
+        "from": {
+          "day": 8,
+          "month": 4,
+          "year": 1991
+        },
+        "to": {
+          "day": 27,
+          "month": 9,
+          "year": 1991
+        }
+      },
+      "string": "Apr 8, 1991 to Sep 27, 1991"
+    },
+    "duration": "10 min per ep",
+    "rating": "PG - Children",
+    "score": null,
+    "scored_by": null,
+    "rank": 15517,
+    "popularity": 14107,
+    "members": 616,
+    "favorites": 1,
+    "synopsis": "Komachi is a little ghost who died during the Meiji Era and has hung around earth as a wandering spirit girl for over a hundred years. Komachi appears in the room of a young girl named Anko and the two get wrapped up in all sorts of adventures involving other ghosts and demons.\n\n(Source: TV Asahi)",
+    "background": null,
+    "season": "spring",
+    "year": 1991,
+    "broadcast": {
+      "day": null,
+      "time": null,
+      "timezone": null,
+      "string": "Unknown"
+    },
+    "producers": [
+      {
+        "mal_id": 55,
+        "type": "anime",
+        "name": "TV Asahi",
+        "url": "https://myanimelist.net/anime/producer/55/TV_Asahi"
+      }
+    ],
+    "licensors": [],
+    "studios": [
+      {
+        "mal_id": 247,
+        "type": "anime",
+        "name": "Shin-Ei Animation",
+        "url": "https://myanimelist.net/anime/producer/247/Shin-Ei_Animation"
+      }
+    ],
+    "genres": [
+      {
+        "mal_id": 4,
+        "type": "anime",
+        "name": "Comedy",
+        "url": "https://myanimelist.net/anime/genre/4/Comedy"
+      },
+      {
+        "mal_id": 36,
+        "type": "anime",
+        "name": "Slice of Life",
+        "url": "https://myanimelist.net/anime/genre/36/Slice_of_Life"
+      },
+      {
+        "mal_id": 37,
+        "type": "anime",
+        "name": "Supernatural",
+        "url": "https://myanimelist.net/anime/genre/37/Supernatural"
+      }
+    ],
+    "explicit_genres": [],
+    "themes": [],
+    "demographics": []
+  },
+  {
+    "mal_id": 25139,
+    "url": "https://myanimelist.net/anime/25139/Oh_My_Konbu",
+    "images": {
+      "jpg": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/10/64249.jpg",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/10/64249t.jpg",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/10/64249l.jpg"
+      },
+      "webp": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/10/64249.webp",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/10/64249t.webp",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/10/64249l.webp"
+      }
+    },
+    "trailer": {
+      "youtube_id": null,
+      "url": null,
+      "embed_url": null,
+      "images": {
+        "image_url": null,
+        "small_image_url": null,
+        "medium_image_url": null,
+        "large_image_url": null,
+        "maximum_image_url": null
+      }
+    },
+    "approved": true,
+    "titles": [
+      {
+        "type": "Default",
+        "title": "Oh! My Konbu"
+      },
+      {
+        "type": "Japanese",
+        "title": "OH!MY\u30b3\u30f3\u30d6"
+      }
+    ],
+    "title": "Oh! My Konbu",
+    "title_english": null,
+    "title_japanese": "OH!MY\u30b3\u30f3\u30d6",
+    "title_synonyms": [],
+    "type": "TV",
+    "source": "Unknown",
+    "episodes": 22,
+    "status": "Finished Airing",
+    "airing": false,
+    "aired": {
+      "from": "1991-05-04T00:00:00+00:00",
+      "to": "1991-09-28T00:00:00+00:00",
+      "prop": {
+        "from": {
+          "day": 4,
+          "month": 5,
+          "year": 1991
+        },
+        "to": {
+          "day": 28,
+          "month": 9,
+          "year": 1991
+        }
+      },
+      "string": "May 4, 1991 to Sep 28, 1991"
+    },
+    "duration": "25 min per ep",
+    "rating": "G - All Ages",
+    "score": null,
+    "scored_by": null,
+    "rank": 18500,
+    "popularity": 15606,
+    "members": 421,
+    "favorites": 0,
+    "synopsis": "Fifth-grader Nabeyama Konbu is the son of a cook in a slice-of-life gourmet comedy that tries to add an element of adventure to slaving in the kitchen. Konbu helps his father solve problems in the world through the judicious use of seasonings, the right choice of menu, and the pleasing of fickle customers.\n\n(Source: AniDB)",
+    "background": null,
+    "season": "spring",
+    "year": 1991,
+    "broadcast": {
+      "day": null,
+      "time": null,
+      "timezone": null,
+      "string": "Unknown"
+    },
+    "producers": [
+      {
+        "mal_id": 145,
+        "type": "anime",
+        "name": "TBS",
+        "url": "https://myanimelist.net/anime/producer/145/TBS"
+      }
+    ],
+    "licensors": [],
+    "studios": [],
+    "genres": [
+      {
+        "mal_id": 4,
+        "type": "anime",
+        "name": "Comedy",
+        "url": "https://myanimelist.net/anime/genre/4/Comedy"
+      },
+      {
+        "mal_id": 47,
+        "type": "anime",
+        "name": "Gourmet",
+        "url": "https://myanimelist.net/anime/genre/47/Gourmet"
+      },
+      {
+        "mal_id": 36,
+        "type": "anime",
+        "name": "Slice of Life",
+        "url": "https://myanimelist.net/anime/genre/36/Slice_of_Life"
+      }
+    ],
+    "explicit_genres": [],
+    "themes": [],
+    "demographics": [
+      {
+        "mal_id": 27,
+        "type": "anime",
+        "name": "Shounen",
+        "url": "https://myanimelist.net/anime/genre/27/Shounen"
+      }
+    ]
+  },
+  {
+    "mal_id": 30118,
+    "url": "https://myanimelist.net/anime/30118/Futari_wa_Nakayoshi__Goo_to_Sue",
+    "images": {
+      "jpg": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/12/72126.jpg",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/12/72126t.jpg",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/12/72126l.jpg"
+      },
+      "webp": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/12/72126.webp",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/12/72126t.webp",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/12/72126l.webp"
+      }
+    },
+    "trailer": {
+      "youtube_id": null,
+      "url": null,
+      "embed_url": null,
+      "images": {
+        "image_url": null,
+        "small_image_url": null,
+        "medium_image_url": null,
+        "large_image_url": null,
+        "maximum_image_url": null
+      }
+    },
+    "approved": true,
+    "titles": [
+      {
+        "type": "Default",
+        "title": "Futari wa Nakayoshi: Goo to Sue"
+      },
+      {
+        "type": "Synonym",
+        "title": "Futari wa Nakayoshi: Guu to Suu"
+      },
+      {
+        "type": "Synonym",
+        "title": "Futari wa Nakayoshi: Guu to Sue"
+      },
+      {
+        "type": "Synonym",
+        "title": "Futari wa Nakayoshi: Goo to Suu"
+      },
+      {
+        "type": "Japanese",
+        "title": "\u3075\u305f\u308a\u306f\u306a\u304b\u3088\u3057 \u30b0\u30fc\u3068\u30b9\u30fc"
+      }
+    ],
+    "title": "Futari wa Nakayoshi: Goo to Sue",
+    "title_english": null,
+    "title_japanese": "\u3075\u305f\u308a\u306f\u306a\u304b\u3088\u3057 \u30b0\u30fc\u3068\u30b9\u30fc",
+    "title_synonyms": [
+      "Futari wa Nakayoshi: Guu to Suu",
+      "Futari wa Nakayoshi: Guu to Sue",
+      "Futari wa Nakayoshi: Goo to Suu"
+    ],
+    "type": "TV",
+    "source": "Unknown",
+    "episodes": 84,
+    "status": "Finished Airing",
+    "airing": false,
+    "aired": {
+      "from": "1991-04-01T00:00:00+00:00",
+      "to": "1994-02-01T00:00:00+00:00",
+      "prop": {
+        "from": {
+          "day": 1,
+          "month": 4,
+          "year": 1991
+        },
+        "to": {
+          "day": 1,
+          "month": 2,
+          "year": 1994
+        }
+      },
+      "string": "Apr 1991 to Feb 1994"
+    },
+    "duration": "1 min per ep",
+    "rating": "PG - Children",
+    "score": null,
+    "scored_by": null,
+    "rank": 15828,
+    "popularity": 17745,
+    "members": 259,
+    "favorites": 0,
+    "synopsis": "An NHK toddler's anime following a brother and sister pair in their every day life (with some eps revolving around their baby brother).",
+    "background": null,
+    "season": "spring",
+    "year": 1991,
+    "broadcast": {
+      "day": null,
+      "time": null,
+      "timezone": null,
+      "string": "Unknown"
+    },
+    "producers": [
+      {
+        "mal_id": 111,
+        "type": "anime",
+        "name": "NHK",
+        "url": "https://myanimelist.net/anime/producer/111/NHK"
+      }
+    ],
+    "licensors": [],
+    "studios": [],
+    "genres": [
+      {
+        "mal_id": 36,
+        "type": "anime",
+        "name": "Slice of Life",
+        "url": "https://myanimelist.net/anime/genre/36/Slice_of_Life"
+      }
+    ],
+    "explicit_genres": [],
+    "themes": [],
+    "demographics": [
+      {
+        "mal_id": 15,
+        "type": "anime",
+        "name": "Kids",
+        "url": "https://myanimelist.net/anime/genre/15/Kids"
+      }
+    ]
+  },
+  {
+    "mal_id": 30026,
+    "url": "https://myanimelist.net/anime/30026/Ekubo_Ouji",
+    "images": {
+      "jpg": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/6/71935.jpg",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/6/71935t.jpg",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/6/71935l.jpg"
+      },
+      "webp": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/6/71935.webp",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/6/71935t.webp",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/6/71935l.webp"
+      }
+    },
+    "trailer": {
+      "youtube_id": null,
+      "url": null,
+      "embed_url": null,
+      "images": {
+        "image_url": null,
+        "small_image_url": null,
+        "medium_image_url": null,
+        "large_image_url": null,
+        "maximum_image_url": null
+      }
+    },
+    "approved": true,
+    "titles": [
+      {
+        "type": "Default",
+        "title": "Ekubo Ouji"
+      },
+      {
+        "type": "Synonym",
+        "title": "Hirake! Ponkikki: Ekubo Ouji"
+      },
+      {
+        "type": "Synonym",
+        "title": "Hirake! Ponkikki: Ekubo-chan to Buba-chan"
+      },
+      {
+        "type": "Synonym",
+        "title": "Hirake! Ponkikki: Ekubo Ouji/Ekubo-chan to Buba-chan"
+      },
+      {
+        "type": "Synonym",
+        "title": "Hirake! Ponkikki: Ekubo to Buba"
+      },
+      {
+        "type": "Japanese",
+        "title": "\u3048\u304f\u307c\u304a\u3046\u3058"
+      }
+    ],
+    "title": "Ekubo Ouji",
+    "title_english": null,
+    "title_japanese": "\u3048\u304f\u307c\u304a\u3046\u3058",
+    "title_synonyms": [
+      "Hirake! Ponkikki: Ekubo Ouji",
+      "Hirake! Ponkikki: Ekubo-chan to Buba-chan",
+      "Hirake! Ponkikki: Ekubo Ouji/Ekubo-chan to Buba-chan",
+      "Hirake! Ponkikki: Ekubo to Buba"
+    ],
+    "type": "TV",
+    "source": "Unknown",
+    "episodes": 50,
+    "status": "Finished Airing",
+    "airing": false,
+    "aired": {
+      "from": "1991-04-08T00:00:00+00:00",
+      "to": "1992-09-28T00:00:00+00:00",
+      "prop": {
+        "from": {
+          "day": 8,
+          "month": 4,
+          "year": 1991
+        },
+        "to": {
+          "day": 28,
+          "month": 9,
+          "year": 1992
+        }
+      },
+      "string": "Apr 8, 1991 to Sep 28, 1992"
+    },
+    "duration": "2 min per ep",
+    "rating": "G - All Ages",
+    "score": null,
+    "scored_by": null,
+    "rank": 15652,
+    "popularity": 17871,
+    "members": 251,
+    "favorites": 0,
+    "synopsis": "A fusion of animation and claymation to teach kids discipline and morality originally aired as a part of the early morning children's program Hirake! Ponkikki before the anime was combined and released on VHS. Based on the children's book series Ekubo-chan to Buba-chan.",
+    "background": null,
+    "season": "spring",
+    "year": 1991,
+    "broadcast": {
+      "day": null,
+      "time": null,
+      "timezone": null,
+      "string": "Unknown"
+    },
+    "producers": [],
+    "licensors": [],
+    "studios": [],
+    "genres": [
+      {
+        "mal_id": 4,
+        "type": "anime",
+        "name": "Comedy",
+        "url": "https://myanimelist.net/anime/genre/4/Comedy"
+      }
+    ],
+    "explicit_genres": [],
+    "themes": [],
+    "demographics": [
+      {
+        "mal_id": 15,
+        "type": "anime",
+        "name": "Kids",
+        "url": "https://myanimelist.net/anime/genre/15/Kids"
+      }
+    ]
+  },
+  {
+    "mal_id": 30025,
+    "url": "https://myanimelist.net/anime/30025/Otenki_Boys",
+    "images": {
+      "jpg": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/9/71934.jpg",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/9/71934t.jpg",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/9/71934l.jpg"
+      },
+      "webp": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/9/71934.webp",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/9/71934t.webp",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/9/71934l.webp"
+      }
+    },
+    "trailer": {
+      "youtube_id": null,
+      "url": null,
+      "embed_url": null,
+      "images": {
+        "image_url": null,
+        "small_image_url": null,
+        "medium_image_url": null,
+        "large_image_url": null,
+        "maximum_image_url": null
+      }
+    },
+    "approved": true,
+    "titles": [
+      {
+        "type": "Default",
+        "title": "Otenki Boys"
+      },
+      {
+        "type": "Synonym",
+        "title": "Weather Boys"
+      },
+      {
+        "type": "Japanese",
+        "title": "\u304a\u3066\u3093\u304d\u30dc\u30fc\u30a4\u30ba"
+      }
+    ],
+    "title": "Otenki Boys",
+    "title_english": null,
+    "title_japanese": "\u304a\u3066\u3093\u304d\u30dc\u30fc\u30a4\u30ba",
+    "title_synonyms": [
+      "Weather Boys"
+    ],
+    "type": "TV",
+    "source": "Unknown",
+    "episodes": 30,
+    "status": "Finished Airing",
+    "airing": false,
+    "aired": {
+      "from": "1991-04-01T00:00:00+00:00",
+      "to": "1991-09-27T00:00:00+00:00",
+      "prop": {
+        "from": {
+          "day": 1,
+          "month": 4,
+          "year": 1991
+        },
+        "to": {
+          "day": 27,
+          "month": 9,
+          "year": 1991
+        }
+      },
+      "string": "Apr 1, 1991 to Sep 27, 1991"
+    },
+    "duration": "4 min per ep",
+    "rating": "PG - Children",
+    "score": null,
+    "scored_by": null,
+    "rank": 18617,
+    "popularity": 18122,
+    "members": 237,
+    "favorites": 0,
+    "synopsis": "An anime made for toddlers following weather themed characters, originally aired as a part of the early morning children's program Hirake! Ponkikki before the anime was combined and released on VHS.",
+    "background": null,
+    "season": "spring",
+    "year": 1991,
+    "broadcast": {
+      "day": null,
+      "time": null,
+      "timezone": null,
+      "string": "Unknown"
+    },
+    "producers": [],
+    "licensors": [],
+    "studios": [],
+    "genres": [],
+    "explicit_genres": [],
+    "themes": [
+      {
+        "mal_id": 31,
+        "type": "anime",
+        "name": "Super Power",
+        "url": "https://myanimelist.net/anime/genre/31/Super_Power"
+      }
+    ],
+    "demographics": [
+      {
+        "mal_id": 15,
+        "type": "anime",
+        "name": "Kids",
+        "url": "https://myanimelist.net/anime/genre/15/Kids"
+      }
+    ]
+  }
+]

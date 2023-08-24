@@ -1,0 +1,357 @@
+[
+  {
+    "mal_id": 8140,
+    "url": "https://myanimelist.net/anime/8140/Konchuu_Monogatari_Minashigo_Hutch_1989",
+    "images": {
+      "jpg": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/1216/134554.jpg",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/1216/134554t.jpg",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/1216/134554l.jpg"
+      },
+      "webp": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/1216/134554.webp",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/1216/134554t.webp",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/1216/134554l.webp"
+      }
+    },
+    "trailer": {
+      "youtube_id": null,
+      "url": null,
+      "embed_url": null,
+      "images": {
+        "image_url": null,
+        "small_image_url": null,
+        "medium_image_url": null,
+        "large_image_url": null,
+        "maximum_image_url": null
+      }
+    },
+    "approved": true,
+    "titles": [
+      {
+        "type": "Default",
+        "title": "Konchuu Monogatari Minashigo Hutch (1989)"
+      },
+      {
+        "type": "Japanese",
+        "title": "\u6606\u866b\u7269\u8a9e\u307f\u306a\u3057\u3054\u30cf\u30c3\u30c1"
+      }
+    ],
+    "title": "Konchuu Monogatari Minashigo Hutch (1989)",
+    "title_english": null,
+    "title_japanese": "\u6606\u866b\u7269\u8a9e\u307f\u306a\u3057\u3054\u30cf\u30c3\u30c1",
+    "title_synonyms": [],
+    "type": "TV",
+    "source": "Unknown",
+    "episodes": 55,
+    "status": "Finished Airing",
+    "airing": false,
+    "aired": {
+      "from": "1989-07-21T00:00:00+00:00",
+      "to": "1990-08-31T00:00:00+00:00",
+      "prop": {
+        "from": {
+          "day": 21,
+          "month": 7,
+          "year": 1989
+        },
+        "to": {
+          "day": 31,
+          "month": 8,
+          "year": 1990
+        }
+      },
+      "string": "Jul 21, 1989 to Aug 31, 1990"
+    },
+    "duration": "25 min per ep",
+    "rating": "G - All Ages",
+    "score": 6.91,
+    "scored_by": 728,
+    "rank": 4346,
+    "popularity": 11226,
+    "members": 1604,
+    "favorites": 2,
+    "synopsis": "A remake of the 1970's version.",
+    "background": null,
+    "season": "summer",
+    "year": 1989,
+    "broadcast": {
+      "day": null,
+      "time": null,
+      "timezone": null,
+      "string": "Unknown"
+    },
+    "producers": [],
+    "licensors": [],
+    "studios": [
+      {
+        "mal_id": 103,
+        "type": "anime",
+        "name": "Tatsunoko Production",
+        "url": "https://myanimelist.net/anime/producer/103/Tatsunoko_Production"
+      }
+    ],
+    "genres": [
+      {
+        "mal_id": 2,
+        "type": "anime",
+        "name": "Adventure",
+        "url": "https://myanimelist.net/anime/genre/2/Adventure"
+      },
+      {
+        "mal_id": 4,
+        "type": "anime",
+        "name": "Comedy",
+        "url": "https://myanimelist.net/anime/genre/4/Comedy"
+      },
+      {
+        "mal_id": 8,
+        "type": "anime",
+        "name": "Drama",
+        "url": "https://myanimelist.net/anime/genre/8/Drama"
+      }
+    ],
+    "explicit_genres": [],
+    "themes": [],
+    "demographics": []
+  },
+  {
+    "mal_id": 25717,
+    "url": "https://myanimelist.net/anime/25717/AIUEO_Anime_Sekai_no_Douwa__Aesop_Monogatari_Anime_Series",
+    "images": {
+      "jpg": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/3/65297.jpg",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/3/65297t.jpg",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/3/65297l.jpg"
+      },
+      "webp": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/3/65297.webp",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/3/65297t.webp",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/3/65297l.webp"
+      }
+    },
+    "trailer": {
+      "youtube_id": null,
+      "url": null,
+      "embed_url": null,
+      "images": {
+        "image_url": null,
+        "small_image_url": null,
+        "medium_image_url": null,
+        "large_image_url": null,
+        "maximum_image_url": null
+      }
+    },
+    "approved": true,
+    "titles": [
+      {
+        "type": "Default",
+        "title": "AIUEO Anime Sekai no Douwa: Aesop Monogatari Anime Series"
+      },
+      {
+        "type": "Synonym",
+        "title": "ABC-Anime: The World's Children's Stories - Aesop's Fables Anime Series"
+      },
+      {
+        "type": "Japanese",
+        "title": "\u3042\u3044\u3046\u3048\u304a\u30fb\u30a2\u30cb\u30e1\u4e16\u754c\u306e\u7ae5\u8a71 \u30a4\u30bd\u30c3\u30d7\u7269\u8a9e\u30a2\u30cb\u30e1\u30b7\u30ea\u30fc\u30ba"
+      }
+    ],
+    "title": "AIUEO Anime Sekai no Douwa: Aesop Monogatari Anime Series",
+    "title_english": null,
+    "title_japanese": "\u3042\u3044\u3046\u3048\u304a\u30fb\u30a2\u30cb\u30e1\u4e16\u754c\u306e\u7ae5\u8a71 \u30a4\u30bd\u30c3\u30d7\u7269\u8a9e\u30a2\u30cb\u30e1\u30b7\u30ea\u30fc\u30ba",
+    "title_synonyms": [
+      "ABC-Anime: The World's Children's Stories - Aesop's Fables Anime Series"
+    ],
+    "type": "TV",
+    "source": "Unknown",
+    "episodes": 26,
+    "status": "Finished Airing",
+    "airing": false,
+    "aired": {
+      "from": "1989-06-05T00:00:00+00:00",
+      "to": "1989-12-05T00:00:00+00:00",
+      "prop": {
+        "from": {
+          "day": 5,
+          "month": 6,
+          "year": 1989
+        },
+        "to": {
+          "day": 5,
+          "month": 12,
+          "year": 1989
+        }
+      },
+      "string": "Jun 5, 1989 to Dec 5, 1989"
+    },
+    "duration": "24 min per ep",
+    "rating": "PG - Children",
+    "score": 6.28,
+    "scored_by": 158,
+    "rank": 7499,
+    "popularity": 12987,
+    "members": 881,
+    "favorites": 3,
+    "synopsis": "Based on the Fairy tales by international authors.",
+    "background": null,
+    "season": "summer",
+    "year": 1989,
+    "broadcast": {
+      "day": null,
+      "time": null,
+      "timezone": null,
+      "string": "Unknown"
+    },
+    "producers": [],
+    "licensors": [],
+    "studios": [],
+    "genres": [
+      {
+        "mal_id": 2,
+        "type": "anime",
+        "name": "Adventure",
+        "url": "https://myanimelist.net/anime/genre/2/Adventure"
+      },
+      {
+        "mal_id": 10,
+        "type": "anime",
+        "name": "Fantasy",
+        "url": "https://myanimelist.net/anime/genre/10/Fantasy"
+      }
+    ],
+    "explicit_genres": [],
+    "themes": [],
+    "demographics": [
+      {
+        "mal_id": 15,
+        "type": "anime",
+        "name": "Kids",
+        "url": "https://myanimelist.net/anime/genre/15/Kids"
+      }
+    ]
+  },
+  {
+    "mal_id": 20201,
+    "url": "https://myanimelist.net/anime/20201/Easy_Cooking_Animation__Seishun_no_Shokutaku",
+    "images": {
+      "jpg": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/2/53779.jpg",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/2/53779t.jpg",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/2/53779l.jpg"
+      },
+      "webp": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/2/53779.webp",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/2/53779t.webp",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/2/53779l.webp"
+      }
+    },
+    "trailer": {
+      "youtube_id": null,
+      "url": null,
+      "embed_url": null,
+      "images": {
+        "image_url": null,
+        "small_image_url": null,
+        "medium_image_url": null,
+        "large_image_url": null,
+        "maximum_image_url": null
+      }
+    },
+    "approved": true,
+    "titles": [
+      {
+        "type": "Default",
+        "title": "Easy Cooking Animation: Seishun no Shokutaku"
+      },
+      {
+        "type": "Synonym",
+        "title": "Easy Cooking Animation: Youth's Dining Table"
+      },
+      {
+        "type": "Japanese",
+        "title": "EASY COOKING ANIMATION \u30bb\u30a4\u30b7\u30e5\u30f3\u306e\u98df\u5353"
+      }
+    ],
+    "title": "Easy Cooking Animation: Seishun no Shokutaku",
+    "title_english": null,
+    "title_japanese": "EASY COOKING ANIMATION \u30bb\u30a4\u30b7\u30e5\u30f3\u306e\u98df\u5353",
+    "title_synonyms": [
+      "Easy Cooking Animation: Youth's Dining Table"
+    ],
+    "type": "TV",
+    "source": "Unknown",
+    "episodes": 25,
+    "status": "Finished Airing",
+    "airing": false,
+    "aired": {
+      "from": "1989-07-05T00:00:00+00:00",
+      "to": "1990-01-31T00:00:00+00:00",
+      "prop": {
+        "from": {
+          "day": 5,
+          "month": 7,
+          "year": 1989
+        },
+        "to": {
+          "day": 31,
+          "month": 1,
+          "year": 1990
+        }
+      },
+      "string": "Jul 5, 1989 to Jan 31, 1990"
+    },
+    "duration": "3 min per ep",
+    "rating": "G - All Ages",
+    "score": null,
+    "scored_by": null,
+    "rank": 15626,
+    "popularity": 15427,
+    "members": 438,
+    "favorites": 0,
+    "synopsis": "Something like cooking contests in anime form. Approximately three minutes long per episode, in each story there is an evaluation judgement about preparing home food. The preparation is described as humorously as possible. Funny wordplays are often mentioned several times in a consequence and are particularly salient but are repeated in a merry way.\n\n(Source: AniDB)",
+    "background": null,
+    "season": "summer",
+    "year": 1989,
+    "broadcast": {
+      "day": null,
+      "time": null,
+      "timezone": null,
+      "string": "Unknown"
+    },
+    "producers": [
+      {
+        "mal_id": 99,
+        "type": "anime",
+        "name": "Kitty Films",
+        "url": "https://myanimelist.net/anime/producer/99/Kitty_Films"
+      }
+    ],
+    "licensors": [],
+    "studios": [
+      {
+        "mal_id": 11,
+        "type": "anime",
+        "name": "Madhouse",
+        "url": "https://myanimelist.net/anime/producer/11/Madhouse"
+      }
+    ],
+    "genres": [
+      {
+        "mal_id": 4,
+        "type": "anime",
+        "name": "Comedy",
+        "url": "https://myanimelist.net/anime/genre/4/Comedy"
+      },
+      {
+        "mal_id": 47,
+        "type": "anime",
+        "name": "Gourmet",
+        "url": "https://myanimelist.net/anime/genre/47/Gourmet"
+      }
+    ],
+    "explicit_genres": [],
+    "themes": [],
+    "demographics": []
+  }
+]

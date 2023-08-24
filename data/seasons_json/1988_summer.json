@@ -1,0 +1,516 @@
+[
+  {
+    "mal_id": 4663,
+    "url": "https://myanimelist.net/anime/4663/Tekken_Chinmi",
+    "images": {
+      "jpg": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/13/57443.jpg",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/13/57443t.jpg",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/13/57443l.jpg"
+      },
+      "webp": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/13/57443.webp",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/13/57443t.webp",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/13/57443l.webp"
+      }
+    },
+    "trailer": {
+      "youtube_id": null,
+      "url": null,
+      "embed_url": null,
+      "images": {
+        "image_url": null,
+        "small_image_url": null,
+        "medium_image_url": null,
+        "large_image_url": null,
+        "maximum_image_url": null
+      }
+    },
+    "approved": true,
+    "titles": [
+      {
+        "type": "Default",
+        "title": "Tekken Chinmi"
+      },
+      {
+        "type": "Synonym",
+        "title": "Ironfist Chinmi"
+      },
+      {
+        "type": "Japanese",
+        "title": "\u9244\u62f3\u30c1\u30f3\u30df"
+      },
+      {
+        "type": "English",
+        "title": "Iron Fist Chinmi"
+      }
+    ],
+    "title": "Tekken Chinmi",
+    "title_english": "Iron Fist Chinmi",
+    "title_japanese": "\u9244\u62f3\u30c1\u30f3\u30df",
+    "title_synonyms": [
+      "Ironfist Chinmi"
+    ],
+    "type": "TV",
+    "source": "Manga",
+    "episodes": 20,
+    "status": "Finished Airing",
+    "airing": false,
+    "aired": {
+      "from": "1988-07-02T00:00:00+00:00",
+      "to": "1988-12-24T00:00:00+00:00",
+      "prop": {
+        "from": {
+          "day": 2,
+          "month": 7,
+          "year": 1988
+        },
+        "to": {
+          "day": 24,
+          "month": 12,
+          "year": 1988
+        }
+      },
+      "string": "Jul 2, 1988 to Dec 24, 1988"
+    },
+    "duration": "24 min per ep",
+    "rating": "PG-13 - Teens 13 or older",
+    "score": 7.21,
+    "scored_by": 1889,
+    "rank": 2958,
+    "popularity": 8325,
+    "members": 4469,
+    "favorites": 11,
+    "synopsis": "Chinmi is a young Chinese boy devoted to martial arts training. Word of his skill reaches the kung-fu masters at the famous Dailin temple who invite him to study with them. Through his own dedication and the guidance of his teachers, Chinmi becomes one of the top students at the temple. Eventually, the time comes for him to leave Dailin and make a pilgrimage. On his journey he faces a number of dangers that test his skills, but he also meets many people who inspire him in different ways. A chastened but determined Chinmi returns to Dailin for advanced training. But soon his skills are needed again\u2014the Mongol hordes are nearing the temple.\n\n(Source: ANN)",
+    "background": null,
+    "season": "summer",
+    "year": 1988,
+    "broadcast": {
+      "day": null,
+      "time": null,
+      "timezone": null,
+      "string": "Unknown"
+    },
+    "producers": [
+      {
+        "mal_id": 55,
+        "type": "anime",
+        "name": "TV Asahi",
+        "url": "https://myanimelist.net/anime/producer/55/TV_Asahi"
+      },
+      {
+        "mal_id": 245,
+        "type": "anime",
+        "name": "Toho",
+        "url": "https://myanimelist.net/anime/producer/245/Toho"
+      }
+    ],
+    "licensors": [],
+    "studios": [
+      {
+        "mal_id": 196,
+        "type": "anime",
+        "name": "Production Reed",
+        "url": "https://myanimelist.net/anime/producer/196/Production_Reed"
+      },
+      {
+        "mal_id": 242,
+        "type": "anime",
+        "name": "Ashi Productions",
+        "url": "https://myanimelist.net/anime/producer/242/Ashi_Productions"
+      }
+    ],
+    "genres": [
+      {
+        "mal_id": 1,
+        "type": "anime",
+        "name": "Action",
+        "url": "https://myanimelist.net/anime/genre/1/Action"
+      },
+      {
+        "mal_id": 2,
+        "type": "anime",
+        "name": "Adventure",
+        "url": "https://myanimelist.net/anime/genre/2/Adventure"
+      }
+    ],
+    "explicit_genres": [],
+    "themes": [
+      {
+        "mal_id": 13,
+        "type": "anime",
+        "name": "Historical",
+        "url": "https://myanimelist.net/anime/genre/13/Historical"
+      },
+      {
+        "mal_id": 17,
+        "type": "anime",
+        "name": "Martial Arts",
+        "url": "https://myanimelist.net/anime/genre/17/Martial_Arts"
+      }
+    ],
+    "demographics": [
+      {
+        "mal_id": 27,
+        "type": "anime",
+        "name": "Shounen",
+        "url": "https://myanimelist.net/anime/genre/27/Shounen"
+      }
+    ]
+  },
+  {
+    "mal_id": 3264,
+    "url": "https://myanimelist.net/anime/3264/Lemon_Angel_1988_II",
+    "images": {
+      "jpg": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/11/5174.jpg",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/11/5174t.jpg",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/11/5174l.jpg"
+      },
+      "webp": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/11/5174.webp",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/11/5174t.webp",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/11/5174l.webp"
+      }
+    },
+    "trailer": {
+      "youtube_id": null,
+      "url": null,
+      "embed_url": null,
+      "images": {
+        "image_url": null,
+        "small_image_url": null,
+        "medium_image_url": null,
+        "large_image_url": null,
+        "maximum_image_url": null
+      }
+    },
+    "approved": true,
+    "titles": [
+      {
+        "type": "Default",
+        "title": "Lemon Angel (1988/II)"
+      },
+      {
+        "type": "Synonym",
+        "title": "Midnight Anime: Lemon Angel (II)"
+      },
+      {
+        "type": "Japanese",
+        "title": "\u30ec\u30e2\u30f3\u30a8\u30f3\u30b8\u30a7\u30eb"
+      },
+      {
+        "type": "English",
+        "title": "Lemon Angel (1988/II)"
+      }
+    ],
+    "title": "Lemon Angel (1988/II)",
+    "title_english": "Lemon Angel (1988/II)",
+    "title_japanese": "\u30ec\u30e2\u30f3\u30a8\u30f3\u30b8\u30a7\u30eb",
+    "title_synonyms": [
+      "Midnight Anime: Lemon Angel (II)"
+    ],
+    "type": "TV",
+    "source": "Unknown",
+    "episodes": 8,
+    "status": "Finished Airing",
+    "airing": false,
+    "aired": {
+      "from": "1988-07-07T00:00:00+00:00",
+      "to": "1988-09-01T00:00:00+00:00",
+      "prop": {
+        "from": {
+          "day": 7,
+          "month": 7,
+          "year": 1988
+        },
+        "to": {
+          "day": 1,
+          "month": 9,
+          "year": 1988
+        }
+      },
+      "string": "Jul 7, 1988 to Sep 1, 1988"
+    },
+    "duration": "3 min per ep",
+    "rating": "R+ - Mild Nudity",
+    "score": 5.62,
+    "scored_by": 364,
+    "rank": 10327,
+    "popularity": 11296,
+    "members": 1557,
+    "favorites": 0,
+    "synopsis": "The sequel of Lemon Angel (1988).",
+    "background": null,
+    "season": "summer",
+    "year": 1988,
+    "broadcast": {
+      "day": null,
+      "time": null,
+      "timezone": null,
+      "string": "Unknown"
+    },
+    "producers": [
+      {
+        "mal_id": 144,
+        "type": "anime",
+        "name": "Pony Canyon",
+        "url": "https://myanimelist.net/anime/producer/144/Pony_Canyon"
+      }
+    ],
+    "licensors": [],
+    "studios": [
+      {
+        "mal_id": 48,
+        "type": "anime",
+        "name": "AIC",
+        "url": "https://myanimelist.net/anime/producer/48/AIC"
+      }
+    ],
+    "genres": [
+      {
+        "mal_id": 9,
+        "type": "anime",
+        "name": "Ecchi",
+        "url": "https://myanimelist.net/anime/genre/9/Ecchi"
+      }
+    ],
+    "explicit_genres": [],
+    "themes": [],
+    "demographics": []
+  },
+  {
+    "mal_id": 17092,
+    "url": "https://myanimelist.net/anime/17092/Dallyeola_Hani",
+    "images": {
+      "jpg": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/4/45712.jpg",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/4/45712t.jpg",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/4/45712l.jpg"
+      },
+      "webp": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/4/45712.webp",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/4/45712t.webp",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/4/45712l.webp"
+      }
+    },
+    "trailer": {
+      "youtube_id": null,
+      "url": null,
+      "embed_url": null,
+      "images": {
+        "image_url": null,
+        "small_image_url": null,
+        "medium_image_url": null,
+        "large_image_url": null,
+        "maximum_image_url": null
+      }
+    },
+    "approved": true,
+    "titles": [
+      {
+        "type": "Default",
+        "title": "Dallyeola Hani"
+      },
+      {
+        "type": "Synonym",
+        "title": "Run Hany"
+      },
+      {
+        "type": "Japanese",
+        "title": "\ub2ec\ub824\ub77c \ud558\ub2c8"
+      }
+    ],
+    "title": "Dallyeola Hani",
+    "title_english": null,
+    "title_japanese": "\ub2ec\ub824\ub77c \ud558\ub2c8",
+    "title_synonyms": [
+      "Run Hany"
+    ],
+    "type": "TV",
+    "source": "Unknown",
+    "episodes": 13,
+    "status": "Finished Airing",
+    "airing": false,
+    "aired": {
+      "from": "1988-08-14T00:00:00+00:00",
+      "to": "1988-11-20T00:00:00+00:00",
+      "prop": {
+        "from": {
+          "day": 14,
+          "month": 8,
+          "year": 1988
+        },
+        "to": {
+          "day": 20,
+          "month": 11,
+          "year": 1988
+        }
+      },
+      "string": "Aug 14, 1988 to Nov 20, 1988"
+    },
+    "duration": "28 min per ep",
+    "rating": "G - All Ages",
+    "score": 6.21,
+    "scored_by": 253,
+    "rank": 7806,
+    "popularity": 12771,
+    "members": 942,
+    "favorites": 1,
+    "synopsis": "Hany is a small tomboy and slightly troublesome teenager who lives life a bit carelessly on her own since her Father lives abroad due to work in the Middle East and her Mother died when she was very small. The only thing Hany is very good at is running~ fast! Hong Du-kke is a new track and field coach of her school and takes notice in her talent and gets her to train with him.\n\n(Source: Cute in Korea)",
+    "background": null,
+    "season": "summer",
+    "year": 1988,
+    "broadcast": {
+      "day": null,
+      "time": null,
+      "timezone": null,
+      "string": "Unknown"
+    },
+    "producers": [
+      {
+        "mal_id": 411,
+        "type": "anime",
+        "name": "KBS",
+        "url": "https://myanimelist.net/anime/producer/411/KBS"
+      }
+    ],
+    "licensors": [],
+    "studios": [
+      {
+        "mal_id": 228,
+        "type": "anime",
+        "name": "Daewon Media",
+        "url": "https://myanimelist.net/anime/producer/228/Daewon_Media"
+      }
+    ],
+    "genres": [
+      {
+        "mal_id": 30,
+        "type": "anime",
+        "name": "Sports",
+        "url": "https://myanimelist.net/anime/genre/30/Sports"
+      }
+    ],
+    "explicit_genres": [],
+    "themes": [],
+    "demographics": []
+  },
+  {
+    "mal_id": 8520,
+    "url": "https://myanimelist.net/anime/8520/Biriken",
+    "images": {
+      "jpg": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/7/23069.jpg",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/7/23069t.jpg",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/7/23069l.jpg"
+      },
+      "webp": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/7/23069.webp",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/7/23069t.webp",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/7/23069l.webp"
+      }
+    },
+    "trailer": {
+      "youtube_id": null,
+      "url": null,
+      "embed_url": null,
+      "images": {
+        "image_url": null,
+        "small_image_url": null,
+        "medium_image_url": null,
+        "large_image_url": null,
+        "maximum_image_url": null
+      }
+    },
+    "approved": true,
+    "titles": [
+      {
+        "type": "Default",
+        "title": "Biriken"
+      },
+      {
+        "type": "Synonym",
+        "title": "Billy Inu"
+      },
+      {
+        "type": "Japanese",
+        "title": "\u30d3\u30ea\u72ac"
+      }
+    ],
+    "title": "Biriken",
+    "title_english": null,
+    "title_japanese": "\u30d3\u30ea\u72ac",
+    "title_synonyms": [
+      "Billy Inu"
+    ],
+    "type": "TV",
+    "source": "Unknown",
+    "episodes": 32,
+    "status": "Finished Airing",
+    "airing": false,
+    "aired": {
+      "from": "1988-07-11T00:00:00+00:00",
+      "to": "1989-04-03T00:00:00+00:00",
+      "prop": {
+        "from": {
+          "day": 11,
+          "month": 7,
+          "year": 1988
+        },
+        "to": {
+          "day": 3,
+          "month": 4,
+          "year": 1989
+        }
+      },
+      "string": "Jul 11, 1988 to Apr 3, 1989"
+    },
+    "duration": "13 min per ep",
+    "rating": "PG - Children",
+    "score": null,
+    "scored_by": null,
+    "rank": 14800,
+    "popularity": 16106,
+    "members": 375,
+    "favorites": 0,
+    "synopsis": "Based on Fujiko Fujio A's manga of the same name.",
+    "background": null,
+    "season": "summer",
+    "year": 1988,
+    "broadcast": {
+      "day": null,
+      "time": null,
+      "timezone": null,
+      "string": "Unknown"
+    },
+    "producers": [],
+    "licensors": [],
+    "studios": [
+      {
+        "mal_id": 247,
+        "type": "anime",
+        "name": "Shin-Ei Animation",
+        "url": "https://myanimelist.net/anime/producer/247/Shin-Ei_Animation"
+      }
+    ],
+    "genres": [
+      {
+        "mal_id": 4,
+        "type": "anime",
+        "name": "Comedy",
+        "url": "https://myanimelist.net/anime/genre/4/Comedy"
+      }
+    ],
+    "explicit_genres": [],
+    "themes": [],
+    "demographics": [
+      {
+        "mal_id": 15,
+        "type": "anime",
+        "name": "Kids",
+        "url": "https://myanimelist.net/anime/genre/15/Kids"
+      }
+    ]
+  }
+]

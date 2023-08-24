@@ -1,0 +1,1189 @@
+[
+  {
+    "mal_id": 5274,
+    "url": "https://myanimelist.net/anime/5274/Magical\u2605Taruruuto-kun",
+    "images": {
+      "jpg": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/13/17853.jpg",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/13/17853t.jpg",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/13/17853l.jpg"
+      },
+      "webp": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/13/17853.webp",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/13/17853t.webp",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/13/17853l.webp"
+      }
+    },
+    "trailer": {
+      "youtube_id": null,
+      "url": null,
+      "embed_url": null,
+      "images": {
+        "image_url": null,
+        "small_image_url": null,
+        "medium_image_url": null,
+        "large_image_url": null,
+        "maximum_image_url": null
+      }
+    },
+    "approved": true,
+    "titles": [
+      {
+        "type": "Default",
+        "title": "Magical\u2605Taruruuto-kun"
+      },
+      {
+        "type": "Synonym",
+        "title": "Magical Taruruto-kun"
+      },
+      {
+        "type": "Japanese",
+        "title": "\u307e\u3058\u304b\u308b\u2606\u30bf\u30eb\u308b\u30fc\u30c8\u304f\u3093"
+      }
+    ],
+    "title": "Magical\u2605Taruruuto-kun",
+    "title_english": null,
+    "title_japanese": "\u307e\u3058\u304b\u308b\u2606\u30bf\u30eb\u308b\u30fc\u30c8\u304f\u3093",
+    "title_synonyms": [
+      "Magical Taruruto-kun"
+    ],
+    "type": "TV",
+    "source": "Manga",
+    "episodes": 87,
+    "status": "Finished Airing",
+    "airing": false,
+    "aired": {
+      "from": "1990-09-09T00:00:00+00:00",
+      "to": "1992-05-10T00:00:00+00:00",
+      "prop": {
+        "from": {
+          "day": 9,
+          "month": 9,
+          "year": 1990
+        },
+        "to": {
+          "day": 10,
+          "month": 5,
+          "year": 1992
+        }
+      },
+      "string": "Sep 9, 1990 to May 10, 1992"
+    },
+    "duration": "25 min per ep",
+    "rating": "PG-13 - Teens 13 or older",
+    "score": 7.42,
+    "scored_by": 473,
+    "rank": 1987,
+    "popularity": 10757,
+    "members": 1912,
+    "favorites": 16,
+    "synopsis": "Magical Taruruto-kun is a magical boy, fighting, and comedy TV show based on the manga of the same name by Tatsuya Egawa which ran in Weekly Shounen Jump.",
+    "background": null,
+    "season": "fall",
+    "year": 1990,
+    "broadcast": {
+      "day": "Sundays",
+      "time": "08:30",
+      "timezone": "Asia/Tokyo",
+      "string": "Sundays at 08:30 (JST)"
+    },
+    "producers": [],
+    "licensors": [],
+    "studios": [
+      {
+        "mal_id": 18,
+        "type": "anime",
+        "name": "Toei Animation",
+        "url": "https://myanimelist.net/anime/producer/18/Toei_Animation"
+      }
+    ],
+    "genres": [
+      {
+        "mal_id": 2,
+        "type": "anime",
+        "name": "Adventure",
+        "url": "https://myanimelist.net/anime/genre/2/Adventure"
+      },
+      {
+        "mal_id": 4,
+        "type": "anime",
+        "name": "Comedy",
+        "url": "https://myanimelist.net/anime/genre/4/Comedy"
+      },
+      {
+        "mal_id": 10,
+        "type": "anime",
+        "name": "Fantasy",
+        "url": "https://myanimelist.net/anime/genre/10/Fantasy"
+      },
+      {
+        "mal_id": 9,
+        "type": "anime",
+        "name": "Ecchi",
+        "url": "https://myanimelist.net/anime/genre/9/Ecchi"
+      }
+    ],
+    "explicit_genres": [],
+    "themes": [
+      {
+        "mal_id": 57,
+        "type": "anime",
+        "name": "Gag Humor",
+        "url": "https://myanimelist.net/anime/genre/57/Gag_Humor"
+      },
+      {
+        "mal_id": 23,
+        "type": "anime",
+        "name": "School",
+        "url": "https://myanimelist.net/anime/genre/23/School"
+      }
+    ],
+    "demographics": [
+      {
+        "mal_id": 27,
+        "type": "anime",
+        "name": "Shounen",
+        "url": "https://myanimelist.net/anime/genre/27/Shounen"
+      }
+    ]
+  },
+  {
+    "mal_id": 3765,
+    "url": "https://myanimelist.net/anime/3765/Pygmalio",
+    "images": {
+      "jpg": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/13/6675.jpg",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/13/6675t.jpg",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/13/6675l.jpg"
+      },
+      "webp": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/13/6675.webp",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/13/6675t.webp",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/13/6675l.webp"
+      }
+    },
+    "trailer": {
+      "youtube_id": null,
+      "url": null,
+      "embed_url": null,
+      "images": {
+        "image_url": null,
+        "small_image_url": null,
+        "medium_image_url": null,
+        "large_image_url": null,
+        "maximum_image_url": null
+      }
+    },
+    "approved": true,
+    "titles": [
+      {
+        "type": "Default",
+        "title": "Pygmalio"
+      },
+      {
+        "type": "Synonym",
+        "title": "Pygmalion"
+      },
+      {
+        "type": "Synonym",
+        "title": "Pigumario"
+      },
+      {
+        "type": "Japanese",
+        "title": "\u30d4\u30b0\u30de\u30ea\u30aa"
+      }
+    ],
+    "title": "Pygmalio",
+    "title_english": null,
+    "title_japanese": "\u30d4\u30b0\u30de\u30ea\u30aa",
+    "title_synonyms": [
+      "Pygmalion",
+      "Pigumario"
+    ],
+    "type": "TV",
+    "source": "Manga",
+    "episodes": 39,
+    "status": "Finished Airing",
+    "airing": false,
+    "aired": {
+      "from": "1990-11-05T00:00:00+00:00",
+      "to": "1991-09-16T00:00:00+00:00",
+      "prop": {
+        "from": {
+          "day": 5,
+          "month": 11,
+          "year": 1990
+        },
+        "to": {
+          "day": 16,
+          "month": 9,
+          "year": 1991
+        }
+      },
+      "string": "Nov 5, 1990 to Sep 16, 1991"
+    },
+    "duration": "24 min per ep",
+    "rating": "G - All Ages",
+    "score": 7.13,
+    "scored_by": 595,
+    "rank": 3380,
+    "popularity": 11095,
+    "members": 1685,
+    "favorites": 7,
+    "synopsis": "Coult, the prince of the kingdom of Loon, is living a happy life with his father King Stephan and many retainers. He is cheerful, bright, tender-hearted, and gifted by the god Aganade. Coult\u2019s mother Galatea (the daughter of Aganade) married King Stephan. However, Medusa, the daughter of the evil spirit, was envious of her happiness and turned her into a statue together with many villagers when Coult was still a baby. In order to save the other villagers, Stephan pledged allegiance to Medusa, and was forced to promise to make Coult do the same on his 8th birthday.\nWhen the day arrives, Coult declares that he will defeat Medusa and revive the people who were turned into statues. He sets out on a long journey to search for the daughter of the evil spirit.\n \n(Source: Nippon Animation)",
+    "background": null,
+    "season": "fall",
+    "year": 1990,
+    "broadcast": {
+      "day": "Mondays",
+      "time": "19:00",
+      "timezone": "Asia/Tokyo",
+      "string": "Mondays at 19:00 (JST)"
+    },
+    "producers": [
+      {
+        "mal_id": 16,
+        "type": "anime",
+        "name": "TV Tokyo",
+        "url": "https://myanimelist.net/anime/producer/16/TV_Tokyo"
+      }
+    ],
+    "licensors": [],
+    "studios": [
+      {
+        "mal_id": 22,
+        "type": "anime",
+        "name": "Nippon Animation",
+        "url": "https://myanimelist.net/anime/producer/22/Nippon_Animation"
+      }
+    ],
+    "genres": [
+      {
+        "mal_id": 2,
+        "type": "anime",
+        "name": "Adventure",
+        "url": "https://myanimelist.net/anime/genre/2/Adventure"
+      },
+      {
+        "mal_id": 10,
+        "type": "anime",
+        "name": "Fantasy",
+        "url": "https://myanimelist.net/anime/genre/10/Fantasy"
+      }
+    ],
+    "explicit_genres": [],
+    "themes": [],
+    "demographics": [
+      {
+        "mal_id": 25,
+        "type": "anime",
+        "name": "Shoujo",
+        "url": "https://myanimelist.net/anime/genre/25/Shoujo"
+      }
+    ]
+  },
+  {
+    "mal_id": 5249,
+    "url": "https://myanimelist.net/anime/5249/Mitsume_ga_Tooru",
+    "images": {
+      "jpg": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/1247/96686.jpg",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/1247/96686t.jpg",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/1247/96686l.jpg"
+      },
+      "webp": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/1247/96686.webp",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/1247/96686t.webp",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/1247/96686l.webp"
+      }
+    },
+    "trailer": {
+      "youtube_id": null,
+      "url": null,
+      "embed_url": null,
+      "images": {
+        "image_url": null,
+        "small_image_url": null,
+        "medium_image_url": null,
+        "large_image_url": null,
+        "maximum_image_url": null
+      }
+    },
+    "approved": true,
+    "titles": [
+      {
+        "type": "Default",
+        "title": "Mitsume ga Tooru"
+      },
+      {
+        "type": "Synonym",
+        "title": "The Three-Eyed One"
+      },
+      {
+        "type": "Japanese",
+        "title": "\u4e09\u3064\u76ee\u304c\u3068\u304a\u308b"
+      }
+    ],
+    "title": "Mitsume ga Tooru",
+    "title_english": null,
+    "title_japanese": "\u4e09\u3064\u76ee\u304c\u3068\u304a\u308b",
+    "title_synonyms": [
+      "The Three-Eyed One"
+    ],
+    "type": "TV",
+    "source": "Manga",
+    "episodes": 48,
+    "status": "Finished Airing",
+    "airing": false,
+    "aired": {
+      "from": "1990-10-18T00:00:00+00:00",
+      "to": "1991-09-26T00:00:00+00:00",
+      "prop": {
+        "from": {
+          "day": 18,
+          "month": 10,
+          "year": 1990
+        },
+        "to": {
+          "day": 26,
+          "month": 9,
+          "year": 1991
+        }
+      },
+      "string": "Oct 18, 1990 to Sep 26, 1991"
+    },
+    "duration": "24 min per ep",
+    "rating": "G - All Ages",
+    "score": 7.46,
+    "scored_by": 511,
+    "rank": 1824,
+    "popularity": 11470,
+    "members": 1467,
+    "favorites": 13,
+    "synopsis": "He is a little boy who has a terrible power. On his forehead is a third eye that, if open, releases extremely dangerous mystical energy that turns him into an evil sorcerer, bent on conquering mankind, and able to summon demons and wielding a red harpoon wand called Red Condor. To protect mankind from his terrible power, Sharaku is made to wear a bandage which seals his third eye. While his eye is sealed, Sharaku knows nothing of his true nature or his power, and does not remember his evil half's sinister attempts to conquer the world.",
+    "background": null,
+    "season": "fall",
+    "year": 1990,
+    "broadcast": {
+      "day": null,
+      "time": null,
+      "timezone": null,
+      "string": "Unknown"
+    },
+    "producers": [],
+    "licensors": [],
+    "studios": [
+      {
+        "mal_id": 200,
+        "type": "anime",
+        "name": "Tezuka Productions",
+        "url": "https://myanimelist.net/anime/producer/200/Tezuka_Productions"
+      }
+    ],
+    "genres": [
+      {
+        "mal_id": 2,
+        "type": "anime",
+        "name": "Adventure",
+        "url": "https://myanimelist.net/anime/genre/2/Adventure"
+      }
+    ],
+    "explicit_genres": [],
+    "themes": [],
+    "demographics": [
+      {
+        "mal_id": 27,
+        "type": "anime",
+        "name": "Shounen",
+        "url": "https://myanimelist.net/anime/genre/27/Shounen"
+      }
+    ]
+  },
+  {
+    "mal_id": 9061,
+    "url": "https://myanimelist.net/anime/9061/RPG_Densetsu_Hepoi",
+    "images": {
+      "jpg": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/11/25075.jpg",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/11/25075t.jpg",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/11/25075l.jpg"
+      },
+      "webp": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/11/25075.webp",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/11/25075t.webp",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/11/25075l.webp"
+      }
+    },
+    "trailer": {
+      "youtube_id": null,
+      "url": null,
+      "embed_url": null,
+      "images": {
+        "image_url": null,
+        "small_image_url": null,
+        "medium_image_url": null,
+        "large_image_url": null,
+        "maximum_image_url": null
+      }
+    },
+    "approved": true,
+    "titles": [
+      {
+        "type": "Default",
+        "title": "RPG Densetsu Hepoi"
+      },
+      {
+        "type": "Synonym",
+        "title": "Roleplay Densetsu Hepoi"
+      },
+      {
+        "type": "Japanese",
+        "title": "RPG\u4f1d\u8aac\u30d8\u30dd\u30a4"
+      }
+    ],
+    "title": "RPG Densetsu Hepoi",
+    "title_english": null,
+    "title_japanese": "RPG\u4f1d\u8aac\u30d8\u30dd\u30a4",
+    "title_synonyms": [
+      "Roleplay Densetsu Hepoi"
+    ],
+    "type": "TV",
+    "source": "Unknown",
+    "episodes": 50,
+    "status": "Finished Airing",
+    "airing": false,
+    "aired": {
+      "from": "1990-10-06T00:00:00+00:00",
+      "to": "1991-09-28T00:00:00+00:00",
+      "prop": {
+        "from": {
+          "day": 6,
+          "month": 10,
+          "year": 1990
+        },
+        "to": {
+          "day": 28,
+          "month": 9,
+          "year": 1991
+        }
+      },
+      "string": "Oct 6, 1990 to Sep 28, 1991"
+    },
+    "duration": "25 min per ep",
+    "rating": null,
+    "score": 7.09,
+    "scored_by": 245,
+    "rank": 3587,
+    "popularity": 12857,
+    "members": 915,
+    "favorites": 10,
+    "synopsis": "The adventure of Hepoi, a hero of heporis, Ryuuto, the prince of Dragonia, Miiya Miiya a fairy looks like a cat, and Bunzaemon, a merchant, to defeat Dracunes, the King of dark side castles.",
+    "background": null,
+    "season": "fall",
+    "year": 1990,
+    "broadcast": {
+      "day": null,
+      "time": null,
+      "timezone": null,
+      "string": "Unknown"
+    },
+    "producers": [
+      {
+        "mal_id": 139,
+        "type": "anime",
+        "name": "Nihon Ad Systems",
+        "url": "https://myanimelist.net/anime/producer/139/Nihon_Ad_Systems"
+      }
+    ],
+    "licensors": [],
+    "studios": [
+      {
+        "mal_id": 36,
+        "type": "anime",
+        "name": "Gallop",
+        "url": "https://myanimelist.net/anime/producer/36/Gallop"
+      }
+    ],
+    "genres": [
+      {
+        "mal_id": 2,
+        "type": "anime",
+        "name": "Adventure",
+        "url": "https://myanimelist.net/anime/genre/2/Adventure"
+      },
+      {
+        "mal_id": 10,
+        "type": "anime",
+        "name": "Fantasy",
+        "url": "https://myanimelist.net/anime/genre/10/Fantasy"
+      }
+    ],
+    "explicit_genres": [],
+    "themes": [],
+    "demographics": []
+  },
+  {
+    "mal_id": 8065,
+    "url": "https://myanimelist.net/anime/8065/Karakuri_Kengou_Den_Musashi_Lord",
+    "images": {
+      "jpg": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/1739/110637.jpg",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/1739/110637t.jpg",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/1739/110637l.jpg"
+      },
+      "webp": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/1739/110637.webp",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/1739/110637t.webp",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/1739/110637l.webp"
+      }
+    },
+    "trailer": {
+      "youtube_id": null,
+      "url": null,
+      "embed_url": null,
+      "images": {
+        "image_url": null,
+        "small_image_url": null,
+        "medium_image_url": null,
+        "large_image_url": null,
+        "maximum_image_url": null
+      }
+    },
+    "approved": true,
+    "titles": [
+      {
+        "type": "Default",
+        "title": "Karakuri Kengou Den Musashi Lord"
+      },
+      {
+        "type": "Japanese",
+        "title": "\u304b\u3089\u304f\u308a\u5263\u8c6a\u4f1d\u30e0\u30b5\u30b7\u30ed\u30fc\u30c9"
+      },
+      {
+        "type": "English",
+        "title": "Musashi, the Samurai Lord"
+      }
+    ],
+    "title": "Karakuri Kengou Den Musashi Lord",
+    "title_english": "Musashi, the Samurai Lord",
+    "title_japanese": "\u304b\u3089\u304f\u308a\u5263\u8c6a\u4f1d\u30e0\u30b5\u30b7\u30ed\u30fc\u30c9",
+    "title_synonyms": [],
+    "type": "TV",
+    "source": "Original",
+    "episodes": 50,
+    "status": "Finished Airing",
+    "airing": false,
+    "aired": {
+      "from": "1990-10-03T00:00:00+00:00",
+      "to": "1991-09-25T00:00:00+00:00",
+      "prop": {
+        "from": {
+          "day": 3,
+          "month": 10,
+          "year": 1990
+        },
+        "to": {
+          "day": 25,
+          "month": 9,
+          "year": 1991
+        }
+      },
+      "string": "Oct 3, 1990 to Sep 25, 1991"
+    },
+    "duration": "30 min per ep",
+    "rating": "PG - Children",
+    "score": 6.18,
+    "scored_by": 169,
+    "rank": 7965,
+    "popularity": 13512,
+    "members": 757,
+    "favorites": 0,
+    "synopsis": "It is the time of civil war. Zipangu is a country where people live together with gimmick warriors, a kind of super human robot. There, people and gimmick warriors struggle to seize power. Musashi, a Samurai gimmick warrior, departs to on a quest to become the best Samurai warrior. Musashi thrives in the series of battles, encountering with many heroes and villains including his lifelong rival, Kojiro, an expert swordsman.  Later, Mushashi and Kojiro are sent by their General to escort the Princess, a granddaughter of the general. The princess is spoiled and difficult, so their journey becomes series of misadventures. Soon, they are caught up in a battle to seize control of the Country.",
+    "background": null,
+    "season": "fall",
+    "year": 1990,
+    "broadcast": {
+      "day": null,
+      "time": null,
+      "timezone": null,
+      "string": "Unknown"
+    },
+    "producers": [
+      {
+        "mal_id": 230,
+        "type": "anime",
+        "name": "Bandai",
+        "url": "https://myanimelist.net/anime/producer/230/Bandai"
+      }
+    ],
+    "licensors": [],
+    "studios": [
+      {
+        "mal_id": 1,
+        "type": "anime",
+        "name": "Pierrot",
+        "url": "https://myanimelist.net/anime/producer/1/Pierrot"
+      }
+    ],
+    "genres": [
+      {
+        "mal_id": 1,
+        "type": "anime",
+        "name": "Action",
+        "url": "https://myanimelist.net/anime/genre/1/Action"
+      },
+      {
+        "mal_id": 2,
+        "type": "anime",
+        "name": "Adventure",
+        "url": "https://myanimelist.net/anime/genre/2/Adventure"
+      }
+    ],
+    "explicit_genres": [],
+    "themes": [
+      {
+        "mal_id": 18,
+        "type": "anime",
+        "name": "Mecha",
+        "url": "https://myanimelist.net/anime/genre/18/Mecha"
+      }
+    ],
+    "demographics": []
+  },
+  {
+    "mal_id": 9028,
+    "url": "https://myanimelist.net/anime/9028/Edokko_Boy__Gatten_Tasuke",
+    "images": {
+      "jpg": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/12/24988.jpg",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/12/24988t.jpg",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/12/24988l.jpg"
+      },
+      "webp": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/12/24988.webp",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/12/24988t.webp",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/12/24988l.webp"
+      }
+    },
+    "trailer": {
+      "youtube_id": null,
+      "url": null,
+      "embed_url": null,
+      "images": {
+        "image_url": null,
+        "small_image_url": null,
+        "medium_image_url": null,
+        "large_image_url": null,
+        "maximum_image_url": null
+      }
+    },
+    "approved": true,
+    "titles": [
+      {
+        "type": "Default",
+        "title": "Edokko Boy: Gatten Tasuke"
+      },
+      {
+        "type": "Synonym",
+        "title": "Tasuke"
+      },
+      {
+        "type": "Synonym",
+        "title": "the Samurai Cop"
+      },
+      {
+        "type": "Synonym",
+        "title": "Edokko Boi Gatten Tasuke"
+      },
+      {
+        "type": "Synonym",
+        "title": "Edokko Boy: Gatten Taro"
+      },
+      {
+        "type": "Japanese",
+        "title": "\u6c5f\u6238\u3063\u5b50\u30dc\u30fc\u30a4 \u304c\u3063\u3066\u3093\u592a\u52a9"
+      }
+    ],
+    "title": "Edokko Boy: Gatten Tasuke",
+    "title_english": null,
+    "title_japanese": "\u6c5f\u6238\u3063\u5b50\u30dc\u30fc\u30a4 \u304c\u3063\u3066\u3093\u592a\u52a9",
+    "title_synonyms": [
+      "Tasuke",
+      "the Samurai Cop",
+      "Edokko Boi Gatten Tasuke",
+      "Edokko Boy: Gatten Taro"
+    ],
+    "type": "TV",
+    "source": "Manga",
+    "episodes": 22,
+    "status": "Finished Airing",
+    "airing": false,
+    "aired": {
+      "from": "1990-10-19T00:00:00+00:00",
+      "to": "1991-03-22T00:00:00+00:00",
+      "prop": {
+        "from": {
+          "day": 19,
+          "month": 10,
+          "year": 1990
+        },
+        "to": {
+          "day": 22,
+          "month": 3,
+          "year": 1991
+        }
+      },
+      "string": "Oct 19, 1990 to Mar 22, 1991"
+    },
+    "duration": "25 min per ep",
+    "rating": "G - All Ages",
+    "score": 6.69,
+    "scored_by": 189,
+    "rank": 5368,
+    "popularity": 13775,
+    "members": 693,
+    "favorites": 1,
+    "synopsis": "Tasuke, a student in a police academy, wanted to be the manager of the academy and arrest all criminals in Edo city. Tasuke is still eleven years old, but, he really wanted to get rid of criminals so the world will be a better place to stay in. Tasuke have three other friends; Omon and the other two. With them, they work together and that is the start of a funny and sometimes serious adventure.",
+    "background": null,
+    "season": "fall",
+    "year": 1990,
+    "broadcast": {
+      "day": null,
+      "time": null,
+      "timezone": null,
+      "string": "Unknown"
+    },
+    "producers": [
+      {
+        "mal_id": 16,
+        "type": "anime",
+        "name": "TV Tokyo",
+        "url": "https://myanimelist.net/anime/producer/16/TV_Tokyo"
+      },
+      {
+        "mal_id": 675,
+        "type": "anime",
+        "name": "Yomiuri Advertising",
+        "url": "https://myanimelist.net/anime/producer/675/Yomiuri_Advertising"
+      }
+    ],
+    "licensors": [],
+    "studios": [
+      {
+        "mal_id": 1,
+        "type": "anime",
+        "name": "Pierrot",
+        "url": "https://myanimelist.net/anime/producer/1/Pierrot"
+      }
+    ],
+    "genres": [
+      {
+        "mal_id": 4,
+        "type": "anime",
+        "name": "Comedy",
+        "url": "https://myanimelist.net/anime/genre/4/Comedy"
+      },
+      {
+        "mal_id": 30,
+        "type": "anime",
+        "name": "Sports",
+        "url": "https://myanimelist.net/anime/genre/30/Sports"
+      }
+    ],
+    "explicit_genres": [],
+    "themes": [
+      {
+        "mal_id": 39,
+        "type": "anime",
+        "name": "Detective",
+        "url": "https://myanimelist.net/anime/genre/39/Detective"
+      },
+      {
+        "mal_id": 17,
+        "type": "anime",
+        "name": "Martial Arts",
+        "url": "https://myanimelist.net/anime/genre/17/Martial_Arts"
+      }
+    ],
+    "demographics": []
+  },
+  {
+    "mal_id": 11545,
+    "url": "https://myanimelist.net/anime/11545/Happyakuyachou_Hyouri_Kewaishi",
+    "images": {
+      "jpg": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/10/32257.jpg",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/10/32257t.jpg",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/10/32257l.jpg"
+      },
+      "webp": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/10/32257.webp",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/10/32257t.webp",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/10/32257l.webp"
+      }
+    },
+    "trailer": {
+      "youtube_id": null,
+      "url": null,
+      "embed_url": null,
+      "images": {
+        "image_url": null,
+        "small_image_url": null,
+        "medium_image_url": null,
+        "large_image_url": null,
+        "maximum_image_url": null
+      }
+    },
+    "approved": true,
+    "titles": [
+      {
+        "type": "Default",
+        "title": "Happyakuyachou Hyouri Kewaishi"
+      },
+      {
+        "type": "Synonym",
+        "title": "808 Chou hyouri no Kewaishi"
+      },
+      {
+        "type": "Synonym",
+        "title": "108 Ward Inside and Out: Make-Up Artist"
+      },
+      {
+        "type": "Japanese",
+        "title": "\u516b\u767e\u516b\u753a\u8868\u88cf \u5316\u7ca7\u5e2b"
+      }
+    ],
+    "title": "Happyakuyachou Hyouri Kewaishi",
+    "title_english": null,
+    "title_japanese": "\u516b\u767e\u516b\u753a\u8868\u88cf \u5316\u7ca7\u5e2b",
+    "title_synonyms": [
+      "808 Chou hyouri no Kewaishi",
+      "108 Ward Inside and Out: Make-Up Artist"
+    ],
+    "type": "TV",
+    "source": "Unknown",
+    "episodes": 16,
+    "status": "Finished Airing",
+    "airing": false,
+    "aired": {
+      "from": "1990-10-09T00:00:00+00:00",
+      "to": "1991-04-30T00:00:00+00:00",
+      "prop": {
+        "from": {
+          "day": 9,
+          "month": 10,
+          "year": 1990
+        },
+        "to": {
+          "day": 30,
+          "month": 4,
+          "year": 1991
+        }
+      },
+      "string": "Oct 9, 1990 to Apr 30, 1991"
+    },
+    "duration": "10 min per ep",
+    "rating": "PG-13 - Teens 13 or older",
+    "score": null,
+    "scored_by": null,
+    "rank": 16191,
+    "popularity": 13809,
+    "members": 687,
+    "favorites": 3,
+    "synopsis": "Set in early 1900s Tokyo, its story is about a makeup artist named Kosannba. All the women desire to have their make up done by Kosannba because he is the best. He also manages to get intertwined into the lives of many women and proceeds to work out their various problems.\n\n(Source: MU)",
+    "background": null,
+    "season": "fall",
+    "year": 1990,
+    "broadcast": {
+      "day": null,
+      "time": null,
+      "timezone": null,
+      "string": "Unknown"
+    },
+    "producers": [
+      {
+        "mal_id": 145,
+        "type": "anime",
+        "name": "TBS",
+        "url": "https://myanimelist.net/anime/producer/145/TBS"
+      }
+    ],
+    "licensors": [],
+    "studios": [
+      {
+        "mal_id": 247,
+        "type": "anime",
+        "name": "Shin-Ei Animation",
+        "url": "https://myanimelist.net/anime/producer/247/Shin-Ei_Animation"
+      }
+    ],
+    "genres": [
+      {
+        "mal_id": 8,
+        "type": "anime",
+        "name": "Drama",
+        "url": "https://myanimelist.net/anime/genre/8/Drama"
+      }
+    ],
+    "explicit_genres": [],
+    "themes": [
+      {
+        "mal_id": 13,
+        "type": "anime",
+        "name": "Historical",
+        "url": "https://myanimelist.net/anime/genre/13/Historical"
+      }
+    ],
+    "demographics": []
+  },
+  {
+    "mal_id": 21483,
+    "url": "https://myanimelist.net/anime/21483/Sanchoume_no_Yuuhi",
+    "images": {
+      "jpg": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/12/56683.jpg",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/12/56683t.jpg",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/12/56683l.jpg"
+      },
+      "webp": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/12/56683.webp",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/12/56683t.webp",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/12/56683l.webp"
+      }
+    },
+    "trailer": {
+      "youtube_id": null,
+      "url": null,
+      "embed_url": null,
+      "images": {
+        "image_url": null,
+        "small_image_url": null,
+        "medium_image_url": null,
+        "large_image_url": null,
+        "maximum_image_url": null
+      }
+    },
+    "approved": true,
+    "titles": [
+      {
+        "type": "Default",
+        "title": "Sanchoume no Yuuhi"
+      },
+      {
+        "type": "Synonym",
+        "title": "San Choume no Yuuhi"
+      },
+      {
+        "type": "Synonym",
+        "title": "Sunset on Third Street"
+      },
+      {
+        "type": "Japanese",
+        "title": "\u4e09\u4e01\u76ee\u306e\u5915\u65e5"
+      }
+    ],
+    "title": "Sanchoume no Yuuhi",
+    "title_english": null,
+    "title_japanese": "\u4e09\u4e01\u76ee\u306e\u5915\u65e5",
+    "title_synonyms": [
+      "San Choume no Yuuhi",
+      "Sunset on Third Street"
+    ],
+    "type": "TV",
+    "source": "Unknown",
+    "episodes": 27,
+    "status": "Finished Airing",
+    "airing": false,
+    "aired": {
+      "from": "1990-10-12T00:00:00+00:00",
+      "to": "1991-09-21T00:00:00+00:00",
+      "prop": {
+        "from": {
+          "day": 12,
+          "month": 10,
+          "year": 1990
+        },
+        "to": {
+          "day": 21,
+          "month": 9,
+          "year": 1991
+        }
+      },
+      "string": "Oct 12, 1990 to Sep 21, 1991"
+    },
+    "duration": "25 min per ep",
+    "rating": "G - All Ages",
+    "score": null,
+    "scored_by": null,
+    "rank": 19244,
+    "popularity": 15475,
+    "members": 434,
+    "favorites": 1,
+    "synopsis": "Based on the same name slice of life manga by Saigan Ryouhei.",
+    "background": null,
+    "season": "fall",
+    "year": 1990,
+    "broadcast": {
+      "day": null,
+      "time": null,
+      "timezone": null,
+      "string": "Unknown"
+    },
+    "producers": [
+      {
+        "mal_id": 86,
+        "type": "anime",
+        "name": "Group TAC",
+        "url": "https://myanimelist.net/anime/producer/86/Group_TAC"
+      },
+      {
+        "mal_id": 143,
+        "type": "anime",
+        "name": "Mainichi Broadcasting System",
+        "url": "https://myanimelist.net/anime/producer/143/Mainichi_Broadcasting_System"
+      },
+      {
+        "mal_id": 245,
+        "type": "anime",
+        "name": "Toho",
+        "url": "https://myanimelist.net/anime/producer/245/Toho"
+      }
+    ],
+    "licensors": [],
+    "studios": [],
+    "genres": [
+      {
+        "mal_id": 4,
+        "type": "anime",
+        "name": "Comedy",
+        "url": "https://myanimelist.net/anime/genre/4/Comedy"
+      },
+      {
+        "mal_id": 36,
+        "type": "anime",
+        "name": "Slice of Life",
+        "url": "https://myanimelist.net/anime/genre/36/Slice_of_Life"
+      }
+    ],
+    "explicit_genres": [],
+    "themes": [],
+    "demographics": []
+  },
+  {
+    "mal_id": 33310,
+    "url": "https://myanimelist.net/anime/33310/Peach_Command_Shin_Momotarou_Densetsu",
+    "images": {
+      "jpg": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/5/80051.jpg",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/5/80051t.jpg",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/5/80051l.jpg"
+      },
+      "webp": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/5/80051.webp",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/5/80051t.webp",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/5/80051l.webp"
+      }
+    },
+    "trailer": {
+      "youtube_id": null,
+      "url": null,
+      "embed_url": null,
+      "images": {
+        "image_url": null,
+        "small_image_url": null,
+        "medium_image_url": null,
+        "large_image_url": null,
+        "maximum_image_url": null
+      }
+    },
+    "approved": true,
+    "titles": [
+      {
+        "type": "Default",
+        "title": "Peach Command Shin Momotarou Densetsu"
+      },
+      {
+        "type": "Japanese",
+        "title": "PEACH COMMAND \u65b0\u6843\u592a\u90ce\u4f1d\u8aac"
+      }
+    ],
+    "title": "Peach Command Shin Momotarou Densetsu",
+    "title_english": null,
+    "title_japanese": "PEACH COMMAND \u65b0\u6843\u592a\u90ce\u4f1d\u8aac",
+    "title_synonyms": [],
+    "type": "TV",
+    "source": "Game",
+    "episodes": 24,
+    "status": "Finished Airing",
+    "airing": false,
+    "aired": {
+      "from": "1990-10-08T00:00:00+00:00",
+      "to": "1991-04-01T00:00:00+00:00",
+      "prop": {
+        "from": {
+          "day": 8,
+          "month": 10,
+          "year": 1990
+        },
+        "to": {
+          "day": 1,
+          "month": 4,
+          "year": 1991
+        }
+      },
+      "string": "Oct 8, 1990 to Apr 1, 1991"
+    },
+    "duration": "25 min per ep",
+    "rating": "G - All Ages",
+    "score": null,
+    "scored_by": null,
+    "rank": 18680,
+    "popularity": 16376,
+    "members": 356,
+    "favorites": 0,
+    "synopsis": "A continuation of Momotarou Densetsu.",
+    "background": null,
+    "season": "fall",
+    "year": 1990,
+    "broadcast": {
+      "day": null,
+      "time": null,
+      "timezone": null,
+      "string": "Unknown"
+    },
+    "producers": [
+      {
+        "mal_id": 16,
+        "type": "anime",
+        "name": "TV Tokyo",
+        "url": "https://myanimelist.net/anime/producer/16/TV_Tokyo"
+      }
+    ],
+    "licensors": [],
+    "studios": [
+      {
+        "mal_id": 452,
+        "type": "anime",
+        "name": "Knack Productions",
+        "url": "https://myanimelist.net/anime/producer/452/Knack_Productions"
+      }
+    ],
+    "genres": [
+      {
+        "mal_id": 2,
+        "type": "anime",
+        "name": "Adventure",
+        "url": "https://myanimelist.net/anime/genre/2/Adventure"
+      },
+      {
+        "mal_id": 4,
+        "type": "anime",
+        "name": "Comedy",
+        "url": "https://myanimelist.net/anime/genre/4/Comedy"
+      }
+    ],
+    "explicit_genres": [],
+    "themes": [],
+    "demographics": []
+  }
+]

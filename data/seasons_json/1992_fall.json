@@ -1,0 +1,2218 @@
+[
+  {
+    "mal_id": 392,
+    "url": "https://myanimelist.net/anime/392/Yuu\u2606Yuu\u2606Hakusho",
+    "images": {
+      "jpg": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/1228/111372.jpg",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/1228/111372t.jpg",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/1228/111372l.jpg"
+      },
+      "webp": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/1228/111372.webp",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/1228/111372t.webp",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/1228/111372l.webp"
+      }
+    },
+    "trailer": {
+      "youtube_id": "ZJEv4d2TYQ4",
+      "url": "https://www.youtube.com/watch?v=ZJEv4d2TYQ4",
+      "embed_url": "https://www.youtube.com/embed/ZJEv4d2TYQ4?enablejsapi=1&wmode=opaque&autoplay=1",
+      "images": {
+        "image_url": "https://img.youtube.com/vi/ZJEv4d2TYQ4/default.jpg",
+        "small_image_url": "https://img.youtube.com/vi/ZJEv4d2TYQ4/sddefault.jpg",
+        "medium_image_url": "https://img.youtube.com/vi/ZJEv4d2TYQ4/mqdefault.jpg",
+        "large_image_url": "https://img.youtube.com/vi/ZJEv4d2TYQ4/hqdefault.jpg",
+        "maximum_image_url": "https://img.youtube.com/vi/ZJEv4d2TYQ4/maxresdefault.jpg"
+      }
+    },
+    "approved": true,
+    "titles": [
+      {
+        "type": "Default",
+        "title": "Yuu\u2606Yuu\u2606Hakusho"
+      },
+      {
+        "type": "Synonym",
+        "title": "Yu Yu Hakusho"
+      },
+      {
+        "type": "Synonym",
+        "title": "Ghost Fighter"
+      },
+      {
+        "type": "Synonym",
+        "title": "Poltergeist Report"
+      },
+      {
+        "type": "Synonym",
+        "title": "YuYu Hakusho"
+      },
+      {
+        "type": "Japanese",
+        "title": "\u5e7d\u2606\u904a\u2606\u767d\u66f8"
+      },
+      {
+        "type": "English",
+        "title": "Yu Yu Hakusho: Ghost Files"
+      },
+      {
+        "type": "Spanish",
+        "title": "Yu Yu Hakusho"
+      },
+      {
+        "type": "French",
+        "title": "Yu Yu Hakusho"
+      }
+    ],
+    "title": "Yuu\u2606Yuu\u2606Hakusho",
+    "title_english": "Yu Yu Hakusho: Ghost Files",
+    "title_japanese": "\u5e7d\u2606\u904a\u2606\u767d\u66f8",
+    "title_synonyms": [
+      "Yu Yu Hakusho",
+      "Ghost Fighter",
+      "Poltergeist Report",
+      "YuYu Hakusho"
+    ],
+    "type": "TV",
+    "source": "Manga",
+    "episodes": 112,
+    "status": "Finished Airing",
+    "airing": false,
+    "aired": {
+      "from": "1992-10-10T00:00:00+00:00",
+      "to": "1995-01-07T00:00:00+00:00",
+      "prop": {
+        "from": {
+          "day": 10,
+          "month": 10,
+          "year": 1992
+        },
+        "to": {
+          "day": 7,
+          "month": 1,
+          "year": 1995
+        }
+      },
+      "string": "Oct 10, 1992 to Jan 7, 1995"
+    },
+    "duration": "24 min per ep",
+    "rating": "PG-13 - Teens 13 or older",
+    "score": 8.46,
+    "scored_by": 314280,
+    "rank": 143,
+    "popularity": 287,
+    "members": 651185,
+    "favorites": 21599,
+    "synopsis": "One fateful day, Yuusuke Urameshi, a 14-year-old delinquent with a dim future, gets a miraculous chance to turn it all around when he throws himself in front of a moving car to save a young boy. His ultimate sacrifice is so out of character that the authorities of the spirit realm are not yet prepared to let him pass on. Koenma, heir to the throne of the spirit realm, offers Yuusuke an opportunity to regain his life through completion of a series of tasks. With the guidance of the death god Botan, he is to thwart evil presences on Earth as a Spirit Detective.\n\nTo help him on his venture, Yuusuke enlists ex-rival Kazuma Kuwabara, and two demons, Hiei and Kurama, who have criminal pasts. Together, they train and battle against enemies who would threaten humanity's very existence.\n\n[Written by MAL Rewrite]",
+    "background": "Yuu\u2606Yuu\u2606Hakusho was voted as the second best anime of the year in 1993 and best anime of the year in 1994 and 1995 at the Animage Anime Grand Prix.",
+    "season": "fall",
+    "year": 1992,
+    "broadcast": {
+      "day": null,
+      "time": null,
+      "timezone": null,
+      "string": "Unknown"
+    },
+    "producers": [
+      {
+        "mal_id": 127,
+        "type": "anime",
+        "name": "Yomiko Advertising",
+        "url": "https://myanimelist.net/anime/producer/127/Yomiko_Advertising"
+      },
+      {
+        "mal_id": 169,
+        "type": "anime",
+        "name": "Fuji TV",
+        "url": "https://myanimelist.net/anime/producer/169/Fuji_TV"
+      }
+    ],
+    "licensors": [
+      {
+        "mal_id": 102,
+        "type": "anime",
+        "name": "Funimation",
+        "url": "https://myanimelist.net/anime/producer/102/Funimation"
+      }
+    ],
+    "studios": [
+      {
+        "mal_id": 1,
+        "type": "anime",
+        "name": "Pierrot",
+        "url": "https://myanimelist.net/anime/producer/1/Pierrot"
+      }
+    ],
+    "genres": [
+      {
+        "mal_id": 1,
+        "type": "anime",
+        "name": "Action",
+        "url": "https://myanimelist.net/anime/genre/1/Action"
+      },
+      {
+        "mal_id": 10,
+        "type": "anime",
+        "name": "Fantasy",
+        "url": "https://myanimelist.net/anime/genre/10/Fantasy"
+      }
+    ],
+    "explicit_genres": [],
+    "themes": [
+      {
+        "mal_id": 6,
+        "type": "anime",
+        "name": "Mythology",
+        "url": "https://myanimelist.net/anime/genre/6/Mythology"
+      }
+    ],
+    "demographics": [
+      {
+        "mal_id": 27,
+        "type": "anime",
+        "name": "Shounen",
+        "url": "https://myanimelist.net/anime/genre/27/Shounen"
+      }
+    ]
+  },
+  {
+    "mal_id": 2037,
+    "url": "https://myanimelist.net/anime/2037/Hime-chan_no_Ribbon",
+    "images": {
+      "jpg": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/1049/111001.jpg",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/1049/111001t.jpg",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/1049/111001l.jpg"
+      },
+      "webp": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/1049/111001.webp",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/1049/111001t.webp",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/1049/111001l.webp"
+      }
+    },
+    "trailer": {
+      "youtube_id": "C3hVrFy459c",
+      "url": "https://www.youtube.com/watch?v=C3hVrFy459c",
+      "embed_url": "https://www.youtube.com/embed/C3hVrFy459c?enablejsapi=1&wmode=opaque&autoplay=1",
+      "images": {
+        "image_url": "https://img.youtube.com/vi/C3hVrFy459c/default.jpg",
+        "small_image_url": "https://img.youtube.com/vi/C3hVrFy459c/sddefault.jpg",
+        "medium_image_url": "https://img.youtube.com/vi/C3hVrFy459c/mqdefault.jpg",
+        "large_image_url": "https://img.youtube.com/vi/C3hVrFy459c/hqdefault.jpg",
+        "maximum_image_url": "https://img.youtube.com/vi/C3hVrFy459c/maxresdefault.jpg"
+      }
+    },
+    "approved": true,
+    "titles": [
+      {
+        "type": "Default",
+        "title": "Hime-chan no Ribbon"
+      },
+      {
+        "type": "Synonym",
+        "title": "Hime-chan's Ribbon"
+      },
+      {
+        "type": "Japanese",
+        "title": "\u59eb\u3061\u3083\u3093\u306e\u30ea\u30dc\u30f3"
+      }
+    ],
+    "title": "Hime-chan no Ribbon",
+    "title_english": null,
+    "title_japanese": "\u59eb\u3061\u3083\u3093\u306e\u30ea\u30dc\u30f3",
+    "title_synonyms": [
+      "Hime-chan's Ribbon"
+    ],
+    "type": "TV",
+    "source": "Manga",
+    "episodes": 61,
+    "status": "Finished Airing",
+    "airing": false,
+    "aired": {
+      "from": "1992-10-02T00:00:00+00:00",
+      "to": "1993-12-03T00:00:00+00:00",
+      "prop": {
+        "from": {
+          "day": 2,
+          "month": 10,
+          "year": 1992
+        },
+        "to": {
+          "day": 3,
+          "month": 12,
+          "year": 1993
+        }
+      },
+      "string": "Oct 2, 1992 to Dec 3, 1993"
+    },
+    "duration": "24 min per ep",
+    "rating": "PG - Children",
+    "score": 7.53,
+    "scored_by": 2862,
+    "rank": 1611,
+    "popularity": 6245,
+    "members": 9155,
+    "favorites": 69,
+    "synopsis": "Erika, the princess of the Magic Kingdom has come to Earth in order to find a human girl who looks just like her. That girl turns out to be Himeko Nonohara, a tomboy's tomboy. Erika must give Himeko a magical item she has created in order to prove her worth as a successor to the crown. Himeko must test this item, a hair ribbon that allows her to transform into any other person she sees, to see if it is worthy. The series follows Himeko's adventures and her budding romance with Daichi, the boy who discovers her secret.\n\n(Source: ANN)",
+    "background": null,
+    "season": "fall",
+    "year": 1992,
+    "broadcast": {
+      "day": "Fridays",
+      "time": "18:00",
+      "timezone": "Asia/Tokyo",
+      "string": "Fridays at 18:00 (JST)"
+    },
+    "producers": [
+      {
+        "mal_id": 139,
+        "type": "anime",
+        "name": "Nihon Ad Systems",
+        "url": "https://myanimelist.net/anime/producer/139/Nihon_Ad_Systems"
+      }
+    ],
+    "licensors": [],
+    "studios": [
+      {
+        "mal_id": 36,
+        "type": "anime",
+        "name": "Gallop",
+        "url": "https://myanimelist.net/anime/producer/36/Gallop"
+      }
+    ],
+    "genres": [
+      {
+        "mal_id": 4,
+        "type": "anime",
+        "name": "Comedy",
+        "url": "https://myanimelist.net/anime/genre/4/Comedy"
+      },
+      {
+        "mal_id": 10,
+        "type": "anime",
+        "name": "Fantasy",
+        "url": "https://myanimelist.net/anime/genre/10/Fantasy"
+      },
+      {
+        "mal_id": 22,
+        "type": "anime",
+        "name": "Romance",
+        "url": "https://myanimelist.net/anime/genre/22/Romance"
+      }
+    ],
+    "explicit_genres": [],
+    "themes": [
+      {
+        "mal_id": 23,
+        "type": "anime",
+        "name": "School",
+        "url": "https://myanimelist.net/anime/genre/23/School"
+      }
+    ],
+    "demographics": [
+      {
+        "mal_id": 25,
+        "type": "anime",
+        "name": "Shoujo",
+        "url": "https://myanimelist.net/anime/genre/25/Shoujo"
+      }
+    ]
+  },
+  {
+    "mal_id": 3110,
+    "url": "https://myanimelist.net/anime/3110/Kaze_no_Naka_no_Shoujo__Kinpatsu_no_Jeanie",
+    "images": {
+      "jpg": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/5/89782.jpg",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/5/89782t.jpg",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/5/89782l.jpg"
+      },
+      "webp": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/5/89782.webp",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/5/89782t.webp",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/5/89782l.webp"
+      }
+    },
+    "trailer": {
+      "youtube_id": null,
+      "url": null,
+      "embed_url": null,
+      "images": {
+        "image_url": null,
+        "small_image_url": null,
+        "medium_image_url": null,
+        "large_image_url": null,
+        "maximum_image_url": null
+      }
+    },
+    "approved": true,
+    "titles": [
+      {
+        "type": "Default",
+        "title": "Kaze no Naka no Shoujo: Kinpatsu no Jeanie"
+      },
+      {
+        "type": "Synonym",
+        "title": "Kaze no Naka no Shoujo Kinpatsu no Jenii"
+      },
+      {
+        "type": "Synonym",
+        "title": "Fiocchi di cotone per Jeanie"
+      },
+      {
+        "type": "Synonym",
+        "title": "Jeanie With The Light Brown Hair"
+      },
+      {
+        "type": "Synonym",
+        "title": "Girl in the Wind: Jeanie with the Light Brown Hair"
+      },
+      {
+        "type": "Synonym",
+        "title": "Jeannie"
+      },
+      {
+        "type": "Japanese",
+        "title": "\u98a8\u306e\u4e2d\u306e\u5c11\u5973 \u91d1\u9aea\u306e\u30b8\u30a7\u30cb\u30fc"
+      }
+    ],
+    "title": "Kaze no Naka no Shoujo: Kinpatsu no Jeanie",
+    "title_english": null,
+    "title_japanese": "\u98a8\u306e\u4e2d\u306e\u5c11\u5973 \u91d1\u9aea\u306e\u30b8\u30a7\u30cb\u30fc",
+    "title_synonyms": [
+      "Kaze no Naka no Shoujo Kinpatsu no Jenii",
+      "Fiocchi di cotone per Jeanie",
+      "Jeanie With The Light Brown Hair",
+      "Girl in the Wind: Jeanie with the Light Brown Hair",
+      "Jeannie"
+    ],
+    "type": "TV",
+    "source": "Unknown",
+    "episodes": 52,
+    "status": "Finished Airing",
+    "airing": false,
+    "aired": {
+      "from": "1992-10-15T00:00:00+00:00",
+      "to": "1993-09-30T00:00:00+00:00",
+      "prop": {
+        "from": {
+          "day": 15,
+          "month": 10,
+          "year": 1992
+        },
+        "to": {
+          "day": 30,
+          "month": 9,
+          "year": 1993
+        }
+      },
+      "string": "Oct 15, 1992 to Sep 30, 1993"
+    },
+    "duration": "26 min per ep",
+    "rating": "G - All Ages",
+    "score": 7.01,
+    "scored_by": 1079,
+    "rank": 3924,
+    "popularity": 8772,
+    "members": 3769,
+    "favorites": 14,
+    "synopsis": "The story begins in a small town, Pennsylvania in 1838. Jeanie MacDowell is a cheerful and beautiful girl with light brown hair. Jeanie enjoys playing the piano and loves taking piano lessons from her mother.\n\nSteven, a good harmonica player, and Bill, a black boy who is very good at playing the banjo, are great friends of Jeanie's. They enjoy playing music together like a small band.\n\nHowever, Jeanie's happy life changes dramatically after her mother suddenly passes away.\n\nExperiencing many difficulties and learning the importance of life, she decides to devote her life to helping many people suffering from illness.\n\nThis series is a highly emotional love story about the relationship between young Stephen Foster, who later becomes a famous composer and author of children's songs, and young Jeanie MacDowell, who becomes Stephen Foster's wife.",
+    "background": null,
+    "season": "fall",
+    "year": 1992,
+    "broadcast": {
+      "day": null,
+      "time": null,
+      "timezone": null,
+      "string": "Unknown"
+    },
+    "producers": [
+      {
+        "mal_id": 16,
+        "type": "anime",
+        "name": "TV Tokyo",
+        "url": "https://myanimelist.net/anime/producer/16/TV_Tokyo"
+      }
+    ],
+    "licensors": [],
+    "studios": [
+      {
+        "mal_id": 22,
+        "type": "anime",
+        "name": "Nippon Animation",
+        "url": "https://myanimelist.net/anime/producer/22/Nippon_Animation"
+      }
+    ],
+    "genres": [
+      {
+        "mal_id": 8,
+        "type": "anime",
+        "name": "Drama",
+        "url": "https://myanimelist.net/anime/genre/8/Drama"
+      }
+    ],
+    "explicit_genres": [],
+    "themes": [
+      {
+        "mal_id": 13,
+        "type": "anime",
+        "name": "Historical",
+        "url": "https://myanimelist.net/anime/genre/13/Historical"
+      }
+    ],
+    "demographics": []
+  },
+  {
+    "mal_id": 3345,
+    "url": "https://myanimelist.net/anime/3345/Mikan_Enikki",
+    "images": {
+      "jpg": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/9/29836.jpg",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/9/29836t.jpg",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/9/29836l.jpg"
+      },
+      "webp": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/9/29836.webp",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/9/29836t.webp",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/9/29836l.webp"
+      }
+    },
+    "trailer": {
+      "youtube_id": null,
+      "url": null,
+      "embed_url": null,
+      "images": {
+        "image_url": null,
+        "small_image_url": null,
+        "medium_image_url": null,
+        "large_image_url": null,
+        "maximum_image_url": null
+      }
+    },
+    "approved": true,
+    "titles": [
+      {
+        "type": "Default",
+        "title": "Mikan Enikki"
+      },
+      {
+        "type": "Synonym",
+        "title": "Mikan's Picture Diary"
+      },
+      {
+        "type": "Synonym",
+        "title": "Mikan's Illustrated Diary"
+      },
+      {
+        "type": "Japanese",
+        "title": "\u307f\u304b\u3093\u7d75\u65e5\u8a18"
+      }
+    ],
+    "title": "Mikan Enikki",
+    "title_english": null,
+    "title_japanese": "\u307f\u304b\u3093\u7d75\u65e5\u8a18",
+    "title_synonyms": [
+      "Mikan's Picture Diary",
+      "Mikan's Illustrated Diary"
+    ],
+    "type": "TV",
+    "source": "Manga",
+    "episodes": 30,
+    "status": "Finished Airing",
+    "airing": false,
+    "aired": {
+      "from": "1992-10-16T00:00:00+00:00",
+      "to": "1993-06-18T00:00:00+00:00",
+      "prop": {
+        "from": {
+          "day": 16,
+          "month": 10,
+          "year": 1992
+        },
+        "to": {
+          "day": 18,
+          "month": 6,
+          "year": 1993
+        }
+      },
+      "string": "Oct 16, 1992 to Jun 18, 1993"
+    },
+    "duration": "23 min per ep",
+    "rating": "G - All Ages",
+    "score": 7.17,
+    "scored_by": 814,
+    "rank": 3199,
+    "popularity": 9463,
+    "members": 2972,
+    "favorites": 25,
+    "synopsis": "A kitten, abandoned and left for dead along with his siblings, is taken in by Tomu Kusanagi, who nurtures him and discovers that the tangerine cat he so adores is actually a genius who can talk, walk, read, and has even acquired a taste for liquor!",
+    "background": null,
+    "season": "fall",
+    "year": 1992,
+    "broadcast": {
+      "day": null,
+      "time": null,
+      "timezone": null,
+      "string": "Unknown"
+    },
+    "producers": [],
+    "licensors": [],
+    "studios": [
+      {
+        "mal_id": 22,
+        "type": "anime",
+        "name": "Nippon Animation",
+        "url": "https://myanimelist.net/anime/producer/22/Nippon_Animation"
+      }
+    ],
+    "genres": [
+      {
+        "mal_id": 4,
+        "type": "anime",
+        "name": "Comedy",
+        "url": "https://myanimelist.net/anime/genre/4/Comedy"
+      },
+      {
+        "mal_id": 22,
+        "type": "anime",
+        "name": "Romance",
+        "url": "https://myanimelist.net/anime/genre/22/Romance"
+      },
+      {
+        "mal_id": 36,
+        "type": "anime",
+        "name": "Slice of Life",
+        "url": "https://myanimelist.net/anime/genre/36/Slice_of_Life"
+      }
+    ],
+    "explicit_genres": [],
+    "themes": [
+      {
+        "mal_id": 71,
+        "type": "anime",
+        "name": "Pets",
+        "url": "https://myanimelist.net/anime/genre/71/Pets"
+      }
+    ],
+    "demographics": [
+      {
+        "mal_id": 25,
+        "type": "anime",
+        "name": "Shoujo",
+        "url": "https://myanimelist.net/anime/genre/25/Shoujo"
+      }
+    ]
+  },
+  {
+    "mal_id": 5992,
+    "url": "https://myanimelist.net/anime/5992/Tsuyoshi_Shikkari_Shinasai",
+    "images": {
+      "jpg": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/13/13055.jpg",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/13/13055t.jpg",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/13/13055l.jpg"
+      },
+      "webp": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/13/13055.webp",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/13/13055t.webp",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/13/13055l.webp"
+      }
+    },
+    "trailer": {
+      "youtube_id": null,
+      "url": null,
+      "embed_url": null,
+      "images": {
+        "image_url": null,
+        "small_image_url": null,
+        "medium_image_url": null,
+        "large_image_url": null,
+        "maximum_image_url": null
+      }
+    },
+    "approved": true,
+    "titles": [
+      {
+        "type": "Default",
+        "title": "Tsuyoshi Shikkari Shinasai"
+      },
+      {
+        "type": "Synonym",
+        "title": "Hang in There"
+      },
+      {
+        "type": "Synonym",
+        "title": "Tsuyoshi"
+      },
+      {
+        "type": "Synonym",
+        "title": "Get a Grip"
+      },
+      {
+        "type": "Synonym",
+        "title": "Tsuyoshi"
+      },
+      {
+        "type": "Japanese",
+        "title": "\u30c4\u30e8\u30b7\u3057\u3063\u304b\u308a\u3057\u306a\u3055\u3044"
+      }
+    ],
+    "title": "Tsuyoshi Shikkari Shinasai",
+    "title_english": null,
+    "title_japanese": "\u30c4\u30e8\u30b7\u3057\u3063\u304b\u308a\u3057\u306a\u3055\u3044",
+    "title_synonyms": [
+      "Hang in There",
+      "Tsuyoshi",
+      "Get a Grip",
+      "Tsuyoshi"
+    ],
+    "type": "TV",
+    "source": "Manga",
+    "episodes": 112,
+    "status": "Finished Airing",
+    "airing": false,
+    "aired": {
+      "from": "1992-10-04T00:00:00+00:00",
+      "to": "1994-12-25T00:00:00+00:00",
+      "prop": {
+        "from": {
+          "day": 4,
+          "month": 10,
+          "year": 1992
+        },
+        "to": {
+          "day": 25,
+          "month": 12,
+          "year": 1994
+        }
+      },
+      "string": "Oct 4, 1992 to Dec 25, 1994"
+    },
+    "duration": "22 min per ep",
+    "rating": "PG-13 - Teens 13 or older",
+    "score": 7.05,
+    "scored_by": 828,
+    "rank": 3760,
+    "popularity": 9787,
+    "members": 2630,
+    "favorites": 12,
+    "synopsis": "Tsuyoshi Ikawa lives at home with his popular and beautiful sisters. Despite their qualities, his sisters and his mother are horrible at household chores, including cooking, so all these duties are taken over by Tsuyoshi while his father is away due to being temporarily transferred to another city for work.",
+    "background": null,
+    "season": "fall",
+    "year": 1992,
+    "broadcast": {
+      "day": null,
+      "time": null,
+      "timezone": null,
+      "string": "Unknown"
+    },
+    "producers": [
+      {
+        "mal_id": 126,
+        "type": "anime",
+        "name": "Studio Comet",
+        "url": "https://myanimelist.net/anime/producer/126/Studio_Comet"
+      }
+    ],
+    "licensors": [],
+    "studios": [],
+    "genres": [
+      {
+        "mal_id": 4,
+        "type": "anime",
+        "name": "Comedy",
+        "url": "https://myanimelist.net/anime/genre/4/Comedy"
+      },
+      {
+        "mal_id": 8,
+        "type": "anime",
+        "name": "Drama",
+        "url": "https://myanimelist.net/anime/genre/8/Drama"
+      },
+      {
+        "mal_id": 22,
+        "type": "anime",
+        "name": "Romance",
+        "url": "https://myanimelist.net/anime/genre/22/Romance"
+      },
+      {
+        "mal_id": 36,
+        "type": "anime",
+        "name": "Slice of Life",
+        "url": "https://myanimelist.net/anime/genre/36/Slice_of_Life"
+      }
+    ],
+    "explicit_genres": [],
+    "themes": [
+      {
+        "mal_id": 23,
+        "type": "anime",
+        "name": "School",
+        "url": "https://myanimelist.net/anime/genre/23/School"
+      }
+    ],
+    "demographics": [
+      {
+        "mal_id": 42,
+        "type": "anime",
+        "name": "Seinen",
+        "url": "https://myanimelist.net/anime/genre/42/Seinen"
+      }
+    ]
+  },
+  {
+    "mal_id": 7004,
+    "url": "https://myanimelist.net/anime/7004/Shin_Calimero",
+    "images": {
+      "jpg": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/12/61017.jpg",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/12/61017t.jpg",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/12/61017l.jpg"
+      },
+      "webp": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/12/61017.webp",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/12/61017t.webp",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/12/61017l.webp"
+      }
+    },
+    "trailer": {
+      "youtube_id": null,
+      "url": null,
+      "embed_url": null,
+      "images": {
+        "image_url": null,
+        "small_image_url": null,
+        "medium_image_url": null,
+        "large_image_url": null,
+        "maximum_image_url": null
+      }
+    },
+    "approved": true,
+    "titles": [
+      {
+        "type": "Default",
+        "title": "Shin Calimero"
+      },
+      {
+        "type": "Japanese",
+        "title": "\u65b0 \u30ab\u30ea\u30e1\u30ed"
+      },
+      {
+        "type": "English",
+        "title": "Calimero (1992)"
+      },
+      {
+        "type": "Spanish",
+        "title": "Calimero. Serie Cl\u00e1sica"
+      }
+    ],
+    "title": "Shin Calimero",
+    "title_english": "Calimero (1992)",
+    "title_japanese": "\u65b0 \u30ab\u30ea\u30e1\u30ed",
+    "title_synonyms": [],
+    "type": "TV",
+    "source": "Other",
+    "episodes": 52,
+    "status": "Finished Airing",
+    "airing": false,
+    "aired": {
+      "from": "1992-10-15T00:00:00+00:00",
+      "to": "1993-09-09T00:00:00+00:00",
+      "prop": {
+        "from": {
+          "day": 15,
+          "month": 10,
+          "year": 1992
+        },
+        "to": {
+          "day": 9,
+          "month": 9,
+          "year": 1993
+        }
+      },
+      "string": "Oct 15, 1992 to Sep 9, 1993"
+    },
+    "duration": "21 min per ep",
+    "rating": "G - All Ages",
+    "score": 6.17,
+    "scored_by": 1087,
+    "rank": 8014,
+    "popularity": 10069,
+    "members": 2388,
+    "favorites": 2,
+    "synopsis": "The series tells about many adventures of the small fledgling Calimero and his friends, who uncover many secrets, sometimes getting into trouble along the way.",
+    "background": null,
+    "season": "fall",
+    "year": 1992,
+    "broadcast": {
+      "day": "Thursdays",
+      "time": "19:00",
+      "timezone": "Asia/Tokyo",
+      "string": "Thursdays at 19:00 (JST)"
+    },
+    "producers": [],
+    "licensors": [],
+    "studios": [
+      {
+        "mal_id": 18,
+        "type": "anime",
+        "name": "Toei Animation",
+        "url": "https://myanimelist.net/anime/producer/18/Toei_Animation"
+      }
+    ],
+    "genres": [
+      {
+        "mal_id": 4,
+        "type": "anime",
+        "name": "Comedy",
+        "url": "https://myanimelist.net/anime/genre/4/Comedy"
+      }
+    ],
+    "explicit_genres": [],
+    "themes": [],
+    "demographics": []
+  },
+  {
+    "mal_id": 2624,
+    "url": "https://myanimelist.net/anime/2624/Flanders_no_Inu_Boku_no_Patrasche",
+    "images": {
+      "jpg": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/7/22953.jpg",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/7/22953t.jpg",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/7/22953l.jpg"
+      },
+      "webp": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/7/22953.webp",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/7/22953t.webp",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/7/22953l.webp"
+      }
+    },
+    "trailer": {
+      "youtube_id": null,
+      "url": null,
+      "embed_url": null,
+      "images": {
+        "image_url": null,
+        "small_image_url": null,
+        "medium_image_url": null,
+        "large_image_url": null,
+        "maximum_image_url": null
+      }
+    },
+    "approved": true,
+    "titles": [
+      {
+        "type": "Default",
+        "title": "Flanders no Inu, Boku no Patrasche"
+      },
+      {
+        "type": "Synonym",
+        "title": "A Dog of Flanders: My Friend Patrasche"
+      },
+      {
+        "type": "Japanese",
+        "title": "\u30d5\u30e9\u30f3\u30c0\u30fc\u30b9\u306e\u72ac\u3000\uff5e\u307c\u304f\u306e\u30d1\u30c8\u30e9\u30c3\u30b7\u30e5\uff5e"
+      },
+      {
+        "type": "English",
+        "title": "A Dog of Flanders: My Patrasche"
+      },
+      {
+        "type": "French",
+        "title": "Un Chien des Flandres"
+      }
+    ],
+    "title": "Flanders no Inu, Boku no Patrasche",
+    "title_english": "A Dog of Flanders: My Patrasche",
+    "title_japanese": "\u30d5\u30e9\u30f3\u30c0\u30fc\u30b9\u306e\u72ac\u3000\uff5e\u307c\u304f\u306e\u30d1\u30c8\u30e9\u30c3\u30b7\u30e5\uff5e",
+    "title_synonyms": [
+      "A Dog of Flanders: My Friend Patrasche"
+    ],
+    "type": "TV",
+    "source": "Novel",
+    "episodes": 26,
+    "status": "Finished Airing",
+    "airing": false,
+    "aired": {
+      "from": "1992-10-10T00:00:00+00:00",
+      "to": "1993-03-27T00:00:00+00:00",
+      "prop": {
+        "from": {
+          "day": 10,
+          "month": 10,
+          "year": 1992
+        },
+        "to": {
+          "day": 27,
+          "month": 3,
+          "year": 1993
+        }
+      },
+      "string": "Oct 10, 1992 to Mar 27, 1993"
+    },
+    "duration": "25 min per ep",
+    "rating": "G - All Ages",
+    "score": 6.99,
+    "scored_by": 566,
+    "rank": 4021,
+    "popularity": 10456,
+    "members": 2113,
+    "favorites": 6,
+    "synopsis": "A boy named Nello becomes an orphan at the age of two when his mother dies.  His grandfather, who lives in a small village takes him in. One day, Nello finds a dog who was almost beaten to death and named him Patrasche. Due to the good care of his grandfather, the dog recovers, and from then on, Nello and Patrasche are inseparable. Since they are very poor, Nello has to help his grandfather by selling milk. Patrasche helps him pull the milk cart that Nello uses to sell milk in the town.\n\n(Source: Wikipedia)",
+    "background": null,
+    "season": "fall",
+    "year": 1992,
+    "broadcast": {
+      "day": null,
+      "time": null,
+      "timezone": null,
+      "string": "Unknown"
+    },
+    "producers": [
+      {
+        "mal_id": 65,
+        "type": "anime",
+        "name": "Tokyo Movie Shinsha",
+        "url": "https://myanimelist.net/anime/producer/65/Tokyo_Movie_Shinsha"
+      }
+    ],
+    "licensors": [],
+    "studios": [
+      {
+        "mal_id": 73,
+        "type": "anime",
+        "name": "TMS Entertainment",
+        "url": "https://myanimelist.net/anime/producer/73/TMS_Entertainment"
+      }
+    ],
+    "genres": [
+      {
+        "mal_id": 8,
+        "type": "anime",
+        "name": "Drama",
+        "url": "https://myanimelist.net/anime/genre/8/Drama"
+      }
+    ],
+    "explicit_genres": [],
+    "themes": [
+      {
+        "mal_id": 13,
+        "type": "anime",
+        "name": "Historical",
+        "url": "https://myanimelist.net/anime/genre/13/Historical"
+      },
+      {
+        "mal_id": 71,
+        "type": "anime",
+        "name": "Pets",
+        "url": "https://myanimelist.net/anime/genre/71/Pets"
+      }
+    ],
+    "demographics": []
+  },
+  {
+    "mal_id": 2783,
+    "url": "https://myanimelist.net/anime/2783/Oyayubi_Hime_Monogatari",
+    "images": {
+      "jpg": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/1840/124513.jpg",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/1840/124513t.jpg",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/1840/124513l.jpg"
+      },
+      "webp": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/1840/124513.webp",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/1840/124513t.webp",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/1840/124513l.webp"
+      }
+    },
+    "trailer": {
+      "youtube_id": null,
+      "url": null,
+      "embed_url": null,
+      "images": {
+        "image_url": null,
+        "small_image_url": null,
+        "medium_image_url": null,
+        "large_image_url": null,
+        "maximum_image_url": null
+      }
+    },
+    "approved": true,
+    "titles": [
+      {
+        "type": "Default",
+        "title": "Oyayubi Hime Monogatari"
+      },
+      {
+        "type": "Synonym",
+        "title": "Story of Princess Thumbelina"
+      },
+      {
+        "type": "Synonym",
+        "title": "Thumbelina"
+      },
+      {
+        "type": "Synonym",
+        "title": "Thumb Princess Story"
+      },
+      {
+        "type": "Synonym",
+        "title": "Oyayubihime Monogatari"
+      },
+      {
+        "type": "Japanese",
+        "title": "\u304a\u3084\u3086\u3073\u59eb\u7269\u8a9e"
+      },
+      {
+        "type": "English",
+        "title": "Thumbelina: A Magical Story"
+      }
+    ],
+    "title": "Oyayubi Hime Monogatari",
+    "title_english": "Thumbelina: A Magical Story",
+    "title_japanese": "\u304a\u3084\u3086\u3073\u59eb\u7269\u8a9e",
+    "title_synonyms": [
+      "Story of Princess Thumbelina",
+      "Thumbelina",
+      "Thumb Princess Story",
+      "Oyayubihime Monogatari"
+    ],
+    "type": "TV",
+    "source": "Book",
+    "episodes": 26,
+    "status": "Finished Airing",
+    "airing": false,
+    "aired": {
+      "from": "1992-09-30T00:00:00+00:00",
+      "to": "1993-03-31T00:00:00+00:00",
+      "prop": {
+        "from": {
+          "day": 30,
+          "month": 9,
+          "year": 1992
+        },
+        "to": {
+          "day": 31,
+          "month": 3,
+          "year": 1993
+        }
+      },
+      "string": "Sep 30, 1992 to Mar 31, 1993"
+    },
+    "duration": "24 min per ep",
+    "rating": "G - All Ages",
+    "score": 6.7,
+    "scored_by": 570,
+    "rank": 5328,
+    "popularity": 10867,
+    "members": 1846,
+    "favorites": 10,
+    "synopsis": "A bratty girl named Mia is given a book, Thumbelina, which upon reading she is shrunk and transported into the world of the book. She embarks on a journey to return home, and to normal size making friends and learning lessons on the way, but that's only the beginning of her adventures.\n\n(Source: ANN)",
+    "background": null,
+    "season": "fall",
+    "year": 1992,
+    "broadcast": {
+      "day": null,
+      "time": null,
+      "timezone": null,
+      "string": "Unknown"
+    },
+    "producers": [
+      {
+        "mal_id": 311,
+        "type": "anime",
+        "name": "Enoki Films",
+        "url": "https://myanimelist.net/anime/producer/311/Enoki_Films"
+      }
+    ],
+    "licensors": [],
+    "studios": [
+      {
+        "mal_id": 1754,
+        "type": "anime",
+        "name": "Meruhensha",
+        "url": "https://myanimelist.net/anime/producer/1754/Meruhensha"
+      }
+    ],
+    "genres": [
+      {
+        "mal_id": 2,
+        "type": "anime",
+        "name": "Adventure",
+        "url": "https://myanimelist.net/anime/genre/2/Adventure"
+      },
+      {
+        "mal_id": 10,
+        "type": "anime",
+        "name": "Fantasy",
+        "url": "https://myanimelist.net/anime/genre/10/Fantasy"
+      }
+    ],
+    "explicit_genres": [],
+    "themes": [],
+    "demographics": [
+      {
+        "mal_id": 25,
+        "type": "anime",
+        "name": "Shoujo",
+        "url": "https://myanimelist.net/anime/genre/25/Shoujo"
+      }
+    ]
+  },
+  {
+    "mal_id": 3132,
+    "url": "https://myanimelist.net/anime/3132/Boukensha__The_Man_Was_from_Spain",
+    "images": {
+      "jpg": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/5/77942.jpg",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/5/77942t.jpg",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/5/77942l.jpg"
+      },
+      "webp": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/5/77942.webp",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/5/77942t.webp",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/5/77942l.webp"
+      }
+    },
+    "trailer": {
+      "youtube_id": null,
+      "url": null,
+      "embed_url": null,
+      "images": {
+        "image_url": null,
+        "small_image_url": null,
+        "medium_image_url": null,
+        "large_image_url": null,
+        "maximum_image_url": null
+      }
+    },
+    "approved": true,
+    "titles": [
+      {
+        "type": "Default",
+        "title": "Boukensha: The Man Was from Spain"
+      },
+      {
+        "type": "Synonym",
+        "title": "Christopher Columbus: The Commemorative Series"
+      },
+      {
+        "type": "Synonym",
+        "title": "Boukensha: The Man Was from Spain"
+      },
+      {
+        "type": "Japanese",
+        "title": "\u5192\u967a\u8005\uff0dTHE MAN WAS FROM SPAIN\uff0d"
+      },
+      {
+        "type": "English",
+        "title": "Christopher Columbus"
+      },
+      {
+        "type": "German",
+        "title": "Christoph Columbus"
+      }
+    ],
+    "title": "Boukensha: The Man Was from Spain",
+    "title_english": "Christopher Columbus",
+    "title_japanese": "\u5192\u967a\u8005\uff0dTHE MAN WAS FROM SPAIN\uff0d",
+    "title_synonyms": [
+      "Christopher Columbus: The Commemorative Series",
+      "Boukensha: The Man Was from Spain"
+    ],
+    "type": "TV",
+    "source": "Unknown",
+    "episodes": 26,
+    "status": "Finished Airing",
+    "airing": false,
+    "aired": {
+      "from": "1992-11-28T00:00:00+00:00",
+      "to": "1993-03-30T00:00:00+00:00",
+      "prop": {
+        "from": {
+          "day": 28,
+          "month": 11,
+          "year": 1992
+        },
+        "to": {
+          "day": 30,
+          "month": 3,
+          "year": 1993
+        }
+      },
+      "string": "Nov 28, 1992 to Mar 30, 1993"
+    },
+    "duration": "25 min per ep",
+    "rating": "G - All Ages",
+    "score": 6.18,
+    "scored_by": 412,
+    "rank": 7950,
+    "popularity": 11898,
+    "members": 1252,
+    "favorites": 1,
+    "synopsis": "Christopher Columbus is a man of strong will. His life is full of drama.\n\nBorn in Genoa, he realizes his dream of becoming a sailor, dares to search for a new route, and finally reaches his goal, discovering a new land in the process.\n\nSometimes in desperation, sometimes in excitement, his experiences are truly extraordinary. \n\n(Source: AnimeNfo)",
+    "background": null,
+    "season": "fall",
+    "year": 1992,
+    "broadcast": {
+      "day": null,
+      "time": null,
+      "timezone": null,
+      "string": "Unknown"
+    },
+    "producers": [],
+    "licensors": [],
+    "studios": [
+      {
+        "mal_id": 22,
+        "type": "anime",
+        "name": "Nippon Animation",
+        "url": "https://myanimelist.net/anime/producer/22/Nippon_Animation"
+      }
+    ],
+    "genres": [
+      {
+        "mal_id": 2,
+        "type": "anime",
+        "name": "Adventure",
+        "url": "https://myanimelist.net/anime/genre/2/Adventure"
+      }
+    ],
+    "explicit_genres": [],
+    "themes": [
+      {
+        "mal_id": 13,
+        "type": "anime",
+        "name": "Historical",
+        "url": "https://myanimelist.net/anime/genre/13/Historical"
+      }
+    ],
+    "demographics": []
+  },
+  {
+    "mal_id": 2503,
+    "url": "https://myanimelist.net/anime/2503/Nangoku_Shounen_Papuwa-kun",
+    "images": {
+      "jpg": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/8/3062.jpg",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/8/3062t.jpg",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/8/3062l.jpg"
+      },
+      "webp": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/8/3062.webp",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/8/3062t.webp",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/8/3062l.webp"
+      }
+    },
+    "trailer": {
+      "youtube_id": null,
+      "url": null,
+      "embed_url": null,
+      "images": {
+        "image_url": null,
+        "small_image_url": null,
+        "medium_image_url": null,
+        "large_image_url": null,
+        "maximum_image_url": null
+      }
+    },
+    "approved": true,
+    "titles": [
+      {
+        "type": "Default",
+        "title": "Nangoku Shounen Papuwa-kun"
+      },
+      {
+        "type": "Synonym",
+        "title": "Papuwa (1992)"
+      },
+      {
+        "type": "Synonym",
+        "title": "Papuwa of the South Seas"
+      },
+      {
+        "type": "Synonym",
+        "title": "Southern Country Boy Papuwa-kun"
+      },
+      {
+        "type": "Japanese",
+        "title": "\u5357\u56fd\u5c11\u5e74\u30d1\u30d7\u30ef\u304f\u3093"
+      }
+    ],
+    "title": "Nangoku Shounen Papuwa-kun",
+    "title_english": null,
+    "title_japanese": "\u5357\u56fd\u5c11\u5e74\u30d1\u30d7\u30ef\u304f\u3093",
+    "title_synonyms": [
+      "Papuwa (1992)",
+      "Papuwa of the South Seas",
+      "Southern Country Boy Papuwa-kun"
+    ],
+    "type": "TV",
+    "source": "Manga",
+    "episodes": 42,
+    "status": "Finished Airing",
+    "airing": false,
+    "aired": {
+      "from": "1992-10-10T00:00:00+00:00",
+      "to": "1993-10-02T00:00:00+00:00",
+      "prop": {
+        "from": {
+          "day": 10,
+          "month": 10,
+          "year": 1992
+        },
+        "to": {
+          "day": 2,
+          "month": 10,
+          "year": 1993
+        }
+      },
+      "string": "Oct 10, 1992 to Oct 2, 1993"
+    },
+    "duration": "25 min per ep",
+    "rating": "PG-13 - Teens 13 or older",
+    "score": 6.54,
+    "scored_by": 223,
+    "rank": 6142,
+    "popularity": 12460,
+    "members": 1034,
+    "favorites": 0,
+    "synopsis": "Papuwa-kun is a young boy living a quiet life with his dog, Chappy, on a small island located somewhere in South Pacific, when Shintaro, who is being pursued by gangsters, invades their happy existence. \nChappi takes Shintaro's precious Jewel, thereby making the two main characters lifelong rivals. Together they experience a series of bizarre adventures and situations. \n\n(Source: AnimeNfo)",
+    "background": null,
+    "season": "fall",
+    "year": 1992,
+    "broadcast": {
+      "day": "Saturdays",
+      "time": "19:30",
+      "timezone": "Asia/Tokyo",
+      "string": "Saturdays at 19:30 (JST)"
+    },
+    "producers": [
+      {
+        "mal_id": 55,
+        "type": "anime",
+        "name": "TV Asahi",
+        "url": "https://myanimelist.net/anime/producer/55/TV_Asahi"
+      }
+    ],
+    "licensors": [],
+    "studios": [
+      {
+        "mal_id": 22,
+        "type": "anime",
+        "name": "Nippon Animation",
+        "url": "https://myanimelist.net/anime/producer/22/Nippon_Animation"
+      }
+    ],
+    "genres": [
+      {
+        "mal_id": 2,
+        "type": "anime",
+        "name": "Adventure",
+        "url": "https://myanimelist.net/anime/genre/2/Adventure"
+      },
+      {
+        "mal_id": 4,
+        "type": "anime",
+        "name": "Comedy",
+        "url": "https://myanimelist.net/anime/genre/4/Comedy"
+      }
+    ],
+    "explicit_genres": [],
+    "themes": [],
+    "demographics": [
+      {
+        "mal_id": 27,
+        "type": "anime",
+        "name": "Shounen",
+        "url": "https://myanimelist.net/anime/genre/27/Shounen"
+      }
+    ]
+  },
+  {
+    "mal_id": 6981,
+    "url": "https://myanimelist.net/anime/6981/Super_Zugan",
+    "images": {
+      "jpg": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/1389/127689.jpg",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/1389/127689t.jpg",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/1389/127689l.jpg"
+      },
+      "webp": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/1389/127689.webp",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/1389/127689t.webp",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/1389/127689l.webp"
+      }
+    },
+    "trailer": {
+      "youtube_id": null,
+      "url": null,
+      "embed_url": null,
+      "images": {
+        "image_url": null,
+        "small_image_url": null,
+        "medium_image_url": null,
+        "large_image_url": null,
+        "maximum_image_url": null
+      }
+    },
+    "approved": true,
+    "titles": [
+      {
+        "type": "Default",
+        "title": "Super Zugan"
+      },
+      {
+        "type": "Japanese",
+        "title": "\u30b9\u30fc\u30d1\u30fc\u30c5\u30ac\u30f3"
+      },
+      {
+        "type": "English",
+        "title": "Super Zugan"
+      }
+    ],
+    "title": "Super Zugan",
+    "title_english": "Super Zugan",
+    "title_japanese": "\u30b9\u30fc\u30d1\u30fc\u30c5\u30ac\u30f3",
+    "title_synonyms": [],
+    "type": "TV",
+    "source": "Manga",
+    "episodes": 21,
+    "status": "Finished Airing",
+    "airing": false,
+    "aired": {
+      "from": "1992-10-09T00:00:00+00:00",
+      "to": "1993-03-13T00:00:00+00:00",
+      "prop": {
+        "from": {
+          "day": 9,
+          "month": 10,
+          "year": 1992
+        },
+        "to": {
+          "day": 13,
+          "month": 3,
+          "year": 1993
+        }
+      },
+      "string": "Oct 9, 1992 to Mar 13, 1993"
+    },
+    "duration": "25 min per ep",
+    "rating": "PG-13 - Teens 13 or older",
+    "score": 6.31,
+    "scored_by": 146,
+    "rank": 7333,
+    "popularity": 13302,
+    "members": 802,
+    "favorites": 3,
+    "synopsis": "Hideyuki Toyotomi used to be a normal person, but gets dragged into mahjong games by his three degenerate companions and constantly loses in spite of the tiles he draws.\n\n(Source: Giant Bomb)",
+    "background": null,
+    "season": "fall",
+    "year": 1992,
+    "broadcast": {
+      "day": "Fridays",
+      "time": "01:10",
+      "timezone": "Asia/Tokyo",
+      "string": "Fridays at 01:10 (JST)"
+    },
+    "producers": [
+      {
+        "mal_id": 99,
+        "type": "anime",
+        "name": "Kitty Films",
+        "url": "https://myanimelist.net/anime/producer/99/Kitty_Films"
+      },
+      {
+        "mal_id": 169,
+        "type": "anime",
+        "name": "Fuji TV",
+        "url": "https://myanimelist.net/anime/producer/169/Fuji_TV"
+      }
+    ],
+    "licensors": [],
+    "studios": [
+      {
+        "mal_id": 37,
+        "type": "anime",
+        "name": "Studio Deen",
+        "url": "https://myanimelist.net/anime/producer/37/Studio_Deen"
+      }
+    ],
+    "genres": [
+      {
+        "mal_id": 4,
+        "type": "anime",
+        "name": "Comedy",
+        "url": "https://myanimelist.net/anime/genre/4/Comedy"
+      }
+    ],
+    "explicit_genres": [],
+    "themes": [
+      {
+        "mal_id": 11,
+        "type": "anime",
+        "name": "Strategy Game",
+        "url": "https://myanimelist.net/anime/genre/11/Strategy_Game"
+      }
+    ],
+    "demographics": [
+      {
+        "mal_id": 27,
+        "type": "anime",
+        "name": "Shounen",
+        "url": "https://myanimelist.net/anime/genre/27/Shounen"
+      }
+    ]
+  },
+  {
+    "mal_id": 19585,
+    "url": "https://myanimelist.net/anime/19585/Kobo-chan",
+    "images": {
+      "jpg": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/1017/99304.jpg",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/1017/99304t.jpg",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/1017/99304l.jpg"
+      },
+      "webp": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/1017/99304.webp",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/1017/99304t.webp",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/1017/99304l.webp"
+      }
+    },
+    "trailer": {
+      "youtube_id": null,
+      "url": null,
+      "embed_url": null,
+      "images": {
+        "image_url": null,
+        "small_image_url": null,
+        "medium_image_url": null,
+        "large_image_url": null,
+        "maximum_image_url": null
+      }
+    },
+    "approved": true,
+    "titles": [
+      {
+        "type": "Default",
+        "title": "Kobo-chan"
+      },
+      {
+        "type": "Synonym",
+        "title": "Kobo"
+      },
+      {
+        "type": "Synonym",
+        "title": "the Li'l Rascal"
+      },
+      {
+        "type": "Japanese",
+        "title": "\u30b3\u30dc\u3061\u3083\u3093"
+      },
+      {
+        "type": "German",
+        "title": "Kobo chan"
+      },
+      {
+        "type": "Spanish",
+        "title": "Kobo chan"
+      },
+      {
+        "type": "French",
+        "title": "Kobo chan"
+      }
+    ],
+    "title": "Kobo-chan",
+    "title_english": null,
+    "title_japanese": "\u30b3\u30dc\u3061\u3083\u3093",
+    "title_synonyms": [
+      "Kobo",
+      "the Li'l Rascal"
+    ],
+    "type": "TV",
+    "source": "4-koma manga",
+    "episodes": 63,
+    "status": "Finished Airing",
+    "airing": false,
+    "aired": {
+      "from": "1992-10-19T00:00:00+00:00",
+      "to": "1994-03-21T00:00:00+00:00",
+      "prop": {
+        "from": {
+          "day": 19,
+          "month": 10,
+          "year": 1992
+        },
+        "to": {
+          "day": 21,
+          "month": 3,
+          "year": 1994
+        }
+      },
+      "string": "Oct 19, 1992 to Mar 21, 1994"
+    },
+    "duration": "25 min per ep",
+    "rating": "G - All Ages",
+    "score": 6.47,
+    "scored_by": 209,
+    "rank": 6499,
+    "popularity": 14105,
+    "members": 617,
+    "favorites": 3,
+    "synopsis": "Kobo Tabata lives in a typical Japanese family. His father is a normal salary-man, his mother's a typical housewife, his grandparents (from his mother's side) help to take care of the family and it's pets, and his uncle's a slightly obese high school teacher. Still, they manage to find odd situations that sometimes arise due to Kobo's growing up process or simply because of their own habits and misunderstandings.\n\n(Source: ANN)",
+    "background": null,
+    "season": "fall",
+    "year": 1992,
+    "broadcast": {
+      "day": null,
+      "time": null,
+      "timezone": null,
+      "string": "Unknown"
+    },
+    "producers": [
+      {
+        "mal_id": 76,
+        "type": "anime",
+        "name": "Yomiuri Telecasting",
+        "url": "https://myanimelist.net/anime/producer/76/Yomiuri_Telecasting"
+      },
+      {
+        "mal_id": 829,
+        "type": "anime",
+        "name": "Studio Jack",
+        "url": "https://myanimelist.net/anime/producer/829/Studio_Jack"
+      },
+      {
+        "mal_id": 1754,
+        "type": "anime",
+        "name": "Meruhensha",
+        "url": "https://myanimelist.net/anime/producer/1754/Meruhensha"
+      }
+    ],
+    "licensors": [],
+    "studios": [
+      {
+        "mal_id": 191,
+        "type": "anime",
+        "name": "Eiken",
+        "url": "https://myanimelist.net/anime/producer/191/Eiken"
+      }
+    ],
+    "genres": [
+      {
+        "mal_id": 4,
+        "type": "anime",
+        "name": "Comedy",
+        "url": "https://myanimelist.net/anime/genre/4/Comedy"
+      },
+      {
+        "mal_id": 36,
+        "type": "anime",
+        "name": "Slice of Life",
+        "url": "https://myanimelist.net/anime/genre/36/Slice_of_Life"
+      }
+    ],
+    "explicit_genres": [],
+    "themes": [],
+    "demographics": [
+      {
+        "mal_id": 15,
+        "type": "anime",
+        "name": "Kids",
+        "url": "https://myanimelist.net/anime/genre/15/Kids"
+      }
+    ]
+  },
+  {
+    "mal_id": 3451,
+    "url": "https://myanimelist.net/anime/3451/Space_Oz_no_Bouken",
+    "images": {
+      "jpg": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/6/64345.jpg",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/6/64345t.jpg",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/6/64345l.jpg"
+      },
+      "webp": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/6/64345.webp",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/6/64345t.webp",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/6/64345l.webp"
+      }
+    },
+    "trailer": {
+      "youtube_id": null,
+      "url": null,
+      "embed_url": null,
+      "images": {
+        "image_url": null,
+        "small_image_url": null,
+        "medium_image_url": null,
+        "large_image_url": null,
+        "maximum_image_url": null
+      }
+    },
+    "approved": true,
+    "titles": [
+      {
+        "type": "Default",
+        "title": "Space Oz no Bouken"
+      },
+      {
+        "type": "Synonym",
+        "title": "The Adventures of Space Oz"
+      },
+      {
+        "type": "Synonym",
+        "title": "The Galaxy Adventures of Oz"
+      },
+      {
+        "type": "Japanese",
+        "title": "\u30b9\u30da\u30fc\u30b9\u30fb\u30aa\u30ba\u306e\u5192\u967a"
+      },
+      {
+        "type": "English",
+        "title": "The Wonderful Galaxy of Oz"
+      }
+    ],
+    "title": "Space Oz no Bouken",
+    "title_english": "The Wonderful Galaxy of Oz",
+    "title_japanese": "\u30b9\u30da\u30fc\u30b9\u30fb\u30aa\u30ba\u306e\u5192\u967a",
+    "title_synonyms": [
+      "The Adventures of Space Oz",
+      "The Galaxy Adventures of Oz"
+    ],
+    "type": "TV",
+    "source": "Unknown",
+    "episodes": 26,
+    "status": "Finished Airing",
+    "airing": false,
+    "aired": {
+      "from": "1992-10-05T00:00:00+00:00",
+      "to": "1993-04-04T00:00:00+00:00",
+      "prop": {
+        "from": {
+          "day": 5,
+          "month": 10,
+          "year": 1992
+        },
+        "to": {
+          "day": 4,
+          "month": 4,
+          "year": 1993
+        }
+      },
+      "string": "Oct 5, 1992 to Apr 4, 1993"
+    },
+    "duration": "25 min per ep",
+    "rating": "PG - Children",
+    "score": null,
+    "scored_by": null,
+    "rank": 19914,
+    "popularity": 14900,
+    "members": 494,
+    "favorites": 0,
+    "synopsis": "In the year 2060, eight year old Dorothy and her dog are mysteriously swept off their planet into the wonderful, magical Galaxy of Oz. An evil witch, Gloomhilda, once ruled the Galaxy through fear and terror but was driven out by the good Dr. Oz. Now, Gloomhilda has amassed an army on the outskirts of the Galaxy and is preparing to win back her empire.Her sneak attack fails due to Dorothy's unexpected arrival. However, Dr. Oz knows Gloomhilda will return. He has a plan which will free the Galaxy of the wickedness of Gloomhilda forever. Legend tells of three magical crystals, the Crystal of Love, the Crystal of Wisdom, and the Crystal of Courage. These crystals were spread throughout the Galaxy and lost hundreds of years ago. According to the legend, whoever possesses all three crystals will rule the Galaxy of Oz for all Eternity. Under the guidance of Dr. Oz, Dorothy and an assortment of \"heroes\" set out to scour the Galaxy in search of the three magical crystals. \n\n(Source: ANN)",
+    "background": null,
+    "season": "fall",
+    "year": 1992,
+    "broadcast": {
+      "day": null,
+      "time": null,
+      "timezone": null,
+      "string": "Unknown"
+    },
+    "producers": [
+      {
+        "mal_id": 717,
+        "type": "anime",
+        "name": "TV Tokyo Music",
+        "url": "https://myanimelist.net/anime/producer/717/TV_Tokyo_Music"
+      }
+    ],
+    "licensors": [],
+    "studios": [
+      {
+        "mal_id": 154,
+        "type": "anime",
+        "name": "E&G Films",
+        "url": "https://myanimelist.net/anime/producer/154/E_G_Films"
+      }
+    ],
+    "genres": [
+      {
+        "mal_id": 2,
+        "type": "anime",
+        "name": "Adventure",
+        "url": "https://myanimelist.net/anime/genre/2/Adventure"
+      },
+      {
+        "mal_id": 24,
+        "type": "anime",
+        "name": "Sci-Fi",
+        "url": "https://myanimelist.net/anime/genre/24/Sci-Fi"
+      }
+    ],
+    "explicit_genres": [],
+    "themes": [],
+    "demographics": []
+  },
+  {
+    "mal_id": 8832,
+    "url": "https://myanimelist.net/anime/8832/Shounen_Ashibe_2",
+    "images": {
+      "jpg": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/4/24412.jpg",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/4/24412t.jpg",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/4/24412l.jpg"
+      },
+      "webp": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/4/24412.webp",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/4/24412t.webp",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/4/24412l.webp"
+      }
+    },
+    "trailer": {
+      "youtube_id": null,
+      "url": null,
+      "embed_url": null,
+      "images": {
+        "image_url": null,
+        "small_image_url": null,
+        "medium_image_url": null,
+        "large_image_url": null,
+        "maximum_image_url": null
+      }
+    },
+    "approved": true,
+    "titles": [
+      {
+        "type": "Default",
+        "title": "Shounen Ashibe 2"
+      },
+      {
+        "type": "Synonym",
+        "title": "Shonen Ashibe 2"
+      },
+      {
+        "type": "Synonym",
+        "title": "Young Ashibe 2"
+      },
+      {
+        "type": "Japanese",
+        "title": "\u5c11\u5e74\u30a2\u30b7\u30d9\uff12"
+      }
+    ],
+    "title": "Shounen Ashibe 2",
+    "title_english": null,
+    "title_japanese": "\u5c11\u5e74\u30a2\u30b7\u30d9\uff12",
+    "title_synonyms": [
+      "Shonen Ashibe 2",
+      "Young Ashibe 2"
+    ],
+    "type": "TV",
+    "source": "4-koma manga",
+    "episodes": 25,
+    "status": "Finished Airing",
+    "airing": false,
+    "aired": {
+      "from": "1992-10-03T00:00:00+00:00",
+      "to": "1993-03-27T00:00:00+00:00",
+      "prop": {
+        "from": {
+          "day": 3,
+          "month": 10,
+          "year": 1992
+        },
+        "to": {
+          "day": 27,
+          "month": 3,
+          "year": 1993
+        }
+      },
+      "string": "Oct 3, 1992 to Mar 27, 1993"
+    },
+    "duration": "25 min per ep",
+    "rating": "G - All Ages",
+    "score": null,
+    "scored_by": null,
+    "rank": 19669,
+    "popularity": 15103,
+    "members": 470,
+    "favorites": 0,
+    "synopsis": "Sequel to Shounen Ashibe",
+    "background": null,
+    "season": "fall",
+    "year": 1992,
+    "broadcast": {
+      "day": "Saturdays",
+      "time": "17:30",
+      "timezone": "Asia/Tokyo",
+      "string": "Saturdays at 17:30 (JST)"
+    },
+    "producers": [
+      {
+        "mal_id": 145,
+        "type": "anime",
+        "name": "TBS",
+        "url": "https://myanimelist.net/anime/producer/145/TBS"
+      }
+    ],
+    "licensors": [],
+    "studios": [
+      {
+        "mal_id": 312,
+        "type": "anime",
+        "name": "Life Work",
+        "url": "https://myanimelist.net/anime/producer/312/Life_Work"
+      }
+    ],
+    "genres": [
+      {
+        "mal_id": 4,
+        "type": "anime",
+        "name": "Comedy",
+        "url": "https://myanimelist.net/anime/genre/4/Comedy"
+      }
+    ],
+    "explicit_genres": [],
+    "themes": [],
+    "demographics": []
+  },
+  {
+    "mal_id": 17601,
+    "url": "https://myanimelist.net/anime/17601/Non-tan_to_Issho",
+    "images": {
+      "jpg": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/8/47021.jpg",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/8/47021t.jpg",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/8/47021l.jpg"
+      },
+      "webp": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/8/47021.webp",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/8/47021t.webp",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/8/47021l.webp"
+      }
+    },
+    "trailer": {
+      "youtube_id": null,
+      "url": null,
+      "embed_url": null,
+      "images": {
+        "image_url": null,
+        "small_image_url": null,
+        "medium_image_url": null,
+        "large_image_url": null,
+        "maximum_image_url": null
+      }
+    },
+    "approved": true,
+    "titles": [
+      {
+        "type": "Default",
+        "title": "Non-tan to Issho"
+      },
+      {
+        "type": "Synonym",
+        "title": "Nontan to Issho"
+      },
+      {
+        "type": "Japanese",
+        "title": "\u30ce\u30f3\u30bf\u30f3\u3068\u3044\u3063\u3057\u3087"
+      }
+    ],
+    "title": "Non-tan to Issho",
+    "title_english": null,
+    "title_japanese": "\u30ce\u30f3\u30bf\u30f3\u3068\u3044\u3063\u3057\u3087",
+    "title_synonyms": [
+      "Nontan to Issho"
+    ],
+    "type": "TV",
+    "source": "Picture book",
+    "episodes": 263,
+    "status": "Finished Airing",
+    "airing": false,
+    "aired": {
+      "from": "1992-10-05T00:00:00+00:00",
+      "to": "1994-03-18T00:00:00+00:00",
+      "prop": {
+        "from": {
+          "day": 5,
+          "month": 10,
+          "year": 1992
+        },
+        "to": {
+          "day": 18,
+          "month": 3,
+          "year": 1994
+        }
+      },
+      "string": "Oct 5, 1992 to Mar 18, 1994"
+    },
+    "duration": "5 min per ep",
+    "rating": "PG - Children",
+    "score": null,
+    "scored_by": null,
+    "rank": 18438,
+    "popularity": 15226,
+    "members": 459,
+    "favorites": 0,
+    "synopsis": "Nontan is the protagonist of a Japanese series of children's picture books by the same name written by Sachiko Kiyono.\n\nIn the series, Nontan is a mischievous kitten who likes to play and learns about the world around him. Other characters include Pig, Rabbit triplet, Raccoon, Bear, Bee, and Nontan's little sister Taatan.\n\n(Source: Wikipedia)",
+    "background": null,
+    "season": "fall",
+    "year": 1992,
+    "broadcast": {
+      "day": null,
+      "time": null,
+      "timezone": null,
+      "string": "Unknown"
+    },
+    "producers": [],
+    "licensors": [],
+    "studios": [
+      {
+        "mal_id": 1,
+        "type": "anime",
+        "name": "Pierrot",
+        "url": "https://myanimelist.net/anime/producer/1/Pierrot"
+      }
+    ],
+    "genres": [],
+    "explicit_genres": [],
+    "themes": [],
+    "demographics": [
+      {
+        "mal_id": 15,
+        "type": "anime",
+        "name": "Kids",
+        "url": "https://myanimelist.net/anime/genre/15/Kids"
+      }
+    ]
+  },
+  {
+    "mal_id": 22065,
+    "url": "https://myanimelist.net/anime/22065/T-Rex",
+    "images": {
+      "jpg": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/12/57903.jpg",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/12/57903t.jpg",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/12/57903l.jpg"
+      },
+      "webp": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/12/57903.webp",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/12/57903t.webp",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/12/57903l.webp"
+      }
+    },
+    "trailer": {
+      "youtube_id": null,
+      "url": null,
+      "embed_url": null,
+      "images": {
+        "image_url": null,
+        "small_image_url": null,
+        "medium_image_url": null,
+        "large_image_url": null,
+        "maximum_image_url": null
+      }
+    },
+    "approved": true,
+    "titles": [
+      {
+        "type": "Default",
+        "title": "T-Rex"
+      },
+      {
+        "type": "Japanese",
+        "title": "T-\u30ec\u30c3\u30af\u30b9"
+      },
+      {
+        "type": "English",
+        "title": "The Adventures of T-Rex"
+      }
+    ],
+    "title": "T-Rex",
+    "title_english": "The Adventures of T-Rex",
+    "title_japanese": "T-\u30ec\u30c3\u30af\u30b9",
+    "title_synonyms": [],
+    "type": "TV",
+    "source": "Unknown",
+    "episodes": 52,
+    "status": "Finished Airing",
+    "airing": false,
+    "aired": {
+      "from": "1992-09-14T00:00:00+00:00",
+      "to": "1993-01-23T00:00:00+00:00",
+      "prop": {
+        "from": {
+          "day": 14,
+          "month": 9,
+          "year": 1992
+        },
+        "to": {
+          "day": 23,
+          "month": 1,
+          "year": 1993
+        }
+      },
+      "string": "Sep 14, 1992 to Jan 23, 1993"
+    },
+    "duration": "25 min per ep",
+    "rating": "G - All Ages",
+    "score": null,
+    "scored_by": null,
+    "rank": 19999,
+    "popularity": 16046,
+    "members": 382,
+    "favorites": 1,
+    "synopsis": "Set in a world of anthropomophic dinosaurs, brothers Bernie (blue), Bruno (pink), Bubba (green), Buck (yellow) and Bugsy (purple) were born with special powers to help fight crime. \n\nEach brother's special power was related to a specific part of their anatomy; Bernie's legs, Bruno's arms, Bubba's tail, Buck's mouth and teeth, and Bugsy's telekinetic eyes. \n\nThe group rode out on their Rexmobile to battle \u201cBig Boss\u201d Graves, crime kingpin of Rep City (the show's setting), and his evil organization, The Corporation. Kid sister Ginger was part of the singing group, but didn\u2019t know about her brothers\u2019 secret identities.\n\n(Source: Wikipedia)",
+    "background": null,
+    "season": "fall",
+    "year": 1992,
+    "broadcast": {
+      "day": null,
+      "time": null,
+      "timezone": null,
+      "string": "Unknown"
+    },
+    "producers": [
+      {
+        "mal_id": 99,
+        "type": "anime",
+        "name": "Kitty Films",
+        "url": "https://myanimelist.net/anime/producer/99/Kitty_Films"
+      }
+    ],
+    "licensors": [],
+    "studios": [],
+    "genres": [
+      {
+        "mal_id": 1,
+        "type": "anime",
+        "name": "Action",
+        "url": "https://myanimelist.net/anime/genre/1/Action"
+      },
+      {
+        "mal_id": 2,
+        "type": "anime",
+        "name": "Adventure",
+        "url": "https://myanimelist.net/anime/genre/2/Adventure"
+      },
+      {
+        "mal_id": 4,
+        "type": "anime",
+        "name": "Comedy",
+        "url": "https://myanimelist.net/anime/genre/4/Comedy"
+      }
+    ],
+    "explicit_genres": [],
+    "themes": [],
+    "demographics": [
+      {
+        "mal_id": 15,
+        "type": "anime",
+        "name": "Kids",
+        "url": "https://myanimelist.net/anime/genre/15/Kids"
+      }
+    ]
+  }
+]

@@ -1,0 +1,267 @@
+[
+  {
+    "mal_id": 2806,
+    "url": "https://myanimelist.net/anime/2806/Yadamon",
+    "images": {
+      "jpg": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/4/82764.jpg",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/4/82764t.jpg",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/4/82764l.jpg"
+      },
+      "webp": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/4/82764.webp",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/4/82764t.webp",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/4/82764l.webp"
+      }
+    },
+    "trailer": {
+      "youtube_id": null,
+      "url": null,
+      "embed_url": null,
+      "images": {
+        "image_url": null,
+        "small_image_url": null,
+        "medium_image_url": null,
+        "large_image_url": null,
+        "maximum_image_url": null
+      }
+    },
+    "approved": true,
+    "titles": [
+      {
+        "type": "Default",
+        "title": "Yadamon"
+      },
+      {
+        "type": "Synonym",
+        "title": "Chibikko Kaijuu Yadamon"
+      },
+      {
+        "type": "Japanese",
+        "title": "\u30e4\u30c0\u30e2\u30f3"
+      },
+      {
+        "type": "English",
+        "title": "Yadamon: Magical Dreamer"
+      }
+    ],
+    "title": "Yadamon",
+    "title_english": "Yadamon: Magical Dreamer",
+    "title_japanese": "\u30e4\u30c0\u30e2\u30f3",
+    "title_synonyms": [
+      "Chibikko Kaijuu Yadamon"
+    ],
+    "type": "TV",
+    "source": "Unknown",
+    "episodes": 170,
+    "status": "Finished Airing",
+    "airing": false,
+    "aired": {
+      "from": "1992-08-24T00:00:00+00:00",
+      "to": "1993-07-16T00:00:00+00:00",
+      "prop": {
+        "from": {
+          "day": 24,
+          "month": 8,
+          "year": 1992
+        },
+        "to": {
+          "day": 16,
+          "month": 7,
+          "year": 1993
+        }
+      },
+      "string": "Aug 24, 1992 to Jul 16, 1993"
+    },
+    "duration": "10 min per ep",
+    "rating": "PG-13 - Teens 13 or older",
+    "score": 7.14,
+    "scored_by": 488,
+    "rank": 3343,
+    "popularity": 11135,
+    "members": 1663,
+    "favorites": 9,
+    "synopsis": "After causing havoc in the Witch Forest, the queen, Yadamon's mother, banishes her to human world.  She does this not only to teach Yadamon a lesson, but also because she has a secret passion for human magazines and books.  While at the human world, the queen keeps a close watch at Yadamon which becomes a problem cause she falls asleep almost anywhere.\n\nThe human world has gone extremely hi-tech.  Also, a lot of animals has become extinct.  Yadamon finds herself in the island named ''Creature Island'', where genetically re-created species are being made.  In the island she meets Jean and his parents Edward and Maria.\n\nYadamon meets many misadventures in the human world due to her curiosity which causes a lot of trouble to the humans and her guardian fairy, Timon, who has the ability to stop time.\n\nAs Yadamon learns to adapt to human world and use her powers, a new threat is brewing.  Kira, the evil witch who was sealed inside a volcano by the queen and the great witch Beril, has escaped.  She is out for revenge and has set her eyes to the humans and Yadamon.\n\n(Source: Wikipedia)",
+    "background": null,
+    "season": "summer",
+    "year": 1992,
+    "broadcast": {
+      "day": null,
+      "time": null,
+      "timezone": null,
+      "string": "Not scheduled once per week"
+    },
+    "producers": [
+      {
+        "mal_id": 379,
+        "type": "anime",
+        "name": "Avaco Creative Studios",
+        "url": "https://myanimelist.net/anime/producer/379/Avaco_Creative_Studios"
+      }
+    ],
+    "licensors": [],
+    "studios": [
+      {
+        "mal_id": 86,
+        "type": "anime",
+        "name": "Group TAC",
+        "url": "https://myanimelist.net/anime/producer/86/Group_TAC"
+      }
+    ],
+    "genres": [
+      {
+        "mal_id": 2,
+        "type": "anime",
+        "name": "Adventure",
+        "url": "https://myanimelist.net/anime/genre/2/Adventure"
+      },
+      {
+        "mal_id": 4,
+        "type": "anime",
+        "name": "Comedy",
+        "url": "https://myanimelist.net/anime/genre/4/Comedy"
+      },
+      {
+        "mal_id": 10,
+        "type": "anime",
+        "name": "Fantasy",
+        "url": "https://myanimelist.net/anime/genre/10/Fantasy"
+      }
+    ],
+    "explicit_genres": [],
+    "themes": [],
+    "demographics": []
+  },
+  {
+    "mal_id": 7625,
+    "url": "https://myanimelist.net/anime/7625/Yousei_Dick",
+    "images": {
+      "jpg": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/4/59719.jpg",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/4/59719t.jpg",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/4/59719l.jpg"
+      },
+      "webp": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/4/59719.webp",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/4/59719t.webp",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/4/59719l.webp"
+      }
+    },
+    "trailer": {
+      "youtube_id": null,
+      "url": null,
+      "embed_url": null,
+      "images": {
+        "image_url": null,
+        "small_image_url": null,
+        "medium_image_url": null,
+        "large_image_url": null,
+        "maximum_image_url": null
+      }
+    },
+    "approved": true,
+    "titles": [
+      {
+        "type": "Default",
+        "title": "Yousei Dick"
+      },
+      {
+        "type": "Synonym",
+        "title": "Hobberdy Dick"
+      },
+      {
+        "type": "Synonym",
+        "title": "Yosei Dikku"
+      },
+      {
+        "type": "Japanese",
+        "title": "\u5996\u7cbe\u30c7\u30a3\u30c3\u30af"
+      },
+      {
+        "type": "English",
+        "title": "Fairy Dick"
+      }
+    ],
+    "title": "Yousei Dick",
+    "title_english": "Fairy Dick",
+    "title_japanese": "\u5996\u7cbe\u30c7\u30a3\u30c3\u30af",
+    "title_synonyms": [
+      "Hobberdy Dick",
+      "Yosei Dikku"
+    ],
+    "type": "TV",
+    "source": "Unknown",
+    "episodes": 26,
+    "status": "Finished Airing",
+    "airing": false,
+    "aired": {
+      "from": "1992-06-07T00:00:00+00:00",
+      "to": "1992-12-06T00:00:00+00:00",
+      "prop": {
+        "from": {
+          "day": 7,
+          "month": 6,
+          "year": 1992
+        },
+        "to": {
+          "day": 6,
+          "month": 12,
+          "year": 1992
+        }
+      },
+      "string": "Jun 7, 1992 to Dec 6, 1992"
+    },
+    "duration": "20 min per ep",
+    "rating": "PG - Children",
+    "score": 5.7,
+    "scored_by": 165,
+    "rank": 10020,
+    "popularity": 13781,
+    "members": 691,
+    "favorites": 5,
+    "synopsis": "Based on Hobberdy Dick (1955) by Katharine Mary Briggs (1898-1980, English). \n\nTells the story of a 300-year-old hobgoblin who lives in Widford Manor in the Cotswolds. \n\n(Source: AniDB)",
+    "background": null,
+    "season": "summer",
+    "year": 1992,
+    "broadcast": {
+      "day": null,
+      "time": null,
+      "timezone": null,
+      "string": "Unknown"
+    },
+    "producers": [
+      {
+        "mal_id": 165,
+        "type": "anime",
+        "name": "Marubeni",
+        "url": "https://myanimelist.net/anime/producer/165/Marubeni"
+      },
+      {
+        "mal_id": 391,
+        "type": "anime",
+        "name": "Grouper Productions",
+        "url": "https://myanimelist.net/anime/producer/391/Grouper_Productions"
+      }
+    ],
+    "licensors": [],
+    "studios": [],
+    "genres": [
+      {
+        "mal_id": 10,
+        "type": "anime",
+        "name": "Fantasy",
+        "url": "https://myanimelist.net/anime/genre/10/Fantasy"
+      }
+    ],
+    "explicit_genres": [],
+    "themes": [],
+    "demographics": [
+      {
+        "mal_id": 15,
+        "type": "anime",
+        "name": "Kids",
+        "url": "https://myanimelist.net/anime/genre/15/Kids"
+      }
+    ]
+  }
+]

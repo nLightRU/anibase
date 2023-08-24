@@ -1,0 +1,1810 @@
+[
+  {
+    "mal_id": 813,
+    "url": "https://myanimelist.net/anime/813/Dragon_Ball_Z",
+    "images": {
+      "jpg": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/1607/117271.jpg",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/1607/117271t.jpg",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/1607/117271l.jpg"
+      },
+      "webp": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/1607/117271.webp",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/1607/117271t.webp",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/1607/117271l.webp"
+      }
+    },
+    "trailer": {
+      "youtube_id": null,
+      "url": null,
+      "embed_url": null,
+      "images": {
+        "image_url": null,
+        "small_image_url": null,
+        "medium_image_url": null,
+        "large_image_url": null,
+        "maximum_image_url": null
+      }
+    },
+    "approved": true,
+    "titles": [
+      {
+        "type": "Default",
+        "title": "Dragon Ball Z"
+      },
+      {
+        "type": "Synonym",
+        "title": "DBZ"
+      },
+      {
+        "type": "Synonym",
+        "title": "Dragonball Z"
+      },
+      {
+        "type": "Japanese",
+        "title": "\u30c9\u30e9\u30b4\u30f3\u30dc\u30fc\u30ebZ"
+      },
+      {
+        "type": "English",
+        "title": "Dragon Ball Z"
+      }
+    ],
+    "title": "Dragon Ball Z",
+    "title_english": "Dragon Ball Z",
+    "title_japanese": "\u30c9\u30e9\u30b4\u30f3\u30dc\u30fc\u30ebZ",
+    "title_synonyms": [
+      "DBZ",
+      "Dragonball Z"
+    ],
+    "type": "TV",
+    "source": "Manga",
+    "episodes": 291,
+    "status": "Finished Airing",
+    "airing": false,
+    "aired": {
+      "from": "1989-04-26T00:00:00+00:00",
+      "to": "1996-01-31T00:00:00+00:00",
+      "prop": {
+        "from": {
+          "day": 26,
+          "month": 4,
+          "year": 1989
+        },
+        "to": {
+          "day": 31,
+          "month": 1,
+          "year": 1996
+        }
+      },
+      "string": "Apr 26, 1989 to Jan 31, 1996"
+    },
+    "duration": "24 min per ep",
+    "rating": "PG-13 - Teens 13 or older",
+    "score": 8.16,
+    "scored_by": 810147,
+    "rank": 390,
+    "popularity": 109,
+    "members": 1171656,
+    "favorites": 35963,
+    "synopsis": "Five years after winning the World Martial Arts tournament, Gokuu is now living a peaceful life with his wife and son. This changes, however, with the arrival of a mysterious enemy named Raditz who presents himself as Gokuu's long-lost brother. He reveals that Gokuu is a warrior from the once powerful but now virtually extinct Saiyan race, whose homeworld was completely annihilated. When he was sent to Earth as a baby, Gokuu's sole purpose was to conquer and destroy the planet; but after suffering amnesia from a head injury, his violent and savage nature changed, and instead was raised as a kind and well-mannered boy, now fighting to protect others.\n\nWith his failed attempt at forcibly recruiting Gokuu as an ally, Raditz warns Gokuu's friends of a new threat that's rapidly approaching Earth\u2014one that could plunge Earth into an intergalactic conflict and cause the heavens themselves to shake. A war will be fought over the seven mystical dragon balls, and only the strongest will survive in Dragon Ball Z.\n\n[Written by MAL Rewrite]",
+    "background": "The U.S. version is a dubbed alternative version of the original Japanese anime. For example, blood has been removed, beer is called root beer, the afterlife is called \"Another Universe,\" and people emigrate before cities are destroyed. \n \n The U.S. version edited and compiled the original for a reduced episode count of 276 instead of the original 291. The proper episode count was later restored on the uncut \"Orange Brick\" Season Set released by FUNimation Entertainment from 2006 to 2009. Additionally, these sets as well as the Season Set Blu-rays crop the show from its original 4:3 aspect ratio to 16:9. The only complete 4:3 release ever released in English were the Dragon Boxes, which have long since gone out of print.",
+    "season": "spring",
+    "year": 1989,
+    "broadcast": {
+      "day": "Wednesdays",
+      "time": "19:00",
+      "timezone": "Asia/Tokyo",
+      "string": "Wednesdays at 19:00 (JST)"
+    },
+    "producers": [
+      {
+        "mal_id": 169,
+        "type": "anime",
+        "name": "Fuji TV",
+        "url": "https://myanimelist.net/anime/producer/169/Fuji_TV"
+      }
+    ],
+    "licensors": [
+      {
+        "mal_id": 102,
+        "type": "anime",
+        "name": "Funimation",
+        "url": "https://myanimelist.net/anime/producer/102/Funimation"
+      }
+    ],
+    "studios": [
+      {
+        "mal_id": 18,
+        "type": "anime",
+        "name": "Toei Animation",
+        "url": "https://myanimelist.net/anime/producer/18/Toei_Animation"
+      }
+    ],
+    "genres": [
+      {
+        "mal_id": 1,
+        "type": "anime",
+        "name": "Action",
+        "url": "https://myanimelist.net/anime/genre/1/Action"
+      },
+      {
+        "mal_id": 2,
+        "type": "anime",
+        "name": "Adventure",
+        "url": "https://myanimelist.net/anime/genre/2/Adventure"
+      },
+      {
+        "mal_id": 4,
+        "type": "anime",
+        "name": "Comedy",
+        "url": "https://myanimelist.net/anime/genre/4/Comedy"
+      },
+      {
+        "mal_id": 10,
+        "type": "anime",
+        "name": "Fantasy",
+        "url": "https://myanimelist.net/anime/genre/10/Fantasy"
+      }
+    ],
+    "explicit_genres": [],
+    "themes": [
+      {
+        "mal_id": 17,
+        "type": "anime",
+        "name": "Martial Arts",
+        "url": "https://myanimelist.net/anime/genre/17/Martial_Arts"
+      },
+      {
+        "mal_id": 31,
+        "type": "anime",
+        "name": "Super Power",
+        "url": "https://myanimelist.net/anime/genre/31/Super_Power"
+      }
+    ],
+    "demographics": [
+      {
+        "mal_id": 27,
+        "type": "anime",
+        "name": "Shounen",
+        "url": "https://myanimelist.net/anime/genre/27/Shounen"
+      }
+    ]
+  },
+  {
+    "mal_id": 210,
+    "url": "https://myanimelist.net/anime/210/Ranma_\u00bd",
+    "images": {
+      "jpg": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/13/6441.jpg",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/13/6441t.jpg",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/13/6441l.jpg"
+      },
+      "webp": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/13/6441.webp",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/13/6441t.webp",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/13/6441l.webp"
+      }
+    },
+    "trailer": {
+      "youtube_id": "bjnLpR_jdQo",
+      "url": "https://www.youtube.com/watch?v=bjnLpR_jdQo",
+      "embed_url": "https://www.youtube.com/embed/bjnLpR_jdQo?enablejsapi=1&wmode=opaque&autoplay=1",
+      "images": {
+        "image_url": "https://img.youtube.com/vi/bjnLpR_jdQo/default.jpg",
+        "small_image_url": "https://img.youtube.com/vi/bjnLpR_jdQo/sddefault.jpg",
+        "medium_image_url": "https://img.youtube.com/vi/bjnLpR_jdQo/mqdefault.jpg",
+        "large_image_url": "https://img.youtube.com/vi/bjnLpR_jdQo/hqdefault.jpg",
+        "maximum_image_url": "https://img.youtube.com/vi/bjnLpR_jdQo/maxresdefault.jpg"
+      }
+    },
+    "approved": true,
+    "titles": [
+      {
+        "type": "Default",
+        "title": "Ranma \u00bd"
+      },
+      {
+        "type": "Synonym",
+        "title": "Ranma 1/2"
+      },
+      {
+        "type": "Synonym",
+        "title": "Ranma \u00bd Nettou Hen"
+      },
+      {
+        "type": "Japanese",
+        "title": "\u3089\u3093\u307e1/2"
+      },
+      {
+        "type": "English",
+        "title": "Ranma \u00bd"
+      }
+    ],
+    "title": "Ranma \u00bd",
+    "title_english": "Ranma \u00bd",
+    "title_japanese": "\u3089\u3093\u307e1/2",
+    "title_synonyms": [
+      "Ranma 1/2",
+      "Ranma \u00bd Nettou Hen"
+    ],
+    "type": "TV",
+    "source": "Manga",
+    "episodes": 161,
+    "status": "Finished Airing",
+    "airing": false,
+    "aired": {
+      "from": "1989-04-15T00:00:00+00:00",
+      "to": "1992-09-25T00:00:00+00:00",
+      "prop": {
+        "from": {
+          "day": 15,
+          "month": 4,
+          "year": 1989
+        },
+        "to": {
+          "day": 25,
+          "month": 9,
+          "year": 1992
+        }
+      },
+      "string": "Apr 15, 1989 to Sep 25, 1992"
+    },
+    "duration": "24 min per ep",
+    "rating": "R+ - Mild Nudity",
+    "score": 7.76,
+    "scored_by": 117075,
+    "rank": 987,
+    "popularity": 911,
+    "members": 244296,
+    "favorites": 3953,
+    "synopsis": "Ranma Saotome is a top-class martial artist and prodigy at the Saotome \"Anything-Goes\" school of martial arts. While training in China, he and his father meet a terrible fate when they accidentally fall into a cursed spring. Now, Ranma is cursed to turn into a girl when splashed with cold water, and only hot water can turn him back into a boy.\n\nThings are only complicated further when Ranma discovers that his father has arranged for him to marry one of Soun Tendo's three daughters in order to secure the future of the Tendo dojo. Though Soun learns of Ranma's predicament, he is still determined to go ahead with the engagement, and chooses his youngest daughter Akane, who happens to be a skilled martial artist herself and is notorious for hating men.\n\nRanma \u00bd follows the hilarious adventures of Ranma and Akane as they encounter various opponents, meet new love interests, and find different ways to make each other angry, all while their engagement hangs over their head.\n\n[Written by MAL Rewrite]",
+    "background": "The 2011 live-action adaptation is produced by Nippon Television and is directed by Ryo Nishimura.",
+    "season": "spring",
+    "year": 1989,
+    "broadcast": {
+      "day": null,
+      "time": null,
+      "timezone": null,
+      "string": "Unknown"
+    },
+    "producers": [
+      {
+        "mal_id": 62,
+        "type": "anime",
+        "name": "Shogakukan-Shueisha Productions",
+        "url": "https://myanimelist.net/anime/producer/62/Shogakukan-Shueisha_Productions"
+      },
+      {
+        "mal_id": 99,
+        "type": "anime",
+        "name": "Kitty Films",
+        "url": "https://myanimelist.net/anime/producer/99/Kitty_Films"
+      },
+      {
+        "mal_id": 169,
+        "type": "anime",
+        "name": "Fuji TV",
+        "url": "https://myanimelist.net/anime/producer/169/Fuji_TV"
+      },
+      {
+        "mal_id": 1430,
+        "type": "anime",
+        "name": "Shogakukan",
+        "url": "https://myanimelist.net/anime/producer/1430/Shogakukan"
+      }
+    ],
+    "licensors": [
+      {
+        "mal_id": 119,
+        "type": "anime",
+        "name": "VIZ Media",
+        "url": "https://myanimelist.net/anime/producer/119/VIZ_Media"
+      }
+    ],
+    "studios": [
+      {
+        "mal_id": 37,
+        "type": "anime",
+        "name": "Studio Deen",
+        "url": "https://myanimelist.net/anime/producer/37/Studio_Deen"
+      }
+    ],
+    "genres": [
+      {
+        "mal_id": 1,
+        "type": "anime",
+        "name": "Action",
+        "url": "https://myanimelist.net/anime/genre/1/Action"
+      },
+      {
+        "mal_id": 4,
+        "type": "anime",
+        "name": "Comedy",
+        "url": "https://myanimelist.net/anime/genre/4/Comedy"
+      },
+      {
+        "mal_id": 10,
+        "type": "anime",
+        "name": "Fantasy",
+        "url": "https://myanimelist.net/anime/genre/10/Fantasy"
+      }
+    ],
+    "explicit_genres": [],
+    "themes": [
+      {
+        "mal_id": 65,
+        "type": "anime",
+        "name": "Magical Sex Shift",
+        "url": "https://myanimelist.net/anime/genre/65/Magical_Sex_Shift"
+      },
+      {
+        "mal_id": 17,
+        "type": "anime",
+        "name": "Martial Arts",
+        "url": "https://myanimelist.net/anime/genre/17/Martial_Arts"
+      }
+    ],
+    "demographics": [
+      {
+        "mal_id": 27,
+        "type": "anime",
+        "name": "Shounen",
+        "url": "https://myanimelist.net/anime/genre/27/Shounen"
+      }
+    ]
+  },
+  {
+    "mal_id": 2113,
+    "url": "https://myanimelist.net/anime/2113/Tenkuu_Senki_Shurato",
+    "images": {
+      "jpg": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/1989/92418.jpg",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/1989/92418t.jpg",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/1989/92418l.jpg"
+      },
+      "webp": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/1989/92418.webp",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/1989/92418t.webp",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/1989/92418l.webp"
+      }
+    },
+    "trailer": {
+      "youtube_id": null,
+      "url": null,
+      "embed_url": null,
+      "images": {
+        "image_url": null,
+        "small_image_url": null,
+        "medium_image_url": null,
+        "large_image_url": null,
+        "maximum_image_url": null
+      }
+    },
+    "approved": true,
+    "titles": [
+      {
+        "type": "Default",
+        "title": "Tenkuu Senki Shurato"
+      },
+      {
+        "type": "Synonym",
+        "title": "Heaven Wars Shurato"
+      },
+      {
+        "type": "Japanese",
+        "title": "\u5929\u7a7a\u6226\u8a18\u30b7\u30e5\u30e9\u30c8"
+      }
+    ],
+    "title": "Tenkuu Senki Shurato",
+    "title_english": null,
+    "title_japanese": "\u5929\u7a7a\u6226\u8a18\u30b7\u30e5\u30e9\u30c8",
+    "title_synonyms": [
+      "Heaven Wars Shurato"
+    ],
+    "type": "TV",
+    "source": "Original",
+    "episodes": 38,
+    "status": "Finished Airing",
+    "airing": false,
+    "aired": {
+      "from": "1989-04-06T00:00:00+00:00",
+      "to": "1990-01-25T00:00:00+00:00",
+      "prop": {
+        "from": {
+          "day": 6,
+          "month": 4,
+          "year": 1989
+        },
+        "to": {
+          "day": 25,
+          "month": 1,
+          "year": 1990
+        }
+      },
+      "string": "Apr 6, 1989 to Jan 25, 1990"
+    },
+    "duration": "24 min per ep",
+    "rating": "PG-13 - Teens 13 or older",
+    "score": 7.18,
+    "scored_by": 4900,
+    "rank": 3111,
+    "popularity": 5857,
+    "members": 10617,
+    "favorites": 55,
+    "synopsis": "A 16-year-old boy named Shurato and his friend Gai happen to be drawn into a gigantic ball of light while competing in the final match of a martial arts tournament. When they regain their senses, they find themselves transferred to a mystic heavenly sphere with a divine atmosphere. It's soon discovered that Shurato used to be the governing king of this world and that he has only been brought to his original state. Shurato is shocked as Gai suddenly turns hostile. After this unfortunate incident, a spectacular yet fantastic drama develops involving the two.\n\n(Source: ANN)",
+    "background": null,
+    "season": "spring",
+    "year": 1989,
+    "broadcast": {
+      "day": "Thursdays",
+      "time": "19:00",
+      "timezone": "Asia/Tokyo",
+      "string": "Thursdays at 19:00 (JST)"
+    },
+    "producers": [
+      {
+        "mal_id": 64,
+        "type": "anime",
+        "name": "Sotsu",
+        "url": "https://myanimelist.net/anime/producer/64/Sotsu"
+      }
+    ],
+    "licensors": [],
+    "studios": [
+      {
+        "mal_id": 103,
+        "type": "anime",
+        "name": "Tatsunoko Production",
+        "url": "https://myanimelist.net/anime/producer/103/Tatsunoko_Production"
+      }
+    ],
+    "genres": [
+      {
+        "mal_id": 1,
+        "type": "anime",
+        "name": "Action",
+        "url": "https://myanimelist.net/anime/genre/1/Action"
+      },
+      {
+        "mal_id": 10,
+        "type": "anime",
+        "name": "Fantasy",
+        "url": "https://myanimelist.net/anime/genre/10/Fantasy"
+      }
+    ],
+    "explicit_genres": [],
+    "themes": [],
+    "demographics": []
+  },
+  {
+    "mal_id": 2813,
+    "url": "https://myanimelist.net/anime/2813/Chiisana_Ahiru_no_Ooki_na_Ai_no_Monogatari__Ahiru_no_Kwak",
+    "images": {
+      "jpg": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/1016/125157.jpg",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/1016/125157t.jpg",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/1016/125157l.jpg"
+      },
+      "webp": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/1016/125157.webp",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/1016/125157t.webp",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/1016/125157l.webp"
+      }
+    },
+    "trailer": {
+      "youtube_id": null,
+      "url": null,
+      "embed_url": null,
+      "images": {
+        "image_url": null,
+        "small_image_url": null,
+        "medium_image_url": null,
+        "large_image_url": null,
+        "maximum_image_url": null
+      }
+    },
+    "approved": true,
+    "titles": [
+      {
+        "type": "Default",
+        "title": "Chiisana Ahiru no Ooki na Ai no Monogatari: Ahiru no Kwak"
+      },
+      {
+        "type": "Synonym",
+        "title": "Alfred Jodocus Kwak"
+      },
+      {
+        "type": "Synonym",
+        "title": "Little Duck's Big Love Story"
+      },
+      {
+        "type": "Synonym",
+        "title": "The Adventures of Alfred J. Quack"
+      },
+      {
+        "type": "Synonym",
+        "title": "Alfred J. Kwak"
+      },
+      {
+        "type": "Synonym",
+        "title": "Alfred J. Quack"
+      },
+      {
+        "type": "Synonym",
+        "title": "Ahiru no Quack"
+      },
+      {
+        "type": "Synonym",
+        "title": "Ahiru no Kwakku"
+      },
+      {
+        "type": "Japanese",
+        "title": "\u5c0f\u3055\u306a\u30a2\u30d2\u30eb\u306e\u5927\u304d\u306a\u611b\u306e\u7269\u8a9e \u3042\u3072\u308b\u306e\u30af\u30ef\u30c3\u30af"
+      }
+    ],
+    "title": "Chiisana Ahiru no Ooki na Ai no Monogatari: Ahiru no Kwak",
+    "title_english": null,
+    "title_japanese": "\u5c0f\u3055\u306a\u30a2\u30d2\u30eb\u306e\u5927\u304d\u306a\u611b\u306e\u7269\u8a9e \u3042\u3072\u308b\u306e\u30af\u30ef\u30c3\u30af",
+    "title_synonyms": [
+      "Alfred Jodocus Kwak",
+      "Little Duck's Big Love Story",
+      "The Adventures of Alfred J. Quack",
+      "Alfred J. Kwak",
+      "Alfred J. Quack",
+      "Ahiru no Quack",
+      "Ahiru no Kwakku"
+    ],
+    "type": "TV",
+    "source": "Other",
+    "episodes": 52,
+    "status": "Finished Airing",
+    "airing": false,
+    "aired": {
+      "from": "1989-04-03T00:00:00+00:00",
+      "to": "1990-03-29T00:00:00+00:00",
+      "prop": {
+        "from": {
+          "day": 3,
+          "month": 4,
+          "year": 1989
+        },
+        "to": {
+          "day": 29,
+          "month": 3,
+          "year": 1990
+        }
+      },
+      "string": "Apr 3, 1989 to Mar 29, 1990"
+    },
+    "duration": "23 min per ep",
+    "rating": "G - All Ages",
+    "score": 7.35,
+    "scored_by": 3031,
+    "rank": 2255,
+    "popularity": 7482,
+    "members": 5812,
+    "favorites": 57,
+    "synopsis": "The series covers the life of a Dutch duck named Alfred J Kwak from the day he is born. He lost his parents, brothers, and sisters when he was young and was raised by a mole. In his life, Alfred tries to help all sorts of animals all over the world. The series is meant to entertain children and teach children about life, covering historical aspects like WWII.\n\n(Source: AniDB, edited)",
+    "background": null,
+    "season": "spring",
+    "year": 1989,
+    "broadcast": {
+      "day": null,
+      "time": null,
+      "timezone": null,
+      "string": "Unknown"
+    },
+    "producers": [
+      {
+        "mal_id": 16,
+        "type": "anime",
+        "name": "TV Tokyo",
+        "url": "https://myanimelist.net/anime/producer/16/TV_Tokyo"
+      }
+    ],
+    "licensors": [],
+    "studios": [
+      {
+        "mal_id": 358,
+        "type": "anime",
+        "name": "Telescreen",
+        "url": "https://myanimelist.net/anime/producer/358/Telescreen"
+      }
+    ],
+    "genres": [
+      {
+        "mal_id": 2,
+        "type": "anime",
+        "name": "Adventure",
+        "url": "https://myanimelist.net/anime/genre/2/Adventure"
+      },
+      {
+        "mal_id": 4,
+        "type": "anime",
+        "name": "Comedy",
+        "url": "https://myanimelist.net/anime/genre/4/Comedy"
+      },
+      {
+        "mal_id": 8,
+        "type": "anime",
+        "name": "Drama",
+        "url": "https://myanimelist.net/anime/genre/8/Drama"
+      },
+      {
+        "mal_id": 10,
+        "type": "anime",
+        "name": "Fantasy",
+        "url": "https://myanimelist.net/anime/genre/10/Fantasy"
+      }
+    ],
+    "explicit_genres": [],
+    "themes": [],
+    "demographics": [
+      {
+        "mal_id": 15,
+        "type": "anime",
+        "name": "Kids",
+        "url": "https://myanimelist.net/anime/genre/15/Kids"
+      }
+    ]
+  },
+  {
+    "mal_id": 2938,
+    "url": "https://myanimelist.net/anime/2938/Idol_Densetsu_Eriko",
+    "images": {
+      "jpg": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/11/20173.jpg",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/11/20173t.jpg",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/11/20173l.jpg"
+      },
+      "webp": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/11/20173.webp",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/11/20173t.webp",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/11/20173l.webp"
+      }
+    },
+    "trailer": {
+      "youtube_id": null,
+      "url": null,
+      "embed_url": null,
+      "images": {
+        "image_url": null,
+        "small_image_url": null,
+        "medium_image_url": null,
+        "large_image_url": null,
+        "maximum_image_url": null
+      }
+    },
+    "approved": true,
+    "titles": [
+      {
+        "type": "Default",
+        "title": "Idol Densetsu Eriko"
+      },
+      {
+        "type": "Japanese",
+        "title": "\u30a2\u30a4\u30c9\u30eb\u4f1d\u8aac\u3048\u308a\u5b50"
+      },
+      {
+        "type": "English",
+        "title": "Legendary Idol Eriko"
+      },
+      {
+        "type": "Spanish",
+        "title": "Legendary Idol Eriko"
+      }
+    ],
+    "title": "Idol Densetsu Eriko",
+    "title_english": "Legendary Idol Eriko",
+    "title_japanese": "\u30a2\u30a4\u30c9\u30eb\u4f1d\u8aac\u3048\u308a\u5b50",
+    "title_synonyms": [],
+    "type": "TV",
+    "source": "Original",
+    "episodes": 51,
+    "status": "Finished Airing",
+    "airing": false,
+    "aired": {
+      "from": "1989-04-03T00:00:00+00:00",
+      "to": "1990-03-26T00:00:00+00:00",
+      "prop": {
+        "from": {
+          "day": 3,
+          "month": 4,
+          "year": 1989
+        },
+        "to": {
+          "day": 26,
+          "month": 3,
+          "year": 1990
+        }
+      },
+      "string": "Apr 3, 1989 to Mar 26, 1990"
+    },
+    "duration": "22 min per ep",
+    "rating": "PG-13 - Teens 13 or older",
+    "score": 6.98,
+    "scored_by": 1676,
+    "rank": 4074,
+    "popularity": 7556,
+    "members": 5670,
+    "favorites": 13,
+    "synopsis": "Eriko Tamura is Kousuke Tamura, the chairman of Tamura Productions (reknown music company) and Minako Tamura's (former famous idol singer) only daughter. Having talent for singing since birth, she has always loved her parent's media world. Then one day tragedy strikes when her parents get into a horrible car accident, which kills her father and leaves her mother in coma. She is left in her father's best friend, Mr. Uchida's care. Now Eriko must take the path of singing, a path her parents did not want her to pursue. Then her uncle is out to destroy her career. But in spite of all the hardship, she becomes an idol and wins hearts all over Japan.\n\n(Source: ANN)",
+    "background": null,
+    "season": "spring",
+    "year": 1989,
+    "broadcast": {
+      "day": "Mondays",
+      "time": "18:00",
+      "timezone": "Asia/Tokyo",
+      "string": "Mondays at 18:00 (JST)"
+    },
+    "producers": [
+      {
+        "mal_id": 351,
+        "type": "anime",
+        "name": "Big West",
+        "url": "https://myanimelist.net/anime/producer/351/Big_West"
+      },
+      {
+        "mal_id": 1511,
+        "type": "anime",
+        "name": "TV Setouchi",
+        "url": "https://myanimelist.net/anime/producer/1511/TV_Setouchi"
+      }
+    ],
+    "licensors": [],
+    "studios": [
+      {
+        "mal_id": 242,
+        "type": "anime",
+        "name": "Ashi Productions",
+        "url": "https://myanimelist.net/anime/producer/242/Ashi_Productions"
+      }
+    ],
+    "genres": [],
+    "explicit_genres": [],
+    "themes": [
+      {
+        "mal_id": 60,
+        "type": "anime",
+        "name": "Idols (Female)",
+        "url": "https://myanimelist.net/anime/genre/60/Idols_Female"
+      },
+      {
+        "mal_id": 19,
+        "type": "anime",
+        "name": "Music",
+        "url": "https://myanimelist.net/anime/genre/19/Music"
+      }
+    ],
+    "demographics": []
+  },
+  {
+    "mal_id": 926,
+    "url": "https://myanimelist.net/anime/926/Tatakae_Chou_Robot_Seimeitai_Transformers_Victory",
+    "images": {
+      "jpg": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/1182/92790.jpg",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/1182/92790t.jpg",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/1182/92790l.jpg"
+      },
+      "webp": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/1182/92790.webp",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/1182/92790t.webp",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/1182/92790l.webp"
+      }
+    },
+    "trailer": {
+      "youtube_id": null,
+      "url": null,
+      "embed_url": null,
+      "images": {
+        "image_url": null,
+        "small_image_url": null,
+        "medium_image_url": null,
+        "large_image_url": null,
+        "maximum_image_url": null
+      }
+    },
+    "approved": true,
+    "titles": [
+      {
+        "type": "Default",
+        "title": "Tatakae! Chou Robot Seimeitai Transformers Victory"
+      },
+      {
+        "type": "Japanese",
+        "title": "\u6226\u3048! \u8d85\u30ed\u30dc\u30c3\u30c8\u751f\u547d\u4f53\u30c8\u30e9\u30f3\u30b9\u30d5\u30a9\u30fc\u30de\u30fcV[\u30d3\u30af\u30c8\u30ea\u30fc]"
+      },
+      {
+        "type": "English",
+        "title": "Transformers Victory"
+      }
+    ],
+    "title": "Tatakae! Chou Robot Seimeitai Transformers Victory",
+    "title_english": "Transformers Victory",
+    "title_japanese": "\u6226\u3048! \u8d85\u30ed\u30dc\u30c3\u30c8\u751f\u547d\u4f53\u30c8\u30e9\u30f3\u30b9\u30d5\u30a9\u30fc\u30de\u30fcV[\u30d3\u30af\u30c8\u30ea\u30fc]",
+    "title_synonyms": [],
+    "type": "TV",
+    "source": "Other",
+    "episodes": 38,
+    "status": "Finished Airing",
+    "airing": false,
+    "aired": {
+      "from": "1989-03-14T00:00:00+00:00",
+      "to": "1989-12-19T00:00:00+00:00",
+      "prop": {
+        "from": {
+          "day": 14,
+          "month": 3,
+          "year": 1989
+        },
+        "to": {
+          "day": 19,
+          "month": 12,
+          "year": 1989
+        }
+      },
+      "string": "Mar 14, 1989 to Dec 19, 1989"
+    },
+    "duration": "23 min per ep",
+    "rating": "PG - Children",
+    "score": 6.67,
+    "scored_by": 1203,
+    "rank": 5452,
+    "popularity": 9424,
+    "members": 3019,
+    "favorites": 12,
+    "synopsis": "Set in 2025 A.D., Transformers Victory introduces Star Saber, the mightiest Autobot warrior and the greatest swordsman in the galaxy. Following the defeat of the Decepticons on Earth in the Masterforce War, the villains have begun aggressively attacking other planets in the universe. To counter this threat, the Autobots joined with many other civilizations and lifeforms (including Humanity) to form the Galactic Peace Alliance, with Star Saber as its leader.\n\nSeeking the energy necessary to free his massive Planet-Destroying Fortress from imprisonment in the Dark Nebula where Star Saber sealed it years ago, the Decepticons' new Emperor of Destruction, Deathsaurus (Dezarus), attacks Earth with his Dinoforce, prompting Star Saber and his team to set up residence on the planet.\n\n(Source: TF Wiki)",
+    "background": null,
+    "season": "spring",
+    "year": 1989,
+    "broadcast": {
+      "day": null,
+      "time": null,
+      "timezone": null,
+      "string": "Unknown"
+    },
+    "producers": [],
+    "licensors": [],
+    "studios": [
+      {
+        "mal_id": 18,
+        "type": "anime",
+        "name": "Toei Animation",
+        "url": "https://myanimelist.net/anime/producer/18/Toei_Animation"
+      }
+    ],
+    "genres": [
+      {
+        "mal_id": 1,
+        "type": "anime",
+        "name": "Action",
+        "url": "https://myanimelist.net/anime/genre/1/Action"
+      },
+      {
+        "mal_id": 2,
+        "type": "anime",
+        "name": "Adventure",
+        "url": "https://myanimelist.net/anime/genre/2/Adventure"
+      },
+      {
+        "mal_id": 24,
+        "type": "anime",
+        "name": "Sci-Fi",
+        "url": "https://myanimelist.net/anime/genre/24/Sci-Fi"
+      }
+    ],
+    "explicit_genres": [],
+    "themes": [
+      {
+        "mal_id": 18,
+        "type": "anime",
+        "name": "Mecha",
+        "url": "https://myanimelist.net/anime/genre/18/Mecha"
+      }
+    ],
+    "demographics": []
+  },
+  {
+    "mal_id": 2818,
+    "url": "https://myanimelist.net/anime/2818/Madou_King_Granzort",
+    "images": {
+      "jpg": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/7/11702.jpg",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/7/11702t.jpg",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/7/11702l.jpg"
+      },
+      "webp": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/7/11702.webp",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/7/11702t.webp",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/7/11702l.webp"
+      }
+    },
+    "trailer": {
+      "youtube_id": null,
+      "url": null,
+      "embed_url": null,
+      "images": {
+        "image_url": null,
+        "small_image_url": null,
+        "medium_image_url": null,
+        "large_image_url": null,
+        "maximum_image_url": null
+      }
+    },
+    "approved": true,
+    "titles": [
+      {
+        "type": "Default",
+        "title": "Madou King Granzort"
+      },
+      {
+        "type": "Synonym",
+        "title": "Magic King"
+      },
+      {
+        "type": "Synonym",
+        "title": "Madouou Grandzort"
+      },
+      {
+        "type": "Synonym",
+        "title": "Mado Ou Granzort"
+      },
+      {
+        "type": "Japanese",
+        "title": "\u9b54\u52d5\u738b\u30b0\u30e9\u30f3\u30be\u30fc\u30c8"
+      },
+      {
+        "type": "English",
+        "title": "Mado King Granzort"
+      }
+    ],
+    "title": "Madou King Granzort",
+    "title_english": "Mado King Granzort",
+    "title_japanese": "\u9b54\u52d5\u738b\u30b0\u30e9\u30f3\u30be\u30fc\u30c8",
+    "title_synonyms": [
+      "Magic King",
+      "Madouou Grandzort",
+      "Mado Ou Granzort"
+    ],
+    "type": "TV",
+    "source": "Original",
+    "episodes": 41,
+    "status": "Finished Airing",
+    "airing": false,
+    "aired": {
+      "from": "1989-04-07T00:00:00+00:00",
+      "to": "1990-03-02T00:00:00+00:00",
+      "prop": {
+        "from": {
+          "day": 7,
+          "month": 4,
+          "year": 1989
+        },
+        "to": {
+          "day": 2,
+          "month": 3,
+          "year": 1990
+        }
+      },
+      "string": "Apr 7, 1989 to Mar 2, 1990"
+    },
+    "duration": "24 min per ep",
+    "rating": "G - All Ages",
+    "score": 7.29,
+    "scored_by": 782,
+    "rank": 2572,
+    "popularity": 9941,
+    "members": 2500,
+    "favorites": 15,
+    "synopsis": "In the future, the moon is a habitable place with an atmosphere and gravity, hosting a famous tourist attraction. There are also rumors about log earred, rabbit like creatures on the moon who can use magic. Haruka Daichi heads off to the moon during a summer holiday alone because he wants to see the long earred creatures himself.\n\nHowever, he get himself dragged into an millenia-old conflict between two ancient moon races: the \"long ears\" race and the Jado race. The Jado race wants to conquer the universe and resurrect certain evil powers to seize control of the Earth. Now the \"long ears\" race and Daichi must seek three warriors who can use magic in order to release the Mado King and the \"long ears\" race's kingdom, Rabiluna, from the Jado's control.\n\n(Source: AniDB, edited)",
+    "background": null,
+    "season": "spring",
+    "year": 1989,
+    "broadcast": {
+      "day": null,
+      "time": null,
+      "timezone": null,
+      "string": "Unknown"
+    },
+    "producers": [
+      {
+        "mal_id": 1175,
+        "type": "anime",
+        "name": "Atelier Musa",
+        "url": "https://myanimelist.net/anime/producer/1175/Atelier_Musa"
+      }
+    ],
+    "licensors": [],
+    "studios": [
+      {
+        "mal_id": 14,
+        "type": "anime",
+        "name": "Sunrise",
+        "url": "https://myanimelist.net/anime/producer/14/Sunrise"
+      }
+    ],
+    "genres": [
+      {
+        "mal_id": 1,
+        "type": "anime",
+        "name": "Action",
+        "url": "https://myanimelist.net/anime/genre/1/Action"
+      },
+      {
+        "mal_id": 4,
+        "type": "anime",
+        "name": "Comedy",
+        "url": "https://myanimelist.net/anime/genre/4/Comedy"
+      },
+      {
+        "mal_id": 10,
+        "type": "anime",
+        "name": "Fantasy",
+        "url": "https://myanimelist.net/anime/genre/10/Fantasy"
+      },
+      {
+        "mal_id": 24,
+        "type": "anime",
+        "name": "Sci-Fi",
+        "url": "https://myanimelist.net/anime/genre/24/Sci-Fi"
+      }
+    ],
+    "explicit_genres": [],
+    "themes": [
+      {
+        "mal_id": 18,
+        "type": "anime",
+        "name": "Mecha",
+        "url": "https://myanimelist.net/anime/genre/18/Mecha"
+      }
+    ],
+    "demographics": []
+  },
+  {
+    "mal_id": 4119,
+    "url": "https://myanimelist.net/anime/4119/Juushin_Liger",
+    "images": {
+      "jpg": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/1809/93956.jpg",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/1809/93956t.jpg",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/1809/93956l.jpg"
+      },
+      "webp": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/1809/93956.webp",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/1809/93956t.webp",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/1809/93956l.webp"
+      }
+    },
+    "trailer": {
+      "youtube_id": null,
+      "url": null,
+      "embed_url": null,
+      "images": {
+        "image_url": null,
+        "small_image_url": null,
+        "medium_image_url": null,
+        "large_image_url": null,
+        "maximum_image_url": null
+      }
+    },
+    "approved": true,
+    "titles": [
+      {
+        "type": "Default",
+        "title": "Juushin Liger"
+      },
+      {
+        "type": "Synonym",
+        "title": "Juushin Riger"
+      },
+      {
+        "type": "Synonym",
+        "title": "Jushin Lyger"
+      },
+      {
+        "type": "Synonym",
+        "title": "Beast God Liger"
+      },
+      {
+        "type": "Japanese",
+        "title": "\u7363\u795e\u30e9\u30a4\u30ac\u30fc"
+      },
+      {
+        "type": "English",
+        "title": "Bio Armor Ryger"
+      }
+    ],
+    "title": "Juushin Liger",
+    "title_english": "Bio Armor Ryger",
+    "title_japanese": "\u7363\u795e\u30e9\u30a4\u30ac\u30fc",
+    "title_synonyms": [
+      "Juushin Riger",
+      "Jushin Lyger",
+      "Beast God Liger"
+    ],
+    "type": "TV",
+    "source": "Unknown",
+    "episodes": 43,
+    "status": "Finished Airing",
+    "airing": false,
+    "aired": {
+      "from": "1989-03-11T00:00:00+00:00",
+      "to": "1990-01-27T00:00:00+00:00",
+      "prop": {
+        "from": {
+          "day": 11,
+          "month": 3,
+          "year": 1989
+        },
+        "to": {
+          "day": 27,
+          "month": 1,
+          "year": 1990
+        }
+      },
+      "string": "Mar 11, 1989 to Jan 27, 1990"
+    },
+    "duration": "25 min per ep",
+    "rating": "PG-13 - Teens 13 or older",
+    "score": 7.11,
+    "scored_by": 482,
+    "rank": 3479,
+    "popularity": 10350,
+    "members": 2189,
+    "favorites": 1,
+    "synopsis": "It is 199X A.D. In Kushiro, Hokkaido, three bodies of Dragonite appear. Possessing overwhelming destructive force, they attack the city. They also awaken the evil Jashin Drago from the holy seal he was trapped in. 200 years ago, Drago was trapped in the seal by a holy warrior with the tattooed mark of the Liger. Assuming that the warrior is dead, Drago and Empress Zara are free to conquer the Earth using their army of biomechanical beasts. Even the Japan Self-Defense Forces are no match for the Dragonites' awesome power. One of the people fleeing is the protagonist, a milquetoast 16 year old boy named Ken Taiga. Unbeknownst to the Dragonites, Ken realizes that he is the descendant of the Liger warrior! In a burst of anger, Ken's Liger birthmark appears, and he rises his palm into the air, shouting the henshin command, \"LIGER!!!\", which then covers him in demonic long-haired biomechanical armor. Ken transforms into Jushin Liger to fight the evil forces of the Dragonite! \n\n(Source: Wikipedia)",
+    "background": null,
+    "season": "spring",
+    "year": 1989,
+    "broadcast": {
+      "day": null,
+      "time": null,
+      "timezone": null,
+      "string": "Unknown"
+    },
+    "producers": [],
+    "licensors": [],
+    "studios": [
+      {
+        "mal_id": 14,
+        "type": "anime",
+        "name": "Sunrise",
+        "url": "https://myanimelist.net/anime/producer/14/Sunrise"
+      }
+    ],
+    "genres": [
+      {
+        "mal_id": 1,
+        "type": "anime",
+        "name": "Action",
+        "url": "https://myanimelist.net/anime/genre/1/Action"
+      },
+      {
+        "mal_id": 24,
+        "type": "anime",
+        "name": "Sci-Fi",
+        "url": "https://myanimelist.net/anime/genre/24/Sci-Fi"
+      }
+    ],
+    "explicit_genres": [],
+    "themes": [
+      {
+        "mal_id": 18,
+        "type": "anime",
+        "name": "Mecha",
+        "url": "https://myanimelist.net/anime/genre/18/Mecha"
+      }
+    ],
+    "demographics": []
+  },
+  {
+    "mal_id": 3631,
+    "url": "https://myanimelist.net/anime/3631/Aoi_Blink",
+    "images": {
+      "jpg": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/11/50063.jpg",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/11/50063t.jpg",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/11/50063l.jpg"
+      },
+      "webp": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/11/50063.webp",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/11/50063t.webp",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/11/50063l.webp"
+      }
+    },
+    "trailer": {
+      "youtube_id": null,
+      "url": null,
+      "embed_url": null,
+      "images": {
+        "image_url": null,
+        "small_image_url": null,
+        "medium_image_url": null,
+        "large_image_url": null,
+        "maximum_image_url": null
+      }
+    },
+    "approved": true,
+    "titles": [
+      {
+        "type": "Default",
+        "title": "Aoi Blink"
+      },
+      {
+        "type": "Japanese",
+        "title": "\u9752\u3044\u30d6\u30ea\u30f3\u30af"
+      },
+      {
+        "type": "English",
+        "title": "Blue Blink"
+      }
+    ],
+    "title": "Aoi Blink",
+    "title_english": "Blue Blink",
+    "title_japanese": "\u9752\u3044\u30d6\u30ea\u30f3\u30af",
+    "title_synonyms": [],
+    "type": "TV",
+    "source": "Other",
+    "episodes": 39,
+    "status": "Finished Airing",
+    "airing": false,
+    "aired": {
+      "from": "1989-04-07T00:00:00+00:00",
+      "to": "1990-03-16T00:00:00+00:00",
+      "prop": {
+        "from": {
+          "day": 7,
+          "month": 4,
+          "year": 1989
+        },
+        "to": {
+          "day": 16,
+          "month": 3,
+          "year": 1990
+        }
+      },
+      "string": "Apr 7, 1989 to Mar 16, 1990"
+    },
+    "duration": "25 min per ep",
+    "rating": "G - All Ages",
+    "score": 6.91,
+    "scored_by": 778,
+    "rank": 4362,
+    "popularity": 10566,
+    "members": 2035,
+    "favorites": 9,
+    "synopsis": "Story of a young boy named Kakeru and his adventures together with a magical blue pony named Blink.",
+    "background": null,
+    "season": "spring",
+    "year": 1989,
+    "broadcast": {
+      "day": "Fridays",
+      "time": "19:30",
+      "timezone": "Asia/Tokyo",
+      "string": "Fridays at 19:30 (JST)"
+    },
+    "producers": [],
+    "licensors": [],
+    "studios": [
+      {
+        "mal_id": 200,
+        "type": "anime",
+        "name": "Tezuka Productions",
+        "url": "https://myanimelist.net/anime/producer/200/Tezuka_Productions"
+      }
+    ],
+    "genres": [
+      {
+        "mal_id": 2,
+        "type": "anime",
+        "name": "Adventure",
+        "url": "https://myanimelist.net/anime/genre/2/Adventure"
+      },
+      {
+        "mal_id": 10,
+        "type": "anime",
+        "name": "Fantasy",
+        "url": "https://myanimelist.net/anime/genre/10/Fantasy"
+      }
+    ],
+    "explicit_genres": [],
+    "themes": [],
+    "demographics": []
+  },
+  {
+    "mal_id": 5273,
+    "url": "https://myanimelist.net/anime/5273/Miracle_Giants_Doumu-kun",
+    "images": {
+      "jpg": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/5/29829.jpg",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/5/29829t.jpg",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/5/29829l.jpg"
+      },
+      "webp": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/5/29829.webp",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/5/29829t.webp",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/5/29829l.webp"
+      }
+    },
+    "trailer": {
+      "youtube_id": null,
+      "url": null,
+      "embed_url": null,
+      "images": {
+        "image_url": null,
+        "small_image_url": null,
+        "medium_image_url": null,
+        "large_image_url": null,
+        "maximum_image_url": null
+      }
+    },
+    "approved": true,
+    "titles": [
+      {
+        "type": "Default",
+        "title": "Miracle Giants Doumu-kun"
+      },
+      {
+        "type": "Synonym",
+        "title": "Half a Hero"
+      },
+      {
+        "type": "Synonym",
+        "title": "Miracle Giants Dome-kun"
+      },
+      {
+        "type": "Japanese",
+        "title": "\u30df\u30e9\u30af\u30eb\u30fb\u30b8\u30e3\u30a4\u30a2\u30f3\u30c4\u7ae5\u5922\u304f\u3093"
+      }
+    ],
+    "title": "Miracle Giants Doumu-kun",
+    "title_english": null,
+    "title_japanese": "\u30df\u30e9\u30af\u30eb\u30fb\u30b8\u30e3\u30a4\u30a2\u30f3\u30c4\u7ae5\u5922\u304f\u3093",
+    "title_synonyms": [
+      "Half a Hero",
+      "Miracle Giants Dome-kun"
+    ],
+    "type": "TV",
+    "source": "Manga",
+    "episodes": 49,
+    "status": "Finished Airing",
+    "airing": false,
+    "aired": {
+      "from": "1989-04-02T00:00:00+00:00",
+      "to": "1990-03-25T00:00:00+00:00",
+      "prop": {
+        "from": {
+          "day": 2,
+          "month": 4,
+          "year": 1989
+        },
+        "to": {
+          "day": 25,
+          "month": 3,
+          "year": 1990
+        }
+      },
+      "string": "Apr 2, 1989 to Mar 25, 1990"
+    },
+    "duration": "25 min per ep",
+    "rating": "PG - Children",
+    "score": 7.31,
+    "scored_by": 553,
+    "rank": 2448,
+    "popularity": 11110,
+    "members": 1673,
+    "favorites": 5,
+    "synopsis": "Doumu Shinjou is the 10-year-old son of a legendary deceased player of the Yomiuri Giants. From his father he inherited a love of baseball and an incredible talent for the sport, although both his mother and his older sister try to get him to give it up. \nHowever, before dying, his father had the time to teach him one last trick- a magic shot. After his mother gives him the glove his father used, Doumu makes that shot in a training session of the Giants and is contracted immediately. With the support of the veteran players of the team, the Giants become unbeatable at home- none of the main batters of the Japanese professional league can overcome his magic shot. However, away games are another matter, as Doumu is just allowed to play at home, in the Tokyo Dome in which his father was consecrated.\n New rivals, but also friends (such as Melody Norman, an American girl who disguises herself as a boy because women aren't allowed to play baseball), step up to bat along the way during Doumu's journey. The Giants seem to winning the fight to conquer the league- until the arrival of the mysterious Don Carlos, a Spanish ex-bullfighter who plays for the Hiroshima Toyo Carp, and seems to have a past with Doumu's father. Will Doumu succeed in giving the league to the Giants? \n\n(Source: Wikipedia, edited)",
+    "background": null,
+    "season": "spring",
+    "year": 1989,
+    "broadcast": {
+      "day": null,
+      "time": null,
+      "timezone": null,
+      "string": "Unknown"
+    },
+    "producers": [
+      {
+        "mal_id": 36,
+        "type": "anime",
+        "name": "Gallop",
+        "url": "https://myanimelist.net/anime/producer/36/Gallop"
+      },
+      {
+        "mal_id": 127,
+        "type": "anime",
+        "name": "Yomiko Advertising",
+        "url": "https://myanimelist.net/anime/producer/127/Yomiko_Advertising"
+      }
+    ],
+    "licensors": [],
+    "studios": [],
+    "genres": [
+      {
+        "mal_id": 30,
+        "type": "anime",
+        "name": "Sports",
+        "url": "https://myanimelist.net/anime/genre/30/Sports"
+      }
+    ],
+    "explicit_genres": [],
+    "themes": [
+      {
+        "mal_id": 77,
+        "type": "anime",
+        "name": "Team Sports",
+        "url": "https://myanimelist.net/anime/genre/77/Team_Sports"
+      }
+    ],
+    "demographics": []
+  },
+  {
+    "mal_id": 8194,
+    "url": "https://myanimelist.net/anime/8194/Akuma-kun",
+    "images": {
+      "jpg": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/8/61467.jpg",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/8/61467t.jpg",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/8/61467l.jpg"
+      },
+      "webp": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/8/61467.webp",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/8/61467t.webp",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/8/61467l.webp"
+      }
+    },
+    "trailer": {
+      "youtube_id": null,
+      "url": null,
+      "embed_url": null,
+      "images": {
+        "image_url": null,
+        "small_image_url": null,
+        "medium_image_url": null,
+        "large_image_url": null,
+        "maximum_image_url": null
+      }
+    },
+    "approved": true,
+    "titles": [
+      {
+        "type": "Default",
+        "title": "Akuma-kun"
+      },
+      {
+        "type": "Synonym",
+        "title": "Devil Boy"
+      },
+      {
+        "type": "Japanese",
+        "title": "\u60aa\u9b54\u304f\u3093"
+      }
+    ],
+    "title": "Akuma-kun",
+    "title_english": null,
+    "title_japanese": "\u60aa\u9b54\u304f\u3093",
+    "title_synonyms": [
+      "Devil Boy"
+    ],
+    "type": "TV",
+    "source": "Manga",
+    "episodes": 42,
+    "status": "Finished Airing",
+    "airing": false,
+    "aired": {
+      "from": "1989-04-15T00:00:00+00:00",
+      "to": "1990-03-24T00:00:00+00:00",
+      "prop": {
+        "from": {
+          "day": 15,
+          "month": 4,
+          "year": 1989
+        },
+        "to": {
+          "day": 24,
+          "month": 3,
+          "year": 1990
+        }
+      },
+      "string": "Apr 15, 1989 to Mar 24, 1990"
+    },
+    "duration": "25 min per ep",
+    "rating": "G - All Ages",
+    "score": 6.71,
+    "scored_by": 296,
+    "rank": 5270,
+    "popularity": 11837,
+    "members": 1282,
+    "favorites": 2,
+    "synopsis": "The age of the demons has begun. Dr Faust has foreseen this rise of evil. Unfortunately, he is near death and is unable to personally battle this upcoming threat. Faust entrusts a young boy, Shingo Yamada, to take the responsibility of ridding the Earth of this new evil presence. Faust finds a birthmark on Shingo's forehead that signifies that he is the chosen demon fighter. Faust summons from hell what may be humanity's only hope of surviving: a less than enthusiastic devil named Mephisto rises. After signing a pact in blood to save humankind, Shingo and Mephisto set out to battle the supernatural world.\n\n(Source: AniDB)",
+    "background": null,
+    "season": "spring",
+    "year": 1989,
+    "broadcast": {
+      "day": "Saturdays",
+      "time": "19:00",
+      "timezone": "Asia/Tokyo",
+      "string": "Saturdays at 19:00 (JST)"
+    },
+    "producers": [],
+    "licensors": [],
+    "studios": [
+      {
+        "mal_id": 18,
+        "type": "anime",
+        "name": "Toei Animation",
+        "url": "https://myanimelist.net/anime/producer/18/Toei_Animation"
+      }
+    ],
+    "genres": [
+      {
+        "mal_id": 2,
+        "type": "anime",
+        "name": "Adventure",
+        "url": "https://myanimelist.net/anime/genre/2/Adventure"
+      },
+      {
+        "mal_id": 10,
+        "type": "anime",
+        "name": "Fantasy",
+        "url": "https://myanimelist.net/anime/genre/10/Fantasy"
+      },
+      {
+        "mal_id": 14,
+        "type": "anime",
+        "name": "Horror",
+        "url": "https://myanimelist.net/anime/genre/14/Horror"
+      },
+      {
+        "mal_id": 37,
+        "type": "anime",
+        "name": "Supernatural",
+        "url": "https://myanimelist.net/anime/genre/37/Supernatural"
+      }
+    ],
+    "explicit_genres": [],
+    "themes": [],
+    "demographics": []
+  },
+  {
+    "mal_id": 9885,
+    "url": "https://myanimelist.net/anime/9885/Shin_Bikkuriman",
+    "images": {
+      "jpg": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/1727/93730.jpg",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/1727/93730t.jpg",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/1727/93730l.jpg"
+      },
+      "webp": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/1727/93730.webp",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/1727/93730t.webp",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/1727/93730l.webp"
+      }
+    },
+    "trailer": {
+      "youtube_id": null,
+      "url": null,
+      "embed_url": null,
+      "images": {
+        "image_url": null,
+        "small_image_url": null,
+        "medium_image_url": null,
+        "large_image_url": null,
+        "maximum_image_url": null
+      }
+    },
+    "approved": true,
+    "titles": [
+      {
+        "type": "Default",
+        "title": "Shin Bikkuriman"
+      },
+      {
+        "type": "Synonym",
+        "title": "New Bikkuriman"
+      },
+      {
+        "type": "Japanese",
+        "title": "\u65b0\u30d3\u30c3\u30af\u30ea\u30de\u30f3"
+      }
+    ],
+    "title": "Shin Bikkuriman",
+    "title_english": null,
+    "title_japanese": "\u65b0\u30d3\u30c3\u30af\u30ea\u30de\u30f3",
+    "title_synonyms": [
+      "New Bikkuriman"
+    ],
+    "type": "TV",
+    "source": "Other",
+    "episodes": 72,
+    "status": "Finished Airing",
+    "airing": false,
+    "aired": {
+      "from": "1989-04-09T00:00:00+00:00",
+      "to": "1990-08-26T00:00:00+00:00",
+      "prop": {
+        "from": {
+          "day": 9,
+          "month": 4,
+          "year": 1989
+        },
+        "to": {
+          "day": 26,
+          "month": 8,
+          "year": 1990
+        }
+      },
+      "string": "Apr 9, 1989 to Aug 26, 1990"
+    },
+    "duration": "25 min per ep",
+    "rating": "PG - Children",
+    "score": 6.12,
+    "scored_by": 141,
+    "rank": 8287,
+    "popularity": 14510,
+    "members": 550,
+    "favorites": 1,
+    "synopsis": "No synopsis has been added for this series yet.\n\nClick here to update this information.",
+    "background": null,
+    "season": "spring",
+    "year": 1989,
+    "broadcast": {
+      "day": "Sundays",
+      "time": "08:30",
+      "timezone": "Asia/Tokyo",
+      "string": "Sundays at 08:30 (JST)"
+    },
+    "producers": [],
+    "licensors": [],
+    "studios": [
+      {
+        "mal_id": 18,
+        "type": "anime",
+        "name": "Toei Animation",
+        "url": "https://myanimelist.net/anime/producer/18/Toei_Animation"
+      }
+    ],
+    "genres": [
+      {
+        "mal_id": 4,
+        "type": "anime",
+        "name": "Comedy",
+        "url": "https://myanimelist.net/anime/genre/4/Comedy"
+      },
+      {
+        "mal_id": 10,
+        "type": "anime",
+        "name": "Fantasy",
+        "url": "https://myanimelist.net/anime/genre/10/Fantasy"
+      }
+    ],
+    "explicit_genres": [],
+    "themes": [],
+    "demographics": []
+  },
+  {
+    "mal_id": 8521,
+    "url": "https://myanimelist.net/anime/8521/Biriken_Nandemo_Shoukai",
+    "images": {
+      "jpg": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/1089/120951.jpg",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/1089/120951t.jpg",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/1089/120951l.jpg"
+      },
+      "webp": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/1089/120951.webp",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/1089/120951t.webp",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/1089/120951l.webp"
+      }
+    },
+    "trailer": {
+      "youtube_id": null,
+      "url": null,
+      "embed_url": null,
+      "images": {
+        "image_url": null,
+        "small_image_url": null,
+        "medium_image_url": null,
+        "large_image_url": null,
+        "maximum_image_url": null
+      }
+    },
+    "approved": true,
+    "titles": [
+      {
+        "type": "Default",
+        "title": "Biriken Nandemo Shoukai"
+      },
+      {
+        "type": "Synonym",
+        "title": "Biriken 2"
+      },
+      {
+        "type": "Synonym",
+        "title": "Billy Inu Nandemo Shoukai"
+      },
+      {
+        "type": "Japanese",
+        "title": "\u30d3\u30ea\u72ac\u306a\u3093\u3067\u3082\u5546\u4f1a"
+      }
+    ],
+    "title": "Biriken Nandemo Shoukai",
+    "title_english": null,
+    "title_japanese": "\u30d3\u30ea\u72ac\u306a\u3093\u3067\u3082\u5546\u4f1a",
+    "title_synonyms": [
+      "Biriken 2",
+      "Billy Inu Nandemo Shoukai"
+    ],
+    "type": "TV",
+    "source": "Unknown",
+    "episodes": 22,
+    "status": "Finished Airing",
+    "airing": false,
+    "aired": {
+      "from": "1989-04-10T00:00:00+00:00",
+      "to": "1989-09-18T00:00:00+00:00",
+      "prop": {
+        "from": {
+          "day": 10,
+          "month": 4,
+          "year": 1989
+        },
+        "to": {
+          "day": 18,
+          "month": 9,
+          "year": 1989
+        }
+      },
+      "string": "Apr 10, 1989 to Sep 18, 1989"
+    },
+    "duration": "25 min per ep",
+    "rating": "PG - Children",
+    "score": null,
+    "scored_by": null,
+    "rank": 14788,
+    "popularity": 16359,
+    "members": 355,
+    "favorites": 0,
+    "synopsis": "The sequel to Biriken series.",
+    "background": null,
+    "season": "spring",
+    "year": 1989,
+    "broadcast": {
+      "day": null,
+      "time": null,
+      "timezone": null,
+      "string": "Unknown"
+    },
+    "producers": [],
+    "licensors": [],
+    "studios": [
+      {
+        "mal_id": 247,
+        "type": "anime",
+        "name": "Shin-Ei Animation",
+        "url": "https://myanimelist.net/anime/producer/247/Shin-Ei_Animation"
+      }
+    ],
+    "genres": [
+      {
+        "mal_id": 4,
+        "type": "anime",
+        "name": "Comedy",
+        "url": "https://myanimelist.net/anime/genre/4/Comedy"
+      }
+    ],
+    "explicit_genres": [],
+    "themes": [],
+    "demographics": [
+      {
+        "mal_id": 15,
+        "type": "anime",
+        "name": "Kids",
+        "url": "https://myanimelist.net/anime/genre/15/Kids"
+      }
+    ]
+  }
+]

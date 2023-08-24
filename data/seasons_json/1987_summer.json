@@ -1,0 +1,498 @@
+[
+  {
+    "mal_id": 925,
+    "url": "https://myanimelist.net/anime/925/Transformers__The\u2606Headmasters",
+    "images": {
+      "jpg": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/1535/99038.jpg",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/1535/99038t.jpg",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/1535/99038l.jpg"
+      },
+      "webp": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/1535/99038.webp",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/1535/99038t.webp",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/1535/99038l.webp"
+      }
+    },
+    "trailer": {
+      "youtube_id": null,
+      "url": null,
+      "embed_url": null,
+      "images": {
+        "image_url": null,
+        "small_image_url": null,
+        "medium_image_url": null,
+        "large_image_url": null,
+        "maximum_image_url": null
+      }
+    },
+    "approved": true,
+    "titles": [
+      {
+        "type": "Default",
+        "title": "Transformers: The\u2606Headmasters"
+      },
+      {
+        "type": "Japanese",
+        "title": "\u30c8\u30e9\u30f3\u30b9\u30d5\u30a9\u30fc\u30de\u30fc \u30b6\u2606\u30d8\u30c3\u30c9\u30de\u30b9\u30bf\u30fc\u30ba"
+      },
+      {
+        "type": "English",
+        "title": "Transformers The Headmasters"
+      }
+    ],
+    "title": "Transformers: The\u2606Headmasters",
+    "title_english": "Transformers The Headmasters",
+    "title_japanese": "\u30c8\u30e9\u30f3\u30b9\u30d5\u30a9\u30fc\u30de\u30fc \u30b6\u2606\u30d8\u30c3\u30c9\u30de\u30b9\u30bf\u30fc\u30ba",
+    "title_synonyms": [],
+    "type": "TV",
+    "source": "Other",
+    "episodes": 35,
+    "status": "Finished Airing",
+    "airing": false,
+    "aired": {
+      "from": "1987-07-03T00:00:00+00:00",
+      "to": "1988-03-28T00:00:00+00:00",
+      "prop": {
+        "from": {
+          "day": 3,
+          "month": 7,
+          "year": 1987
+        },
+        "to": {
+          "day": 28,
+          "month": 3,
+          "year": 1988
+        }
+      },
+      "string": "Jul 3, 1987 to Mar 28, 1988"
+    },
+    "duration": "23 min per ep",
+    "rating": "PG-13 - Teens 13 or older",
+    "score": 6.4,
+    "scored_by": 1791,
+    "rank": 6847,
+    "popularity": 8572,
+    "members": 4082,
+    "favorites": 5,
+    "synopsis": "Headmasters starts with Galvatron leading a new batch of Destrons to wage war on Cybertron, the Destron Headmasters. The Cybertrons are rescued by the arrival of the Cybertron Headmasters, led by Fortress (Cerebros, the head of Fortress Maximus). It is revealed that Fortress Maximus left Cybertron millions of years ago in search of energy, and have finally managed to come home. He explains that the Headmasters are from a planet called Master; the human-sized robots who live there built themselves Transformers-sized bodies. They can then transform themselves into the heads of the robots, and have now joined the Cybertron-Destron war.\n\n(Source: ANN)",
+    "background": null,
+    "season": "summer",
+    "year": 1987,
+    "broadcast": {
+      "day": null,
+      "time": null,
+      "timezone": null,
+      "string": "Unknown"
+    },
+    "producers": [],
+    "licensors": [],
+    "studios": [
+      {
+        "mal_id": 18,
+        "type": "anime",
+        "name": "Toei Animation",
+        "url": "https://myanimelist.net/anime/producer/18/Toei_Animation"
+      }
+    ],
+    "genres": [
+      {
+        "mal_id": 1,
+        "type": "anime",
+        "name": "Action",
+        "url": "https://myanimelist.net/anime/genre/1/Action"
+      },
+      {
+        "mal_id": 2,
+        "type": "anime",
+        "name": "Adventure",
+        "url": "https://myanimelist.net/anime/genre/2/Adventure"
+      },
+      {
+        "mal_id": 24,
+        "type": "anime",
+        "name": "Sci-Fi",
+        "url": "https://myanimelist.net/anime/genre/24/Sci-Fi"
+      }
+    ],
+    "explicit_genres": [],
+    "themes": [
+      {
+        "mal_id": 18,
+        "type": "anime",
+        "name": "Mecha",
+        "url": "https://myanimelist.net/anime/genre/18/Mecha"
+      },
+      {
+        "mal_id": 29,
+        "type": "anime",
+        "name": "Space",
+        "url": "https://myanimelist.net/anime/genre/29/Space"
+      }
+    ],
+    "demographics": []
+  },
+  {
+    "mal_id": 16131,
+    "url": "https://myanimelist.net/anime/16131/Machine_Robo__Butchigiri_Battle_Hackers",
+    "images": {
+      "jpg": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/1239/135249.jpg",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/1239/135249t.jpg",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/1239/135249l.jpg"
+      },
+      "webp": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/1239/135249.webp",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/1239/135249t.webp",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/1239/135249l.webp"
+      }
+    },
+    "trailer": {
+      "youtube_id": null,
+      "url": null,
+      "embed_url": null,
+      "images": {
+        "image_url": null,
+        "small_image_url": null,
+        "medium_image_url": null,
+        "large_image_url": null,
+        "maximum_image_url": null
+      }
+    },
+    "approved": true,
+    "titles": [
+      {
+        "type": "Default",
+        "title": "Machine Robo: Butchigiri Battle Hackers"
+      },
+      {
+        "type": "Synonym",
+        "title": "Machine Robo: The Running Battlehackers"
+      },
+      {
+        "type": "Japanese",
+        "title": "\u30de\u30b7\u30f3\u30ed\u30dc \u3076\u3063\u3061\u304e\u308a\u30d0\u30c8\u30eb\u30cf\u30c3\u30ab\u30fc\u30ba"
+      }
+    ],
+    "title": "Machine Robo: Butchigiri Battle Hackers",
+    "title_english": null,
+    "title_japanese": "\u30de\u30b7\u30f3\u30ed\u30dc \u3076\u3063\u3061\u304e\u308a\u30d0\u30c8\u30eb\u30cf\u30c3\u30ab\u30fc\u30ba",
+    "title_synonyms": [
+      "Machine Robo: The Running Battlehackers"
+    ],
+    "type": "TV",
+    "source": "Unknown",
+    "episodes": 31,
+    "status": "Finished Airing",
+    "airing": false,
+    "aired": {
+      "from": "1987-06-03T00:00:00+00:00",
+      "to": "1987-12-30T00:00:00+00:00",
+      "prop": {
+        "from": {
+          "day": 3,
+          "month": 6,
+          "year": 1987
+        },
+        "to": {
+          "day": 30,
+          "month": 12,
+          "year": 1987
+        }
+      },
+      "string": "Jun 3, 1987 to Dec 30, 1987"
+    },
+    "duration": "25 min per ep",
+    "rating": "PG-13 - Teens 13 or older",
+    "score": 6.06,
+    "scored_by": 163,
+    "rank": 8560,
+    "popularity": 13145,
+    "members": 842,
+    "favorites": 0,
+    "synopsis": "A ship crewed by earthlings crashes on Chronos. Believing themselves stranded, the crew volunteers to fight along the Machine Robos.\n\n(Source: The Anime Encyclopedia)",
+    "background": null,
+    "season": "summer",
+    "year": 1987,
+    "broadcast": {
+      "day": null,
+      "time": null,
+      "timezone": null,
+      "string": "Unknown"
+    },
+    "producers": [
+      {
+        "mal_id": 16,
+        "type": "anime",
+        "name": "TV Tokyo",
+        "url": "https://myanimelist.net/anime/producer/16/TV_Tokyo"
+      },
+      {
+        "mal_id": 80,
+        "type": "anime",
+        "name": "Trans Arts",
+        "url": "https://myanimelist.net/anime/producer/80/Trans_Arts"
+      },
+      {
+        "mal_id": 242,
+        "type": "anime",
+        "name": "Ashi Productions",
+        "url": "https://myanimelist.net/anime/producer/242/Ashi_Productions"
+      }
+    ],
+    "licensors": [
+      {
+        "mal_id": 467,
+        "type": "anime",
+        "name": "Discotek Media",
+        "url": "https://myanimelist.net/anime/producer/467/Discotek_Media"
+      }
+    ],
+    "studios": [],
+    "genres": [
+      {
+        "mal_id": 1,
+        "type": "anime",
+        "name": "Action",
+        "url": "https://myanimelist.net/anime/genre/1/Action"
+      },
+      {
+        "mal_id": 24,
+        "type": "anime",
+        "name": "Sci-Fi",
+        "url": "https://myanimelist.net/anime/genre/24/Sci-Fi"
+      }
+    ],
+    "explicit_genres": [],
+    "themes": [
+      {
+        "mal_id": 18,
+        "type": "anime",
+        "name": "Mecha",
+        "url": "https://myanimelist.net/anime/genre/18/Mecha"
+      }
+    ],
+    "demographics": []
+  },
+  {
+    "mal_id": 28019,
+    "url": "https://myanimelist.net/anime/28019/Slippy_Dandy",
+    "images": {
+      "jpg": {
+        "image_url": "https://cdn.myanimelist.net/img/sp/icon/apple-touch-icon-256.png",
+        "small_image_url": "https://cdn.myanimelist.net/img/sp/icon/apple-touch-icon-256.png",
+        "large_image_url": "https://cdn.myanimelist.net/img/sp/icon/apple-touch-icon-256.png"
+      },
+      "webp": {
+        "image_url": "https://cdn.myanimelist.net/img/sp/icon/apple-touch-icon-256.png",
+        "small_image_url": "https://cdn.myanimelist.net/img/sp/icon/apple-touch-icon-256.png",
+        "large_image_url": "https://cdn.myanimelist.net/img/sp/icon/apple-touch-icon-256.png"
+      }
+    },
+    "trailer": {
+      "youtube_id": null,
+      "url": null,
+      "embed_url": null,
+      "images": {
+        "image_url": null,
+        "small_image_url": null,
+        "medium_image_url": null,
+        "large_image_url": null,
+        "maximum_image_url": null
+      }
+    },
+    "approved": true,
+    "titles": [
+      {
+        "type": "Default",
+        "title": "Slippy Dandy"
+      },
+      {
+        "type": "Japanese",
+        "title": "SLIPPY DANDY"
+      }
+    ],
+    "title": "Slippy Dandy",
+    "title_english": null,
+    "title_japanese": "SLIPPY DANDY",
+    "title_synonyms": [],
+    "type": "TV",
+    "source": "Unknown",
+    "episodes": 4,
+    "status": "Finished Airing",
+    "airing": false,
+    "aired": {
+      "from": "1987-08-06T00:00:00+00:00",
+      "to": "1987-09-03T00:00:00+00:00",
+      "prop": {
+        "from": {
+          "day": 6,
+          "month": 8,
+          "year": 1987
+        },
+        "to": {
+          "day": 3,
+          "month": 9,
+          "year": 1987
+        }
+      },
+      "string": "Aug 6, 1987 to Sep 3, 1987"
+    },
+    "duration": "2 min per ep",
+    "rating": "G - All Ages",
+    "score": null,
+    "scored_by": null,
+    "rank": 19786,
+    "popularity": 17356,
+    "members": 283,
+    "favorites": 1,
+    "synopsis": "Farcical thievery in the style of Cat's Eye, as the pretty blonde photographer Audrey pursues the burglar Slippy Dandy, unaware that he is really Steve, the young college boy who worships her from afar. This series of shorts was shown as part of the variety show Midnight Treasure Chamber and made in a deliberately \"American\" style (meaning brashly bright colors and redundant sound effects plastered over the action in the style of the 1960s TV Batman).\n\n(Source: The Anime Encyclopedia)",
+    "background": null,
+    "season": "summer",
+    "year": 1987,
+    "broadcast": {
+      "day": null,
+      "time": null,
+      "timezone": null,
+      "string": "Unknown"
+    },
+    "producers": [],
+    "licensors": [],
+    "studios": [
+      {
+        "mal_id": 1754,
+        "type": "anime",
+        "name": "Meruhensha",
+        "url": "https://myanimelist.net/anime/producer/1754/Meruhensha"
+      }
+    ],
+    "genres": [
+      {
+        "mal_id": 1,
+        "type": "anime",
+        "name": "Action",
+        "url": "https://myanimelist.net/anime/genre/1/Action"
+      },
+      {
+        "mal_id": 7,
+        "type": "anime",
+        "name": "Mystery",
+        "url": "https://myanimelist.net/anime/genre/7/Mystery"
+      }
+    ],
+    "explicit_genres": [],
+    "themes": [],
+    "demographics": [
+      {
+        "mal_id": 15,
+        "type": "anime",
+        "name": "Kids",
+        "url": "https://myanimelist.net/anime/genre/15/Kids"
+      }
+    ]
+  },
+  {
+    "mal_id": 48165,
+    "url": "https://myanimelist.net/anime/48165/Donghwanala_ABC",
+    "images": {
+      "jpg": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/1028/130345.jpg",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/1028/130345t.jpg",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/1028/130345l.jpg"
+      },
+      "webp": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/1028/130345.webp",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/1028/130345t.webp",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/1028/130345l.webp"
+      }
+    },
+    "trailer": {
+      "youtube_id": null,
+      "url": null,
+      "embed_url": null,
+      "images": {
+        "image_url": null,
+        "small_image_url": null,
+        "medium_image_url": null,
+        "large_image_url": null,
+        "maximum_image_url": null
+      }
+    },
+    "approved": true,
+    "titles": [
+      {
+        "type": "Default",
+        "title": "Donghwanala ABC"
+      },
+      {
+        "type": "Japanese",
+        "title": "\ub3d9\ud654\ub098\ub77c ABC"
+      }
+    ],
+    "title": "Donghwanala ABC",
+    "title_english": null,
+    "title_japanese": "\ub3d9\ud654\ub098\ub77c ABC",
+    "title_synonyms": [],
+    "type": "TV",
+    "source": "Unknown",
+    "episodes": 12,
+    "status": "Finished Airing",
+    "airing": false,
+    "aired": {
+      "from": "1987-07-23T00:00:00+00:00",
+      "to": "1987-08-28T00:00:00+00:00",
+      "prop": {
+        "from": {
+          "day": 23,
+          "month": 7,
+          "year": 1987
+        },
+        "to": {
+          "day": 28,
+          "month": 8,
+          "year": 1987
+        }
+      },
+      "string": "Jul 23, 1987 to Aug 28, 1987"
+    },
+    "duration": "17 min per ep",
+    "rating": "PG - Children",
+    "score": null,
+    "scored_by": null,
+    "rank": 15502,
+    "popularity": 21709,
+    "members": 65,
+    "favorites": 0,
+    "synopsis": null,
+    "background": null,
+    "season": "summer",
+    "year": 1987,
+    "broadcast": {
+      "day": null,
+      "time": null,
+      "timezone": null,
+      "string": "Unknown"
+    },
+    "producers": [],
+    "licensors": [],
+    "studios": [],
+    "genres": [
+      {
+        "mal_id": 10,
+        "type": "anime",
+        "name": "Fantasy",
+        "url": "https://myanimelist.net/anime/genre/10/Fantasy"
+      }
+    ],
+    "explicit_genres": [],
+    "themes": [],
+    "demographics": [
+      {
+        "mal_id": 15,
+        "type": "anime",
+        "name": "Kids",
+        "url": "https://myanimelist.net/anime/genre/15/Kids"
+      }
+    ]
+  }
+]
