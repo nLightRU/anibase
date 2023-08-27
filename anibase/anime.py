@@ -7,7 +7,7 @@ anime = Blueprint('anime', __name__, url_prefix='/')
 @anime.route('/anime/id/<int:mal_id>')
 def anime_by_id(mal_id):
     anime = db.get_or_404(Anime, mal_id)
-    return f"<h1>Anime</h1><ul><li>id: {anime.mal_id}</li><li>name: {anime.title}</li><li>year: {anime.year}</li></ul>"
+    return render_template('anime.html', anime=anime)
 
 
 @anime.route('/anime/year/<int:year_val>')

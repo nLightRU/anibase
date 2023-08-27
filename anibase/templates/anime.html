@@ -1,0 +1,19 @@
+{%extends 'base.html' %}
+
+{%block title%}
+Anime
+{%endblock%}
+
+{%block body%}
+<h1>
+    {{anime.title}}
+</h1>
+<ul>
+    <li>episodes: {{anime.episodes}}</li>
+    <li>year: {{anime.year}}</li>
+    <li>source: {{anime.source}}</li>
+</ul>
+<p>
+    {{anime.synopsis}}
+</p>
+{%endblock%}
