@@ -19,7 +19,7 @@ def get_titles():
             for title in titles:
                 yield title
 
-class Database:
+class DBHandler:
     dir_path = os.path.dirname(os.path.abspath(__file__))
     data_dir = os.path.join(
                             os.path.abspath(os.path.relpath('../', dir_path)),
@@ -27,14 +27,14 @@ class Database:
                             )
 
     def __init__(self, db_name):
-        self.sql_path = os.path.join(Database.data_dir, 'sql')
-        if not os.path.exists(os.path.join(Database.data_dir, db_name)):
-            self.db_path = os.path.join(Database.data_dir, db_name)
+        self.sql_path = os.path.join(DBHandler.data_dir, 'sql')
+        if not os.path.exists(os.path.join(DBHandler.data_dir, db_name)):
+            self.db_path = os.path.join(DBHandler.data_dir, db_name)
             with sqlite3.connect(self.db_path) as con:
                 script = open(os.path.join(self.sql_path, 'create_scheme.sql')).read()
                 con.executescript(script)
         else:
-            self.db_path = os.path.join(Database.data_dir, db_name)
+            self.db_path = os.path.join(DBHandler.data_dir, db_name)
 
     def insert_titles(self, titles):
         fields = ('mal_id', 'title', 'title_english', 'episodes',
@@ -70,6 +70,6 @@ class Database:
 
 
 if __name__ == '__main__':
-    db = Database('anime_db.sqlite')
+    db = DBHandler('anime_db.sqlite')
     for t in get_titles():
         db.insert_titles((t,))
