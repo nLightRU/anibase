@@ -8,4 +8,3 @@ class Anime(db.Model):
     title_english = db.Column(db.String)
     episodes = db.Column(db.Integer)
     year = db.Column(db.Integer, nullable=False)
-    
