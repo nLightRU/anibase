@@ -1,14 +1,7 @@
 import os
 import sqlite3
 import json
-
-
-def get_titles() -> dict:
-    seasons_dir = os.path.abspath(os.path.join(os.pardir, 'data', 'seasons_json'))
-    for season in os.listdir(seasons_dir):
-        titles = json.loads(open(os.path.join(seasons_dir, season)).read())
-        for title in titles:
-            yield title
+from model import Genre
 
 
 def get_organisations(organisation: str) -> list[dict]:
@@ -17,7 +10,7 @@ def get_organisations(organisation: str) -> list[dict]:
     :param organisation:
     :return:
     """
-    assert(organisation in ('studios', 'licensors', 'producers'))
+    assert (organisation in ('studios', 'licensors', 'producers'))
 
     seasons_dir = os.path.abspath(os.path.join(os.pardir, 'data', 'seasons_json'))
     titles = []
@@ -79,8 +72,37 @@ class DBHandler:
         else:
             self.db_path = os.path.join(DBHandler.data_dir, db_name)
 
-    def insert_genres(self, genres):
-        pass
+    @staticmethod
+    def _get_titles() -> dict:
+        for season in os.listdir(DBHandler.seasons_dir):
+            titles = json.loads(open(os.path.join(DBHandler.seasons_dir, season)).read())
+            for title in titles:
+                yield title
+
+    def insert_genres(self):
+        genres_ids = set()
+        genres = []
+        for title in DBHandler._get_titles():
+            for genre in title['genres']:
+                if genre['mal_id'] not in genres_ids:
+                    genres_ids.add(genre['mal_id'])
+                    genres.append(genre)
+
+            for theme in title['themes']:
+                if theme['mal_id'] not in genres_ids:
+                    genres_ids.add(theme['mal_id'])
+                    genres.append(theme)
+
+        with sqlite3.connect(self.db_path) as con:
+            cur = con.cursor()
+            for genre in genres:
+                select_stmt = 'SELECT id FROM genre WHERE id=?'
+                row = cur.execute(select_stmt, (genre['mal_id'],)).fetchone()
+
+                if not row:
+                    cur.execute('INSERT INTO genre(id, name) VALUES(?, ?)',
+                                (genre['mal_id'], genre['name'])
+                                )
 
     def insert_titles(self, titles):
         fields = ('mal_id', 'title', 'title_english', 'episodes',
@@ -113,6 +135,6 @@ class DBHandler:
 
 
 if __name__ == '__main__':
-    print(*get_organisations('studios'), sep='\n')
+    # print(*get_organisations('studios'), sep='\n')
     handler = DBHandler('anime_db.sqlite')
-
+    handler.insert_genres()

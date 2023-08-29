@@ -14,3 +14,11 @@ class Anime(db.Model):
     year = db.Column(db.Integer, nullable=False)
     rating = db.Column(db.String)
     synopsis = db.Column(db.Text)
+
+
+class Genre(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    name = db.Column(db.String, nullable=False)
+
+    def __repr__(self):
+        return f'<Genre id={self.id} name={self.name}>'
