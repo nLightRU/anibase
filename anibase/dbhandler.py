@@ -3,9 +3,6 @@ import sqlite3
 import json
 
 
-# dir_path = os.path.dirname(os.path.abspath(__file__))
-# data_dir = os.path.abspath(os.path.relpath('../', dir_path))\
-
 def get_titles() -> dict:
     seasons_dir = os.path.abspath(os.path.join(os.pardir, 'data', 'seasons_json'))
     for season in os.listdir(seasons_dir):
@@ -84,15 +81,15 @@ class DBHandler:
         fields = ('mal_id', 'title', 'title_english', 'episodes',
                   'type', 'source', 'season', 'year', 'rating', 'synopsis')
 
-        def create_insert_stmt(title):
+        def create_insert_stmt(anime_title):
             sql_stmt = 'INSERT INTO anime('
             values_count = 0
             for field in fields:
-                if field in title.keys():
+                if field in anime_title.keys():
                     sql_stmt += field + ','
                     values_count += 1
             sql_stmt = sql_stmt[:-1] + ')' + 'VALUES(' + ('?, ' * (values_count - 1)) + '?)'
-            values = [title[field] for field in fields]
+            values = [anime_title[field] for field in fields]
 
             return sql_stmt, values
 

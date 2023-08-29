@@ -1,5 +1,5 @@
 from os import path
-from  flask import Flask
+from flask import Flask
 from .model import db
 
 
