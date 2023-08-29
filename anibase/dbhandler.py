@@ -1,7 +1,10 @@
 import os
 import sqlite3
 import json
-from model import Genre
+
+import sqlalchemy.exc
+from sqlalchemy import create_engine
+from sqlalchemy.orm import Session
 
 
 def get_organisations(organisation: str) -> list[dict]:
@@ -104,6 +107,34 @@ class DBHandler:
                                 (genre['mal_id'], genre['name'])
                                 )
 
+    def insert_studios(self):
+        studio_ids = set()
+        studios = []
+        for title in DBHandler._get_titles():
+            for studio in title['studios']:
+                if studio['mal_id'] not in studio_ids:
+                    studio_ids.add(studio['mal_id'])
+                    studios.append(studio)
+
+        from model import db
+        from model import Studio
+
+        engine = create_engine('sqlite:///'+self.db_path)
+
+        try:
+            db.metadata.tables['studio'].create(bind=engine)
+        except sqlalchemy.exc.OperationalError:
+            print('Table already exists')
+
+        with Session(engine) as session:
+            for studio in studios:
+                s = Studio(id=studio['mal_id'], name=studio['name'])
+                row = session.query(Studio).filter(Studio.id == s.id)
+                if not row:
+                    session.add(s)
+
+            session.commit()
+
     def insert_titles(self, titles):
         fields = ('mal_id', 'title', 'title_english', 'episodes',
                   'type', 'source', 'season', 'year', 'rating', 'synopsis')
@@ -137,4 +168,5 @@ class DBHandler:
 if __name__ == '__main__':
     # print(*get_organisations('studios'), sep='\n')
     handler = DBHandler('anime_db.sqlite')
-    handler.insert_genres()
+    # handler.insert_genres()
+    handler.insert_studios()
