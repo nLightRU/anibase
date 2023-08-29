@@ -11,12 +11,24 @@
     <h1>
         {{anime.title}}
     </h1>
-    <ul>
-        <li>episodes: {{anime.episodes}}</li>
-        <li>year: {{anime.year}}</li>
-    </ul>
-    <p>
-        {{anime.synopsis}}
-    </p>
+
+    <div class="row">
+        <div class="col">
+        <img src={{url_for('static', filename='anime_mockup_poster.jpg')}}>
+        <ul>
+            <li>episodes: {{anime.episodes}}</li>
+            <li>year: {{anime.year}}</li>
+            <li>season: {{anime.season}}</li>
+            <li>source: {{anime.source }}</li>
+            <li>type: {{anime.type}}</li>
+            <li>rating: {{anime.rating}}</li>
+        </ul>
+        </div>
+        <div class="col">
+            <p>
+                {{anime.synopsis}}
+            </p>
+        </div>
+    </div>
 </div>
 {%endblock%}
