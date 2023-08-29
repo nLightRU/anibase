@@ -15,16 +15,19 @@
     <div class="row">
         <div class="col">
         <img src={{url_for('static', filename='anime_mockup_poster.jpg')}}>
-        <ul>
-            <li>episodes: {{anime.episodes}}</li>
-            <li>year: {{anime.year}}</li>
-            <li>season: {{anime.season}}</li>
-            <li>source: {{anime.source }}</li>
-            <li>type: {{anime.type}}</li>
-            <li>rating: {{anime.rating}}</li>
+        <ul class="list-group">
+            <li class="list-group-item">episodes: {{anime.episodes}}</li>
+            <li class="list-group-item">year: {{anime.year}}</li>
+            <li class="list-group-item">season: {{anime.season}}</li>
+            <li class="list-group-item">source: {{anime.source }}</li>
+            <li class="list-group-item">type: {{anime.type}}</li>
+            <li class="list-group-item">rating: {{anime.rating}}</li>
         </ul>
         </div>
         <div class="col">
+            <p>Some forms for progress will be here</p>
+        </div>
+        <div class="row">
             <p>
                 {{anime.synopsis}}
             </p>

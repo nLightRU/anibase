@@ -67,6 +67,8 @@ class DBHandler:
         'data'
     )
 
+    seasons_dir = os.path.abspath(os.path.join(os.pardir, 'data', 'seasons_json'))
+
     def __init__(self, db_name):
         self.sql_path = os.path.join(DBHandler.data_dir, 'sql')
         if not os.path.exists(os.path.join(DBHandler.data_dir, db_name)):
@@ -76,6 +78,9 @@ class DBHandler:
                 con.executescript(script)
         else:
             self.db_path = os.path.join(DBHandler.data_dir, db_name)
+
+    def insert_genres(self, genres):
+        pass
 
     def insert_titles(self, titles):
         fields = ('mal_id', 'title', 'title_english', 'episodes',
@@ -109,3 +114,5 @@ class DBHandler:
 
 if __name__ == '__main__':
     print(*get_organisations('studios'), sep='\n')
+    handler = DBHandler('anime_db.sqlite')
+
