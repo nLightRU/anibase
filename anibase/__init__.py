@@ -1,5 +1,6 @@
 from os import path
 from flask import Flask
+from flask_migrate import Migrate
 from .model import db
 
 
@@ -23,4 +24,5 @@ def create_app(db_name='anime_db.sqlite'):
     app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///' + db_path
     db.init_app(app)
 
+    migrate = Migrate(app, db)
     return app
