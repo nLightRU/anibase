@@ -1,10 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
-</head>
-<body>
-$END$
-</body>
-</html>
+{%extends 'base.html'%}
+{%block body%}
+{{super()}}
+<div class="container">
+<h2>Anime from {{year}}</h2>
+<ul>
+{%for a in titles%}
+    <li><a href={{"/anime/id/%d" % a.mal_id}}>{{a.title}}</a></li>
+{%endfor%}
+</ul>
+</div>
+{%endblock%}
