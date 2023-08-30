@@ -57,6 +57,33 @@ def get_anime_organisations(mal_id, year, season, organisation) -> list[dict]:
             return []
 
 
+def get_titles() -> dict:
+    seasons_dir = os.path.abspath(os.path.join(os.pardir, 'data', 'seasons_json'))
+    for season in os.listdir(seasons_dir):
+        titles = json.loads(open(os.path.join(DBHandler.seasons_dir, season)).read())
+        for title in titles:
+            yield title
+
+def insert_titles(self):
+
+    from model import Anime
+
+    def create_title_row():
+        for a in get_titles():
+            anime_title = Anime(mal_id=a['mal_id'], title=a['title'], title_english=a['title_english'],
+                            episodes=a['episodes'], type=a['type'], source=a['source'],
+                            season=a['season'], year=a['year'], rating=a['rating'], synopsis=a['synopsis'],
+                            score=a['score'], members=a['members'])
+
+            yield anime_title
+
+    engine = create_engine(DBHandler.db_uri)
+    with Session(engine) as session:
+        for a in create_title_row():
+            session.add(a)
+        session.commit()
+
+
 class DBHandler:
     dir_path = os.path.dirname(os.path.abspath(__file__))
     data_dir = os.path.join(
@@ -65,6 +92,12 @@ class DBHandler:
     )
 
     seasons_dir = os.path.abspath(os.path.join(os.pardir, 'data', 'seasons_json'))
+
+    db_url = '127.0.0.1:5432'
+    db_name = 'anibase_db'
+    db_user = 'anibase_app'
+    db_pass = 'qwerty12345'
+    db_uri = f'postgresql+psycopg2://{db_user}:{db_pass}@{db_url}/{db_name}'
 
     def __init__(self, db_name):
         self.sql_path = os.path.join(DBHandler.data_dir, 'sql')
@@ -76,17 +109,10 @@ class DBHandler:
         else:
             self.db_path = os.path.join(DBHandler.data_dir, db_name)
 
-    @staticmethod
-    def _get_titles() -> dict:
-        for season in os.listdir(DBHandler.seasons_dir):
-            titles = json.loads(open(os.path.join(DBHandler.seasons_dir, season)).read())
-            for title in titles:
-                yield title
-
     def insert_genres(self):
         genres_ids = set()
         genres = []
-        for title in DBHandler._get_titles():
+        for title in get_titles():
             for genre in title['genres']:
                 if genre['mal_id'] not in genres_ids:
                     genres_ids.add(genre['mal_id'])
@@ -111,7 +137,7 @@ class DBHandler:
     def insert_studios(self):
         studio_ids = set()
         studios = []
-        for title in DBHandler._get_titles():
+        for title in get_titles():
             for studio in title['studios']:
                 if studio['mal_id'] not in studio_ids:
                     studio_ids.add(studio['mal_id'])
@@ -138,42 +164,13 @@ class DBHandler:
 
             session.commit()
 
-    def insert_titles(self, titles):
-        fields = ('mal_id', 'title', 'title_english', 'episodes',
-                  'type', 'source', 'season', 'year', 'rating', 'synopsis')
-
-        def create_insert_stmt(anime_title):
-            sql_stmt = 'INSERT INTO anime('
-            values_count = 0
-            for field in fields:
-                if field in anime_title.keys():
-                    sql_stmt += field + ','
-                    values_count += 1
-            sql_stmt = sql_stmt[:-1] + ')' + 'VALUES(' + ('?, ' * (values_count - 1)) + '?)'
-            values = [anime_title[field] for field in fields]
-
-            return sql_stmt, values
-
-        with sqlite3.connect(self.db_path) as con:
-            cur = con.cursor()
-            for title in titles:
-                # we need to check if title already exists in the table
-                select_stmt = 'SELECT * FROM anime WHERE mal_id = ?'
-                cur.execute(select_stmt, (title['mal_id'],))
-                rows = cur.fetchall()
-                if rows:
-                    print(title['mal_id'], 'already exists')
-                else:
-                    stmt, vals = create_insert_stmt(title)
-                    con.execute(stmt, vals)
-
     def insert_anime_genre(self):
 
         from model import AnimeGenre
         id_row = 1
         engine = create_engine('sqlite:///' + self.db_path)
         with Session(engine) as session:
-            for title in DBHandler._get_titles():
+            for title in get_titles():
                 for genre in title['genres']:
                     session.add(AnimeGenre(id=id_row, id_anime=title['mal_id'], id_genre=genre['mal_id']))
                     id_row += 1
@@ -190,7 +187,7 @@ class DBHandler:
         id_row = 1
         engine = create_engine('sqlite:///' + self.db_path)
         with Session(engine) as session:
-            for title in DBHandler._get_titles():
+            for title in get_titles():
                 for studio in title['studios']:
                     session.add(AnimeStudio(id=id_row, id_anime=title['mal_id'], id_studio=studio['mal_id']))
                     id_row += 1
@@ -201,7 +198,7 @@ class DBHandler:
         from model import Anime
         engine = create_engine('sqlite:///' + self.db_path)
         with Session(engine) as session:
-            for anime in DBHandler._get_titles():
+            for anime in get_titles():
                 score_val = anime['score']
                 members_val = anime['members']
                 if score_val:
@@ -214,6 +211,7 @@ class DBHandler:
 if __name__ == '__main__':
     # print(*get_organisations('studios'), sep='\n')
     handler = DBHandler('anime_db.sqlite')
+    insert_titles()
     # handler.insert_genres()
     # handler.insert_studios()
     # handler.insert_anime_genres()
