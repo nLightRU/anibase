@@ -37,3 +37,9 @@ class AnimeGenre(db.Model):
     id_anime = db.Column(db.Integer, db.ForeignKey('anime.mal_id'), nullable=False)
     id_genre = db.Column(db.Integer, db.ForeignKey('genre.id'), nullable=False)
 
+
+class AnimeStudio(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    id_anime = db.Column(db.Integer, db.ForeignKey('anime.mal_id'), nullable=False)
+    id_studio = db.Column(db.Integer, db.ForeignKey('studio.id'), nullable=False)
+
