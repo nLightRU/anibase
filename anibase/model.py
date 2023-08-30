@@ -14,6 +14,8 @@ class Anime(db.Model):
     year = db.Column(db.Integer, nullable=False)
     rating = db.Column(db.String)
     synopsis = db.Column(db.Text)
+    score = db.Column(db.Integer)
+    members = db.Column(db.Integer)
 
 
 class Genre(db.Model):

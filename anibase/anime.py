@@ -22,4 +22,5 @@ def anime_by_id(mal_id):
 @anime.route('/anime/year/<int:year_val>')
 def anime_by_year(year_val):
     anime_titles = db.session.query(Anime).filter(Anime.year == year_val)
+    anime_titles = sorted(anime_titles, key=lambda a: 0 if not a.score else a.score, reverse=True)
     return render_template('anime_year.html', titles=anime_titles, year=year_val)

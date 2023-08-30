@@ -5,6 +5,7 @@ import json
 import sqlalchemy.exc
 from sqlalchemy import create_engine
 from sqlalchemy.orm import Session
+from sqlalchemy import update
 
 
 def get_organisations(organisation: str) -> list[dict]:
@@ -196,6 +197,19 @@ class DBHandler:
 
             session.commit()
 
+    def update_stats(self):
+        from model import Anime
+        engine = create_engine('sqlite:///' + self.db_path)
+        with Session(engine) as session:
+            for anime in DBHandler._get_titles():
+                score_val = anime['score']
+                members_val = anime['members']
+                if score_val:
+                    session.execute(update(Anime).where(Anime.mal_id == anime['mal_id']).values(score=score_val))
+                if members_val:
+                    session.execute(update(Anime).where(Anime.mal_id == anime['mal_id']).values(members=members_val))
+            session.commit()
+
 
 if __name__ == '__main__':
     # print(*get_organisations('studios'), sep='\n')
@@ -203,4 +217,5 @@ if __name__ == '__main__':
     # handler.insert_genres()
     # handler.insert_studios()
     # handler.insert_anime_genres()
-    handler.insert_anime_studio()
+    # handler.insert_anime_studio()
+    # handler.update_stats()
