@@ -30,3 +30,10 @@ class Studio(db.Model):
 
     def __repr__(self):
         return f'<Studio id={self.id} name={self.name}>'
+
+
+class AnimeGenre(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    id_anime = db.Column(db.Integer, db.ForeignKey('anime.mal_id'), nullable=False)
+    id_genre = db.Column(db.Integer, db.ForeignKey('genre.id'), nullable=False)
+

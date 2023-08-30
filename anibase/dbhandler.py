@@ -119,6 +119,8 @@ class DBHandler:
         from model import db
         from model import Studio
 
+        # TO DO: fix path again (if we start not from anibase
+        # it's not opened
         engine = create_engine('sqlite:///'+self.db_path)
 
         try:
@@ -164,9 +166,27 @@ class DBHandler:
                     stmt, vals = create_insert_stmt(title)
                     con.execute(stmt, vals)
 
+    def insert_anime_genres(self):
+
+        from model import AnimeGenre
+        id_row = 1
+        engine = create_engine('sqlite:///' + self.db_path)
+        with Session(engine) as session:
+            for title in DBHandler._get_titles():
+                for genre in title['genres']:
+                    session.add(AnimeGenre(id=id_row, id_anime=title['mal_id'], id_genre=genre['mal_id']))
+                    id_row += 1
+
+                for theme in title['themes']:
+                    session.add(AnimeGenre(id=id_row, id_anime=title['mal_id'], id_genre=theme['mal_id']))
+                    id_row += 1
+
+            session.commit()
+
 
 if __name__ == '__main__':
     # print(*get_organisations('studios'), sep='\n')
     handler = DBHandler('anime_db.sqlite')
     # handler.insert_genres()
-    handler.insert_studios()
+    # handler.insert_studios()
+    # handler.insert_anime_genres()
