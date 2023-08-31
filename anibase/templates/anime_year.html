@@ -5,7 +5,7 @@
 <h2>Anime from {{year}}</h2>
 <ul>
 {%for a in titles%}
-    <li><a href={{"/anime/id/%d" % a.mal_id}}>{{a.title}}</a></li>
+    <li><a href={{"/anime/%d" % a.mal_id}}>{{a.title}}</a></li>
 {%endfor%}
 </ul>
 </div>
