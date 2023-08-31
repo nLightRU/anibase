@@ -1,47 +1,70 @@
-from flask_sqlalchemy import SQLAlchemy
-
-db = SQLAlchemy()
-
-
-class Anime(db.Model):
-    mal_id = db.Column(db.Integer, primary_key=True)
-    title = db.Column(db.String, nullable=False)
-    title_english = db.Column(db.String)
-    episodes = db.Column(db.Integer)
-    type = db.Column(db.String)
-    source = db.Column(db.String)
-    season = db.Column(db.String, nullable=False)
-    year = db.Column(db.Integer, nullable=False)
-    rating = db.Column(db.String)
-    synopsis = db.Column(db.Text)
-    score = db.Column(db.Integer)
-    members = db.Column(db.Integer)
+from sqlalchemy import create_engine
+from sqlalchemy import Integer, Float, String, Text
+from sqlalchemy.orm import Mapped
+from sqlalchemy import ForeignKey
+from sqlalchemy.orm import declarative_base
+from sqlalchemy.orm import mapped_column
 
 
-class Genre(db.Model):
-    id = db.Column(db.Integer, primary_key=True)
-    name = db.Column(db.String, nullable=False)
+db_url = '127.0.0.1:5432'
+db_name = 'anibase_db'
+db_user = 'anibase_app'
+db_pass = 'qwerty12345'
+db_uri = f'postgresql+psycopg2://{db_user}:{db_pass}@{db_url}/{db_name}'
+
+engine = create_engine(db_uri)
+Base = declarative_base()
+
+
+class Anime(Base):
+    __tablename__ = 'anime'
+
+    mal_id: Mapped[int] = mapped_column(Integer, primary_key=True)
+    title: Mapped[str] = mapped_column(String, nullable=False)
+    title_english: Mapped[str] = mapped_column(String)
+    episodes: Mapped[int] = mapped_column(Integer)
+    type: Mapped[str] = mapped_column(String)
+    source: Mapped[str] = mapped_column(String)
+    season: Mapped[str] = mapped_column(String, nullable=False)
+    year: Mapped[int] = mapped_column(Integer, nullable=False)
+    rating: Mapped[str] = mapped_column(String)
+    synopsis: Mapped[str] = mapped_column(Text)
+    score: Mapped[float] = mapped_column(Float)
+    members: Mapped[int] = mapped_column(Integer, default=0)
+
+
+class Genre(Base):
+    __tablename__ = 'genre'
+
+    id: Mapped[int] = mapped_column(Integer, primary_key=True)
+    name: Mapped[str] = mapped_column(String, nullable=False)
 
     def __repr__(self):
         return f'<Genre id={self.id} name={self.name}>'
 
 
-class Studio(db.Model):
-    id = db.Column(db.Integer, primary_key=True)
-    name = db.Column(db.String, nullable=False)
+class Studio(Base):
+    __tablename__ = 'studio'
+    id: Mapped[int] = mapped_column(Integer, primary_key=True)
+    name: Mapped[str] = mapped_column(String, nullable=False)
 
     def __repr__(self):
         return f'<Studio id={self.id} name={self.name}>'
 
 
-class AnimeGenre(db.Model):
-    id = db.Column(db.Integer, primary_key=True)
-    id_anime = db.Column(db.Integer, db.ForeignKey('anime.mal_id'), nullable=False)
-    id_genre = db.Column(db.Integer, db.ForeignKey('genre.id'), nullable=False)
+class AnimeGenre(Base):
+    __tablename__ = 'anime_genre'
+    id: Mapped[int] = mapped_column(Integer, primary_key=True)
+    id_anime: Mapped[int] = mapped_column(ForeignKey('anime.mal_id'))
+    id_genre: Mapped[int] = mapped_column(ForeignKey('genre.id'))
+
+    def __repr__(self):
+        return f'<AnimeGenre id={self.id} id_anime={self.id_anime} id_genre={self.id_genre}>'
 
 
-class AnimeStudio(db.Model):
-    id = db.Column(db.Integer, primary_key=True)
-    id_anime = db.Column(db.Integer, db.ForeignKey('anime.mal_id'), nullable=False)
-    id_studio = db.Column(db.Integer, db.ForeignKey('studio.id'), nullable=False)
+class AnimeStudio(Base):
+    __tablename__ = 'anime_studio'
+    id: Mapped[int] = mapped_column(Integer, primary_key=True)
+    id_anime: Mapped[int] = mapped_column(ForeignKey('anime.mal_id'))
+    id_studio: Mapped[int] = mapped_column(ForeignKey('studio.id'))
 

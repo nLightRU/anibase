@@ -2,15 +2,24 @@ import os
 import sqlite3
 import json
 
-from sqlalchemy import create_engine
 from sqlalchemy.orm import Session
 from sqlalchemy import update
+
+from model import engine
 
 db_url = '127.0.0.1:5432'
 db_name = 'anibase_db'
 db_user = 'anibase_app'
 db_pass = 'qwerty12345'
 db_uri = f'postgresql+psycopg2://{db_user}:{db_pass}@{db_url}/{db_name}'
+
+
+def get_titles() -> dict:
+    seasons_dir = os.path.abspath(os.path.join(os.pardir, 'data', 'seasons_json'))
+    for season in os.listdir(seasons_dir):
+        titles = json.loads(open(os.path.join(seasons_dir, season)).read())
+        for title in titles:
+            yield title
 
 
 def get_organisations(organisation: str) -> list[dict]:
@@ -62,14 +71,6 @@ def get_anime_organisations(mal_id, year, season, organisation) -> list[dict]:
             return []
 
 
-def get_titles() -> dict:
-    seasons_dir = os.path.abspath(os.path.join(os.pardir, 'data', 'seasons_json'))
-    for season in os.listdir(seasons_dir):
-        titles = json.loads(open(os.path.join(DBHandler.seasons_dir, season)).read())
-        for title in titles:
-            yield title
-
-
 def insert_titles():
 
     from model import Anime
@@ -83,7 +84,6 @@ def insert_titles():
 
             yield anime_row
 
-    engine = create_engine(db_uri)
     with Session(engine) as session:
         for anime_title in create_title_row():
             session.add(anime_title)
@@ -106,7 +106,6 @@ def insert_genres():
 
     from model import Genre
 
-    engine = create_engine(db_uri)
     with Session(engine) as session:
         for genre in genres:
             genre_row = Genre(id=genre['mal_id'], name=genre['name'])
@@ -127,8 +126,6 @@ def insert_studios():
 
     from model import Studio
 
-    engine = create_engine(db_uri)
-
     with Session(engine) as session:
         for studio in studios:
             s = Studio(id=studio['mal_id'], name=studio['name'])
@@ -143,7 +140,6 @@ def insert_anime_studio():
 
     from model import AnimeStudio
     id_row = 1
-    engine = create_engine(db_uri)
     with Session(engine) as session:
         for title in get_titles():
             for studio in title['studios']:
@@ -157,7 +153,6 @@ def insert_anime_genre():
 
     from model import AnimeGenre
     id_row = 1
-    engine = create_engine(db_uri)
     with Session(engine) as session:
         for title in get_titles():
             for genre in title['genres']:
@@ -170,51 +165,25 @@ def insert_anime_genre():
 
         session.commit()
 
-class DBHandler:
-    dir_path = os.path.dirname(os.path.abspath(__file__))
-    data_dir = os.path.join(
-        os.path.abspath(os.path.relpath('../', dir_path)),
-        'data'
-    )
 
-    seasons_dir = os.path.abspath(os.path.join(os.pardir, 'data', 'seasons_json'))
-
-    db_url = '127.0.0.1:5432'
-    db_name = 'anibase_db'
-    db_user = 'anibase_app'
-    db_pass = 'qwerty12345'
-    db_uri = f'postgresql+psycopg2://{db_user}:{db_pass}@{db_url}/{db_name}'
-
-    def __init__(self, db_name):
-        self.sql_path = os.path.join(DBHandler.data_dir, 'sql')
-        if not os.path.exists(os.path.join(DBHandler.data_dir, db_name)):
-            self.db_path = os.path.join(DBHandler.data_dir, db_name)
-            with sqlite3.connect(self.db_path) as con:
-                script = open(os.path.join(self.sql_path, 'create_scheme.sql')).read()
-                con.executescript(script)
-        else:
-            self.db_path = os.path.join(DBHandler.data_dir, db_name)
-
-    def update_stats(self):
-        from model import Anime
-        engine = create_engine('sqlite:///' + self.db_path)
-        with Session(engine) as session:
-            for anime in get_titles():
-                score_val = anime['score']
-                members_val = anime['members']
-                if score_val:
-                    session.execute(update(Anime).where(Anime.mal_id == anime['mal_id']).values(score=score_val))
-                if members_val:
-                    session.execute(update(Anime).where(Anime.mal_id == anime['mal_id']).values(members=members_val))
-            session.commit()
+def update_stats():
+    from model import Anime
+    with Session(engine) as session:
+        for anime in get_titles():
+            score_val = anime['score']
+            members_val = anime['members']
+            if score_val:
+                session.execute(update(Anime).where(Anime.mal_id == anime['mal_id']).values(score=score_val))
+            if members_val:
+                session.execute(update(Anime).where(Anime.mal_id == anime['mal_id']).values(members=members_val))
+        session.commit()
 
 
 if __name__ == '__main__':
-    # print(*get_organisations('studios'), sep='\n')
-    handler = DBHandler('anime_db.sqlite')
     # insert_titles()
     # insert_genres()
     # insert_studios()
     # insert_anime_studio()
     # insert_anime_genre()
     # handler.update_stats()
+    pass
