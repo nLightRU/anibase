@@ -15,22 +15,12 @@ def anime_by_id(mal_id):
     with Session(engine) as session:
         try:
             anime_title = session.get(Anime, mal_id)
-            anime_genres = session.execute(select(AnimeGenre).where(AnimeGenre.id_anime == mal_id)).scalars()
-            print(anime_genres)
-
-            # for genre in anime_genres:
-            # try:
-            #     for genre in anime_genres:
-            #         genres.append(session.get(Genre, genre.id_genre))
-            # except Exception as ex_g:
-            #     print('Genres not found')
-            #     abort(404)
+            anime_genres = session.execute(select(AnimeGenre).where(AnimeGenre.id_anime == mal_id))
+            for ag in anime_genres.scalars():
+                genres.append(session.get(Genre, ag.id_genre))
         except Exception as ex:
             print(ex)
             abort(404)
-
-    print(genres)
-    genres = []
 
     return render_template('anime.html', anime=anime_title, genres=genres)
 
