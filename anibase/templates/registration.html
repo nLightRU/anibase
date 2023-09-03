@@ -1,20 +1,29 @@
 {% extends 'base.html' %}
 
-{% block title %}
-Registrations
-{%endblock%}
+{%block title%} Registration {%endblock%}
 
 {% block body %}
     {{ super() }}
     <div class="container">
         <h2>Registration</h2>
-        <div class="row">
-            <form method="POST" action="#">
-                {{reg_form.csrf_token}}
-                {{reg_form.login}}
-                {{reg_form.password}}
-                <input type="submit" value="Go">
-            </form>
-        </div>
+        <form method="POST" action="/registration">
+            {{reg_form.csrf_token}}
+            {% for field in reg_form if field.name != 'csrf_token' %}
+                <div class="form-group">
+                    <div class="row">
+                        {{field.label}}
+                    </div>
+                    <div class="row">
+                        {{field}}
+                    </div>
+                    <div class="row">
+                        {%for error in field.errors%}
+                            <p>{{error}}</p>
+                        {%endfor%}
+                    </div>
+                </div>
+            {%endfor%}
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
     </div>
 {%endblock%}
