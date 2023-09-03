@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Registrations
+{%endblock%}
+
+{% block body %}
+    {{ super() }}
+    <div class="container">
+        <h2>Registration</h2>
+        <div class="row">
+            <form method="POST" action="#">
+                {{reg_form.csrf_token}}
+                {{reg_form.login}}
+                {{reg_form.password}}
+                <input type="submit" value="Go">
+            </form>
+        </div>
+    </div>
+{%endblock%}
