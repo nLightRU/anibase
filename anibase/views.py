@@ -6,6 +6,7 @@ from sqlalchemy.orm import Session
 from .model import Anime, Genre, Studio, AnimeGenre
 from .model import engine
 
+
 views = Blueprint('views', __name__, url_prefix='/')
 
 
