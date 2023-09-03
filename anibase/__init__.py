@@ -1,5 +1,6 @@
 import os
 
+from dotenv import load_dotenv
 from flask import Flask
 
 from .model import db_uri
@@ -8,10 +9,12 @@ from .auth import csrf
 
 def create_app():
 
+    load_dotenv()
+
     app = Flask(__name__)
 
     # Random secret key for development purposes
-    app.config['SECRET_KEY'] = os.urandom(32)
+    app.config['SECRET_KEY'] = os.getenv('SECRET_KEY')
 
     from .views import views
     from .auth import auth

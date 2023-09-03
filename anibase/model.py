@@ -1,3 +1,5 @@
+import os
+
 from sqlalchemy import create_engine
 from sqlalchemy import Integer, Float, String, Text
 from sqlalchemy.orm import Mapped
@@ -6,10 +8,10 @@ from sqlalchemy.orm import declarative_base
 from sqlalchemy.orm import mapped_column
 
 
-db_url = '127.0.0.1:5432'
-db_name = 'anibase_db'
-db_user = 'anibase_app'
-db_pass = 'qwerty12345'
+db_url = os.getenv('DB_URL')
+db_name = os.getenv('DB_NAME')
+db_user = os.getenv('DB_USER')
+db_pass = os.getenv('DB_PASS')
 db_uri = f'postgresql+psycopg2://{db_user}:{db_pass}@{db_url}/{db_name}'
 
 engine = create_engine(db_uri)
