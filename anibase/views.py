@@ -1,5 +1,7 @@
-from flask import Blueprint, render_template
+from flask import Blueprint, render_template, request
 from flask import abort
+from flask import current_app
+
 from sqlalchemy import select
 from sqlalchemy.orm import Session
 
@@ -53,7 +55,10 @@ def anime_by_year(year_val):
 @views.route('/studios')
 def studios():
     with Session(engine) as session:
-        anime_studios = session.query(Studio)
+        page = request.args.get('page', 1, type=int)
+        offset = page - 1
+        per_page = current_app.config['PER_PAGE']
+        pagination = session.query(Studio).slice(offset * per_page,
+                                                 offset*per_page + per_page)
         # print(studios)
-        session.close()
-    return render_template('studios.html', studios=anime_studios)
+    return render_template('studios.html', studios=pagination, page=page)

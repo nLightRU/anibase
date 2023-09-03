@@ -10,10 +10,22 @@
 <div class="container">
     <h2>Studios</h2>
     <ul>
-    {%for s in studios%}
-        <li>{{s.name}}</li>
-    {%endfor%}
+        {%for s in studios%}
+        <li>
+            <div>
+                {{s.name}}
+            </div>
+        </li>
+        {%endfor%}
     </ul>
+    <div>
+        {%if page > 1%}
+            <a href="/studios?page={{page-1}}">Back</a>
+        {%endif%}
+        {%if page < 5%}
+            <a href="/studios?page={{page+1}}">Forward</a>
+        {%endif%}
+    </div>
 </div>
 
 {%endblock%}

@@ -16,6 +16,8 @@ def create_app():
     # Random secret key for development purposes
     app.config['SECRET_KEY'] = os.getenv('SECRET_KEY')
 
+    app.config['PER_PAGE'] = 20
+
     from .views import views
     from .auth import auth
     from .users import users
