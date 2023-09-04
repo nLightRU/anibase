@@ -20,10 +20,12 @@ def index():
 @views.route('/anime')
 def anime():
     with Session(engine) as session:
-        anime_list = session.execute(select(Anime)
-                                     .order_by(Anime.members.desc())
-                                     .limit(20), execution_options={"prebuffer_rows": True}).scalars()
-    return render_template('anime_index.html', anime_titles=anime_list)
+        page = request.args.get('page', 1, type=int)
+        offset = page - 1
+        per_page = current_app.config['PER_PAGE']
+        pagination = session.query(Anime).order_by(Anime.members.desc()) \
+                                          .slice(offset * per_page, offset*per_page + per_page)
+    return render_template('anime_index.html', anime_titles=pagination, page=page)
 
 
 @views.route('/anime/<int:mal_id>')
@@ -35,7 +37,6 @@ def anime_by_id(mal_id):
             anime_genres = session.execute(select(AnimeGenre).where(AnimeGenre.id_anime == mal_id))
             for ag in anime_genres.scalars():
                 genres.append(session.get(Genre, ag.id_genre))
-            session.close()
         except Exception as ex:
             print(ex)
             abort(404)
@@ -48,7 +49,6 @@ def anime_by_year(year_val):
     with Session(engine) as session:
         anime_titles = session.query(Anime).filter(Anime.year == year_val)
         anime_titles = sorted(anime_titles, key=lambda a: 0 if not a.score else a.score, reverse=True)
-        session.close()
     return render_template('anime_year.html', titles=anime_titles, year=year_val)
 
 
@@ -60,5 +60,4 @@ def studios():
         per_page = current_app.config['PER_PAGE']
         pagination = session.query(Studio).slice(offset * per_page,
                                                  offset*per_page + per_page)
-        # print(studios)
     return render_template('studios.html', studios=pagination, page=page)

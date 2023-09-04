@@ -14,6 +14,14 @@
         <li><a href={{"/anime/%d" % a.mal_id}}>{{a.title}}</a></li>
     {%endfor%}
     </ul>
+    <div>
+        {%if page > 1%}
+            <a href="/anime?page={{page-1}}">Back</a>
+        {%endif%}
+        {%if page < 10%}
+            <a href="/anime?page={{page+1}}">Forward</a>
+        {%endif%}
+    </div>
 </div>
 
 {%endblock%}
