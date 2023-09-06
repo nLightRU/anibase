@@ -1,11 +1,19 @@
+from datetime import date
 import os
 
 from sqlalchemy import create_engine
-from sqlalchemy import Integer, Float, String, Text
-from sqlalchemy.orm import Mapped
+from sqlalchemy import Integer, Float, String, Text, Date
 from sqlalchemy import ForeignKey
+from sqlalchemy import func
+
+from sqlalchemy.orm import Mapped
 from sqlalchemy.orm import declarative_base
 from sqlalchemy.orm import mapped_column
+
+from flask_login import UserMixin
+
+
+from werkzeug.security import generate_password_hash, check_password_hash
 
 
 db_url = os.getenv('DB_URL')
@@ -69,4 +77,20 @@ class AnimeStudio(Base):
     id: Mapped[int] = mapped_column(Integer, primary_key=True)
     id_anime: Mapped[int] = mapped_column(ForeignKey('anime.mal_id'))
     id_studio: Mapped[int] = mapped_column(ForeignKey('studio.id'))
+
+
+class User(UserMixin, Base):
+    __tablename__ = 'user'
+    id: Mapped[int] = mapped_column(Integer, primary_key=True)
+    username: Mapped[int] = mapped_column(String, unique=True)
+    password_hash: Mapped[str] = mapped_column(String(128))
+    registration_date: Mapped[date] = mapped_column(Date, default=func.current_date())
+
+    @property
+    def password(self):
+        raise AttributeError('password is not a readable attribute')
+
+    def verify_password(self, password):
+        return check_password_hash(self.password_hash, password)
+
 

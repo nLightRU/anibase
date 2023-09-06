@@ -2,9 +2,12 @@ import os
 
 from dotenv import load_dotenv
 from flask import Flask
+from flask_login import LoginManager
 
 from .model import db_uri
 from .auth import csrf
+
+login_manager = LoginManager()
 
 
 def create_app():
@@ -29,7 +32,11 @@ def create_app():
     # Database setup
     app.config['SQLALCHEMY_DATABASE_URI'] = db_uri
 
-    # CSRF Protection
+    # Users: CSRF protection and users management
     csrf.init_app(app)
+
+    login_manager.session_protection = 'strong'
+    login_manager.login_view = 'auth.login'
+    login_manager.init_app(app)
 
     return app
