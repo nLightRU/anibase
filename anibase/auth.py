@@ -7,7 +7,9 @@ from werkzeug.security import generate_password_hash
 from sqlalchemy import exc
 from sqlalchemy.orm import Session
 
-from .model import engine, User
+from . import login_manager
+
+from model import engine, User
 from .forms import RegistrationForm, LoginForm
 
 csrf = CSRFProtect()
@@ -37,3 +39,9 @@ def login():
     if form.validate_on_submit():
         return redirect('/profile', code=302, Response=None)
     return render_template('login.html', login_form=form)
+
+
+@login_manager.user_loader()
+def load_user(user_id):
+    with Session(engine) as session:
+        return session.get(User, user_id)

@@ -10,6 +10,8 @@ from sqlalchemy.orm import Mapped
 from sqlalchemy.orm import declarative_base
 from sqlalchemy.orm import mapped_column
 
+from flask_login import UserMixin
+
 
 from werkzeug.security import generate_password_hash, check_password_hash
 
@@ -77,7 +79,7 @@ class AnimeStudio(Base):
     id_studio: Mapped[int] = mapped_column(ForeignKey('studio.id'))
 
 
-class User(Base):
+class User(UserMixin, Base):
     __tablename__ = 'user'
     id: Mapped[int] = mapped_column(Integer, primary_key=True)
     username: Mapped[int] = mapped_column(String, unique=True)
