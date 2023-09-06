@@ -1,17 +1,10 @@
 import os
-import sqlite3
 import json
 
 from sqlalchemy.orm import Session
 from sqlalchemy import update
 
 from model import engine
-
-db_url = '127.0.0.1:5432'
-db_name = 'anibase_db'
-db_user = 'anibase_app'
-db_pass = 'qwerty12345'
-db_uri = f'postgresql+psycopg2://{db_user}:{db_pass}@{db_url}/{db_name}'
 
 
 def get_titles() -> dict:
@@ -179,11 +172,9 @@ def update_stats():
         session.commit()
 
 
-if __name__ == '__main__':
-    # insert_titles()
-    # insert_genres()
-    # insert_studios()
-    # insert_anime_studio()
-    # insert_anime_genre()
-    # handler.update_stats()
+def clear_users():
     pass
+
+
+if __name__ == '__main__':
+    print('data load')
