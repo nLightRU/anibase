@@ -30,13 +30,13 @@ def anime():
 
 @views.route('/anime/<int:mal_id>')
 def anime_by_id(mal_id):
-    genres = []
+    genres = [Genre(id=1, name='TEST')]
     with Session(engine) as session:
         try:
             anime_title = session.get(Anime, mal_id)
-            anime_genres = session.execute(select(AnimeGenre).where(AnimeGenre.id_anime == mal_id))
-            for ag in anime_genres.scalars():
-                genres.append(session.get(Genre, ag.id_genre))
+            # anime_genres = session.execute(select(AnimeGenre).where(AnimeGenre.id_anime == mal_id))
+            # for ag in anime_genres.scalars():
+            #     genres.append(session.get(Genre, ag.id_genre))
         except Exception as ex:
             print(ex)
             abort(404)
