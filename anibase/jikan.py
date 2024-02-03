@@ -51,4 +51,12 @@ def get_season(season=None, year=None, type_=None, now=False) -> tuple:
     return tuple(data)
 
 def get_genres():
-    pass
+    url = 'https://api.jikan.moe/v4/genres/anime'
+    r = requests.get(url, params={'filter': 'genres'})
+
+    if r.status_code == 200:
+        data = r.json()
+    else:
+        raise Exception('Bad status code for get_genres')
+
+    return data
