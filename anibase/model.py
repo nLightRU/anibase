@@ -1,4 +1,5 @@
 from datetime import date
+from typing import Optional
 import os
 
 from sqlalchemy import create_engine
@@ -31,16 +32,16 @@ class Anime(Base):
 
     mal_id: Mapped[int] = mapped_column(Integer, primary_key=True)
     title: Mapped[str] = mapped_column(String, nullable=False)
-    title_english: Mapped[str] = mapped_column(String)
-    episodes: Mapped[int] = mapped_column(Integer)
-    type: Mapped[str] = mapped_column(String)
-    source: Mapped[str] = mapped_column(String)
+    title_english: Mapped[Optional[str]] = mapped_column(String)
+    episodes: Mapped[Optional[int]] = mapped_column(Integer)
+    type: Mapped[Optional[str]] = mapped_column(String)
+    source: Mapped[Optional[str]] = mapped_column(String)
     season: Mapped[str] = mapped_column(String, nullable=False)
     year: Mapped[int] = mapped_column(Integer, nullable=False)
-    rating: Mapped[str] = mapped_column(String)
-    synopsis: Mapped[str] = mapped_column(Text)
-    score: Mapped[float] = mapped_column(Float)
-    members: Mapped[int] = mapped_column(Integer, default=0)
+    rating: Mapped[Optional[str]] = mapped_column(String)
+    synopsis: Mapped[Optional[str]] = mapped_column(Text)
+    score: Mapped[Optional[float]] = mapped_column(Float)
+    members: Mapped[Optional[int]] = mapped_column(Integer, default=0)
 
 
 class Genre(Base):
