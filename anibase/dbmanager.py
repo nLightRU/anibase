@@ -32,6 +32,10 @@ class DBManager:
 
         Base.metadata.create_all(self.engine, tables=[Producer.__table__])
 
+    def create_user_table(self):
+        from .model import Base, User
+        Base.metadata.create_all(self.engine, tables=[User.__table__])
+
     def create_tables(self):
         from .model import Base
         Base.metadata.create_all(self.engine)

@@ -5,8 +5,8 @@
 {% block body %}
     {{ super() }}
     <div class="container">
-        <h2>Registration</h2>
-        <form method="POST" action="/registration">
+        <h2>Sign up</h2>
+        <form method="POST" action="/signup">
             {{reg_form.csrf_token}}
             {% for field in reg_form if field.name != 'csrf_token' %}
                 <div class="form-group">

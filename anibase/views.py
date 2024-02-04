@@ -34,6 +34,8 @@ def anime_by_id(mal_id):
     with Session(engine) as session:
         try:
             anime_title = session.get(Anime, mal_id)
+            if anime_title is None:
+                abort(404)
             # anime_genres = session.execute(select(AnimeGenre).where(AnimeGenre.id_anime == mal_id))
             # for ag in anime_genres.scalars():
             #     genres.append(session.get(Genre, ag.id_genre))

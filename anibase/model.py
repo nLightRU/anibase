@@ -85,11 +85,15 @@ class User(UserMixin, Base):
     id: Mapped[int] = mapped_column(Integer, primary_key=True)
     username: Mapped[int] = mapped_column(String, unique=True)
     password_hash: Mapped[str] = mapped_column(String(128))
-    registration_date: Mapped[date] = mapped_column(Date, default=func.current_date())
+    # registration_date: Mapped[date] = mapped_column(Date, default=func.current_date())
 
     @property
     def password(self):
         raise AttributeError('password is not a readable attribute')
+
+    @password.setter
+    def password(self, password):
+        self.password_hash = generate_password_hash(password)
 
     def verify_password(self, password):
         return check_password_hash(self.password_hash, password)
