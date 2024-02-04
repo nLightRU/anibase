@@ -70,14 +70,15 @@ class DBManager:
         if anime is None:
             raise ValueError('anime is None in load_anime()')
 
-        from model import Anime
+        from .model import Anime
 
         with Session(self.engine) as session:
             keys = ('mal_id', 'title', 'title_english', 'episodes', 'type',
                     'source', 'season', 'year', 'rating', 'synopsis', 'score',
                     'members')
-
             for a in anime:
+                if a['season'] is None or a['year'] is None:
+                    continue
                 d = {key: a[key] for key in keys}
                 obj = Anime(**d)
                 if not session.get(Anime, obj.mal_id):

@@ -36,7 +36,7 @@ class Anime(Base):
     episodes: Mapped[Optional[int]] = mapped_column(Integer)
     type: Mapped[Optional[str]] = mapped_column(String)
     source: Mapped[Optional[str]] = mapped_column(String)
-    season: Mapped[str] = mapped_column(String, nullable=False)
+    season: Mapped[Optional[str]] = mapped_column(String)
     year: Mapped[int] = mapped_column(Integer, nullable=False)
     rating: Mapped[Optional[str]] = mapped_column(String)
     synopsis: Mapped[Optional[str]] = mapped_column(Text)

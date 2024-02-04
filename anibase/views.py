@@ -5,7 +5,7 @@ from flask import current_app
 from sqlalchemy import select
 from sqlalchemy.orm import Session
 
-from .model import Anime, Genre, Studio, AnimeGenre
+from .model import Anime, Genre, Producer, AnimeGenre
 from .model import engine
 
 
@@ -52,12 +52,12 @@ def anime_by_year(year_val):
     return render_template('anime_year.html', titles=anime_titles, year=year_val)
 
 
-@views.route('/studios')
+@views.route('/producers')
 def studios():
     with Session(engine) as session:
         page = request.args.get('page', 1, type=int)
         offset = page - 1
         per_page = current_app.config['PER_PAGE']
-        pagination = session.query(Studio).slice(offset * per_page,
+        pagination = session.query(Producer).slice(offset * per_page,
                                                  offset*per_page + per_page)
-    return render_template('studios.html', studios=pagination, page=page)
+    return render_template('producers.html', studios=pagination, page=page)
