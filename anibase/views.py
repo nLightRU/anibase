@@ -16,8 +16,8 @@ views = Blueprint('views', __name__, url_prefix='/')
 @views.route('/')
 def index():
     a = []
-    # db = DBManager(database='anibase', user='anibase_admin', password='1234')
-    # a = db.select_top_random()
+    db = DBManager(database='anibase', user='anibase_admin', password='1234')
+    a = db.select_top_random()
     return render_template('index.html', anime=a)
 
 

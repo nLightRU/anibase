@@ -1,7 +1,7 @@
 import random
 from typing import Iterable, Dict
 
-from sqlalchemy import create_engine, select
+from sqlalchemy import create_engine, select, desc
 from sqlalchemy.orm import Session
 from sqlalchemy.exc import SQLAlchemyError
 
@@ -98,6 +98,7 @@ class DBManager:
         from .model import Anime
         year = random.randint(1990, 2022)
         with Session(self.engine) as session:
-            stmt = select(Anime).where(Anime.year == year).order_by(Anime.score).limit(10)
-            return session.scalars(stmt)
+            stmt = select(Anime).where(Anime.year == year, Anime.score > 5, Anime.type == 'TV'
+                                       ).order_by(desc(Anime.score)).limit(10)
+            return session.scalars(stmt).all()
 
