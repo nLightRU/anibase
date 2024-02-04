@@ -7,19 +7,21 @@
 
 <div class="container">
     <div class="row">
+        {% if current_user.is_authenticated %}
         <div class="col">
             <div class="row">
                 <p>User Profile Image</p>
             </div>
             <div class="row">
                 <p>
-                    USER INFO
+                    Hello {{current_user.username}}
                 </p>
             </div>
         </div>
         <div class="col">
             <p>USER ANIME STATS</p>
         </div>
+        {%endif %}
     </div>
 </div>
 {%endblock%}

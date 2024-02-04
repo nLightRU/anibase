@@ -1,6 +1,7 @@
+import random
 from typing import Iterable, Dict
 
-from sqlalchemy import create_engine
+from sqlalchemy import create_engine, select
 from sqlalchemy.orm import Session
 from sqlalchemy.exc import SQLAlchemyError
 
@@ -92,3 +93,11 @@ class DBManager:
                         print('load_anime() ERROR with', d['mai_id'], error)
 
             session.commit()
+
+    def select_top_random(self):
+        from .model import Anime
+        year = random.randint(1990, 2022)
+        with Session(self.engine) as session:
+            stmt = select(Anime).where(Anime.year == year).order_by(Anime.score).limit(10)
+            return session.scalars(stmt)
+

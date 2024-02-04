@@ -8,7 +8,7 @@
     <div class="row">
         <h2>Log In</h2>
     </div>
-    <form method="POST" action="/registration">
+    <form method="POST" action="/login">
         {{login_form.csrf_token}}
         {% for field in login_form if field.name != 'csrf_token' %}
         <div class="row justify-content-md-center">

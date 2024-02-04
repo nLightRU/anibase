@@ -2,10 +2,10 @@ import flask
 from flask import Blueprint, render_template, request
 from flask import redirect
 
-from flask_login import LoginManager
-from werkzeug.security import generate_password_hash
+from flask_login import LoginManager, login_user
 
-from sqlalchemy.exc import SQLAlchemyError
+from sqlalchemy import select
+from sqlalchemy.exc import SQLAlchemyError, NoResultFound
 from sqlalchemy.orm import Session
 
 from .model import engine, User
@@ -16,7 +16,8 @@ login_manager = LoginManager()
 
 @login_manager.user_loader
 def load_user(user_id):
-    return User.query.filter(User.id == int(user_id)).first()
+    with Session(engine) as session:
+        return session.get(User, user_id)
 
 
 auth = Blueprint('auth', __name__, url_prefix='/')
@@ -43,9 +44,17 @@ def signup():
 @auth.route('/login', methods=['GET', 'POST'])
 def login():
     form = LoginForm()
-    if request.method == 'POST':
-        if form.validate_on_submit():
-            return redirect('/profile', code=302, Response=None)
+    if form.validate_on_submit():
+        with Session(engine) as session:
+            try:
+                stmt = select(User).where(User.username == form.username.data)
+                user = session.execute(stmt).scalar_one()
+                if user is not None and user.verify_password(form.password.data):
+                    login_user(user)
+                    return render_template('profile.html', user=user)
+                    # return redirect(request.args.get('next'))
+            except NoResultFound:
+                redirect("login.html", code=302, Response=None)
 
     return render_template('login.html', login_form=form)
 

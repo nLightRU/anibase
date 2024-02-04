@@ -7,6 +7,7 @@ from sqlalchemy.orm import Session
 
 from .model import Anime, Genre, Producer, AnimeGenre
 from .model import engine
+from .dbmanager import DBManager
 
 
 views = Blueprint('views', __name__, url_prefix='/')
@@ -14,7 +15,10 @@ views = Blueprint('views', __name__, url_prefix='/')
 
 @views.route('/')
 def index():
-    return render_template('index.html')
+    a = []
+    # db = DBManager(database='anibase', user='anibase_admin', password='1234')
+    # a = db.select_top_random()
+    return render_template('index.html', anime=a)
 
 
 @views.route('/anime')

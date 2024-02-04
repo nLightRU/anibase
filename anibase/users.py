@@ -1,4 +1,5 @@
 from flask import Blueprint, render_template
+from flask_login import login_required
 
 users = Blueprint('users', __name__, url_prefix='/')
 
@@ -11,5 +12,6 @@ def user(id_user):
 
 
 @users.route('/profile')
+@login_required
 def profile():
     return render_template('profile.html')
