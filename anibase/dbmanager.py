@@ -1,15 +1,16 @@
-from typing import Iterable
+from typing import Iterable, Dict
 
 from sqlalchemy import create_engine
 from sqlalchemy.orm import Session
+from sqlalchemy.exc import SQLAlchemyError
 
 
 class DBManager:
     def __init__(self, database, user, password):
         try:
             self.engine = create_engine(f'postgresql+psycopg2://{user}:{password}@localhost/{database}')
-        except:
-            print("Can't connect to database")
+        except SQLAlchemyError as error:
+            print(f'DBManager init caused an error {error}')
 
     def create_anime_table(self):
         from .model import Base, Anime
@@ -21,18 +22,41 @@ class DBManager:
 
         Base.metadata.create_all(self.engine, tables=[Genre.__table__])
 
+    def create_anime_genre_table(self):
+        from .model import Base, AnimeGenre
+
+        Base.metadata.create_all(self.engine, tables=[AnimeGenre.__table__])
+
+    def create_producer_table(self):
+        from .model import Base, Producer
+
+        Base.metadata.create_all(self.engine, tables=[Producer.__table__])
+
     def create_tables(self):
         from .model import Base
         Base.metadata.create_all(self.engine)
 
-    def load_genres(self, genres: Iterable = None):
+    def load_producers(self, producers: Iterable[Dict] = None):
+        if producers is None:
+            raise ValueError('producers is None in load_producers()')
+
+        from .model import Producer
+
+        with Session(self.engine) as session:
+            for p in producers:
+                if not session.get(Producer, p['mal_id']):
+                    i, n = p['mal_id'], p['titles'][0]['title']
+                    session.add(Producer(id=i, name=n))
+            session.commit()
+
+    def load_genres(self, genres: Iterable[Dict] = None):
         if genres is None:
             raise ValueError('genres is None in load_genres()')
 
         from .model import Genre
 
-        def not_exists(g):
-            if not session.get(Genre, g['mal_id']):
+        def not_exists(genre):
+            if not session.get(Genre, genre['mal_id']):
                 return True
             else:
                 return False
@@ -42,7 +66,7 @@ class DBManager:
                 session.add(Genre(id=g['mal_id'], name=g['name']))
             session.commit()
 
-    def load_anime(self, anime: Iterable = None):
+    def load_anime(self, anime: Iterable[Dict] = None):
         if anime is None:
             raise ValueError('anime is None in load_anime()')
 
@@ -59,9 +83,7 @@ class DBManager:
                 if not session.get(Anime, obj.mal_id):
                     try:
                         session.add(obj)
-                    except:
-                        print('Error with', d['mai_id'])
+                    except SQLAlchemyError as error:
+                        print('load_anime() ERROR with', d['mai_id'], error)
 
             session.commit()
-
-

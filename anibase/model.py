@@ -54,8 +54,8 @@ class Genre(Base):
         return f'<Genre id={self.id} name={self.name}>'
 
 
-class Studio(Base):
-    __tablename__ = 'studio'
+class Producer(Base):
+    __tablename__ = 'producer'
     id: Mapped[int] = mapped_column(Integer, primary_key=True)
     name: Mapped[str] = mapped_column(String, nullable=False)
 
@@ -73,8 +73,8 @@ class AnimeGenre(Base):
         return f'<AnimeGenre id={self.id} id_anime={self.id_anime} id_genre={self.id_genre}>'
 
 
-class AnimeStudio(Base):
-    __tablename__ = 'anime_studio'
+class AnimeProducer(Base):
+    __tablename__ = 'anime_producer'
     id: Mapped[int] = mapped_column(Integer, primary_key=True)
     id_anime: Mapped[int] = mapped_column(ForeignKey('anime.mal_id'))
     id_studio: Mapped[int] = mapped_column(ForeignKey('studio.id'))

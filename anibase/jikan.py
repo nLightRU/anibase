@@ -2,6 +2,7 @@ import time
 from datetime import datetime
 
 import requests
+from requests.exceptions import HTTPError
 
 
 def get_season(season=None, year=None, type_=None, now=False) -> tuple:
@@ -38,7 +39,6 @@ def get_season(season=None, year=None, type_=None, now=False) -> tuple:
         url = f'https://api.jikan.moe/v4/seasons/{year}/{season}'
 
     resp_body = requests.get(url, params=p).json()
-    # print(resp_body)
 
     data = resp_body['data']
 
@@ -55,11 +55,55 @@ def get_genres():
 
     genres = []
     for x in ('genres', 'themes', 'demographics'):
-        r = requests.get(url, params={'filter': x})
-
-        if r.status_code == 200:
+        try:
+            r = requests.get(url, params={'filter': x})
             genres.extend(r.json()['data'])
-        else:
-            raise Exception(f'Bad status code for get_genres ({r.status_code})')
+        except HTTPError as error:
+            print(f'get_genres() HTTP Error occurred: {error}')
 
     return genres
+
+
+def get_producers(page: int = -1, trace: bool = False):
+    url = 'https://api.jikan.moe/v4/producers'
+
+    if page is not None:
+        if page > 0:
+            try:
+                resp = requests.get(url, params={'page': page})
+                if resp.status_code == 200:
+                    return resp.json()['data']
+                else:
+                    print(f'BAD STATUS CODE FOR PAGE {page}')
+                    return
+            except HTTPError as error:
+                print(f'get_producers() HTTP ERROR: {error}')
+
+    p = {'page': 1}
+    producers = []
+
+    while p['page'] > 0:
+        if trace:
+            print(f"Page {p['page']}")
+        data = []
+        has_next_page = False
+        try:
+            resp = requests.get(url, params=p)
+            if resp.status_code == 200:
+                resp = resp.json()
+            else:
+                time.sleep(2)
+                continue
+            data, has_next_page = resp['data'], resp['pagination']['has_next_page']
+        except HTTPError as error:
+            print(f"get_producers() at page {p['page']} HTTP ERROR: {error}")
+
+        producers.extend(data)
+        if not has_next_page:
+            p['page'] = -1
+        else:
+            p['page'] += 1
+            if p['page'] % 3 == 0:
+                time.sleep(1)
+
+    return producers
