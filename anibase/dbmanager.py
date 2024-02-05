@@ -4,7 +4,7 @@ from sqlalchemy import create_engine, select, desc, and_
 from sqlalchemy.orm import Session
 from sqlalchemy.exc import SQLAlchemyError, NoResultFound
 
-from .model import Base, Anime, AnimeGenre, AnimeProducer, UserAnime
+from .model import Base, Anime, AnimeGenre, AnimeProducer, UserAnime, UserFollow
 
 
 class DBManager:
@@ -39,6 +39,9 @@ class DBManager:
 
     def create_user_anime_table(self):
         Base.metadata.create_all(self.engine, tables=[UserAnime.__table__])
+
+    def create_user_follow_table(self):
+        Base.metadata.create_all(self.engine, tables=[UserFollow.__table__])
 
     def create_tables(self):
         from .model import Base

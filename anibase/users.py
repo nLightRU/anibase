@@ -1,29 +1,41 @@
-from flask import Blueprint, render_template, redirect, url_for, request
+from flask import Blueprint, render_template, redirect, url_for, request, abort
 from flask_login import login_required, current_user
 
 from sqlalchemy import and_, select
 from sqlalchemy.orm import Session
-from .model import engine, UserAnime, Anime
+from .model import engine, User, UserAnime, Anime
 
 
 users = Blueprint('users', __name__, url_prefix='/')
 
 
-@users.route('/user/<int:id_user>')
-def user(id_user):
-    return f"<p>user {id_user}</p>"
+@users.route('/users')
+def users_list():
+    with Session(engine) as session:
+        users_ = session.query(User).all()
+    return render_template('users_list.html', users=users_)
 
 
-# чтобы выбрать список аниме пользователя, тут поможет подзапрос
-@users.route('/profile')
+@users.route('/users/<int:user_id>')
 @login_required
-def profile():
+def user_by_id(user_id):
     id_user = current_user.id
     with Session(engine) as session:
+        user = session.get(User, user_id)
         user_anime_ids = session.execute(select(UserAnime.id_anime).
                                          where(UserAnime.id_user == id_user)).scalars()
         user_anime = session.query(Anime).where(Anime.mal_id.in_(user_anime_ids)).limit(20)
-    return render_template('profile.html', anime=user_anime)
+    return render_template('user.html', user=user, user_anime=user_anime)
+
+
+@users.route('/users/<username>')
+def user_by_username(username):
+    with Session(engine) as session:
+        u_id = session.query(User.id).where(User.username == username).scalar()
+        if u_id:
+            return redirect(url_for('users.user_by_id', user_id=u_id))
+        else:
+            abort(404)
 
 
 @users.route('/add-anime', methods=['POST'])
