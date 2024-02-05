@@ -4,8 +4,6 @@ from flask import Blueprint, render_template, request
 from flask import abort
 from flask import current_app
 
-from sqlalchemy import select
-
 from sqlalchemy.orm import Session
 
 from .model import Anime, Genre, Producer, AnimeGenre
