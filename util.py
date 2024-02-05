@@ -7,8 +7,7 @@ from anibase.dbmanager import DBManager
 
 if __name__ == '__main__':
     db_manager = DBManager(user='anibase_admin', password='1234', database='anibase')
-    #db_manager.create_user_table()
-    db_manager.create_user_anime_table()
+    # db_manager.create_user_follow_table()
 
     # db_manager.load_genres(jikan.get_genres())
 
