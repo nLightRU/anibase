@@ -1,9 +1,9 @@
 from flask import Blueprint, render_template, redirect, url_for, request
 from flask_login import login_required, current_user
 
-from sqlalchemy import and_
+from sqlalchemy import and_, select
 from sqlalchemy.orm import Session
-from .model import engine, UserAnime
+from .model import engine, UserAnime, Anime
 
 
 users = Blueprint('users', __name__, url_prefix='/')
@@ -14,10 +14,16 @@ def user(id_user):
     return f"<p>user {id_user}</p>"
 
 
+# чтобы выбрать список аниме пользователя, тут поможет подзапрос
 @users.route('/profile')
 @login_required
 def profile():
-    return render_template('profile.html')
+    id_user = current_user.id
+    with Session(engine) as session:
+        user_anime_ids = session.execute(select(UserAnime.id_anime).
+                                         where(UserAnime.id_user == id_user)).scalars()
+        user_anime = session.query(Anime).where(Anime.mal_id.in_(user_anime_ids)).limit(20)
+    return render_template('profile.html', anime=user_anime)
 
 
 @users.route('/add-anime', methods=['POST'])
