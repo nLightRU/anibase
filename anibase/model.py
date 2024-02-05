@@ -3,7 +3,7 @@ from typing import Optional
 import os
 
 from sqlalchemy import create_engine
-from sqlalchemy import Integer, Float, String, Text, Date
+from sqlalchemy import Integer, Float, String, Text, Date, Sequence
 from sqlalchemy import ForeignKey
 from sqlalchemy import func
 
@@ -65,7 +65,7 @@ class Producer(Base):
 
 class AnimeGenre(Base):
     __tablename__ = 'anime_genre'
-    id: Mapped[int] = mapped_column(Integer, primary_key=True)
+    id: Mapped[int] = mapped_column(Integer, Sequence('ag_id', start=1), primary_key=True)
     id_anime: Mapped[int] = mapped_column(ForeignKey('anime.mal_id'))
     id_genre: Mapped[int] = mapped_column(ForeignKey('genre.id'))
 
@@ -75,9 +75,9 @@ class AnimeGenre(Base):
 
 class AnimeProducer(Base):
     __tablename__ = 'anime_producer'
-    id: Mapped[int] = mapped_column(Integer, primary_key=True)
+    id: Mapped[int] = mapped_column(Integer, Sequence('ap_id', start=1), primary_key=True)
     id_anime: Mapped[int] = mapped_column(ForeignKey('anime.mal_id'))
-    id_studio: Mapped[int] = mapped_column(ForeignKey('studio.id'))
+    id_producer: Mapped[int] = mapped_column(ForeignKey('producer.id'))
 
 
 class User(UserMixin, Base):

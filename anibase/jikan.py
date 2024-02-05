@@ -5,6 +5,19 @@ import requests
 from requests.exceptions import HTTPError
 
 
+def get_anime(id_: int):
+    assert id_ > 0, "get_anime() id must be positive"
+    url = f'https://api.jikan.moe/v4/anime/{id_}'
+    r = requests.get(url)
+    if r.status_code == 200:
+        return r.json()['data']
+    elif r.status_code == 429:
+        time.sleep(2)
+        r = requests.get(url)
+    elif r.status_code == 404:
+        raise HTTPError(f'anime with {id_} not exists')
+
+
 def get_season(season=None, year=None, type_=None, now=False) -> tuple:
     """
         Returns a tuple of dictionaries with anime of a given season or the
@@ -35,12 +48,13 @@ def get_season(season=None, year=None, type_=None, now=False) -> tuple:
             return 'summer'
         elif m in (9, 10, 11):
             return 'fall'
-    def add_season_year(data, season, year, now):
-        if now:
-            year, season = datetime.now().year, month_to_season(datetime.now().month)
-        for d in data:
-            d['season'] = season
-            d['year'] = year
+
+    def add_season_year(dat, s, y, n):
+        if n:
+            y, s = datetime.now().year, month_to_season(datetime.now().month)
+        for d in dat:
+            d['season'] = s
+            d['year'] = y
 
     if type_ is None:
         p['filter'] = 'tv'
@@ -109,12 +123,13 @@ def get_genres():
     url = 'https://api.jikan.moe/v4/genres/anime'
 
     genres = []
-    for x in ('genres', 'themes', 'demographics'):
+    for x in ('genres', 'themes', 'demographics', 'explicit_genres'):
         try:
             r = requests.get(url, params={'filter': x})
             genres.extend(r.json()['data'])
         except HTTPError as error:
             print(f'get_genres() HTTP Error occurred: {error}')
+        time.sleep(1)
 
     return genres
 
