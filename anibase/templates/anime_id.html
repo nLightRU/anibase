@@ -56,9 +56,25 @@
         <div class="col">
 
             <div class="row">
-                {%if current_user.is_authenticated%}
+
+                {%if current_user.is_authenticated %}
+                    <p>
+                        Stats for {{user_info['user'].username}}
+                    </p>
+                    {%if not user_info['in_list']%}
+                        <form action="{{url_for('users.add_anime')}}" method="POST">
+                            <input type="hidden" name="csrf_token" value="{{csrf_token()}}">
+                            <input type="hidden" name="anime_id" value="{{anime.mal_id}}">
+                            <button type="submit" class="btn btn-primary">
+                                Add to list
+                            </button>
+                        </form>
+                    {%else%}
+                        <p>In list</p>
+                    {%endif%}
+                {%else%}
                 <p>
-                    Stats for {{current_user.username}}
+                    Login to view your stats
                 </p>
                 {%endif%}
             </div>

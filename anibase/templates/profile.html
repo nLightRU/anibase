@@ -10,16 +10,18 @@
         {% if current_user.is_authenticated %}
         <div class="col">
             <div class="row">
-                <p>User Profile Image</p>
-            </div>
-            <div class="row">
                 <p>
                     Hello {{current_user.username}}
                 </p>
             </div>
         </div>
         <div class="col">
-            <p>USER ANIME STATS</p>
+            <p>{{current_user.username}} list</p>
+            <ul>
+                {%for a in anime%}
+                    <li><a href="{{url_for('views.anime_by_id', id_=a.mal_id)}}">{{a.title}}</a></li>
+                {%endfor%}
+            </ul>
         </div>
         {%endif %}
     </div>
