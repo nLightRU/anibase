@@ -1,8 +1,8 @@
 import flask
-from flask import Blueprint, render_template, request
+from flask import Blueprint, render_template, request, url_for
 from flask import redirect
 
-from flask_login import LoginManager, login_user
+from flask_login import LoginManager, login_user, login_required, logout_user
 
 from sqlalchemy import select
 from sqlalchemy.exc import SQLAlchemyError, NoResultFound
@@ -28,7 +28,7 @@ def signup():
     form = RegistrationForm()
     if request.method == 'POST':
         if form.validate_on_submit():
-            user = User(username=form.username.data, password_hash=form.password.data)
+            user = User(username=form.username.data, password=form.password.data)
             # flask.flash(f"{form.username.data}, {form.password.data}")
             try:
                 with Session(engine) as session:
@@ -36,7 +36,7 @@ def signup():
                     session.commit()
             except SQLAlchemyError:
                 return render_template('signup.html', reg_form=form)
-        return render_template('index.html')
+        return redirect(url_for('views.index'))
 
     return render_template('signup.html', reg_form=form)
 
@@ -59,4 +59,8 @@ def login():
     return render_template('login.html', login_form=form)
 
 
-
+@auth.route('logout')
+@login_required
+def log_out():
+    logout_user()
+    return redirect(url_for('views.index'))

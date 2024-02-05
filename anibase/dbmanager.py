@@ -91,8 +91,8 @@ class DBManager:
                 if has_genres:
                     if 'genres' in a.keys():
                         genres = a['genres']
-                    # if 'themes' in a.keys():
-                    #     genres.extend(a['themes'])
+                    if 'themes' in a.keys():
+                        genres.extend(a['themes'])
                     for g in genres:
                         a_g = AnimeGenre(id_anime=a['mal_id'], id_genre=g['mal_id'])
                         if session.query(AnimeGenre).where(and_(AnimeGenre.id_anime == a_g.id_anime, AnimeGenre.id_genre == a_g.id_genre)).scalar():
