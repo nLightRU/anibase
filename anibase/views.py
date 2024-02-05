@@ -1,14 +1,17 @@
 import random
 
+import flask_login
 from flask import Blueprint, render_template, request
 from flask import abort
 from flask import current_app
 
+from sqlalchemy import and_
 from sqlalchemy.orm import Session
 
-from .model import Anime, Genre, Producer, AnimeGenre
+from .model import Anime, Genre, Producer, AnimeGenre, UserAnime
 from .model import engine
 from .dbmanager import DBManager
+from .auth import login_manager
 
 
 views = Blueprint('views', __name__, url_prefix='/')
@@ -48,7 +51,19 @@ def anime_by_id(id_):
             print(ex)
             abort(404)
 
-    return render_template('anime_id.html', anime=anime_title, genres=genres)
+        user_info = dict()
+        if flask_login.current_user.is_authenticated:
+            user_info['user'] = flask_login.current_user
+            ua = session.query(UserAnime).where(and_(user_info['user'].id == UserAnime.id_user,
+                                                     UserAnime.id_anime == id_)).scalar()
+            if ua:
+                user_info['in_list'] = True
+            else:
+                user_info['in_list'] = False
+        else:
+            user_info['user'] = None
+
+    return render_template('anime_id.html', anime=anime_title, genres=genres, user_info=user_info)
 
 
 @views.route('/anime/year/<int:year_val>')
