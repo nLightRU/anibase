@@ -1,0 +1,12 @@
+{%extends 'base.html'%}
+{%block body%}
+{{super()}}
+<div class="container">
+<h2>Users</h2>
+<ul>
+{%for u in users%}
+    <li><a href="{{url_for('users.user_by_id', user_id=u.id)}}">{{u.username}}</a></li>
+{%endfor%}
+</ul>
+</div>
+{%endblock%}

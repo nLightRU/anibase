@@ -19,8 +19,9 @@
                     <a class="nav-item nav-link" href="/anime">Anime</a>
                     <a class="nav-item nav-link" href="#">Season</a>
                     <a class="nav-item nav-link" href="/producers">Producers</a>
+                    <a class="nav-item nav-link" href="/users">Users</a>
                     {%if current_user.is_authenticated%}
-                        <a class="nav-item nav-link" href="/profile">Profile</a>
+                        <a class="nav-item nav-link" href="{{url_for('users.user_by_id', user_id=current_user.id)}}">Profile</a>
                     {%endif%}
                     {% if current_user.is_anonymous%}
                         <a class="nav-item nav-link" href="/login">Login</a>

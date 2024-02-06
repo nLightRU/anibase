@@ -1,0 +1,51 @@
+{%extends 'base.html'%}
+
+{%block title%}Profile{%endblock%}
+
+{%block body%}
+{{super()}}
+
+<div class="container">
+    <div class="row">
+        {% if current_user.is_authenticated %}
+            <div class="col">
+                <div class="row">
+                    <p>
+                        {{user_info['user'].username}}
+                    </p>
+                    {%if user_info['user'].id == current_user.id%}
+                    <p>
+                        Edit profile button will be here!
+                    </p>
+                    {%endif%}
+                </div>
+                {%if user_info['user'].id != current_user.id%}
+                    <div class="row">
+                        {%if user_info['is_follow']%}
+                            <form action="#">
+                                <input type="hidden" name="csrf_token" value="{{csrf_token()}}">
+                                <input type="hidden" name="follow_id" value="{{user_info['user'].id}}">
+                                <button type="submit" class="btn btn-primary">Unfollow</button>
+                            </form>
+                        {%else%}
+                            <form action="{{url_for('users.follow_user')}}" method="POST">
+                                 <input type="hidden" name="csrf_token" value="{{csrf_token()}}">
+                                <input type="hidden" name="follow_id" value="{{user_info['user'].id}}">
+                                <button type="submit" class="btn btn-primary">Follow</button>
+                            </form>
+                        {%endif%}
+                    </div>
+                {%endif%}
+            </div>
+            <div class="col">
+                <p>{{user_info['user'].username}} list</p>
+                <ul>
+                    {%for a in user_info['user_anime']%}
+                        <li><a href="{{url_for('views.anime_by_id', id_=a.mal_id)}}">{{a.title}}</a></li>
+                    {%endfor%}
+                </ul>
+            </div>
+        {%endif %}
+    </div>
+</div>
+{%endblock%}
