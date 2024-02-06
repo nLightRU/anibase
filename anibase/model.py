@@ -108,6 +108,5 @@ class UserAnime(Base):
 
 class UserFollow(Base):
     __tablename__ = 'user_follow'
-    id: Mapped[int] = mapped_column(Integer, Sequence('uf_id', start=1), primary_key=True)
-    id_user: Mapped[int] = mapped_column(ForeignKey('user.id'))
-    id_user_follow: Mapped[int] = mapped_column(ForeignKey('anime.mal_id'))
+    id_user: Mapped[int] = mapped_column(Integer, primary_key=True)
+    id_user_follow: Mapped[int] = mapped_column(Integer, primary_key=True)

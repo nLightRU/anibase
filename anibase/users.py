@@ -52,6 +52,7 @@ def user_by_username(username):
 
 
 @users.route('/add-anime', methods=['POST'])
+@login_required
 def add_anime():
     id_anime = int(request.form.get('anime_id'))
     with Session(engine) as session:
@@ -61,3 +62,23 @@ def add_anime():
             session.add(UserAnime(id_user=current_user.id, id_anime=id_anime))
             session.commit()
     return redirect(url_for('views.anime_by_id', id_=id_anime))
+
+
+@users.route('/follow', methods=['POST', 'DELETE'])
+@login_required
+def follow_user():
+    if request.method == 'POST':
+        id_user = int(request.form.get('follow_id'))
+        with Session(engine) as session:
+            uf = session.query(UserFollow).where(and_(UserFollow.id_user == current_user.id,
+                                                      UserFollow.id_user_follow == id_user)
+                                                 ).scalar()
+            if not uf:
+                session.add(UserFollow(id_user=current_user.id, id_user_follow=id_user))
+                session.commit()
+    else:
+        abort(500)
+
+    return redirect(url_for('users.user_by_id', user_id=id_user))
+
+
