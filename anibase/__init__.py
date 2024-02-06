@@ -20,9 +20,11 @@ def create_app():
     app.config['PER_PAGE'] = 20
 
     from .views import views
+    from .anime import anime
     from .auth import auth
     from .users import users
 
+    app.register_blueprint(anime)
     app.register_blueprint(views)
     app.register_blueprint(users)
     app.register_blueprint(auth)
