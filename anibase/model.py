@@ -97,6 +97,7 @@ class User(UserMixin, Base):
     username: Mapped[int] = mapped_column(String, unique=True)
     password_hash: Mapped[str] = mapped_column(String(128))
     # registration_date: Mapped[date] = mapped_column(Date, default=func.current_date())
+    email: Mapped[Optional[str]] = mapped_column(String, unique=True)
 
     @property
     def password(self):
