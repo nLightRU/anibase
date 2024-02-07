@@ -1,8 +1,8 @@
 """add email column to user
 
-Revision ID: 31590b1d0106
-Revises: 8367a9a4cdf0
-Create Date: 2024-02-07 22:13:10.043839
+Revision ID: a8ce31610050
+Revises: 1ce4677246e1
+Create Date: 2024-02-07 22:24:24.733382
 
 """
 from typing import Sequence, Union
@@ -12,8 +12,8 @@ import sqlalchemy as sa
 
 
 # revision identifiers, used by Alembic.
-revision: str = '31590b1d0106'
-down_revision: Union[str, None] = '8367a9a4cdf0'
+revision: str = 'a8ce31610050'
+down_revision: Union[str, None] = '1ce4677246e1'
 branch_labels: Union[str, Sequence[str], None] = None
 depends_on: Union[str, Sequence[str], None] = None
 
