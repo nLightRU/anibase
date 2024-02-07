@@ -5,7 +5,6 @@ from flask import Flask
 
 from flask_wtf.csrf import CSRFProtect
 
-from .model import db_uri
 from .auth import login_manager
 
 
@@ -29,11 +28,9 @@ def create_app():
     app.register_blueprint(users)
     app.register_blueprint(auth)
 
-    # Database setup
-    app.config['SQLALCHEMY_DATABASE_URI'] = db_uri
-
     # Users: CSRF protection and users management
-    csrf = CSRFProtect(app)
+    csrf = CSRFProtect()
+    csrf.init_app(app)
 
     login_manager.session_protection = 'strong'
     login_manager.login_view = 'auth.login'

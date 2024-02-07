@@ -1,11 +1,9 @@
-from datetime import date
 from typing import Optional
 import os
 
-from sqlalchemy import create_engine
-from sqlalchemy import Integer, Float, String, Text, Date, Sequence
+from sqlalchemy import create_engine, URL, MetaData
+from sqlalchemy import Integer, Float, String, Text, Sequence
 from sqlalchemy import ForeignKey
-from sqlalchemy import func
 
 from sqlalchemy.orm import Mapped
 from sqlalchemy.orm import declarative_base
@@ -17,14 +15,27 @@ from flask_login import UserMixin
 from werkzeug.security import generate_password_hash, check_password_hash
 
 
-db_url = os.getenv('DB_URL')
-db_name = os.getenv('DB_NAME')
-db_user = os.getenv('DB_USER')
-db_pass = os.getenv('DB_PASS')
-db_uri = f'postgresql+psycopg2://{db_user}:{db_pass}@{db_url}/{db_name}'
+db_url = URL.create(
+    'postgresql+psycopg2',
+    username=os.getenv('DB_USER'),
+    password=os.getenv('DB_PASS'),
+    host=os.getenv('DB_HOST'),
+    database=os.getenv('DB_NAME')
+)
 
-engine = create_engine(db_uri)
-Base = declarative_base()
+engine = create_engine(db_url)
+
+meta = MetaData(
+    naming_convention={
+        "ix": "ix_%(column_0_label)s",
+        "uq": "uq_%(table_name)s_%(column_0_name)s",
+        "ck": "ck_%(table_name)s_%(constraint_name)s",
+        "fk": "fk_%(table_name)s_%(column_0_name)s_%(referred_table_name)s",
+        "pk": "pk_%(table_name)s"
+    }
+)
+
+Base = declarative_base(metadata=meta)
 
 
 class Anime(Base):
@@ -86,6 +97,7 @@ class User(UserMixin, Base):
     username: Mapped[int] = mapped_column(String, unique=True)
     password_hash: Mapped[str] = mapped_column(String(128))
     # registration_date: Mapped[date] = mapped_column(Date, default=func.current_date())
+    email: Mapped[Optional[str]] = mapped_column(String, unique=True)
 
     @property
     def password(self):
