@@ -47,22 +47,29 @@ def user_by_username(username):
     return render_template('user.html', user_info=user_info)
 
 
-@users.route('<username>/follow', methods=['POST', 'DELETE'])
+@users.route('<username>/following', methods=['POST'])
 @login_required
 def follow_user(username):
     if request.method == 'POST':
         id_user = int(request.form.get('follow_id'))
+        follow_username = request.form.get('follow_username')
+        action = request.form.get('action')
         with Session(engine) as session:
             uf = session.query(UserFollow).where(and_(UserFollow.id_user == current_user.id,
                                                       UserFollow.id_user_follow == id_user)
                                                  ).scalar()
-            if not uf:
-                session.add(UserFollow(id_user=current_user.id, id_user_follow=id_user))
+            follow = UserFollow(id_user=current_user.id, id_user_follow=id_user)
+            if not uf and action == 'follow':
+                session.add(follow)
+                session.commit()
+            elif uf and action == 'unfollow':
+                follow = uf
+                session.delete(follow)
                 session.commit()
     else:
         abort(500)
 
-    return redirect(url_for('users.user_by_username', username=username))
+    return redirect(url_for('users.user_by_username', username=follow_username))
 
 
 @users.route('/<username>/animelist', methods=['POST'])
