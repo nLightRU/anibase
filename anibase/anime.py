@@ -11,10 +11,10 @@ from sqlalchemy.orm import Session
 from .model import Anime, Genre, AnimeGenre, UserAnime
 from .model import engine
 
-anime = Blueprint('anime', __name__, url_prefix='/')
+anime = Blueprint('anime', __name__, url_prefix='/anime')
 
 
-@anime.route('/anime')
+@anime.route('/')
 def anime_all():
     with Session(engine) as session:
         page = request.args.get('page', 1, type=int)
@@ -25,7 +25,7 @@ def anime_all():
     return render_template('anime_index.html', anime_titles=pagination, page=page)
 
 
-@anime.route('/anime/<int:id_>')
+@anime.route('/<int:id_>')
 def anime_by_id(id_):
     with Session(engine) as session:
         try:
@@ -55,7 +55,7 @@ def anime_by_id(id_):
     return render_template('anime_id.html', anime=anime_title, genres=genres, user_info=user_info)
 
 
-@anime.route('/anime/year/<int:year_val>')
+@anime.route('/year/<int:year_val>')
 def anime_by_year(year_val):
     with Session(engine) as session:
         anime_titles = session.query(Anime).filter(Anime.year == year_val)

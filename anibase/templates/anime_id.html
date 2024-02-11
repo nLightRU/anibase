@@ -62,7 +62,7 @@
                         Stats for {{user_info['user'].username}}
                     </p>
                     {%if not user_info['in_list']%}
-                        <form action="{{url_for('users.add_anime')}}" method="POST">
+                        <form action="{{url_for('users.add_anime', username=current_user.username)}}" method="POST">
                             <input type="hidden" name="csrf_token" value="{{csrf_token()}}">
                             <input type="hidden" name="anime_id" value="{{anime.mal_id}}">
                             <button type="submit" class="btn btn-primary">
