@@ -28,15 +28,18 @@
                 </div>
                 {%if user_info['user'].id != current_user.id%}
                     <div class="row">
-                        {%if user_info['is_follow']%}
-                            <!-- We need something for unfollow here-->
-                        {%else%}
-                            <form action="{{url_for('users.follow_user', username=user_info['user'].username)}}" method="POST">
-                                 <input type="hidden" name="csrf_token" value="{{csrf_token()}}">
+                            <form action="{{url_for('users.follow_user', username=current_user.username)}}" method="POST">
+                                <input type="hidden" name="csrf_token" value="{{csrf_token()}}">
                                 <input type="hidden" name="follow_id" value="{{user_info['user'].id}}">
-                                <button type="submit" class="btn btn-primary">Follow</button>
+                                <input type="hidden" name="follow_username" value="{{user_info['user'].username}}">
+                                {%if user_info['is_follow']%}
+                                    <input type="hidden" name="action" value="unfollow">
+                                    <button type="submit" class="btn btn-secondary">Unfollow</button>
+                                {%else%}
+                                    <input type="hidden" name="action" value="follow">
+                                    <button type="submit" class="btn btn-primary">Follow</button>
+                                {%endif%}
                             </form>
-                        {%endif%}
                     </div>
                 {%endif%}
             </div>
@@ -51,4 +54,7 @@
         {%endif %}
     </div>
 </div>
+<script>
+
+</script>
 {%endblock%}
