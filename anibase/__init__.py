@@ -5,13 +5,22 @@ from flask import Flask
 
 from flask_wtf.csrf import CSRFProtect
 
+from .dbmanager import DBManager
 from .auth import login_manager
+
+load_dotenv()
+
+user = os.getenv('DB_USER')
+password = os.getenv('DB_PASS')
+host = os.getenv('DB_HOST')
+database = os.getenv('DB_NAME')
+
+url = f'postgresql://{user}:{password}@{host}/{database}'
+
+db = DBManager(url)
 
 
 def create_app():
-
-    load_dotenv()
-
     app = Flask(__name__)
 
     # Random secret key for development purposes

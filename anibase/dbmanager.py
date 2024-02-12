@@ -1,6 +1,6 @@
 from typing import Iterable, Dict
 
-from sqlalchemy import create_engine, select, desc, and_
+from sqlalchemy import Engine, create_engine, select, desc, and_
 from sqlalchemy.orm import Session
 from sqlalchemy.exc import SQLAlchemyError, NoResultFound
 
@@ -8,9 +8,12 @@ from .model import Base, Anime, AnimeGenre, AnimeProducer, UserAnime, UserFollow
 
 
 class DBManager:
-    def __init__(self, database, user, password):
+    def __init__(self, url=None, database=None, user=None, password=None):
         try:
-            self.engine = create_engine(f'postgresql+psycopg2://{user}:{password}@localhost/{database}')
+            if url is not None:
+                self.engine = create_engine(url)
+            else:
+                self.engine = create_engine(f'postgresql+psycopg2://{user}:{password}@localhost/{database}')
         except SQLAlchemyError as error:
             print(f'DBManager init caused an error {error}')
 
