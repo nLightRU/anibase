@@ -7,7 +7,7 @@ from sqlalchemy.orm import Session
 
 from .model import Producer
 from .model import engine
-from .dbmanager import DBManager
+from anibase import db
 
 
 views = Blueprint('views', __name__, url_prefix='/')
@@ -15,7 +15,6 @@ views = Blueprint('views', __name__, url_prefix='/')
 
 @views.route('/')
 def index():
-    db = DBManager(database='anibase', user='anibase_admin', password='1234')
     year = random.randint(2015, 2020)
     a = db.select_top_year(year)
     return render_template('index.html', anime=a)

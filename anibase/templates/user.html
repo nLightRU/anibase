@@ -21,7 +21,7 @@
 
                     <h5>Following</h5>
                     <p>
-                        {%for f in user_info['followed']%}
+                        {%for f in user_info['following']%}
                             <a href="{{url_for('users.user_by_username', username=f.username)}}">{{f.username}}</a>
                         {%endfor%}
                     </p>

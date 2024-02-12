@@ -4,7 +4,8 @@ from sqlalchemy import Engine, create_engine, select, desc, and_
 from sqlalchemy.orm import Session
 from sqlalchemy.exc import SQLAlchemyError, NoResultFound
 
-from .model import Base, Anime, AnimeGenre, AnimeProducer, UserAnime, UserFollow
+from .model import (Base, Anime, Genre, Producer, AnimeGenre, AnimeProducer,
+                    User, UserAnime, UserFollow)
 
 
 class DBManager:
@@ -37,7 +38,6 @@ class DBManager:
         Base.metadata.create_all(self.engine, tables=[AnimeProducer.__table__])
 
     def create_user_table(self):
-        from .model import Base, User
         Base.metadata.create_all(self.engine, tables=[User.__table__])
 
     def create_user_anime_table(self):
@@ -47,14 +47,11 @@ class DBManager:
         Base.metadata.create_all(self.engine, tables=[UserFollow.__table__])
 
     def create_tables(self):
-        from .model import Base
         Base.metadata.create_all(self.engine)
 
     def load_producers(self, producers: Iterable[Dict] = None):
         if producers is None:
             raise ValueError('producers is None in load_producers()')
-
-        from .model import Producer
 
         with Session(self.engine) as session:
             for p in producers:
@@ -67,8 +64,6 @@ class DBManager:
         if genres is None:
             raise ValueError('genres is None in load_genres()')
 
-        from .model import Genre
-
         def not_exists(genre):
             if not session.get(Genre, genre['mal_id']):
                 return True
@@ -76,6 +71,7 @@ class DBManager:
                 return False
 
         with Session(self.engine) as session:
+            # filter not existing genres for preventing adding twice
             for g in filter(not_exists, genres):
                 session.add(Genre(id=g['mal_id'], name=g['name']))
             session.commit()
@@ -132,8 +128,17 @@ class DBManager:
                 return None
 
     def select_top_year(self, year):
-        from .model import Anime
         with Session(self.engine) as session:
             stmt = select(Anime).where(Anime.year == year, Anime.score > 5, Anime.type == 'TV'
                                        ).order_by(desc(Anime.score)).limit(10)
             return session.scalars(stmt).all()
+
+    def user_followings(self, user: User) -> tuple[User]:
+        with Session(self.engine) as session:
+            stmt = select(UserFollow.id_user_follow).where(UserFollow.id_user == user.id)
+            follow_ids = session.execute(stmt).scalars()
+            stmt = select(User).where(User.id.in_(follow_ids))
+            followings = tuple(session.execute(stmt).scalars())
+
+        return followings
+

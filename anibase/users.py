@@ -3,6 +3,7 @@ from flask_login import login_required, current_user
 
 from sqlalchemy import and_, select
 from sqlalchemy.orm import Session
+from anibase import db
 from .model import engine, User, UserAnime, Anime, UserFollow
 
 users = Blueprint('users', __name__, url_prefix='/users')
@@ -30,11 +31,7 @@ def user_by_username(username):
         user_anime = session.query(Anime).where(Anime.mal_id.in_(user_anime_ids)).limit(20)
         user_info['user_anime'] = user_anime
 
-        followed_ids = session.execute(select(UserFollow.id_user_follow).
-                                       where(UserFollow.id_user == user_id)).scalars()
-        followed_users = session.query(User).where(User.id.in_(followed_ids))
-
-        user_info['followed'] = followed_users
+        user_info['following'] = db.user_followings(u)
 
         if u.id != current_user.id:
             is_follow = session.query(UserFollow).where(and_(UserFollow.id_user == current_user.id,
