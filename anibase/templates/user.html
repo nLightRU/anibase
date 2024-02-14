@@ -1,4 +1,7 @@
 {%extends 'base.html'%}
+{%block head%}
+{{super()}}
+{%endblock%}
 
 {%block title%}Profile{%endblock%}
 
@@ -11,9 +14,9 @@
             <div class="col">
                 <div class="row">
                     <h3>
-                        {{user_info['user'].username}}
+                        {{user.username}}
                     </h3>
-                    {%if user_info['user'].id == current_user.id%}
+                    {%if user.id == current_user.id%}
                     <p>
                         Edit profile button will be here!
                     </p>
@@ -21,32 +24,40 @@
 
                     <h5>Following</h5>
                     <p>
-                        {%for f in user_info['following']%}
+                        {%for f in following%}
                             <a href="{{url_for('users.user_by_username', username=f.username)}}">{{f.username}}</a>
                         {%endfor%}
                     </p>
                 </div>
-                {%if user_info['user'].id != current_user.id%}
+                {%if user.id != current_user.id%}
                     <div class="row">
-                            <form action="{{url_for('users.follow_user', username=current_user.username)}}" method="POST">
-                                <input type="hidden" name="csrf_token" value="{{csrf_token()}}">
-                                <input type="hidden" name="follow_id" value="{{user_info['user'].id}}">
-                                <input type="hidden" name="follow_username" value="{{user_info['user'].username}}">
-                                {%if user_info['is_follow']%}
-                                    <input type="hidden" name="action" value="unfollow">
-                                    <button type="submit" class="btn btn-secondary">Unfollow</button>
-                                {%else%}
-                                    <input type="hidden" name="action" value="follow">
-                                    <button type="submit" class="btn btn-primary">Follow</button>
-                                {%endif%}
-                            </form>
+                        {%if current_user.is_authenticated%}
+                            <input type="hidden" id="current-username" value="{{current_user.username}}">
+                            <input type="hidden" id="csrf-token" value="{{ csrf_token() }}">
+                            <input type="hidden" id="follow-id" value="{{user.id}}">
+
+                        {%endif%}
+                        <div class="col-sm">
+                            {%if not is_follow %}
+                               <button class="btn btn-primary" onclick="handleFollowing()">
+                                   Follow
+                               </button>
+                                <input type="hidden" id="action" value="unfollow">
+                            {%else%}
+                                <input type="hidden" id="action" value="follow">
+                                <button class="btn btn-secondary" onclick="handleFollowing()">
+                                   Unfollow
+                                </button>
+                            {%endif%}
+                        </div>
                     </div>
                 {%endif%}
+
             </div>
             <div class="col">
-                <h3>{{user_info['user'].username}}'s list</h3>
+                <h3>{{user.username}}'s list</h3>
                 <ul>
-                    {%for a in user_info['user_anime']%}
+                    {%for a in user_anime%}
                         <li><a href="{{url_for('anime.anime_by_id', id_=a.mal_id)}}">{{a.title}}</a></li>
                     {%endfor%}
                 </ul>
@@ -55,6 +66,43 @@
     </div>
 </div>
 <script>
+     function modifyButton(response) {
+        if (response.ok){
+            let button = document.querySelector('button');
+            action = document.getElementById("action")
+            if(action.value == "follow") {
+                button.className = "btn btn-secondary";
+                button.textContent = "Unfollow";
+                action.value = "unfollow";
+            }
+            else {
+                button.className = "btn btn-primary";
+                button.textContent = "Follow";
+                action.value = "follow";
+            }
+        }
+    }
 
+    function handleFollowing() {
+        const url = '/users/' + document.getElementById("current-username").value + '/following';
+        const csrf = document.getElementById("csrf-token").value;
+
+        let req_data = {
+            follow_id: document.getElementById("follow-id").value,
+            action: document.getElementById("action").value
+        }
+
+        let json = JSON.stringify(req_data);
+
+        console.log(url);
+        fetch(url, {
+            method: 'PATCH',
+            headers: {
+                'X-CSRF-TOKEN': csrf,
+                'Content-Type': "application/json"
+            },
+            body: json
+        }).then(modifyButton);
+    }
 </script>
 {%endblock%}

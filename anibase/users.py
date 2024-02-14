@@ -1,4 +1,4 @@
-from flask import Blueprint, render_template, redirect, url_for, request, abort
+from flask import Blueprint, render_template, redirect, url_for, request, abort, make_response
 from flask_login import login_required, current_user
 
 from sqlalchemy import and_, select
@@ -17,6 +17,7 @@ def users_list():
 
 
 @users.route('/<username>')
+@login_required
 def user_by_username(username):
     user_info = dict()
     with Session(engine) as session:
@@ -34,39 +35,39 @@ def user_by_username(username):
         user_info['following'] = db.user_followings(u)
 
         if u.id != current_user.id:
-            is_follow = session.query(UserFollow).where(and_(UserFollow.id_user == current_user.id,
-                                                             UserFollow.id_user_follow == u.id)).scalar()
+            is_follow = session.query(UserFollow.id_user_follow).where(and_(UserFollow.id_user == current_user.id,
+                                                                            UserFollow.id_user_follow == u.id)).scalar()
+            print(is_follow)
             if is_follow:
                 user_info['is_follow'] = True
             else:
                 user_info['is_follow'] = False
 
-    return render_template('user.html', user_info=user_info)
+    return render_template('user.html', **user_info)
 
 
-@users.route('<username>/following', methods=['POST'])
+@users.route('<username>/following', methods=['PATCH'])
 @login_required
 def follow_user(username):
-    if request.method == 'POST':
-        id_user = int(request.form.get('follow_id'))
-        follow_username = request.form.get('follow_username')
-        action = request.form.get('action')
-        with Session(engine) as session:
-            uf = session.query(UserFollow).where(and_(UserFollow.id_user == current_user.id,
-                                                      UserFollow.id_user_follow == id_user)
-                                                 ).scalar()
-            follow = UserFollow(id_user=current_user.id, id_user_follow=id_user)
-            if not uf and action == 'follow':
-                session.add(follow)
-                session.commit()
-            elif uf and action == 'unfollow':
-                follow = uf
-                session.delete(follow)
-                session.commit()
-    else:
-        abort(500)
+    data = request.get_json()
 
-    return redirect(url_for('users.user_by_username', username=follow_username))
+    follow_id = data.get('follow_id')
+    action = data.get('action')
+
+    with Session(engine) as session:
+        uf = session.query(UserFollow).where(and_(UserFollow.id_user == current_user.id,
+                                                  UserFollow.id_user_follow == follow_id)
+                                             ).first()
+        if action == 'follow':
+            session.add(UserFollow(id_user=current_user.id, id_user_follow=follow_id))
+            session.commit()
+        elif action == 'unfollow':
+            session.delete(uf)
+            session.commit()
+        else:
+            abort(500)
+
+    return make_response('', 200)
 
 
 @users.route('/<username>/animelist', methods=['POST'])
@@ -80,8 +81,3 @@ def add_anime(username):
             session.add(UserAnime(id_user=current_user.id, id_anime=id_anime))
             session.commit()
     return redirect(url_for('anime.anime_by_id', id_=id_anime))
-
-
-
-
-
