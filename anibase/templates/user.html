@@ -1,8 +1,6 @@
 {%extends 'base.html'%}
 {%block head%}
 {{super()}}
-<meta id="csrf-token" content="{{ csrf_token() }}">
-<meta id="follow_id" content="{{user.id}}">
 {%endblock%}
 
 {%block title%}Profile{%endblock%}
@@ -33,13 +31,21 @@
                 </div>
                 {%if user.id != current_user.id%}
                     <div class="row">
+                        {%if current_user.is_authenticated%}
+                            <input type="hidden" id="current-username" value="{{current_user.username}}">
+                            <input type="hidden" id="csrf-token" value="{{ csrf_token() }}">
+                            <input type="hidden" id="follow-id" value="{{user.id}}">
+
+                        {%endif%}
                         <div class="col-sm">
-                            {%if is_follow%}
-                               <button class="btn btn-primary" onclick="handle_follow()">
+                            {%if not is_follow %}
+                               <button class="btn btn-primary" onclick="handleFollowing()">
                                    Follow
                                </button>
+                                <input type="hidden" id="action" value="unfollow">
                             {%else%}
-                                <button class="btn btn-secondary" onclick="handle_follow()">
+                                <input type="hidden" id="action" value="follow">
+                                <button class="btn btn-secondary" onclick="handleFollowing()">
                                    Unfollow
                                 </button>
                             {%endif%}
@@ -60,24 +66,43 @@
     </div>
 </div>
 <script>
-    function parseJSON(response) {
-        return response.json();
+     function modifyButton(response) {
+        if (response.ok){
+            let button = document.querySelector('button');
+            action = document.getElementById("action")
+            if(action.value == "follow") {
+                button.className = "btn btn-secondary";
+                button.textContent = "Unfollow";
+                action.value = "unfollow";
+            }
+            else {
+                button.className = "btn btn-primary";
+                button.textContent = "Follow";
+                action.value = "follow";
+            }
+        }
     }
 
-    function modify_button(event) {
-        let button = document.querySelector('button');
-        if(button.textContent == "Follow") {
-            button.className = "btn btn-secondary";
-            button.textContent = "Unfollow";
-        }
-        else {
-            button.className = "btn btn-primary";
-            button.textContent = "Follow";
-        }
-    }
+    function handleFollowing() {
+        const url = '/users/' + document.getElementById("current-username").value + '/following';
+        const csrf = document.getElementById("csrf-token").value;
 
-    function handle_follow() {
-        modify_button();
+        let req_data = {
+            follow_id: document.getElementById("follow-id").value,
+            action: document.getElementById("action").value
+        }
+
+        let json = JSON.stringify(req_data);
+
+        console.log(url);
+        fetch(url, {
+            method: 'PATCH',
+            headers: {
+                'X-CSRF-TOKEN': csrf,
+                'Content-Type': "application/json"
+            },
+            body: json
+        }).then(modifyButton);
     }
 </script>
 {%endblock%}
