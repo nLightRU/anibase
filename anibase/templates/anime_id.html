@@ -84,6 +84,14 @@
                 {{anime.synopsis}}
             </p>
         </div>
+        <div class="row">
+            <!--COMMENTS WILL BE HERE-->
+        </div>
+        {%if current_user.is_authenticated%}
+            <div class="row">
+                <!-- SENDING COMMENTS WILL BE HERE-->
+            </div>
+        {%endif%}
     </div>
 </div>
 {%endblock%}

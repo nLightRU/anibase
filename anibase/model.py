@@ -122,3 +122,11 @@ class UserFollow(Base):
     __tablename__ = 'user_follow'
     id_user: Mapped[int] = mapped_column(Integer, primary_key=True)
     id_user_follow: Mapped[int] = mapped_column(Integer, primary_key=True)
+
+
+class Comment(Base):
+    __tablename__ = 'comment'
+    id: Mapped[int] = mapped_column(Integer, Sequence('commend_id', start=1), primary_key=True)
+    id_user: Mapped[int] = mapped_column(ForeignKey('user.id'))
+    id_anime: Mapped[int] = mapped_column(ForeignKey('anime.mal_id'))
+    content: Mapped[str] = mapped_column(Text)
