@@ -84,6 +84,31 @@
                 {{anime.synopsis}}
             </p>
         </div>
+        {%if current_user.is_authenticated%}
+            <div class="row">
+                <form action="{{url_for('anime.post_comment', id_ = anime.mal_id)}}" method="POST">
+                    {{comment_form.csrf_token}}
+                    {{comment_form.content}}
+                    <button type="submit" class="btn btn-primary">
+                        Comment
+                    </button>
+                </form>
+            </div>
+        {%endif%}
+
+        <div class="row">
+            {%if not comments%}
+                <p>No comments here yet</p>
+            {%else%}
+                <ul>
+                    {%for comment in comments%}
+                        <p>
+                            {{comment.content}}
+                        </p>
+                    {%endfor%}
+                </ul>
+            {%endif%}
+        </div>
     </div>
 </div>
 {%endblock%}
