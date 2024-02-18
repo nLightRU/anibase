@@ -17,3 +17,7 @@ class RegistrationForm(FlaskForm):
 class LoginForm(FlaskForm):
     username = StringField('Login', validators=[DataRequired(message='Wrong login or password')])
     password = PasswordField('Password', validators=[DataRequired(message='Wrong login or password')])
+
+
+class CommentForm(FlaskForm):
+    content = StringField('Comment', validators=[DataRequired()])
