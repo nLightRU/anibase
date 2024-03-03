@@ -7,7 +7,7 @@ from flask_login import login_required, current_user
 from sqlalchemy import select, and_
 from sqlalchemy.orm import Session
 
-from .model import Anime, Genre, AnimeGenre, UserAnime, Comment
+from .model import Anime, Genre, AnimeGenre, User, UserAnime, Comment
 from .model import engine
 
 from .forms import CommentForm
@@ -54,9 +54,20 @@ def anime_by_id(id_):
         else:
             user_info['user'] = None
 
-        comments = session.scalars(select(Comment).where(Comment.id_anime == id_), execution_options={"prebuffer_rows": True})
+        comments_rows = session.execute(select(Comment.id_user, Comment.content).
+                                        where(Comment.id_anime == id_),
+                                        execution_options={"prebuffer_rows": True}).all()
 
-        kwargs = {
+        comments = []
+        for comment in comments_rows:
+            comments.append(
+                {
+                    'username': session.get(User, comment.id_user).username,
+                    'content': comment.content
+                }
+            )
+
+        context = {
             'anime': anime_title,
             'genres': genres,
             'user_info': user_info,
@@ -64,7 +75,7 @@ def anime_by_id(id_):
             'comments': comments
         }
 
-    return render_template('anime_id.html', **kwargs)
+    return render_template('anime_id.html', **context)
 
 
 @anime.route('/<int:id_>/comments', methods=['POST'])

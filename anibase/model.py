@@ -8,6 +8,7 @@ from sqlalchemy import ForeignKey
 from sqlalchemy.orm import Mapped
 from sqlalchemy.orm import declarative_base
 from sqlalchemy.orm import mapped_column
+from sqlalchemy.orm import relationship
 
 from flask_login import UserMixin
 
