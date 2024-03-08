@@ -11,36 +11,36 @@
         {{anime.title}}
     </h1>
     <div class="row">
-        <div class="col">
+        <div class="col-sm-3">
             <div class="row">
                 <h2>Anime stats</h2>
                 <table class="table">
                     <tr>
-                        <td>episodes</td>
+                        <td>Episodes</td>
                         <td>{{anime.episodes}}</td>
                     </tr>
                     <tr>
-                        <td>year</td>
+                        <td>Year</td>
                         <td><a href="#">{{anime.year}}</a></td>
                     </tr>
                     <tr>
-                        <td>season</td>
+                        <td>Season</td>
                         <td><a href="#">{{anime.season}}</a></td>
                     </tr>
                     <tr>
-                        <td>source</td>
+                        <td>Source</td>
                         <td>{{anime.source }}</td>
                     </tr>
                     <tr>
-                        <td>type</td>
+                        <td>Type</td>
                         <td>{{anime.type}}</td>
                     </tr>
                     <tr>
-                        <td>rating</td>
+                        <td>Rating</td>
                         <td>{{anime.rating}}</td>
                     </tr>
                     <tr>
-                        <td>score</td>
+                        <td>Score</td>
                         <td>{{anime.score}}</td>
                     </tr>
                 </table>
@@ -80,9 +80,11 @@
             </div>
         </div>
         <div class="row">
-            <p>
-                {{anime.synopsis}}
-            </p>
+            <div class="col-sm-8">
+                <p>
+                    {{anime.synopsis}}
+                </p>
+            </div>
         </div>
         {%if current_user.is_authenticated%}
             <div class="row">
