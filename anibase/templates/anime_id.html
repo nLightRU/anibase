@@ -7,9 +7,13 @@
 {%block body%}
 {{super()}}
 <div class="container">
-    <h1>
-        {{anime.title}}
-    </h1>
+
+    <div class="row">
+        <h1>
+            {{anime.title}}
+        </h1>
+    </div>
+
     <div class="row">
         <div class="col-sm-3">
             <div class="row">
@@ -43,24 +47,16 @@
                         <td>Score</td>
                         <td>{{anime.score}}</td>
                     </tr>
+                    <tr>
+                        <td>Genres</td>
+                        <td>
+                        {%for genre in genres%}
+                            <a href="#">{{genre.name}}</a>
+                        {%endfor%}
+                        </td>
+                    </tr>
                 </table>
-            </div>
-            <div class="row">
-                <h5>Genres</h5>
-                {%for genre in genres%}
-                    <a href="#">{{genre.name}}</a>
-                {%endfor%}
-            </div>
-        </div>
-
-        <div class="col">
-
-            <div class="row">
-
                 {%if current_user.is_authenticated %}
-                    <p>
-                        Stats for {{user_info['user'].username}}
-                    </p>
                     {%if not user_info['in_list']%}
                         <form action="{{url_for('users.add_anime', username=current_user.username)}}" method="POST">
                             <input type="hidden" name="csrf_token" value="{{csrf_token()}}">
@@ -70,17 +66,22 @@
                             </button>
                         </form>
                     {%else%}
-                        <p>In list</p>
+                        <form>
+                            <button class="btn btn-primary">
+                                Remove from list
+                            </button>
+                        </form>
                     {%endif%}
                 {%else%}
-                <p>
-                    Login to view your stats
-                </p>
+                    <p>
+                        Login to view your stats
+                    </p>
                 {%endif%}
             </div>
         </div>
         <div class="row">
             <div class="col-sm-8">
+                <h5>Synopsis</h5>
                 <p>
                     {{anime.synopsis}}
                 </p>
