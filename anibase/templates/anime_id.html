@@ -7,60 +7,56 @@
 {%block body%}
 {{super()}}
 <div class="container">
-    <h1>
-        {{anime.title}}
-    </h1>
+
     <div class="row">
-        <div class="col">
+        <h1>
+            {{anime.title}}
+        </h1>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-3">
             <div class="row">
                 <h2>Anime stats</h2>
                 <table class="table">
                     <tr>
-                        <td>episodes</td>
+                        <td>Episodes</td>
                         <td>{{anime.episodes}}</td>
                     </tr>
                     <tr>
-                        <td>year</td>
+                        <td>Year</td>
                         <td><a href="#">{{anime.year}}</a></td>
                     </tr>
                     <tr>
-                        <td>season</td>
+                        <td>Season</td>
                         <td><a href="#">{{anime.season}}</a></td>
                     </tr>
                     <tr>
-                        <td>source</td>
+                        <td>Source</td>
                         <td>{{anime.source }}</td>
                     </tr>
                     <tr>
-                        <td>type</td>
+                        <td>Type</td>
                         <td>{{anime.type}}</td>
                     </tr>
                     <tr>
-                        <td>rating</td>
+                        <td>Rating</td>
                         <td>{{anime.rating}}</td>
                     </tr>
                     <tr>
-                        <td>score</td>
+                        <td>Score</td>
                         <td>{{anime.score}}</td>
                     </tr>
+                    <tr>
+                        <td>Genres</td>
+                        <td>
+                        {%for genre in genres%}
+                            <a href="#">{{genre.name}}</a>
+                        {%endfor%}
+                        </td>
+                    </tr>
                 </table>
-            </div>
-            <div class="row">
-                <h5>Genres</h5>
-                {%for genre in genres%}
-                    <a href="#">{{genre.name}}</a>
-                {%endfor%}
-            </div>
-        </div>
-
-        <div class="col">
-
-            <div class="row">
-
                 {%if current_user.is_authenticated %}
-                    <p>
-                        Stats for {{user_info['user'].username}}
-                    </p>
                     {%if not user_info['in_list']%}
                         <form action="{{url_for('users.add_anime', username=current_user.username)}}" method="POST">
                             <input type="hidden" name="csrf_token" value="{{csrf_token()}}">
@@ -70,19 +66,26 @@
                             </button>
                         </form>
                     {%else%}
-                        <p>In list</p>
+                        <form>
+                            <button class="btn btn-primary">
+                                Remove from list
+                            </button>
+                        </form>
                     {%endif%}
                 {%else%}
-                <p>
-                    Login to view your stats
-                </p>
+                    <p>
+                        Login to view your stats
+                    </p>
                 {%endif%}
             </div>
         </div>
         <div class="row">
-            <p>
-                {{anime.synopsis}}
-            </p>
+            <div class="col-sm-8">
+                <h5>Synopsis</h5>
+                <p>
+                    {{anime.synopsis}}
+                </p>
+            </div>
         </div>
         {%if current_user.is_authenticated%}
             <div class="row">

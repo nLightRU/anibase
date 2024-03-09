@@ -1,0 +1,12 @@
+{%extends 'base.html'%}
+{%block body%}
+{{super()}}
+<div class="container">
+<h2>{{page_header}}</h2>
+<ul>
+{%for a in anime_titles%}
+    <li><a href={{"/anime/%d" % a.mal_id}}>{{a.title}}</a></li>
+{%endfor%}
+</ul>
+</div>
+{%endblock%}
