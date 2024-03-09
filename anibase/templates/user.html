@@ -35,7 +35,6 @@
                             <input type="hidden" id="current-username" value="{{current_user.username}}">
                             <input type="hidden" id="csrf-token" value="{{ csrf_token() }}">
                             <input type="hidden" id="follow-id" value="{{user.id}}">
-
                         {%endif%}
                         <div class="col-sm">
                             {%if not is_follow %}
