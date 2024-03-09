@@ -1,26 +1,54 @@
 {%extends 'base.html'%}
 
 {%block title%}
-    Anibase Anime
+    Anime
 {% endblock %}
 
 {%block body%}
 {{super()}}
 
 <div class="container">
-    <h2>Anime</h2>
-    <ul>
-    {%for a in anime_titles%}
-        <li><a href={{"/anime/%d" % a.mal_id}}>{{a.title}}</a></li>
-    {%endfor%}
-    </ul>
-    <div>
-        {%if page > 1%}
-            <a href="/anime?page={{page-1}}">Back</a>
-        {%endif%}
-        {%if page < 10%}
-            <a href="/anime?page={{page+1}}">Forward</a>
-        {%endif%}
+    <div class="row mb-3">
+        <h1>All anime</h1>
+    </div>
+    <div class="row mb-3">
+        <table>
+            <tr>
+                <td>Title</td>
+                <td>Year</td>
+                <td>Season</td>
+            </tr>
+            {%for a in anime_titles%}
+            <tr>
+                <td><a href="{{url_for('anime.anime_by_id', id_=a.mal_id)}}">{{a.title}}</a></td>
+                <td>{{a.year}}</td>
+                <td>{{a.season}}</td>
+            </tr>
+            {%endfor%}
+        </table>
+    </div>
+    <div class="row">
+        <nav>
+            <ul class="pagination justify-content-center">
+            {% if page > 1%}
+                <li class="page-item"><a class="page-link" href="{{url_for('anime.anime_all', page=page-1)}}">Previous</a></li>
+            {%endif%}
+                {%for p in pages_numbers_show%}
+                    {%if p == page%}
+                        <li class="page-item active">
+                            <a class="page-link" href="{{url_for('anime.anime_all', page=p)}}">{{p}}</a>
+                        </li>
+                    {%else%}
+                        <li class="page-item">
+                            <a class="page-link" href="{{url_for('anime.anime_all', page=p)}}">{{p}}</a>
+                        </li>
+                    {%endif%}
+                {%endfor%}
+            {%if page < pages_total%}
+                <li class="page-item"><a class="page-link" href="{{url_for('anime.anime_all', page=page+1 )}}">Next</a></li>
+            {%endif%}
+            </ul>
+        </nav>
     </div>
 </div>
 

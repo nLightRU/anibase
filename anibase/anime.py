@@ -17,13 +17,35 @@ anime = Blueprint('anime', __name__, url_prefix='/anime')
 
 @anime.route('/')
 def anime_all():
+    context = {}
     with Session(engine) as session:
         page = request.args.get('page', 1, type=int)
         offset = page - 1
         per_page = current_app.config['PER_PAGE']
-        pagination = session.query(Anime).order_by(Anime.members.desc()) \
+        anime_page = session.query(Anime).order_by(Anime.members.desc()) \
                                           .slice(offset * per_page, offset*per_page + per_page)
-    return render_template('anime_index.html', anime_titles=pagination, page=page)
+
+        pages_total = int(session.query(Anime).count() / current_app.config['PER_PAGE'])
+
+        context['anime_titles'] = anime_page
+        context['page'] = page
+
+        context['pages_total'] = pages_total
+
+        if page < 5:
+            pages_numbers_show = [1, 2, 3, 4]
+        elif page + 5 > pages_total:
+            start = page - (page + 4 - pages_total)
+            pages_numbers_show = [p for p in range(start, pages_total+1)]
+        else:
+            start = page - 5
+            # +3 because range doesn't include last number
+            end = page + 5
+            pages_numbers_show = [p for p in range(start, end)]
+
+        context['pages_numbers_show'] = tuple(pages_numbers_show)
+
+    return render_template('anime_index.html', **context)
 
 
 @anime.route('/<int:id_>')
