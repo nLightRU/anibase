@@ -73,11 +73,29 @@ def follow_user(username):
 @users.route('/<username>/animelist', methods=['POST'])
 @login_required
 def add_anime(username):
-    id_anime = int(request.form.get('anime_id'))
+    id_anime = request.get_json().get('anime_id')
     with Session(engine) as session:
         ua = session.query(UserAnime).where(and_(current_user.id == UserAnime.id_user,
                                                  UserAnime.id_anime == id_anime)).scalar()
         if not ua:
             session.add(UserAnime(id_user=current_user.id, id_anime=id_anime))
             session.commit()
-    return redirect(url_for('anime.anime_by_id', id_=id_anime))
+    return make_response('', 200)
+
+
+@users.route('/<username>/animelist', methods=['PATCH'])
+@login_required
+def remove_anime(username):
+    data = request.get_json()
+    id_anime = data.get('anime_id')
+
+    with Session(engine) as session:
+        ua = session.query(UserAnime).where(and_(current_user.id == UserAnime.id_user,
+                                                 UserAnime.id_anime == id_anime)).scalar()
+        if not ua:
+            abort(500)
+        else:
+            session.delete(ua)
+            session.commit()
+
+    return make_response('', 200)
