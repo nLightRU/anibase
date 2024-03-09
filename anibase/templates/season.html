@@ -1,0 +1,17 @@
+{%extends 'base.html'%}
+
+{%block title%}
+    {{season.title()}} {{year}}
+{% endblock %}
+
+{%block body%}
+{{super()}}
+<div class="container">
+<h1>{{season.title()}} {{year}}</h1>
+<ul>
+{%for a in anime%}
+    <li><a href={{url_for('anime.anime_by_id', id_=a.mal_id)}}>{{a.title}}</a></li>
+{%endfor%}
+</ul>
+</div>
+{%endblock%}

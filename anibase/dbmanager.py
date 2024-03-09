@@ -1,4 +1,4 @@
-from typing import Iterable, Dict
+from typing import Iterable, Dict, Tuple
 
 from sqlalchemy import Engine, create_engine, select, update, desc, and_
 from sqlalchemy.orm import Session
@@ -160,3 +160,15 @@ class DBManager:
                     )
             session.execute(stmt)
             session.commit()
+
+    def select_seasons(self) -> Tuple[Dict]:
+        res = []
+        with Session(self.engine) as session:
+            seasons = session.execute(select(Anime.season).distinct()).scalars().all()
+            for s in seasons:
+                years = session.execute(select(Anime.year).where(Anime.season == s).distinct()).scalars().all()
+                res.extend([{'season': s, 'year': y} for y in years])
+
+        return tuple(res)
+
+
