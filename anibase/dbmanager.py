@@ -1,6 +1,6 @@
 from typing import Iterable, Dict
 
-from sqlalchemy import Engine, create_engine, select, desc, and_
+from sqlalchemy import Engine, create_engine, select, update, desc, and_
 from sqlalchemy.orm import Session
 from sqlalchemy.exc import SQLAlchemyError, NoResultFound
 
@@ -127,6 +127,12 @@ class DBManager:
                 print(f"No anime with id {id_}")
                 return None
 
+    def get_all_anime(self):
+        with Session(self.engine) as session:
+            anime = session.execute(select(Anime), execution_options={"prebuffer_rows": True}).scalars()
+            for a in anime:
+                yield a
+
     def select_top_year(self, year):
         with Session(self.engine) as session:
             stmt = select(Anime).where(Anime.year == year, Anime.score > 5, Anime.type == 'TV'
@@ -142,3 +148,15 @@ class DBManager:
 
         return followings
 
+    def add_image_url(self, anime_id: int = None, url: str = None):
+        if anime_id is None:
+            raise ValueError("Missing required arg 'anime_id'")
+        if url is None:
+            raise ValueError("Missing required arg 'url'")
+        with Session(self.engine) as session:
+            stmt = (update(Anime).
+                    where(Anime.mal_id == anime_id).
+                    values(image_url=url)
+                    )
+            session.execute(stmt)
+            session.commit()

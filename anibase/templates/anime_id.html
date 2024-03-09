@@ -16,6 +16,10 @@
 
     <div class="row">
         <div class="col-sm-4">
+            <img src="{{anime.image_url}}">
+        </div>
+
+        <div class="col-sm-4">
             <div class="row">
                 <h2>Anime stats</h2>
                 <table class="table">
@@ -58,35 +62,37 @@
                 </table>
             </div>
         </div>
-        <div class="col-sm-8">
-            <div class="row">
-                <h5>Synopsis</h5>
-                <p>
-                    {{anime.synopsis}}
-                </p>
-            </div>
-            <div class="row">
-                {%if current_user.is_authenticated %}
-                <input type="hidden" id="csrf-token" value="{{csrf_token()}}">
-                <input type="hidden" name="username" value="{{current_user.username}}">
-                <input type="hidden" name="anime-id" value="{{anime.mal_id}}">
-                <input type="hidden" id="action" value="{{'remove' if user_info['in_list'] else 'add'}}">
-                <div class="d-md-block mb-3">
-                    <button type="button" name="list-edit-button"
-                        class="btn {{'btn-warning' if user_info['in_list'] else 'btn-primary'}}"
-                        onclick="{{'removeFromList()' if user_info['in_list'] else 'addToList()'}}">
-                    {%if user_info['in_list'] %}
-                    Remove
-                    {%else%}
-                    Add
-                    {%endif%}
-                </button>
-                </div>
-                {%else%}
+        <div class="row">
+            <div class="col-sm-8">
+                <div class="row">
+                    <h5>Synopsis</h5>
                     <p>
-                        Login to view your stats
+                        {{anime.synopsis}}
                     </p>
-                {%endif%}
+                </div>
+                <div class="row">
+                    {%if current_user.is_authenticated %}
+                    <input type="hidden" id="csrf-token" value="{{csrf_token()}}">
+                    <input type="hidden" name="username" value="{{current_user.username}}">
+                    <input type="hidden" name="anime-id" value="{{anime.mal_id}}">
+                    <input type="hidden" id="action" value="{{'remove' if user_info['in_list'] else 'add'}}">
+                    <div class="d-md-block mb-3">
+                        <button type="button" name="list-edit-button"
+                            class="btn {{'btn-warning' if user_info['in_list'] else 'btn-primary'}}"
+                            onclick="{{'removeFromList()' if user_info['in_list'] else 'addToList()'}}">
+                        {%if user_info['in_list'] %}
+                        Remove
+                        {%else%}
+                        Add
+                        {%endif%}
+                    </button>
+                    </div>
+                    {%else%}
+                        <p>
+                            Login to view your stats
+                        </p>
+                    {%endif%}
+                </div>
             </div>
         </div>
         <div class="row">
