@@ -45,6 +45,7 @@ class Anime(Base):
     mal_id: Mapped[int] = mapped_column(Integer, primary_key=True)
     title: Mapped[str] = mapped_column(String, nullable=False)
     title_english: Mapped[Optional[str]] = mapped_column(String)
+    image_url: Mapped[Optional[str]] = mapped_column(String)
     episodes: Mapped[Optional[int]] = mapped_column(Integer)
     type: Mapped[Optional[str]] = mapped_column(String)
     source: Mapped[Optional[str]] = mapped_column(String)
