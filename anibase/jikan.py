@@ -12,8 +12,9 @@ def get_anime(id_: int):
     if r.status_code == 200:
         return r.json()['data']
     elif r.status_code == 429:
-        time.sleep(2)
+        time.sleep(3)
         r = requests.get(url)
+        return r.json()['data']
     elif r.status_code == 404:
         raise HTTPError(f'anime with {id_} not exists')
 
