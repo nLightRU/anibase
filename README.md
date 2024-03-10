@@ -1,13 +1,22 @@
+![ru](https://img.shields.io/badge/lang-ru-blue.svg)
 # Anibase
 
-A site storing information about anime, studios with future plans to implement social 
-networking features (users, comments, followers, etc).
+Сайт с базой данных аниме и социальными фичами, в качестве 
+референса взяты www.shikimori.one и www.myanimelist.net.
 
-Created to learn web programming, Flask framework with various add-ons and PostgreSQL. 
+Создан для изучения веб-программирования на базе Flask
  
-## Stack
-- Flask
-- SQLAlchemy
-- Alembic
+## Функции :speech_balloon:
+- Обновление базы данных аниме с помощью [Jikan API](https://jikan.moe/)
+- Регистрация и аутентификация пользователей
+- Редактирование своего списка аниме
+- Подписка на другого пользователя
+- Комментарии к аниме
+
+## Технологии  	:gear:
+- Веб-фрейморк Flask
 - Flask-WTForms
-- PostgreSQL
+- SQLAlchemy для взаимодействия с БД
+- Alembic для миграций
+- PostgreSQL в качестве базы данных
+
