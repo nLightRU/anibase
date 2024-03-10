@@ -2,11 +2,30 @@
 {%block body%}
 {{super()}}
 <div class="container">
-<h2>Users</h2>
-<ul>
-{%for u in users%}
-    <li><a href="{{url_for('users.user_by_username', username=u.username)}}">{{u.username}}</a></li>
-{%endfor%}
-</ul>
+    <div class="row">
+        <h1>Users</h1>
+    </div>
+
+    <div class="row row-cols-4">
+        {%for u in users%}
+        <div class="col-sm-2">
+            <div class="card">
+                <img src="{{url_for('static', filename='anime_mockup_poster.jpg')}}"
+                     class="card-img-top"
+                     height="120px"
+                     alt="">
+                <div class="card-body">
+                    <h5 class="card-title">
+                        <a href="{{url_for('users.user_by_username', username=u.username)}}">{{u.username}}</a>
+                    </h5>
+                </div>
+            </div>
+        </div>
+        {%endfor%}
+    </div>
+
+
+
+
 </div>
 {%endblock%}

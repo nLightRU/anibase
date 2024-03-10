@@ -7,124 +7,137 @@
 {%block body%}
 {{super()}}
 <div class="container">
-
-    <div class="row">
-        <h1>
-            {{anime.title}}
-        </h1>
-    </div>
-
+    <!-- Anime title-->
     <div class="row">
         <div class="col-sm-4">
+            <h1>
+                {{anime.title}}
+            </h1>
+        </div>
+    </div>
+
+    <!-- Row for img, stats and franchise list-->
+    <div class="row">
+        <div class="col">
             <img src="{{anime.image_url}}">
         </div>
 
-        <div class="col-sm-4">
-            <div class="row">
-                <h2>Anime stats</h2>
-                <table class="table">
-                    <tr>
-                        <td>Episodes</td>
-                        <td>{{anime.episodes}}</td>
-                    </tr>
-                    <tr>
-                        <td>Year</td>
-                        <td><a href="#">{{anime.year}}</a></td>
-                    </tr>
-                    <tr>
-                        <td>Season</td>
-                        <td><a href="#">{{anime.season}}</a></td>
-                    </tr>
-                    <tr>
-                        <td>Source</td>
-                        <td>{{anime.source }}</td>
-                    </tr>
-                    <tr>
-                        <td>Type</td>
-                        <td>{{anime.type}}</td>
-                    </tr>
-                    <tr>
-                        <td>Rating</td>
-                        <td>{{anime.rating}}</td>
-                    </tr>
-                    <tr>
-                        <td>Score</td>
-                        <td>{{anime.score}}</td>
-                    </tr>
-                    <tr>
-                        <td>Genres</td>
-                        <td>
-                        {%for genre in genres%}
-                            <a href="#">{{genre.name}}</a>
-                        {%endfor%}
-                        </td>
-                    </tr>
-                </table>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-8">
-                <div class="row">
-                    <h5>Synopsis</h5>
-                    <p>
-                        {{anime.synopsis}}
-                    </p>
-                </div>
-                <div class="row">
-                    {%if current_user.is_authenticated %}
-                    <input type="hidden" id="csrf-token" value="{{csrf_token()}}">
-                    <input type="hidden" name="username" value="{{current_user.username}}">
-                    <input type="hidden" name="anime-id" value="{{anime.mal_id}}">
-                    <input type="hidden" id="action" value="{{'remove' if user_info['in_list'] else 'add'}}">
-                    <div class="d-md-block mb-3">
-                        <button type="button" name="list-edit-button"
-                            class="btn {{'btn-warning' if user_info['in_list'] else 'btn-primary'}}"
-                            onclick="{{'removeFromList()' if user_info['in_list'] else 'addToList()'}}">
-                        {%if user_info['in_list'] %}
-                        Remove
-                        {%else%}
-                        Add
-                        {%endif%}
-                    </button>
-                    </div>
-                    {%else%}
-                        <p>
-                            Login to view your stats
-                        </p>
-                    {%endif%}
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <h5>Comments</h5>
-            {%if not comments%}
-                <p>No comments here yet</p>
-            {%else%}
-                <ul>
-                    {%for comment in comments%}
-                    <h6>
-                        <a href="{{url_for('users.user_by_username', username=comment['username'])}}">
-                            {{comment['username']}}
-                        </a>
-                    </h6>
-                    <p>
-                        {{comment['content']}}
-                    </p>
+        <!-- Anime stats -->
+        <div class="col">
+            <table class="table">
+                <tr>
+                    <td>Episodes</td>
+                    <td>{{anime.episodes}}</td>
+                </tr>
+                <tr>
+                    <td>Year</td>
+                    <td><a href="#">{{anime.year}}</a></td>
+                </tr>
+                <tr>
+                    <td>Season</td>
+                    <td><a href="#">{{anime.season}}</a></td>
+                </tr>
+                <tr>
+                    <td>Source</td>
+                    <td>{{anime.source }}</td>
+                </tr>
+                <tr>
+                    <td>Type</td>
+                    <td>{{anime.type}}</td>
+                </tr>
+                <tr>
+                    <td>Rating</td>
+                    <td>{{anime.rating}}</td>
+                </tr>
+                <tr>
+                    <td>Score</td>
+                    <td>{{anime.score}}</td>
+                </tr>
+                <tr>
+                    <td>Genres</td>
+                    <td>
+                    {%for genre in genres%}
+                        <a href="#">{{genre.name}}</a>
                     {%endfor%}
-                </ul>
-            {%endif%}
+                    </td>
+                </tr>
+            </table>
         </div>
+        <div class="col">
+            <h2>Franchise</h2>
+        </div>
+    </div><!-- Row for img, stats and franchise list-->
 
-        {%if current_user.is_authenticated%}
+    <!-- Synopsis -->
+    <div class="row">
+        <div class="col-sm-8">
             <div class="row">
-                <form action="{{url_for('anime.post_comment', id_ = anime.mal_id)}}" method="POST">
-                    {{comment_form.csrf_token}}
-                    {{comment_form.content}}
-                    <button type="submit" class="btn btn-primary">
-                        Comment
-                    </button>
-                </form>
+                <div class="rown bg-secondary">
+                    <h4>Synopsis</h4>
+                </div>
+                <p>
+                    {{anime.synopsis}}
+                </p>
             </div>
+            <div class="row">
+                {%if current_user.is_authenticated %}
+                <input type="hidden" id="csrf-token" value="{{csrf_token()}}">
+                <input type="hidden" name="username" value="{{current_user.username}}">
+                <input type="hidden" name="anime-id" value="{{anime.mal_id}}">
+                <input type="hidden" id="action" value="{{'remove' if user_info['in_list'] else 'add'}}">
+                <div class="d-md-block mb-3">
+                    <button type="button" name="list-edit-button"
+                        class="btn {{'btn-warning' if user_info['in_list'] else 'btn-primary'}}"
+                        onclick="{{'removeFromList()' if user_info['in_list'] else 'addToList()'}}">
+                    {%if user_info['in_list'] %}
+                    Remove
+                    {%else%}
+                    Add
+                    {%endif%}
+                </button>
+                </div>
+                {%else%}
+                    <p>
+                        Login to view your stats
+                    </p>
+                {%endif%}
+            </div>
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="row bg-secondary">
+            <h5>Comments</h5>
+        </div>
+        {%if not comments%}
+            <p>No comments here yet</p>
+        {%else%}
+            {%for comment in comments%}
+            <h6>
+                <a href="{{url_for('users.user_by_username', username=comment['username'])}}">
+                    {{comment['username']}}
+                </a>
+            </h6>
+            <p>
+                {{comment['content']}}
+            </p>
+            {%endfor%}
+        {%endif%}
+    </div>
+
+    <!-- Comments Form-->
+    <div class="row">
+        {%if current_user.is_authenticated%}
+        <form action="{{url_for('anime.post_comment', id_ = anime.mal_id)}}" method="POST">
+            {{comment_form.csrf_token}}
+            {{comment_form.content}}
+            <button type="submit" class="btn btn-primary">
+                Comment
+            </button>
+        </form>
+        {%else%}
+            <p> <a href="{{url_for('auth.login')}}">Login</a> to write a comment</p>
         {%endif%}
     </div>
 </div>

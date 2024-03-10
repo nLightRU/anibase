@@ -55,10 +55,18 @@
             </div>
             <div class="col">
                 <h3>{{user.username}}'s list</h3>
-                <ul>
+                <table class="table">
+                    <tr>
+                        <td>Title</td>
+                    </tr>
                     {%for a in user_anime%}
-                        <li><a href="{{url_for('anime.anime_by_id', id_=a.mal_id)}}">{{a.title}}</a></li>
+                        <tr>
+                            <td><a href="{{url_for('anime.anime_by_id', id_=a.mal_id)}}">{{a.title}}</a></td>
+                        </tr>
                     {%endfor%}
+                </table>
+                <ul>
+
                 </ul>
             </div>
         {%endif %}
