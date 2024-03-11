@@ -51,30 +51,31 @@ def anime_all():
 @anime.route('/<int:id_>')
 def anime_by_id(id_):
     form = CommentForm()
+    context = {}
     with Session(engine) as session:
         try:
             anime_title = session.get(Anime, id_)
             if anime_title is None:
                 abort(404)
+            else:
+                context['anime'] = anime_title
             anime_genres = session.query(AnimeGenre).where(AnimeGenre.id_anime == id_).all()
             genres = []
             for ag in anime_genres:
                 genres.append(session.get(Genre, ag.id_genre))
+            context['genres'] = genres
         except Exception as ex:
             print(ex)
             abort(404)
 
-        user_info = dict()
         if current_user.is_authenticated:
-            user_info['user'] = current_user
-            ua = session.query(UserAnime).where(and_(user_info['user'].id == UserAnime.id_user,
+            user = current_user
+            ua = session.query(UserAnime).where(and_(user.id == UserAnime.id_user,
                                                      UserAnime.id_anime == id_)).scalar()
             if ua:
-                user_info['in_list'] = True
+                context['in_list'] = True
             else:
-                user_info['in_list'] = False
-        else:
-            user_info['user'] = None
+                context['in_list'] = False
 
         comments_rows = session.execute(select(Comment.id_user, Comment.content).
                                         where(Comment.id_anime == id_),
@@ -89,13 +90,8 @@ def anime_by_id(id_):
                 }
             )
 
-        context = {
-            'anime': anime_title,
-            'genres': genres,
-            'user_info': user_info,
-            'comment_form': form,
-            'comments': comments
-        }
+        context['comment_form'] = form
+        context['comments'] = comments
 
     return render_template('anime_id.html', **context)
 

@@ -60,3 +60,8 @@ function removeFromList() {
         body: json
     }).then(modifyButton);
 }
+
+function changeStatus() {
+    const url = '/users/' + username + '/animelist';
+
+}

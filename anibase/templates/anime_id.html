@@ -81,21 +81,31 @@
             </div>
             <div class="row">
                 {%if current_user.is_authenticated %}
-                <input type="hidden" id="csrf-token" value="{{csrf_token()}}">
-                <input type="hidden" name="username" value="{{current_user.username}}">
-                <input type="hidden" name="anime-id" value="{{anime.mal_id}}">
-                <input type="hidden" id="action" value="{{'remove' if user_info['in_list'] else 'add'}}">
-                <div class="d-md-block mb-3">
-                    <button type="button" name="list-edit-button"
-                        class="btn {{'btn-warning' if user_info['in_list'] else 'btn-primary'}}"
-                        onclick="{{'removeFromList()' if user_info['in_list'] else 'addToList()'}}">
-                    {%if user_info['in_list'] %}
-                    Remove
-                    {%else%}
-                    Add
+                    <input type="hidden" id="csrf-token" value="{{csrf_token()}}">
+                    <input type="hidden" name="username" value="{{current_user.username}}">
+                    <input type="hidden" name="anime-id" value="{{anime.mal_id}}">
+                    <input type="hidden" id="action" value="{{'remove' if in_list else 'add'}}">
+                    <div class="col-sm-2 mb-3">
+                        <button type="button" name="list-edit-button"
+                            class="btn {{'btn-warning' if in_list else 'btn-primary'}}"
+                            onclick="{{'removeFromList()' if in_list else 'addToList()'}}">
+                        {%if in_list %}
+                        Remove
+                        {%else%}
+                        Add
+                        {%endif%}
+                        </button>
+                    </div>
+                    {%if in_list%}
+                    <div class="col-sm-3">
+                        <select class="form-select" aria-label="Default select example">
+                            <option {{'selected' if True }} name="watching" value="watching" class="text-success">Watching</option>
+                            <option {{'completed' if True }} name="completed" value="completed" class="text-primary">Completed</option>
+                            <option name="dropped" value="dropped" class="text-secondary">Dropped</option>
+                            <option name="remove" value="remove" class="text-danger">Remove</option>
+                        </select>
+                    </div>
                     {%endif%}
-                </button>
-                </div>
                 {%else%}
                     <p>
                         Login to view your stats
@@ -115,12 +125,12 @@
         {%else%}
             {%for comment in comments%}
             <h6>
-                <a href="{{url_for('users.user_by_username', username=comment['username'])}}">
-                    {{comment['username']}}
+                <a href="{{url_for('users.user_by_username', username=comment.username)}}">
+                    {{comment.username}}
                 </a>
             </h6>
             <p>
-                {{comment['content']}}
+                {{comment.content}}
             </p>
             {%endfor%}
         {%endif%}
