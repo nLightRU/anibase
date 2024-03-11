@@ -170,5 +170,3 @@ class DBManager:
                 res.extend([{'season': s, 'year': y} for y in years])
 
         return tuple(res)
-
-

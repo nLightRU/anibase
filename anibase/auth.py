@@ -51,7 +51,7 @@ def login():
                 user = session.execute(stmt).scalar_one()
                 if user is not None and user.verify_password(form.password.data):
                     login_user(user)
-                    return render_template('profile.html', user=user)
+                    return redirect(url_for('users.user_by_username', username=user.username))
                     # return redirect(request.args.get('next'))
             except NoResultFound:
                 redirect("login.html", code=302, Response=None)
