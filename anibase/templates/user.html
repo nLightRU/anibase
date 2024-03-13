@@ -55,6 +55,7 @@
             </div>
             <div class="col">
                 <h3>{{user.username}}'s list</h3>
+                <a href="{{url_for('users.user_animelist', username=user.username)}}">LIST</a>
                 <table class="table">
                     <tr>
                         <td>Title</td>
@@ -65,10 +66,7 @@
                         </tr>
                     {%endfor%}
                 </table>
-                <ul>
-
-                </ul>
-            </div>
+                </div>
         {%endif %}
     </div>
 </div>

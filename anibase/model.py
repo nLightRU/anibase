@@ -118,6 +118,10 @@ class UserAnime(Base):
     id: Mapped[int] = mapped_column(Integer, Sequence('ua_id', start=1), primary_key=True)
     id_user: Mapped[int] = mapped_column(ForeignKey('user.id'))
     id_anime: Mapped[int] = mapped_column(ForeignKey('anime.mal_id'))
+    status: Mapped[Optional[str]] = mapped_column(String, default='watching')
+
+    user_anime = relationship('Anime', foreign_keys=[id_anime])
+    user_profile = relationship('User', foreign_keys=[id_user])
 
 
 class UserFollow(Base):

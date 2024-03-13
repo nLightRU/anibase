@@ -1,0 +1,30 @@
+{%extends 'base.html'%}
+
+{%block title%}
+    {{user.username}} animelist
+{% endblock %}
+
+{%block body%}
+{{super()}}
+<div class="container">
+<h1>LIST</h1>
+    <div class="col-sm-4">
+        <div class="mb-3">
+            <table class="table table-striped">
+                <tr>
+                    <td></td>
+                    <td>Title</td>
+                    <td>Status</td>
+                </tr>
+                {%for a in user_anime%}
+                <tr>
+                    <td><img src="{{a.image_url}}" width="50px" height="60px"/></td>
+                    <td><a href="{{url_for('anime.anime_by_id', id_=a.mal_id)}}">{{a.title}}</a></td>
+                    <td>{{a.status.title()}}</td>
+                </tr>
+                {%endfor%}
+            </table>
+        </div>
+    </div>
+</div>
+{%endblock%}
